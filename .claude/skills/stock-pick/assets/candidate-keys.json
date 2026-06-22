@@ -1,0 +1,245 @@
+{
+  "$schema": "候选池字段定义 V1.0",
+  "description": "候选池中每只股票的结构化字段定义，覆盖基础信息、主题属性、资金情绪、交易规则四个维度",
+  "fields": {
+    "basic_info": {
+      "code": {
+        "type": "string",
+        "description": "股票代码，6位数字，如 600519",
+        "example": "600519",
+        "source": "mootdx / 东财个股信息"
+      },
+      "name": {
+        "type": "string",
+        "description": "股票简称",
+        "example": "贵州茅台",
+        "source": "mootdx / 东财个股信息"
+      },
+      "market": {
+        "type": "enum",
+        "description": "交易市场",
+        "values": ["SH", "SZ", "BJ"],
+        "source": "代码前缀推断（6开头=SH, 0/3开头=SZ, 8开头=BJ）"
+      },
+      "sector": {
+        "type": "string",
+        "description": "所属行业板块（东财行业分类）",
+        "example": "白酒",
+        "source": "东财个股信息 push2 / 概念板块归属 slist"
+      },
+      "concept": {
+        "type": "array<string>",
+        "description": "所属概念板块列表",
+        "example": ["白酒", "食品饮料", "MSCI中国"],
+        "source": "东财概念板块归属 eastmoney_concept_blocks()"
+      },
+      "market_cap": {
+        "type": "float",
+        "description": "总市值（亿元）",
+        "source": "mootdx finance / 腾讯财经API"
+      },
+      "pe_ttm": {
+        "type": "float",
+        "description": "市盈率 TTM",
+        "source": "mootdx finance / 腾讯财经API"
+      },
+      "pb": {
+        "type": "float",
+        "description": "市净率",
+        "source": "mootdx finance / 腾讯财经API"
+      }
+    },
+    "theme_attrs": {
+      "theme": {
+        "type": "string",
+        "description": "所属选股主题（Phase 2 锚定的主题）",
+        "example": "AI光模块",
+        "source": "LLM 主题锚定结果"
+      },
+      "theme_type": {
+        "type": "enum",
+        "description": "主题匹配类型",
+        "values": ["核心标的", "边缘关联", "间接受益", "纯概念"],
+        "source": "LLM 判断"
+      },
+      "theme_context": {
+        "type": "object",
+        "description": "主题上下文评分",
+        "fields": {
+          "score": {
+            "type": "float(0-100)",
+            "description": "主题匹配度评分"
+          },
+          "trend": {
+            "type": "enum",
+            "values": ["上升", "持平", "下降"],
+            "description": "主题热度趋势"
+          },
+          "risk_penalty": {
+            "type": "float",
+            "description": "主题风险惩罚分（0-10，越高风险越大）"
+          }
+        }
+      }
+    },
+    "technical": {
+      "close": {
+        "type": "float",
+        "description": "最新收盘价",
+        "source": "mootdx K线 / 腾讯财经"
+      },
+      "ma5": { "type": "float", "description": "5日均价" },
+      "ma20": { "type": "float", "description": "20日均价" },
+      "ma60": { "type": "float", "description": "60日均价" },
+      "rsi_14": {
+        "type": "float",
+        "description": "14日 RSI 值",
+        "note": "通过 stockstats 或手动计算"
+      },
+      "atr_14": {
+        "type": "float",
+        "description": "14日 ATR（平均真实波幅）",
+        "note": "通过 stockstats 计算"
+      },
+      "adx_14": {
+        "type": "float",
+        "description": "14日 ADX（趋势强度）",
+        "note": "通过 stockstats 计算"
+      },
+      "volume_ratio": {
+        "type": "float",
+        "description": "量比（当日成交量/20日均量）",
+        "source": "腾讯财经 / 计算"
+      },
+      "turnover_rate": {
+        "type": "float",
+        "description": "换手率（%）",
+        "source": "腾讯财经 / mootdx"
+      },
+      "amplitude_5d": {
+        "type": "float",
+        "description": "近5日平均振幅（%）"
+      },
+      "volatility_10d": {
+        "type": "float",
+        "description": "近10日波动率（ATR/收盘价）"
+      },
+      "pct_chg_5d": {
+        "type": "float",
+        "description": "近5日涨跌幅（%）"
+      },
+      "pct_chg_10d": {
+        "type": "float",
+        "description": "近10日涨跌幅（%）"
+      },
+      "pct_chg_20d": {
+        "type": "float",
+        "description": "近20日涨跌幅（%）"
+      },
+      "high_20d": {
+        "type": "float",
+        "description": "近20日最高价"
+      },
+      "low_20d": {
+        "type": "float",
+        "description": "近20日最低价"
+      },
+      "ma_alignment": {
+        "type": "enum",
+        "values": ["多头排列", "空头排列", "缠绕"],
+        "description": "MA5/MA20/MA60位置关系"
+      }
+    },
+    "fund_flow": {
+      "money_flow_summary": {
+        "type": "object",
+        "description": "资金流概要",
+        "fields": {
+          "main_net_inflow_5d": {
+            "type": "float",
+            "description": "近5日主力资金净流入（万元）",
+            "source": "东财个股资金流 push2his"
+          },
+          "main_net_inflow_10d": {
+            "type": "float",
+            "description": "近10日主力资金净流入（万元）"
+          },
+          "main_net_inflow_20d": {
+            "type": "float",
+            "description": "近20日主力资金净流入（万元）"
+          },
+          "flow_trend": {
+            "type": "enum",
+            "values": ["持续流入", "持续流出", "震荡", "无规律"],
+            "description": "资金流趋势判断"
+          }
+        }
+      }
+    },
+    "sentiment": {
+      "popularity_summary": {
+        "type": "object",
+        "description": "热度概要",
+        "fields": {
+          "hot_sector_match": {
+            "type": "boolean",
+            "description": "是否匹配同花顺热点板块",
+            "source": "同花顺热点 tonghuashun_hot_sectors()"
+          },
+          "north_flow": {
+            "type": "enum",
+            "values": ["流入", "流出", "持平", "无数据"],
+            "description": "北向资金对该股的态度",
+            "source": "同花顺北向（仅北向标的）"
+          },
+          "news_sentiment": {
+            "type": "enum",
+            "values": ["正面", "负面", "中性", "无近期新闻"],
+            "description": "近期新闻情绪",
+            "source": "东财个股新闻"
+          }
+        }
+      },
+      "retail_sentiment": {
+        "type": "object",
+        "description": "散户情绪（contrarian 模块，默认关闭）",
+        "fields": {
+          "enabled": { "type": "boolean", "default": false },
+          "score": {
+            "type": "float(-10~10)",
+            "description": "散户情绪评分：负值=过度悲观（逆向看多），正值=过度乐观（谨慎）"
+          }
+        }
+      }
+    },
+    "trading_rules": {
+      "allow_long": {
+        "type": "boolean",
+        "description": "是否允许做多（固定条件筛选结果）",
+        "default": true
+      },
+      "selection_source": {
+        "type": "string",
+        "description": "选股来源/路径",
+        "example": "主题锚定→概念板块→固定条件初筛"
+      },
+      "matched_strategies": {
+        "type": "array<string>",
+        "description": "匹配的策略标签列表（Phase 4 产出）"
+      },
+      "strategy_notes": {
+        "type": "array<string>",
+        "description": "各策略匹配的详细理由"
+      }
+    }
+  },
+  "fixed_filters": {
+    "description": "固定条件初筛规则（Phase 3 执行）",
+    "rules": [
+      { "condition": "name contains 'ST' or '*ST'", "action": "剔除" },
+      { "condition": "avg_volume_5d * close < 50000000", "action": "剔除", "note": "近5日日均成交额 < 5000万" },
+      { "condition": "limit_down_count_20d >= 2", "action": "剔除", "note": "近20日跌停 ≥2次" },
+      { "condition": "listed_days < 60", "action": "剔除", "note": "上市不足60个交易日" }
+    ]
+  }
+}

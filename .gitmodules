@@ -1,0 +1,6 @@
+[submodule ".claude/skills/a-stock-data"]
+	path = .claude/skills/a-stock-data
+	url = https://github.com/simonlin1212/a-stock-data.git
+[submodule ".claude/skills/serenity-skill"]
+	path = .claude/skills/serenity-skill
+	url = https://github.com/muxuuu/serenity-skill.git

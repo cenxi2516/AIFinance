@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 本地覆盖（含个人偏好，不共享）
+.claude.local.md
+
+# Claude 会话临时文件（保留 skills/ 子模块和 settings）
+.claude/settings.local.json
+.claude/scheduled_tasks.json
+
+# 环境变量（如有）
+.env
+.env.local

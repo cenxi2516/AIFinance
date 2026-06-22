@@ -1,0 +1,72 @@
+{
+  "$schema": "反馈文件模板 V1.0",
+  "description": "每次选股完成后写入 src/_feedback/ 目录的反馈记录格式。用于积累历史坏案例经验，在后续选股的 Phase 1 自动加载。",
+  "template": {
+    "date": "YYYY-MM-DD",
+    "pattern": "失败模式简述（如'高位避雷针+利好出货'）",
+    "code": "股票代码",
+    "name": "股票简称",
+    "sector": "所属板块",
+    "matched_strategies": ["匹配的策略标签列表"],
+    "reject_reason": "拒绝原因（详细描述）",
+    "technical_signals": ["技术面信号关键词列表"],
+    "behavior_signals": ["主力行为信号关键词列表"],
+    "cycle_signals": ["主题周期信号关键词列表"],
+    "critic_score": 0.0,
+    "critic_breakdown": {
+      "technical": 0.0,
+      "behavior": 0.0,
+      "cycle": 0.0
+    },
+    "frequency": 1,
+    "first_seen": "YYYY-MM-DD",
+    "last_seen": "YYYY-MM-DD",
+    "status": "active"
+  },
+  "summary_template": {
+    "$schema": "_summary.json 格式 V1.0",
+    "description": "自动汇总所有反馈记录，提取高频失败模式",
+    "fields": {
+      "total_records": 0,
+      "date_range": { "from": "YYYY-MM-DD", "to": "YYYY-MM-DD" },
+      "high_frequency_patterns": [
+        {
+          "pattern": "模式名称",
+          "count": 0,
+          "sectors": ["涉及板块"],
+          "typical_signals": ["特征信号"],
+          "severity": "high/medium/low",
+          "action_required": "选股时重点检查"
+        }
+      ],
+      "by_sector": {
+        "板块名": { "reject_count": 0, "top_reasons": [] }
+      },
+      "by_strategy": {
+        "策略名": { "reject_count": 0, "note": "该策略选出的标的后续被拒次数" }
+      }
+    }
+  },
+  "example": {
+    "date": "2026-06-15",
+    "pattern": "高位避雷针+利好出货",
+    "code": "688525",
+    "name": "佰维存储",
+    "sector": "半导体存储",
+    "matched_strategies": ["强势回调入场"],
+    "reject_reason": "38%振幅超长上影避雷针，利好当日冲高8%回落收阴，主力高位减仓迹象明显",
+    "technical_signals": ["长上影>5%", "放量冲高回落", "高位", "避雷针形态"],
+    "behavior_signals": ["主力大单净流出", "借利好出货"],
+    "cycle_signals": [],
+    "critic_score": 8.0,
+    "critic_breakdown": {
+      "technical": 3.2,
+      "behavior": 2.8,
+      "cycle": 1.0
+    },
+    "frequency": 3,
+    "first_seen": "2026-05-20",
+    "last_seen": "2026-06-15",
+    "status": "active"
+  }
+}
