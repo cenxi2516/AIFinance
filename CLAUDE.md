@@ -68,26 +68,30 @@
 
 ## 核心方法论
 
-### 三技能协作架构
+### 五技能协作架构
 
 ```
 a-stock-data（数据获取层）
     │
-    ├── serenity-skill（基本面层）→ "该不该关注"
-    └── stock-pick（选股层）     → "具体选哪只"
+    ├── policy-event-tracker（事件催化层） → "最近有什么催化剂"
+    ├── serenity-skill（产业链瓶颈层）     → "哪个环节最稀缺"
+    ├── moat-hunter（企业壁垒验证层）      → "谁真正卡住了瓶颈"
+    └── stock-pick（选股层）              → "具体选哪只"
 ```
 
-| 维度 | a-stock-data | serenity-skill | stock-pick |
-|------|-------------|---------------|------------|
-| 职责 | 数据获取与清洗 | 产业链基本面分析 | 多策略选股筛选 |
-| 输入 | 股票代码 / 查询条件 | 产业链知识 + 财报/公告 | 全市场/板块行情数据 |
-| 输出 | 结构化行情/估值/资金/研报/公告数据 | 稀缺层判断 + 标的优先级 | 通过/拒绝分层清单 |
+| 维度 | a-stock-data | policy-event-tracker | serenity-skill | moat-hunter | stock-pick |
+|------|-------------|---------------------|---------------|-------------|------------|
+| 职责 | 数据获取与清洗 | 政策事件追踪与影响分析 | 产业链基本面分析 | 企业不可替代性验证 | 多策略选股筛选 |
+| 输入 | 股票代码 / 查询条件 | 时间窗口 / 行业关键词 | 产业链知识 + 财报/公告 | 目标公司 + 产业链位置 | 全市场/板块行情数据 |
+| 输出 | 结构化行情/估值/资金/研报/公告数据 | 按重要性排序的事件+行业/标的映射 | 稀缺层判断 + 标的优先级 | 不可替代性评级(S/A/B/C) + 供需验证 | 通过/拒绝分层清单 |
 
 ### 各 Skill 说明
 
 - **a-stock-data**：7 层 / 27 端点，覆盖行情→研报→信号→资金→新闻→基础数据→公告。触发词："查数据""行情""研报""公告""资金流"。详见 `.claude/skills/a-stock-data/SKILL.md`
   - 数据源优先级（防封）：① mootdx+腾讯（不封 IP）② 同花顺/新浪/巨潮 ③ 东财（仅独有数据，已内置限流）
 - **serenity-skill**：产业链瓶颈猎人方法。触发词："产业链""瓶颈""稀缺层""深度调研""用 Serenity 的方式看"。详见 `.claude/skills/serenity-skill/SKILL.md`
+- **moat-hunter**：产业链不可替代性分析——识别在产业链关键环节中具备稀缺性、壁垒和不可替代性的企业，验证供需关系。触发词："护城河分析""稀缺性分析""不可替代""产业链卡位""竞争壁垒""供需关系验证""订单/产能/毛利率验证"。详见 `.claude/skills/moat-hunter/SKILL.md`
+- **policy-event-tracker**：政策事件追踪与影响分析，按重要性排序。触发词："最近有什么政策""这周有什么大事""市场催化剂""事件驱动""政策影响"。详见 `.claude/skills/policy-event-tracker/SKILL.md`
 - **stock-pick**：LLM 驱动多策略选股，7 阶段流水线。触发词："选股""筛选""帮我找"。详见 `.claude/skills/stock-pick/SKILL.md`
 
 ### 完整分析流程
@@ -95,19 +99,21 @@ a-stock-data（数据获取层）
 ```
 Phase 1: 风险映射（risk-register.md，对照 risk-map.md）
     ↓
-Phase 2: 产业链分析（调用 serenity-skill）
+Phase 2: 产业链分析（调用 serenity-skill，定位稀缺环节）
     ↓
-Phase 3: 机遇判断（opportunity-register.md）
+Phase 3: 企业壁垒验证（调用 moat-hunter，验证候选公司的不可替代性）
     ↓
-Phase 4: 候选筛选 + 估值分析（comparison.md，用 a-stock-data 拉取实时数据）
+Phase 4: 机遇判断（opportunity-register.md）
     ↓
-Phase 5: 情景推演 + 时机参考（scenario-analysis.md，整合基本面+资金面）
+Phase 5: 候选筛选 + 估值分析（comparison.md，用 a-stock-data 拉取实时数据）
     ↓
-Phase 6: 假设设定（hypothesis-register.md）
+Phase 6: 情景推演 + 时机参考（scenario-analysis.md，整合基本面+资金面）
     ↓
-Phase 7: 跟踪验证（tracking-indicators.md + evidence-tracker.md）
+Phase 7: 假设设定（hypothesis-register.md）
     ↓
-Phase 8: 复盘修正（review-loop.md）→ 回到 Phase 1
+Phase 8: 跟踪验证（tracking-indicators.md + evidence-tracker.md）
+    ↓
+Phase 9: 复盘修正（review-loop.md）→ 回到 Phase 1
 ```
 
 ### 物理世界约束
@@ -158,9 +164,12 @@ src/
 
 ```
 .claude/skills/
-├── a-stock-data/                # A股全栈数据工具包 ★ (27端点/13数据源)
+├── a-stock-data/                # A股全栈数据工具包 ★ (28端点/13数据源)
 │   ├── SKILL.md / README.md / CHANGELOG.md / LICENSE
 │   └── assets/
+├── policy-event-tracker/        # 政策事件追踪与影响分析 ★
+│   ├── SKILL.md
+│   └── references/
 ├── serenity-skill/              # 产业链瓶颈分析
 │   ├── SKILL.md / README.md / CHANGELOG.md
 │   ├── references/              # 8 个参考文档（risk-and-compliance 等）
