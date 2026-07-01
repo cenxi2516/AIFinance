@@ -1,0 +1,776 @@
+{
+  "scan_time": "2026-07-01 17:01",
+  "concept_total": 495,
+  "top_inflow_sectors": [
+    {
+      "code": "BK0637",
+      "name": "互联网金融",
+      "main_net": 12576932864,
+      "change_pct": 331,
+      "super_large_net": 9121647104
+    },
+    {
+      "code": "BK1714",
+      "name": "金融地产风格",
+      "main_net": 11531950080,
+      "change_pct": 328,
+      "super_large_net": 8873264896
+    },
+    {
+      "code": "BK0711",
+      "name": "券商概念",
+      "main_net": 10634386432,
+      "change_pct": 493,
+      "super_large_net": 7862208256
+    },
+    {
+      "code": "BK0718",
+      "name": "证金持股",
+      "main_net": 6045086208,
+      "change_pct": 212,
+      "super_large_net": 5390864896
+    },
+    {
+      "code": "BK0696",
+      "name": "国产软件",
+      "main_net": 6005325568,
+      "change_pct": 282,
+      "super_large_net": 4126627328
+    },
+    {
+      "code": "BK1135",
+      "name": "数据要素",
+      "main_net": 5153546240,
+      "change_pct": 288,
+      "super_large_net": 3218600960
+    },
+    {
+      "code": "BK1673",
+      "name": "破增发价股",
+      "main_net": 5146184448,
+      "change_pct": 285,
+      "super_large_net": 4024268288
+    },
+    {
+      "code": "BK1629",
+      "name": "AI应用",
+      "main_net": 5130735872,
+      "change_pct": 264,
+      "super_large_net": 3193358080
+    },
+    {
+      "code": "BK0447",
+      "name": "互联网服务",
+      "main_net": 5042536192,
+      "change_pct": 273,
+      "super_large_net": 3695607296
+    },
+    {
+      "code": "BK0953",
+      "name": "鸿蒙概念",
+      "main_net": 5014382848,
+      "change_pct": 184,
+      "super_large_net": 3518873600
+    }
+  ],
+  "top_outflow_sectors": [
+    {
+      "code": "BK0596",
+      "name": "融资融券",
+      "main_net": -59106709504,
+      "change_pct": 197,
+      "super_large_net": -48518279168
+    },
+    {
+      "code": "BK1059",
+      "name": "百元股",
+      "main_net": -58570489856,
+      "change_pct": -114,
+      "super_large_net": -49982050304
+    },
+    {
+      "code": "BK1713",
+      "name": "科技风格",
+      "main_net": -58464890880,
+      "change_pct": -200,
+      "super_large_net": -47629000704
+    },
+    {
+      "code": "BK0821",
+      "name": "MSCI中国",
+      "main_net": -55039856640,
+      "change_pct": 95,
+      "super_large_net": -44357447680
+    },
+    {
+      "code": "BK1650",
+      "name": "通信技术",
+      "main_net": -50592059392,
+      "change_pct": -12,
+      "super_large_net": -33819205632
+    },
+    {
+      "code": "BK0917",
+      "name": "半导体概念",
+      "main_net": -48396128256,
+      "change_pct": 14,
+      "super_large_net": -39180308480
+    },
+    {
+      "code": "BK0714",
+      "name": "5G概念",
+      "main_net": -46353727488,
+      "change_pct": 2,
+      "super_large_net": -30149836800
+    },
+    {
+      "code": "BK1633",
+      "name": "昨日高振幅",
+      "main_net": -46118551552,
+      "change_pct": 102,
+      "super_large_net": -30861697024
+    },
+    {
+      "code": "BK1637",
+      "name": "东方财富热股",
+      "main_net": -45180928000,
+      "change_pct": 39,
+      "super_large_net": -33046257664
+    },
+    {
+      "code": "BK0891",
+      "name": "国产芯片",
+      "main_net": -44910997504,
+      "change_pct": 29,
+      "super_large_net": -38385070080
+    }
+  ],
+  "industry_total": 496,
+  "industry_inflow": [
+    {
+      "code": "BK1203",
+      "name": "非银金融",
+      "main_net": 10944496640
+    },
+    {
+      "code": "BK1366",
+      "name": "证券Ⅲ",
+      "main_net": 9055285248
+    },
+    {
+      "code": "BK0473",
+      "name": "证券Ⅱ",
+      "main_net": 9055285248
+    },
+    {
+      "code": "BK0737",
+      "name": "软件开发",
+      "main_net": 3388375808
+    },
+    {
+      "code": "BK1216",
+      "name": "医药生物",
+      "main_net": 3243451648
+    },
+    {
+      "code": "BK1447",
+      "name": "垂直应用软件",
+      "main_net": 2932684544
+    },
+    {
+      "code": "BK0428",
+      "name": "电力",
+      "main_net": 2200589056
+    },
+    {
+      "code": "BK0427",
+      "name": "公用事业",
+      "main_net": 2199770624
+    },
+    {
+      "code": "BK0736",
+      "name": "通信服务",
+      "main_net": 2177545888
+    },
+    {
+      "code": "BK0538",
+      "name": "化学制品",
+      "main_net": 2148445696
+    }
+  ],
+  "industry_outflow": [
+    {
+      "code": "BK1201",
+      "name": "电子",
+      "main_net": -54478659584
+    },
+    {
+      "code": "BK1036",
+      "name": "半导体",
+      "main_net": -25955897344
+    },
+    {
+      "code": "BK0448",
+      "name": "通信设备",
+      "main_net": -22351312128
+    },
+    {
+      "code": "BK1215",
+      "name": "通信",
+      "main_net": -20173766144
+    },
+    {
+      "code": "BK1331",
+      "name": "数字芯片设计",
+      "main_net": -16068874240
+    },
+    {
+      "code": "BK1591",
+      "name": "通信网络设备及器件",
+      "main_net": -11981621760
+    },
+    {
+      "code": "BK1340",
+      "name": "印制电路板",
+      "main_net": -10281339648
+    },
+    {
+      "code": "BK1592",
+      "name": "通信线缆及配套",
+      "main_net": -9724044032
+    },
+    {
+      "code": "BK0459",
+      "name": "元件",
+      "main_net": -9636328192
+    },
+    {
+      "code": "BK1038",
+      "name": "光学光电子",
+      "main_net": -7675739392
+    }
+  ],
+  "dragon_tiger": {
+    "date": "2026-07-01",
+    "total": 47,
+    "stocks": [
+      {
+        "code": "002407",
+        "name": "多氟多",
+        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+        "close": 55.25,
+        "change_pct": 9.99,
+        "net_buy_wan": 178625.3,
+        "buy_wan": 267475.5,
+        "sell_wan": 88850.2,
+        "turnover_pct": 6.57
+      },
+      {
+        "code": "600378",
+        "name": "昊华科技",
+        "reason": "非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+        "close": 81,
+        "change_pct": 7.46,
+        "net_buy_wan": 75927.6,
+        "buy_wan": 265820.8,
+        "sell_wan": 189893.2,
+        "turnover_pct": 12.74
+      },
+      {
+        "code": "600641",
+        "name": "先导基电",
+        "reason": "非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+        "close": 43.85,
+        "change_pct": 10.01,
+        "net_buy_wan": 70879.0,
+        "buy_wan": 176068.1,
+        "sell_wan": 105189.0,
+        "turnover_pct": 13.6
+      },
+      {
+        "code": "688728",
+        "name": "格科微",
+        "reason": "有价格涨跌幅限制的连续3个交易日内收盘价格涨幅偏离值累计达到30%的证券",
+        "close": 25.25,
+        "change_pct": 20.01,
+        "net_buy_wan": 52935.0,
+        "buy_wan": 104767.1,
+        "sell_wan": 51832.1,
+        "turnover_pct": 7.04
+      },
+      {
+        "code": "688728",
+        "name": "格科微",
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券",
+        "close": 25.25,
+        "change_pct": 20.01,
+        "net_buy_wan": 37884.2,
+        "buy_wan": 81694.6,
+        "sell_wan": 43810.4,
+        "turnover_pct": 7.04
+      },
+      {
+        "code": "002167",
+        "name": "东方锆业",
+        "reason": "日涨幅偏离值达到7%的前5只证券",
+        "close": 24.28,
+        "change_pct": 10.01,
+        "net_buy_wan": 36971.5,
+        "buy_wan": 71602.7,
+        "sell_wan": 34631.2,
+        "turnover_pct": 21.82
+      },
+      {
+        "code": "301165",
+        "name": "锐捷网络",
+        "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
+        "close": 85.92,
+        "change_pct": 6.8,
+        "net_buy_wan": 36026.0,
+        "buy_wan": 111300.4,
+        "sell_wan": 75274.4,
+        "turnover_pct": 3.62
+      },
+      {
+        "code": "301421",
+        "name": "波长光电",
+        "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
+        "close": 121,
+        "change_pct": 16.85,
+        "net_buy_wan": 33503.5,
+        "buy_wan": 64396.8,
+        "sell_wan": 30893.3,
+        "turnover_pct": 41.69
+      },
+      {
+        "code": "002407",
+        "name": "多氟多",
+        "reason": "日涨幅偏离值达到7%的前5只证券",
+        "close": 55.25,
+        "change_pct": 9.99,
+        "net_buy_wan": 31861.3,
+        "buy_wan": 57486.7,
+        "sell_wan": 25625.4,
+        "turnover_pct": 6.57
+      },
+      {
+        "code": "002929",
+        "name": "润建股份",
+        "reason": "日涨幅偏离值达到7%的前5只证券",
+        "close": 73.57,
+        "change_pct": 10.0,
+        "net_buy_wan": 28732.5,
+        "buy_wan": 51178.1,
+        "sell_wan": 22445.6,
+        "turnover_pct": 18.96
+      },
+      {
+        "code": "688106",
+        "name": "金宏气体",
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅达到15%的前五只证券",
+        "close": 49.78,
+        "change_pct": 20.01,
+        "net_buy_wan": 28033.2,
+        "buy_wan": 41764.0,
+        "sell_wan": 13730.8,
+        "turnover_pct": 10.21
+      },
+      {
+        "code": "301421",
+        "name": "波长光电",
+        "reason": "日换手率达到30%的前5只证券",
+        "close": 121,
+        "change_pct": 16.85,
+        "net_buy_wan": 26223.9,
+        "buy_wan": 44138.6,
+        "sell_wan": 17914.7,
+        "turnover_pct": 41.69
+      },
+      {
+        "code": "688106",
+        "name": "金宏气体",
+        "reason": "有价格涨跌幅限制的连续3个交易日内收盘价格涨幅偏离值累计达到30%的证券",
+        "close": 49.78,
+        "change_pct": 20.01,
+        "net_buy_wan": 22449.7,
+        "buy_wan": 66653.1,
+        "sell_wan": 44203.4,
+        "turnover_pct": 10.21
+      },
+      {
+        "code": "300852",
+        "name": "四会富仕",
+        "reason": "日涨幅达到15%的前5只证券",
+        "close": 83.09,
+        "change_pct": 20.0,
+        "net_buy_wan": 21972.5,
+        "buy_wan": 39139.7,
+        "sell_wan": 17167.2,
+        "turnover_pct": 13.89
+      },
+      {
+        "code": "002409",
+        "name": "雅克科技",
+        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+        "close": 236.09,
+        "change_pct": 5.16,
+        "net_buy_wan": 20865.9,
+        "buy_wan": 293761.6,
+        "sell_wan": 272895.7,
+        "turnover_pct": 14.12
+      },
+      {
+        "code": "002747",
+        "name": "埃斯顿",
+        "reason": "日涨幅偏离值达到7%的前5只证券",
+        "close": 41.06,
+        "change_pct": 9.99,
+        "net_buy_wan": 19997.6,
+        "buy_wan": 41340.7,
+        "sell_wan": 21343.1,
+        "turnover_pct": 6.92
+      },
+      {
+        "code": "300607",
+        "name": "拓斯达",
+        "reason": "日涨幅达到15%的前5只证券",
+        "close": 49.48,
+        "change_pct": 20.01,
+        "net_buy_wan": 19595.9,
+        "buy_wan": 41177.0,
+        "sell_wan": 21581.1,
+        "turnover_pct": 15.02
+      },
+      {
+        "code": "300121",
+        "name": "阳谷华泰",
+        "reason": "日涨幅达到15%的前5只证券",
+        "close": 15.12,
+        "change_pct": 20.0,
+        "net_buy_wan": 18031.2,
+        "buy_wan": 30067.0,
+        "sell_wan": 12035.8,
+        "turnover_pct": 23.72
+      },
+      {
+        "code": "601162",
+        "name": "天风证券",
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+        "close": 3.71,
+        "change_pct": 10.09,
+        "net_buy_wan": 16103.2,
+        "buy_wan": 22008.2,
+        "sell_wan": 5905.0,
+        "turnover_pct": 5.18
+      },
+      {
+        "code": "300852",
+        "name": "四会富仕",
+        "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
+        "close": 83.09,
+        "change_pct": 20.0,
+        "net_buy_wan": 14120.9,
+        "buy_wan": 51587.8,
+        "sell_wan": 37466.9,
+        "turnover_pct": 13.89
+      },
+      {
+        "code": "688797",
+        "name": "臻宝科技",
+        "reason": "有价格涨跌幅限制的日换手率达到30%的前五只证券",
+        "close": 742.18,
+        "change_pct": 7.55,
+        "net_buy_wan": 13193.9,
+        "buy_wan": 65601.0,
+        "sell_wan": 52407.1,
+        "turnover_pct": 38.49
+      },
+      {
+        "code": "603991",
+        "name": "领先股份",
+        "reason": "非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+        "close": 155.27,
+        "change_pct": 10.0,
+        "net_buy_wan": 13153.7,
+        "buy_wan": 59055.3,
+        "sell_wan": 45901.7,
+        "turnover_pct": 15.38
+      },
+      {
+        "code": "688548",
+        "name": "广钢气体",
+        "reason": "有价格涨跌幅限制的连续3个交易日内收盘价格涨幅偏离值累计达到30%的证券",
+        "close": 55,
+        "change_pct": 5.57,
+        "net_buy_wan": 11507.6,
+        "buy_wan": 88953.7,
+        "sell_wan": 77446.1,
+        "turnover_pct": 9.37
+      },
+      {
+        "code": "300487",
+        "name": "蓝晓科技",
+        "reason": "日涨幅达到15%的前5只证券",
+        "close": 70.62,
+        "change_pct": 20.0,
+        "net_buy_wan": 11306.8,
+        "buy_wan": 25794.1,
+        "sell_wan": 14487.4,
+        "turnover_pct": 6.39
+      },
+      {
+        "code": "600509",
+        "name": "天富能源",
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+        "close": 9.3,
+        "change_pct": 10.06,
+        "net_buy_wan": 10377.7,
+        "buy_wan": 11689.9,
+        "sell_wan": 1312.2,
+        "turnover_pct": 1.12
+      },
+      {
+        "code": "600233",
+        "name": "圆通速递",
+        "reason": "单只标的证券的当日融资买入数量达到当日该证券总交易量的50％以上",
+        "close": 17.33,
+        "change_pct": 10.03,
+        "net_buy_wan": 10366.3,
+        "buy_wan": 10366.3,
+        "sell_wan": 0.0,
+        "turnover_pct": 0.35
+      },
+      {
+        "code": "600509",
+        "name": "天富能源",
+        "reason": "单只标的证券的当日融资买入数量达到当日该证券总交易量的50％以上",
+        "close": 9.3,
+        "change_pct": 10.06,
+        "net_buy_wan": 10172.4,
+        "buy_wan": 10172.4,
+        "sell_wan": 0.0,
+        "turnover_pct": 1.12
+      },
+      {
+        "code": "300270",
+        "name": "中威电子",
+        "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
+        "close": 14.28,
+        "change_pct": 9.76,
+        "net_buy_wan": 10090.5,
+        "buy_wan": 34180.2,
+        "sell_wan": 24089.7,
+        "turnover_pct": 23.16
+      },
+      {
+        "code": "123272",
+        "name": "中汽转债",
+        "reason": "日涨幅达到15%的前5只可转债",
+        "close": 188.74,
+        "change_pct": 19.99,
+        "net_buy_wan": 9413.7,
+        "buy_wan": 101593.1,
+        "sell_wan": 92179.4,
+        "turnover_pct": 0.0
+      },
+      {
+        "code": "600737",
+        "name": "中粮糖业",
+        "reason": "非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+        "close": 12.89,
+        "change_pct": 4.54,
+        "net_buy_wan": 8518.3,
+        "buy_wan": 37999.5,
+        "sell_wan": 29481.2,
+        "turnover_pct": 3.61
+      },
+      {
+        "code": "603950",
+        "name": "长源东谷",
+        "reason": "非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+        "close": 87.3,
+        "change_pct": 3.4,
+        "net_buy_wan": 7675.0,
+        "buy_wan": 39127.5,
+        "sell_wan": 31452.4,
+        "turnover_pct": 5.61
+      },
+      {
+        "code": "001237",
+        "name": "惠康科技",
+        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+        "close": 73.17,
+        "change_pct": 2.02,
+        "net_buy_wan": 6869.5,
+        "buy_wan": 27175.2,
+        "sell_wan": 20305.8,
+        "turnover_pct": 35.18
+      },
+      {
+        "code": "603120",
+        "name": "肯特催化",
+        "reason": "非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+        "close": 58.69,
+        "change_pct": 10.01,
+        "net_buy_wan": 5579.6,
+        "buy_wan": 13482.4,
+        "sell_wan": 7902.8,
+        "turnover_pct": 17.58
+      },
+      {
+        "code": "600783",
+        "name": "鲁信创投",
+        "reason": "非ST、*ST和S证券连续三个交易日内收盘价格涨幅偏离值累计达到20%的证券",
+        "close": 21.91,
+        "change_pct": 9.99,
+        "net_buy_wan": 5412.7,
+        "buy_wan": 22695.4,
+        "sell_wan": 17282.7,
+        "turnover_pct": 6.57
+      },
+      {
+        "code": "603459",
+        "name": "红板科技",
+        "reason": "有价格涨跌幅限制的日价格振幅达到15%的前五只证券",
+        "close": 104.69,
+        "change_pct": -6.7,
+        "net_buy_wan": 5366.8,
+        "buy_wan": 60374.0,
+        "sell_wan": 55007.2,
+        "turnover_pct": 40.29
+      },
+      {
+        "code": "603459",
+        "name": "红板科技",
+        "reason": "有价格涨跌幅限制的日换手率达到20%的前五只证券",
+        "close": 104.69,
+        "change_pct": -6.7,
+        "net_buy_wan": 5366.8,
+        "buy_wan": 60374.0,
+        "sell_wan": 55007.2,
+        "turnover_pct": 40.29
+      },
+      {
+        "code": "688721",
+        "name": "龙图光罩",
+        "reason": "有价格涨跌幅限制的日换手率达到30%的前五只证券",
+        "close": 69.24,
+        "change_pct": 18.6,
+        "net_buy_wan": 5137.0,
+        "buy_wan": 16091.3,
+        "sell_wan": 10954.2,
+        "turnover_pct": 31.84
+      },
+      {
+        "code": "688336",
+        "name": "三生国健",
+        "reason": "有价格涨跌幅限制的连续3个交易日内收盘价格涨幅偏离值累计达到30%的证券",
+        "close": 58.5,
+        "change_pct": 10.17,
+        "net_buy_wan": 4958.6,
+        "buy_wan": 42487.1,
+        "sell_wan": 37528.5,
+        "turnover_pct": 3.45
+      },
+      {
+        "code": "920699",
+        "name": "海达尔",
+        "reason": "当日收盘价涨幅达到20%的前5只股票",
+        "close": 92.93,
+        "change_pct": 29.99,
+        "net_buy_wan": 4915.1,
+        "buy_wan": 11406.6,
+        "sell_wan": 6491.5,
+        "turnover_pct": 17.65
+      },
+      {
+        "code": "301528",
+        "name": "多浦乐",
+        "reason": "连续三个交易日内，涨幅偏离值累计达到30%的证券",
+        "close": 85.34,
+        "change_pct": 4.2,
+        "net_buy_wan": 4683.1,
+        "buy_wan": 28725.4,
+        "sell_wan": 24042.2,
+        "turnover_pct": 11.24
+      },
+      {
+        "code": "002053",
+        "name": "云南能投",
+        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+        "close": 10.81,
+        "change_pct": 9.97,
+        "net_buy_wan": 4516.9,
+        "buy_wan": 12989.3,
+        "sell_wan": 8472.3,
+        "turnover_pct": 2.43
+      },
+      {
+        "code": "000620",
+        "name": "盈新发展",
+        "reason": "日涨幅偏离值达到7%的前5只证券",
+        "close": 3.85,
+        "change_pct": 10.0,
+        "net_buy_wan": 4416.6,
+        "buy_wan": 35596.2,
+        "sell_wan": 31179.5,
+        "turnover_pct": 17.99
+      },
+      {
+        "code": "000566",
+        "name": "海南海药",
+        "reason": "日振幅值达到15%的前5只证券",
+        "close": 5.49,
+        "change_pct": 10.02,
+        "net_buy_wan": 4110.7,
+        "buy_wan": 12112.9,
+        "sell_wan": 8002.2,
+        "turnover_pct": 16.0
+      },
+      {
+        "code": "000823",
+        "name": "超声电子",
+        "reason": "日换手率达到20%的前5只证券",
+        "close": 26,
+        "change_pct": 1.36,
+        "net_buy_wan": 3851.0,
+        "buy_wan": 60219.3,
+        "sell_wan": 56368.3,
+        "turnover_pct": 27.89
+      },
+      {
+        "code": "000566",
+        "name": "海南海药",
+        "reason": "连续三个交易日内，涨幅偏离值累计达到20%的证券",
+        "close": 5.49,
+        "change_pct": 10.02,
+        "net_buy_wan": 3738.9,
+        "buy_wan": 23484.7,
+        "sell_wan": 19745.8,
+        "turnover_pct": 16.0
+      },
+      {
+        "code": "688286",
+        "name": "敏芯股份",
+        "reason": "有价格涨跌幅限制的连续3个交易日内收盘价格涨幅偏离值累计达到30%的证券",
+        "close": 133.33,
+        "change_pct": 15.87,
+        "net_buy_wan": 3736.6,
+        "buy_wan": 32323.9,
+        "sell_wan": 28587.3,
+        "turnover_pct": 19.53
+      },
+      {
+        "code": "603363",
+        "name": "傲农生物",
+        "reason": "有价格涨跌幅限制的日收盘价格涨幅偏离值达到7%的前五只证券",
+        "close": 2.95,
+        "change_pct": 10.07,
+        "net_buy_wan": 3351.3,
+        "buy_wan": 6963.0,
+        "sell_wan": 3611.7,
+        "turnover_pct": 3.19
+      }
+    ]
+  }
+}
