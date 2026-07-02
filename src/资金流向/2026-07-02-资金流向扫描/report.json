@@ -1,0 +1,258 @@
+{
+  "scan_time": "2026-07-02 15:38",
+  "concept_total": 495,
+  "top_inflow_sectors": [
+    {
+      "code": "BK0519",
+      "name": "稀缺资源",
+      "main_net": 3502118144,
+      "change_pct": -8,
+      "super_large_net": 2755483392
+    },
+    {
+      "code": "BK0547",
+      "name": "黄金概念",
+      "main_net": 3145620480,
+      "change_pct": 89,
+      "super_large_net": 1906503936
+    },
+    {
+      "code": "BK0695",
+      "name": "小金属概念",
+      "main_net": 3018400000,
+      "change_pct": -39,
+      "super_large_net": 3314344704
+    },
+    {
+      "code": "BK0578",
+      "name": "稀土永磁",
+      "main_net": 2629817600,
+      "change_pct": 181,
+      "super_large_net": 1802057984
+    },
+    {
+      "code": "BK0853",
+      "name": "电子竞技",
+      "main_net": 2428716800,
+      "change_pct": -24,
+      "super_large_net": 2985345280
+    },
+    {
+      "code": "BK1173",
+      "name": "锂矿概念",
+      "main_net": 2424417536,
+      "change_pct": -83,
+      "super_large_net": 692986880
+    },
+    {
+      "code": "BK1654",
+      "name": "文娱消费",
+      "main_net": 2346108416,
+      "change_pct": 43,
+      "super_large_net": 2190003712
+    },
+    {
+      "code": "BK1126",
+      "name": "ChatGPT概念",
+      "main_net": 1927111680,
+      "change_pct": -78,
+      "super_large_net": 1948006400
+    },
+    {
+      "code": "BK0825",
+      "name": "新零售",
+      "main_net": 1906894080,
+      "change_pct": 62,
+      "super_large_net": 2323011072
+    },
+    {
+      "code": "BK0509",
+      "name": "网络游戏",
+      "main_net": 1840354816,
+      "change_pct": -19,
+      "super_large_net": 2103894272
+    }
+  ],
+  "top_outflow_sectors": [
+    {
+      "code": "BK0596",
+      "name": "融资融券",
+      "main_net": -119766900736,
+      "change_pct": -110,
+      "super_large_net": -83158949888
+    },
+    {
+      "code": "BK1059",
+      "name": "百元股",
+      "main_net": -92730552320,
+      "change_pct": -579,
+      "super_large_net": -67680468992
+    },
+    {
+      "code": "BK0821",
+      "name": "MSCI中国",
+      "main_net": -85230485504,
+      "change_pct": -179,
+      "super_large_net": -61624762368
+    },
+    {
+      "code": "BK0917",
+      "name": "半导体概念",
+      "main_net": -79827750912,
+      "change_pct": -401,
+      "super_large_net": -54309404672
+    },
+    {
+      "code": "BK0867",
+      "name": "富时罗素",
+      "main_net": -77738020864,
+      "change_pct": -81,
+      "super_large_net": -52584062976
+    },
+    {
+      "code": "BK1713",
+      "name": "科技风格",
+      "main_net": -77657628672,
+      "change_pct": -680,
+      "super_large_net": -53906087936
+    },
+    {
+      "code": "BK1633",
+      "name": "昨日高振幅",
+      "main_net": -76629331968,
+      "change_pct": -143,
+      "super_large_net": -48152420352
+    },
+    {
+      "code": "BK1663",
+      "name": "大盘股",
+      "main_net": -68827394048,
+      "change_pct": -193,
+      "super_large_net": -53115215872
+    },
+    {
+      "code": "BK0804",
+      "name": "深股通",
+      "main_net": -65657712640,
+      "change_pct": -118,
+      "super_large_net": -38135951360
+    },
+    {
+      "code": "BK0707",
+      "name": "沪股通",
+      "main_net": -61617295360,
+      "change_pct": -116,
+      "super_large_net": -46142251008
+    }
+  ],
+  "industry_total": 496,
+  "industry_inflow": [
+    {
+      "code": "BK1374",
+      "name": "风力发电",
+      "main_net": 5845960144
+    },
+    {
+      "code": "BK0478",
+      "name": "有色金属",
+      "main_net": 3933740544
+    },
+    {
+      "code": "BK0428",
+      "name": "电力",
+      "main_net": 3728758272
+    },
+    {
+      "code": "BK0427",
+      "name": "公用事业",
+      "main_net": 3563651840
+    },
+    {
+      "code": "BK1211",
+      "name": "汽车",
+      "main_net": 3379499008
+    },
+    {
+      "code": "BK0486",
+      "name": "传媒",
+      "main_net": 3219431424
+    },
+    {
+      "code": "BK0732",
+      "name": "贵金属",
+      "main_net": 2847163152
+    },
+    {
+      "code": "BK0481",
+      "name": "汽车零部件",
+      "main_net": 2613332736
+    },
+    {
+      "code": "BK1617",
+      "name": "黄金",
+      "main_net": 2496799088
+    },
+    {
+      "code": "BK1615",
+      "name": "铜",
+      "main_net": 1864839168
+    }
+  ],
+  "industry_outflow": [
+    {
+      "code": "BK1201",
+      "name": "电子",
+      "main_net": -83173568512
+    },
+    {
+      "code": "BK1036",
+      "name": "半导体",
+      "main_net": -48430698496
+    },
+    {
+      "code": "BK1331",
+      "name": "数字芯片设计",
+      "main_net": -22405598720
+    },
+    {
+      "code": "BK1215",
+      "name": "通信",
+      "main_net": -20708692992
+    },
+    {
+      "code": "BK0448",
+      "name": "通信设备",
+      "main_net": -20059568384
+    },
+    {
+      "code": "BK0459",
+      "name": "元件",
+      "main_net": -14614531840
+    },
+    {
+      "code": "BK1591",
+      "name": "通信网络设备及器件",
+      "main_net": -14173898240
+    },
+    {
+      "code": "BK1340",
+      "name": "印制电路板",
+      "main_net": -10833338368
+    },
+    {
+      "code": "BK1338",
+      "name": "消费电子零部件及组装",
+      "main_net": -10441545728
+    },
+    {
+      "code": "BK1037",
+      "name": "消费电子",
+      "main_net": -10295141888
+    }
+  ],
+  "dragon_tiger": {
+    "date": "2026-07-02",
+    "total": 0,
+    "stocks": []
+  }
+}

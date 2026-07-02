@@ -1,0 +1,709 @@
+{
+  "scan_time": "2026-07-02 15:49",
+  "stocks": {
+    "002050": {
+      "code": "002050",
+      "name": "三花智控",
+      "fund_flow": {
+        "error": "api_get() got an unexpected keyword argument 'headers'"
+      },
+      "technical": {
+        "price": 44.92,
+        "change_pct": 1.61,
+        "turnover_pct": 4.89,
+        "vol_ratio": 1.58,
+        "amplitude": 5.93
+      },
+      "news": [
+        {
+          "title": "刷屏！002050，高管集体减持，用于子女教育、日常生活开支",
+          "time": "2026-05-31 22:05:00",
+          "source": "中国基金报"
+        },
+        {
+          "title": "三花智控：产业中心建设项目延至2026年12月，正推进绿植及围墙砌筑等工作",
+          "time": "2026-06-30 20:07:00",
+          "source": "财中社"
+        },
+        {
+          "title": "液冷、机器人等业务进展怎么样？三花智控股东会回应了",
+          "time": "2026-06-30 21:08:23",
+          "source": "界面新闻"
+        },
+        {
+          "title": "周末证券丨科技板块内部轮动或将开启！商业航天和人形机器人赛道性价比凸显",
+          "time": "2026-06-26 17:47:00",
+          "source": "金融投资报"
+        },
+        {
+          "title": "汽车热管理概念下跌1.21%，7股主力资金净流出超亿元",
+          "time": "2026-06-22 16:58:00",
+          "source": "证券时报网"
+        }
+      ],
+      "dragon_tiger": {
+        "on_board": false
+      }
+    },
+    "002896": {
+      "code": "002896",
+      "name": "中大力德",
+      "fund_flow": {
+        "error": "api_get() got an unexpected keyword argument 'headers'"
+      },
+      "technical": {
+        "price": 77.84,
+        "change_pct": 1.94,
+        "turnover_pct": 8.49,
+        "vol_ratio": 1.33,
+        "amplitude": 8.09
+      },
+      "news": [
+        {
+          "title": "机械设备行业6月25日资金流向日报",
+          "time": "2026-06-25 16:34:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "50只股中线走稳 站上半年线",
+          "time": "2026-06-18 12:01:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "今日61只个股突破半年线",
+          "time": "2026-06-18 15:14:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "【盘中播报】61只个股突破半年线",
+          "time": "2026-06-18 14:16:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "【盘中播报】50只个股突破半年线",
+          "time": "2026-06-18 10:50:00",
+          "source": "证券时报网"
+        }
+      ],
+      "dragon_tiger": {
+        "on_board": false
+      }
+    },
+    "002979": {
+      "code": "002979",
+      "name": "雷赛智能",
+      "fund_flow": {
+        "error": "api_get() got an unexpected keyword argument 'headers'"
+      },
+      "technical": {
+        "price": 63.23,
+        "change_pct": 10.0,
+        "turnover_pct": 1.59,
+        "vol_ratio": 0.24,
+        "amplitude": 0.0
+      },
+      "news": [
+        {
+          "title": "雷赛智能：预计2026年半年度净利润同比增长55%-65%",
+          "time": "2026-07-01 19:08:24",
+          "source": "财联社"
+        },
+        {
+          "title": "雷赛智能：上半年净利润同比预增55%—65%",
+          "time": "2026-07-01 19:15:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "雷赛智能发布上半年预增公告 净利润同比增长55.00%~65.00%",
+          "time": "2026-07-01 23:11:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "雷赛智能：预计2026年上半年净利同比增长55%-65%",
+          "time": "2026-07-01 23:20:11",
+          "source": "中国证券报·中证网"
+        },
+        {
+          "title": "上半年净利预增超55%，雷赛智能仍“缺钱”！11.44亿元定增押注机器人“第二曲线”，高应收高存货下现金流悄然“失血”",
+          "time": "2026-07-02 09:02:08",
+          "source": "深圳商报·读创"
+        }
+      ],
+      "dragon_tiger": {
+        "on_board": false
+      }
+    },
+    "603662": {
+      "code": "603662",
+      "name": "柯力传感",
+      "fund_flow": {
+        "error": "api_get() got an unexpected keyword argument 'headers'"
+      },
+      "technical": {
+        "price": 73.82,
+        "change_pct": -1.09,
+        "turnover_pct": 8.38,
+        "vol_ratio": 1.6,
+        "amplitude": 6.73
+      },
+      "news": [
+        {
+          "title": "今日111只个股跨越牛熊分界线",
+          "time": "2026-06-30 15:21:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "【盘中播报】91只股长线走稳 站上年线",
+          "time": "2026-06-30 14:25:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "今日87只股长线走稳 站上年线",
+          "time": "2026-06-30 11:43:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "短线防风险 89只个股短期均线现死叉",
+          "time": "2026-06-29 12:10:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "短线防风险 82只个股短期均线现死叉",
+          "time": "2026-06-29 10:52:00",
+          "source": "证券时报网"
+        }
+      ],
+      "dragon_tiger": {
+        "on_board": false
+      }
+    },
+    "688017": {
+      "code": "688017",
+      "name": "绿的谐波",
+      "fund_flow": {
+        "error": "api_get() got an unexpected keyword argument 'headers'"
+      },
+      "technical": {
+        "price": 413.05,
+        "change_pct": -2.58,
+        "turnover_pct": 11.38,
+        "vol_ratio": 1.3,
+        "amplitude": 12.74
+      },
+      "news": [
+        {
+          "title": "网红“225倍大神”一句话！688017，直线20%涨停",
+          "time": "2026-06-05 17:39:00",
+          "source": "华夏时报"
+        },
+        {
+          "title": "A股震荡调整，两大板块逆市爆发！300353、688017，20%涨停！",
+          "time": "2026-06-05 18:03:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "43只科创板个股主力资金净流入超亿元",
+          "time": "2026-06-30 16:31:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "机械设备行业资金流出榜：华工科技等25股净流出资金超亿元",
+          "time": "2026-07-01 16:39:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "短线防风险 89只个股短期均线现死叉",
+          "time": "2026-06-29 12:10:00",
+          "source": "证券时报网"
+        }
+      ],
+      "dragon_tiger": {
+        "on_board": false
+      }
+    },
+    "002747": {
+      "code": "002747",
+      "name": "埃斯顿",
+      "fund_flow": {
+        "error": "api_get() got an unexpected keyword argument 'headers'"
+      },
+      "technical": {
+        "price": 40.7,
+        "change_pct": -0.88,
+        "turnover_pct": 22.44,
+        "vol_ratio": 2.08,
+        "amplitude": 9.16
+      },
+      "news": [
+        {
+          "title": "埃斯顿(002747)龙虎榜数据(07-01)",
+          "time": "2026-07-01 16:27:50",
+          "source": "东方财富Choice数据"
+        },
+        {
+          "title": "7月1日人形机器人概念板块走势强劲 多只个股涨停",
+          "time": "2026-07-01 09:49:45",
+          "source": "央广财经"
+        },
+        {
+          "title": "营业部最青睐个股曝光 7股净买入超亿元",
+          "time": "2026-07-01 23:08:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "机械设备行业资金流出榜：华工科技等25股净流出资金超亿元",
+          "time": "2026-07-01 16:39:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "主力动向：7月1日特大单净流出389.76亿元",
+          "time": "2026-07-01 16:39:00",
+          "source": "证券时报网"
+        }
+      ],
+      "dragon_tiger": {
+        "on_board": false
+      }
+    },
+    "300124": {
+      "code": "300124",
+      "name": "汇川技术",
+      "fund_flow": {
+        "error": "api_get() got an unexpected keyword argument 'headers'"
+      },
+      "technical": {
+        "price": 68.4,
+        "change_pct": 0.29,
+        "turnover_pct": 2.92,
+        "vol_ratio": 1.51,
+        "amplitude": 6.57
+      },
+      "news": [
+        {
+          "title": "机械设备行业资金流出榜：华工科技等25股净流出资金超亿元",
+          "time": "2026-07-01 16:39:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "机械设备行业6月25日资金流向日报",
+          "time": "2026-06-25 16:34:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "近五年分拆：海康机器人IPO独立性仍存疑",
+          "time": "2026-06-30 18:52:00",
+          "source": "财中社"
+        },
+        {
+          "title": "机械设备行业今日净流出资金66.23亿元，罗博特科等17股净流出资金超亿元",
+          "time": "2026-06-22 16:58:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "9.54亿元主力资金今日抢筹机械设备板块",
+          "time": "2026-06-17 17:00:00",
+          "source": "证券时报网"
+        }
+      ],
+      "dragon_tiger": {
+        "on_board": false
+      }
+    },
+    "002008": {
+      "code": "002008",
+      "name": "大族激光",
+      "fund_flow": {
+        "error": "api_get() got an unexpected keyword argument 'headers'"
+      },
+      "technical": {
+        "price": 125.01,
+        "change_pct": -9.4,
+        "turnover_pct": 7.37,
+        "vol_ratio": 0.7,
+        "amplitude": 6.09
+      },
+      "news": [
+        {
+          "title": "大族激光(002008)龙虎榜数据(06-24)",
+          "time": "2026-06-24 16:27:53",
+          "source": "东方财富Choice数据"
+        },
+        {
+          "title": "大族激光(002008)龙虎榜数据(06-16)",
+          "time": "2026-06-16 16:26:38",
+          "source": "东方财富Choice数据"
+        },
+        {
+          "title": "玻璃基板概念再续狂飙，京东方A一度涨停创18年新高",
+          "time": "2026-06-30 13:37:00",
+          "source": "21世纪经济报道"
+        },
+        {
+          "title": "大族激光：拟不超25.2亿元投资建设光纤及预制棒项目",
+          "time": "2026-06-25 20:50:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "大族激光在深圳成立新投资公司",
+          "time": "2026-06-25 16:53:00",
+          "source": "南方财经网"
+        }
+      ],
+      "dragon_tiger": {
+        "on_board": false
+      }
+    },
+    "688578": {
+      "code": "688578",
+      "name": "艾力斯",
+      "fund_flow": {
+        "error": "api_get() got an unexpected keyword argument 'headers'"
+      },
+      "technical": {
+        "price": 130.87,
+        "change_pct": 4.02,
+        "turnover_pct": 5.18,
+        "vol_ratio": 1.73,
+        "amplitude": 11.34
+      },
+      "news": [
+        {
+          "title": "13股今日获机构买入评级",
+          "time": "2026-07-01 17:32:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "今日43只个股跨越牛熊分界线",
+          "time": "2026-06-29 12:10:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "今日盘中突破半年线个股",
+          "time": "2026-06-29 10:52:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "今日突破年线个股",
+          "time": "2026-06-29 15:26:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "今日突破半年线个股",
+          "time": "2026-06-29 15:26:00",
+          "source": "证券时报网"
+        }
+      ],
+      "dragon_tiger": {
+        "on_board": false
+      }
+    },
+    "002294": {
+      "code": "002294",
+      "name": "信立泰",
+      "fund_flow": {
+        "error": "api_get() got an unexpected keyword argument 'headers'"
+      },
+      "technical": {
+        "price": 36.44,
+        "change_pct": 6.55,
+        "turnover_pct": 5.74,
+        "vol_ratio": 2.01,
+        "amplitude": 7.54
+      },
+      "news": [
+        {
+          "title": "信立泰(002294.SZ)：ADC新药JK06在ASCO公布I/II期临床数据，非小细胞肺癌ORR达35%",
+          "time": "2026-06-02 17:00:58",
+          "source": "界面新闻"
+        },
+        {
+          "title": "信立泰：控股股东质押910万股",
+          "time": "2026-06-29 17:22:00",
+          "source": "财中社"
+        },
+        {
+          "title": "信立泰控股股东质押910万股股份",
+          "time": "2026-06-29 20:32:18",
+          "source": "北京商报"
+        },
+        {
+          "title": "信立泰(002294.SZ)：控股股东信立泰药业解除质押1600万股，累计质押占其持股5.98%",
+          "time": "2026-05-22 16:17:00",
+          "source": "界面新闻"
+        },
+        {
+          "title": "信立泰(002294.SZ)：创新siRNA药物SAL0195注射液临床试验申请获受理，用于治疗血脂相关疾病",
+          "time": "2026-05-21 16:16:01",
+          "source": "界面新闻"
+        }
+      ],
+      "dragon_tiger": {
+        "on_board": false
+      }
+    },
+    "688506": {
+      "code": "688506",
+      "name": "百利天恒",
+      "fund_flow": {
+        "error": "api_get() got an unexpected keyword argument 'headers'"
+      },
+      "technical": {
+        "price": 335.5,
+        "change_pct": 4.88,
+        "turnover_pct": 1.28,
+        "vol_ratio": 1.55,
+        "amplitude": 13.71
+      },
+      "news": [
+        {
+          "title": "百利天恒(688506.SH)：注射用BL-M08D1（ADC）联合用药获临床试验批准，针对弥漫大B细胞淋巴瘤",
+          "time": "2026-06-05 09:06:17",
+          "source": "界面新闻"
+        },
+        {
+          "title": "百利天恒：证券事务代表陈雪玉因个人原因辞职",
+          "time": "2026-06-26 17:28:00",
+          "source": "财中社"
+        },
+        {
+          "title": "强势股追踪 主力资金连续5日净流入96股",
+          "time": "2026-06-30 16:31:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "今日盘中突破半年线个股",
+          "time": "2026-06-29 10:52:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "今日突破半年线个股",
+          "time": "2026-06-29 15:26:00",
+          "source": "证券时报网"
+        }
+      ],
+      "dragon_tiger": {
+        "on_board": false
+      }
+    },
+    "688331": {
+      "code": "688331",
+      "name": "荣昌生物",
+      "fund_flow": {
+        "error": "api_get() got an unexpected keyword argument 'headers'"
+      },
+      "technical": {
+        "price": 140.45,
+        "change_pct": 1.04,
+        "turnover_pct": 4.73,
+        "vol_ratio": 1.16,
+        "amplitude": 8.03
+      },
+      "news": [
+        {
+          "title": "生物制品概念盘中走强，机构：生物制品行业正经历结构性出清|异动情报",
+          "time": "2026-06-29 12:22:00",
+          "source": "21世纪经济报道"
+        },
+        {
+          "title": "604只股短线走稳 站上五日均线",
+          "time": "2026-06-29 15:26:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "552只股短线走稳 站上五日均线",
+          "time": "2026-06-29 14:17:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "今日盘中突破五日均线个股一览",
+          "time": "2026-06-29 10:52:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "科创板资金动向：19股主力资金净流入超亿元",
+          "time": "2026-07-01 16:39:00",
+          "source": "证券时报网"
+        }
+      ],
+      "dragon_tiger": {
+        "on_board": false
+      }
+    },
+    "688235": {
+      "code": "688235",
+      "name": "百济神州",
+      "fund_flow": {
+        "error": "api_get() got an unexpected keyword argument 'headers'"
+      },
+      "technical": {
+        "price": 253.56,
+        "change_pct": -3.15,
+        "turnover_pct": 7.06,
+        "vol_ratio": 1.11,
+        "amplitude": 6.28
+      },
+      "news": [
+        {
+          "title": "百济神州：百悦泽3期临床研究MANGROVE取得积极结果",
+          "time": "2026-06-30 21:53:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "百济神州：百悦泽联合利妥昔单抗一线治疗套细胞淋巴瘤3期临床达主要终点",
+          "time": "2026-06-30 21:42:09",
+          "source": "财联社"
+        },
+        {
+          "title": "百济神州：子公司补缴税款及滞纳金约4.46亿元",
+          "time": "2026-06-26 18:03:02",
+          "source": "科创板日报"
+        },
+        {
+          "title": "百济神州：全资子公司将补缴税款及滞纳金共计约4.46亿元",
+          "time": "2026-06-26 18:15:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "百济神州：子公司需补缴税款及滞纳金约4.46亿元",
+          "time": "2026-06-26 18:26:00",
+          "source": "财中社"
+        }
+      ],
+      "dragon_tiger": {
+        "on_board": false
+      }
+    },
+    "603259": {
+      "code": "603259",
+      "name": "药明康德",
+      "fund_flow": {
+        "error": "api_get() got an unexpected keyword argument 'headers'"
+      },
+      "technical": {
+        "price": 121.3,
+        "change_pct": -3.12,
+        "turnover_pct": 3.42,
+        "vol_ratio": 0.96,
+        "amplitude": 6.51
+      },
+      "news": [
+        {
+          "title": "603259，强势涨停！CRO概念股，集体爆发！",
+          "time": "2026-06-24 12:49:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "603259，火速回购1亿元！",
+          "time": "2026-06-11 20:15:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "9股今日获机构买入评级",
+          "time": "2026-06-30 17:41:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "药明康德：完成10亿元股份回购计划",
+          "time": "2026-06-26 16:27:31",
+          "source": "财联社"
+        },
+        {
+          "title": "药明康德已回购970万股 金额10亿元",
+          "time": "2026-06-26 16:36:00",
+          "source": "财中社"
+        }
+      ],
+      "dragon_tiger": {
+        "on_board": false
+      }
+    },
+    "301093": {
+      "code": "301093",
+      "name": "华兰股份",
+      "fund_flow": {
+        "error": "api_get() got an unexpected keyword argument 'headers'"
+      },
+      "technical": {
+        "price": 124.5,
+        "change_pct": -10.44,
+        "turnover_pct": 6.39,
+        "vol_ratio": 1.52,
+        "amplitude": 12.07
+      },
+      "news": [
+        {
+          "title": "创新药概念板块局部走强 万邦医药收获20%幅度二连板",
+          "time": "2026-06-30 09:57:34",
+          "source": "央广财经"
+        },
+        {
+          "title": "医药生物行业资金流出榜：恒瑞医药等9股净流出资金超亿元",
+          "time": "2026-06-30 16:31:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "华兰股份：三高管拟合计减持不超9.715万股",
+          "time": "2026-06-23 20:57:00",
+          "source": "财中社"
+        },
+        {
+          "title": "医药生物行业今日涨5.91%，主力资金净流入58.65亿元",
+          "time": "2026-06-29 16:36:00",
+          "source": "证券时报网"
+        },
+        {
+          "title": "104只股收盘价创历史新高",
+          "time": "2026-07-01 17:32:00",
+          "source": "证券时报网"
+        }
+      ],
+      "dragon_tiger": {
+        "on_board": false
+      }
+    },
+    "002821": {
+      "code": "002821",
+      "name": "凯莱英",
+      "fund_flow": {
+        "error": "api_get() got an unexpected keyword argument 'headers'"
+      },
+      "technical": {
+        "price": 153.19,
+        "change_pct": -7.04,
+        "turnover_pct": 6.18,
+        "vol_ratio": 1.19,
+        "amplitude": 9.59
+      },
+      "news": [
+        {
+          "title": "医药股，集体爆发！300436、002821涨停",
+          "time": "2026-06-29 11:11:00",
+          "source": "证券时报"
+        },
+        {
+          "title": "凯莱英(002821)龙虎榜数据(06-25)",
+          "time": "2026-06-25 16:27:32",
+          "source": "东方财富Choice数据"
+        },
+        {
+          "title": "凯莱英连续3个交易日收盘价格涨幅偏离值累计超20%",
+          "time": "2026-06-25 17:18:00",
+          "source": "财中社"
+        },
+        {
+          "title": "股价异动，凯莱英称不存在应披露而未披露的重大事项",
+          "time": "2026-06-25 21:58:49",
+          "source": "北京商报"
+        },
+        {
+          "title": "医药生物行业今日净流入资金30.77亿元，恒瑞医药等14股净流入资金超亿元",
+          "time": "2026-07-01 16:39:00",
+          "source": "证券时报网"
+        }
+      ],
+      "dragon_tiger": {
+        "on_board": false
+      }
+    }
+  }
+}
