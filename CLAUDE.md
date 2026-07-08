@@ -68,7 +68,7 @@
 
 ## 核心方法论
 
-### 十技能协作架构
+### 十一技能协作架构
 
 ```
 a-stock-data（数据获取层）
@@ -80,15 +80,16 @@ a-stock-data（数据获取层）
     ├── old-guard-stocks（质量+错杀筛选层）    → "哪些好公司被错杀了"
     ├── earnings-tracker（业绩追踪层）         → "业绩好不好，有没有超预期"
     ├── capital-flow-tracker（资金流向追踪层）  → "资金在往哪流"
+    ├── etf-fund-flow-tracker（ETF资金走势层）  → "ETF资金在流向哪"
     ├── limit-up-tracker（涨停板情绪层）       → "市场在追捧什么"
     └── stock-pick（选股层）                 → "具体选哪只"
 ```
 
-| 维度 | a-stock-data | policy-event-tracker | serenity-skill | moat-hunter | cross-sector-ma-tracker | old-guard-stocks | earnings-tracker | capital-flow-tracker | limit-up-tracker | stock-pick |
-|------|-------------|---------------------|---------------|-------------|------------------------|-----------------|-----------------|---------------------|------------------|------------|
-| 职责 | 数据获取与清洗 | 政策事件追踪与影响分析 | 产业链基本面分析 | 企业不可替代性验证 | 传统企业跨界科技并购追踪 | 质量价值筛选+错杀识别 | 业绩预告+财务指标+拐点识别+超预期分析 | 资金流向监控+个股涨跌归因 | 涨停板复盘+板块情绪分析 | 多策略选股筛选 |
-| 输入 | 股票代码 / 查询条件 | 时间窗口 / 行业关键词 | 产业链知识 + 财报/公告 | 目标公司 + 产业链位置 | 时间窗口 / 传统行业范围 / 科技方向 | 行业范围 + 财报/估值数据 | 股票代码 / 报告期 / 行业 | 概念板块/行业板块/龙虎榜 | 日期 / 市场板块 | 全市场/板块行情数据 |
-| 输出 | 结构化行情/估值/资金/研报/公告数据 | 按重要性排序的事件+行业/标的映射 | 稀缺层判断 + 标的优先级 | 不可替代性评级(S/A/B/C) + 供需验证 | S/A/B/C四级跨界信号清单 + 重点案例深度分析 | 老登股清单(核心/优质/观察) + 错杀程度评分 | 业绩预告全类型+财务序列+拐点信号+超预期幅度 | 板块资金流排名+三方资金分类+个股归因 | 涨停全景报告+行业/概念排名+炸板分析+封板强度+连板追踪 | 通过/拒绝分层清单 |
+| 维度 | a-stock-data | policy-event-tracker | serenity-skill | moat-hunter | cross-sector-ma-tracker | old-guard-stocks | earnings-tracker | capital-flow-tracker | etf-fund-flow-tracker | limit-up-tracker | stock-pick |
+|------|-------------|---------------------|---------------|-------------|------------------------|-----------------|-----------------|---------------------|----------------------|------------------|------------|
+| 职责 | 数据获取与清洗 | 政策事件追踪与影响分析 | 产业链基本面分析 | 企业不可替代性验证 | 传统企业跨界科技并购追踪 | 质量价值筛选+错杀识别 | 业绩预告+财务指标+拐点识别+超预期分析 | 资金流向监控+个股涨跌归因 | ETF资金流+风格判断+盘面分析 | 涨停板复盘+板块情绪分析 | 多策略选股筛选 |
+| 输入 | 股票代码 / 查询条件 | 时间窗口 / 行业关键词 | 产业链知识 + 财报/公告 | 目标公司 + 产业链位置 | 时间窗口 / 传统行业范围 / 科技方向 | 行业范围 + 财报/估值数据 | 股票代码 / 报告期 / 行业 | 概念板块/行业板块/龙虎榜 | 宽基/行业/主题ETF代码 | 日期 / 市场板块 | 全市场/板块行情数据 |
+| 输出 | 结构化行情/估值/资金/研报/公告数据 | 按重要性排序的事件+行业/标的映射 | 稀缺层判断 + 标的优先级 | 不可替代性评级(S/A/B/C) + 供需验证 | S/A/B/C四级跨界信号清单 + 重点案例深度分析 | 老登股清单(核心/优质/观察) + 错杀程度评分 | 业绩预告全类型+财务序列+拐点信号+超预期幅度 | 板块资金流排名+三方资金分类+个股归因 | ETF全景报告+风格判断+行业轮动+多维交叉验证 | 涨停全景报告+行业/概念排名+炸板分析+封板强度+连板追踪 | 通过/拒绝分层清单 |
 
 ### 各 Skill 说明
 
@@ -100,9 +101,11 @@ a-stock-data（数据获取层）
 - **cross-sector-ma-tracker**：传统企业跨界科技并购追踪——多信号融合（公告+新闻+研报+Web），S/A/B/C 四级信号分级，识别传统行业企业向科技/新能源领域的收购、重组、投资行为。触发词："跨界并购""传统企业转型科技""收购科技公司""重组转型""跨界投资""传统行业+科技标的""产业转型升级"。详见 `.claude/skills/cross-sector-ma-tracker/SKILL.md`
 - **old-guard-stocks**：老登股筛选——寻找持续盈利不亏损、有护城河、但估值被错杀的优质公司。核心逻辑："好公司遇到了坏价格"。触发词："老登股""蓝筹筛选""行业龙头筛选""被错杀的龙头""好公司低估值""质量价值筛选"。详见 `.claude/skills/old-guard-stocks/SKILL.md`
 - **capital-flow-tracker**：A股全市场资金流向追踪——概念板块+行业板块双维度，10个时间周期，机构/游资/散户三方资金分类，龙虎榜席位分析，个股涨跌归因。触发词："资金流向""主力资金""板块轮动""机构动向""游资""龙虎榜""为什么涨""为什么跌""归因分析"。详见 `.claude/skills/capital-flow-tracker/SKILL.md`
+- **etf-fund-flow-tracker**：A股ETF资金走势追踪——覆盖宽基/行业/主题/策略/债券/跨境/商品七大类ETF，多周期资金流聚合，宽基风格判断(大盘vs中小盘/成长vs价值)，行业ETF轮动信号，增量资金检测，与capital-flow-tracker/limit-up-tracker/policy-event-tracker多维交叉验证盘面分析。触发词："ETF""ETF资金流""宽基ETF""行业ETF""ETF轮动""大盘风向""市场风格""增量资金""盘面分析"。详见 `.claude/skills/etf-fund-flow-tracker/SKILL.md`
 - **limit-up-tracker**：A股涨停板全维度追踪——覆盖今日/昨日/前天涨停股票，分析涨停时间、炸板次数、封板金额、连板数、所属行业与概念、行业/概念涨停数排名，支持多日趋势对比与板块爆发检测。触发词："涨停""涨停板""炸板""封板""连板""涨停潮""涨停复盘""打板""题材热点""板块涨停""首板""二板""高标"。详见 `.claude/skills/limit-up-tracker/SKILL.md`
 - **earnings-tracker**：A股业绩全景追踪——覆盖业绩预告(预增/预减/扭亏/首亏等9类)、业绩报表(单季/累计多期对比)、F10主要财务指标(80+字段含全量增长率)、业绩拐点识别(营收+利润双拐点)、实际vs一致预期差异分析。触发词："业绩""业绩预告""预增""财报""季报""EPS""净利润""营收""ROE""超预期""业绩拐点""业绩对比"。详见 `.claude/skills/earnings-tracker/SKILL.md`
 - **stock-pick**：LLM 驱动多策略选股，7 阶段流水线。触发词："选股""筛选""帮我找"。详见 `.claude/skills/stock-pick/SKILL.md`
+- **clean-old-analysis**：旧分析目录清理——安全清理 `src/` 下超过指定天数的旧分析目录，dry-run 预览后确认删除。触发词："清理旧分析""删除旧报告""清理目录""释放空间"。详见 `.claude/skills/clean-old-analysis/SKILL.md`
 
 ### 完整分析流程
 
@@ -117,7 +120,7 @@ Phase 4: 机遇判断（opportunity-register.md）
     ↓
 Phase 5: 候选筛选 + 估值分析（comparison.md，用 a-stock-data 拉取实时数据）
     ↓
-Phase 6: 情景推演 + 时机参考（scenario-analysis.md，整合基本面+资金面）
+Phase 6: 情景推演 + 时机参考（scenario-analysis.md，整合基本面+资金面+ETF资金流，调用 capital-flow-tracker + etf-fund-flow-tracker）
     ↓
 Phase 7: 假设设定（hypothesis-register.md）
     ↓
@@ -180,6 +183,8 @@ src/
 ├── earnings-tracker/             # A股业绩全景追踪 ★
 │   ├── SKILL.md
 │   └── references/
+├── etf-fund-flow-tracker/        # A股ETF资金走势追踪 ★
+│   └── SKILL.md
 ├── policy-event-tracker/        # 政策事件追踪与影响分析 ★
 │   ├── SKILL.md
 │   └── references/
@@ -188,17 +193,20 @@ src/
 │   ├── references/              # 8 个参考文档（risk-and-compliance 等）
 │   ├── assets/ / examples/ / evals/ / agents/
 │   └── scripts/serenity_scorecard.py
-└── stock-pick/                  # 多策略选股
-    ├── SKILL.md
-    ├── assets/ / examples/ / references/ / scripts/
-    └── scripts/outputs/         # 选股输出数据
+├── stock-pick/                  # 多策略选股
+│   ├── SKILL.md
+│   ├── assets/ / examples/ / references/ / scripts/
+│   └── scripts/outputs/         # 选股输出数据
+└── clean-old-analysis/          # 旧分析目录清理
+    └── SKILL.md
 ```
 
 ### `scripts/` 工具
 
 ```
 scripts/
-└── print_conclusion.py          # 统一结论打印工具（3 种模式）
+├── print_conclusion.py          # 统一结论打印工具（3 种模式）
+└── clean_old_analysis.py        # 旧分析目录清理（dry-run + 确认删除）
 ```
 
 ## 新增分析操作步骤
