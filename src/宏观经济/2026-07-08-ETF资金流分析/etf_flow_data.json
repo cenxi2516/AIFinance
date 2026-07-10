@@ -1,0 +1,390 @@
+{
+  "scan_time": "2026-07-08 14:45",
+  "宽基风格对比": {
+    "large_cap": {
+      "label": "大盘蓝筹",
+      "codes": [
+        "510050",
+        "510300"
+      ],
+      "flows": {
+        "today": 0,
+        "1w": -2033206224.0,
+        "1m": 1262266712.0
+      }
+    },
+    "small_cap": {
+      "label": "中小盘",
+      "codes": [
+        "510500",
+        "159845"
+      ],
+      "flows": {
+        "today": 0,
+        "1w": -325928000.0,
+        "1m": 532384128.0
+      }
+    },
+    "growth": {
+      "label": "成长科技",
+      "codes": [
+        "588000",
+        "159915"
+      ],
+      "flows": {
+        "today": 0,
+        "1w": -1925690368.0,
+        "1m": -2820211968.0
+      }
+    },
+    "value": {
+      "label": "价值防御",
+      "codes": [
+        "510050",
+        "510880"
+      ],
+      "flows": {
+        "today": 0,
+        "1w": -339883568.0,
+        "1m": 1630618104.0
+      }
+    },
+    "tech": {
+      "label": "科技成长",
+      "codes": [
+        "588000",
+        "159995",
+        "512480"
+      ],
+      "flows": {
+        "today": 0,
+        "1w": -1195087648.0,
+        "1m": -1396487972.0
+      }
+    },
+    "traditional": {
+      "label": "传统行业",
+      "codes": [
+        "510050",
+        "512880",
+        "512690"
+      ],
+      "flows": {
+        "today": 0,
+        "1w": -1574687995.0,
+        "1m": 81552132.0
+      }
+    }
+  },
+  "增量资金检测": {
+    "today": {
+      "total": 0,
+      "all_inflow": false,
+      "signal": "➖ 小幅净流出",
+      "details": {
+        "510050": 0,
+        "510300": 0,
+        "510500": 0,
+        "159915": 0
+      }
+    },
+    "1w": {
+      "total": -4234078320.0,
+      "all_inflow": false,
+      "signal": "🔴 显著流出",
+      "details": {
+        "510050": -339883568.0,
+        "510300": -1693322656.0,
+        "510500": -275181728.0,
+        "159915": -1925690368.0
+      }
+    },
+    "1m": {
+      "total": -938059816.0,
+      "all_inflow": false,
+      "signal": "🔴 显著流出",
+      "details": {
+        "510050": 1630618104.0,
+        "510300": -368351392.0,
+        "510500": 619885440.0,
+        "159915": -2820211968.0
+      }
+    }
+  },
+  "行业轮动": {
+    "total": 9,
+    "inflow_count": 0,
+    "outflow_count": 9,
+    "rotation_signal": "❄️ 行业全面流出——情绪低迷",
+    "top_inflow": [
+      {
+        "code": "516160",
+        "name": "新能源ETF",
+        "style": "新能源",
+        "main_net_1w": 0,
+        "main_net_today": 0
+      },
+      {
+        "code": "512010",
+        "name": "医药ETF",
+        "style": "医药",
+        "main_net_1w": -13586861.0,
+        "main_net_today": 0
+      },
+      {
+        "code": "516510",
+        "name": "云计算ETF",
+        "style": "云计算",
+        "main_net_1w": -23472489.0,
+        "main_net_today": 0
+      },
+      {
+        "code": "512690",
+        "name": "酒ETF",
+        "style": "消费",
+        "main_net_1w": -102472187.0,
+        "main_net_today": 0
+      },
+      {
+        "code": "512660",
+        "name": "军工ETF",
+        "style": "军工",
+        "main_net_1w": -180313280.0,
+        "main_net_today": 0
+      }
+    ],
+    "top_outflow": [
+      {
+        "code": "512880",
+        "name": "证券ETF",
+        "style": "券商",
+        "main_net_1w": -1132332240.0,
+        "main_net_today": 0
+      },
+      {
+        "code": "159995",
+        "name": "芯片ETF",
+        "style": "芯片",
+        "main_net_1w": -609827520.0,
+        "main_net_today": 0
+      },
+      {
+        "code": "512480",
+        "name": "半导体ETF",
+        "style": "半导体",
+        "main_net_1w": -585260128.0,
+        "main_net_today": 0
+      },
+      {
+        "code": "159869",
+        "name": "游戏ETF",
+        "style": "游戏",
+        "main_net_1w": -291349166.0,
+        "main_net_today": 0
+      },
+      {
+        "code": "512660",
+        "name": "军工ETF",
+        "style": "军工",
+        "main_net_1w": -180313280.0,
+        "main_net_today": 0
+      }
+    ]
+  },
+  "当日资金流排名": [
+    {
+      "code": "510050",
+      "name": "上证50ETF",
+      "cat": "宽基",
+      "style": "大盘价值",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "510300",
+      "name": "沪深300ETF",
+      "cat": "宽基",
+      "style": "大盘均衡",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "510500",
+      "name": "中证500ETF",
+      "cat": "宽基",
+      "style": "中盘成长",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "159915",
+      "name": "创业板ETF",
+      "cat": "宽基",
+      "style": "成长",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "588000",
+      "name": "科创50ETF",
+      "cat": "宽基",
+      "style": "硬科技",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "510330",
+      "name": "沪深300ETF华夏",
+      "cat": "宽基",
+      "style": "大盘均衡",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "159845",
+      "name": "中证1000ETF",
+      "cat": "宽基",
+      "style": "小盘成长",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "512880",
+      "name": "证券ETF",
+      "cat": "行业",
+      "style": "券商",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "512480",
+      "name": "半导体ETF",
+      "cat": "行业",
+      "style": "半导体",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "159995",
+      "name": "芯片ETF",
+      "cat": "行业",
+      "style": "芯片",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "516160",
+      "name": "新能源ETF",
+      "cat": "行业",
+      "style": "新能源",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "512660",
+      "name": "军工ETF",
+      "cat": "行业",
+      "style": "军工",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "512690",
+      "name": "酒ETF",
+      "cat": "行业",
+      "style": "消费",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "512010",
+      "name": "医药ETF",
+      "cat": "行业",
+      "style": "医药",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "516510",
+      "name": "云计算ETF",
+      "cat": "行业",
+      "style": "云计算",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "159869",
+      "name": "游戏ETF",
+      "cat": "行业",
+      "style": "游戏",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "510880",
+      "name": "红利ETF",
+      "cat": "策略",
+      "style": "红利防御",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "512890",
+      "name": "红利低波ETF",
+      "cat": "策略",
+      "style": "红利低波",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "513050",
+      "name": "中概互联ETF",
+      "cat": "跨境",
+      "style": "中概互联",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "513100",
+      "name": "纳指ETF",
+      "cat": "跨境",
+      "style": "纳斯达克",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    },
+    {
+      "code": "518880",
+      "name": "黄金ETF",
+      "cat": "商品",
+      "style": "黄金避险",
+      "main_net": 0,
+      "super_large_net": 0,
+      "large_net": 0
+    }
+  ],
+  "综合研判": [
+    "🔴 宽基资金整体流出，市场承压",
+    "🟡 价值略优于成长，市场偏谨慎",
+    "🔴 行业ETF全面流出，缺乏赚钱效应"
+  ]
+}

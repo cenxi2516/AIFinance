@@ -1,0 +1,1309 @@
+{
+  "generated_at": "2026-07-09 17:22",
+  "market_wide": {
+    "composite": 80.9,
+    "level": "极度亢奋",
+    "emoji": "🔴",
+    "dimension_breakdown": {
+      "limit_up": 69.7,
+      "heat": 73.6,
+      "breadth": 96,
+      "fund_flow": 88.1,
+      "price": 50.0
+    },
+    "zt_count": 75,
+    "dt_count": 12,
+    "break_rate": 52.0,
+    "max_height": 8
+  },
+  "industries": {
+    "半导体": {
+      "industry_key": "半导体",
+      "industry_label": "半导体",
+      "composite": 89.0,
+      "level": "极度亢奋",
+      "emoji": "🔴",
+      "dimension_breakdown": {
+        "limit_up": 100,
+        "heat": 100,
+        "breadth": 45.0,
+        "fund_flow": 50.0,
+        "price": 50.0
+      },
+      "sub_sectors": {
+        "半导体设备": {
+          "composite": 67.7,
+          "zt_count": 40,
+          "concepts": [
+            "光刻机(胶)",
+            "半导体",
+            "半导体概念"
+          ]
+        },
+        "半导体材料": {
+          "composite": 36.0,
+          "zt_count": 0,
+          "concepts": [
+            "光刻机(胶)",
+            "光刻胶",
+            "电子化学品"
+          ]
+        },
+        "存储芯片": {
+          "composite": 55.0,
+          "zt_count": 0,
+          "concepts": [
+            "存储芯片",
+            "HBM"
+          ]
+        },
+        "CPU/算力芯片": {
+          "composite": 80.9,
+          "zt_count": 49,
+          "concepts": [
+            "AI芯片",
+            "半导体概念",
+            "芯片概念"
+          ]
+        },
+        "先进封装": {
+          "composite": 43.2,
+          "zt_count": 0,
+          "concepts": [
+            "先进封装",
+            "Chiplet概念"
+          ]
+        },
+        "通信芯片": {
+          "composite": 55.3,
+          "zt_count": 25,
+          "concepts": [
+            "5G概念",
+            "光通信",
+            "CPO概念"
+          ]
+        }
+      },
+      "concept_count": 15,
+      "zt_in_industry": 62,
+      "heat_in_industry": 601.9,
+      "top_concepts": [
+        {
+          "name": "存储芯片",
+          "composite": 45.0
+        },
+        {
+          "name": "半导体概念",
+          "composite": 40.2
+        },
+        {
+          "name": "芯片概念",
+          "composite": 39.1
+        }
+      ],
+      "bottom_concepts": [
+        {
+          "name": "电子化学品",
+          "composite": 15.0
+        },
+        {
+          "name": "Chiplet概念",
+          "composite": 15.0
+        },
+        {
+          "name": "AI芯片",
+          "composite": 15.0
+        }
+      ]
+    },
+    "AI与算力": {
+      "industry_key": "AI与算力",
+      "industry_label": "AI与算力",
+      "composite": 66.6,
+      "level": "偏暖",
+      "emoji": "🟠",
+      "dimension_breakdown": {
+        "limit_up": 100,
+        "heat": 36.5,
+        "breadth": 60.0,
+        "fund_flow": 50.0,
+        "price": 50.0
+      },
+      "sub_sectors": {
+        "算力基础设施": {
+          "composite": 27.1,
+          "zt_count": 2,
+          "concepts": [
+            "算力概念",
+            "液冷概念",
+            "CPO概念"
+          ]
+        },
+        "AI应用": {
+          "composite": 29.3,
+          "zt_count": 4,
+          "concepts": [
+            "ChatGPT概念",
+            "多模态AI",
+            "AIGC概念"
+          ]
+        },
+        "机器人": {
+          "composite": 40.5,
+          "zt_count": 10,
+          "concepts": [
+            "机器人概念",
+            "人形机器人",
+            "机器视觉"
+          ]
+        }
+      },
+      "concept_count": 12,
+      "zt_in_industry": 26,
+      "heat_in_industry": 51.1,
+      "top_concepts": [
+        {
+          "name": "人工智能",
+          "composite": 25.2
+        },
+        {
+          "name": "机器人概念",
+          "composite": 24.3
+        },
+        {
+          "name": "人形机器人",
+          "composite": 19.9
+        }
+      ],
+      "bottom_concepts": [
+        {
+          "name": "机器视觉",
+          "composite": 15.0
+        },
+        {
+          "name": "Sora概念",
+          "composite": 15.0
+        },
+        {
+          "name": "东数西算",
+          "composite": 15.0
+        }
+      ]
+    },
+    "新能源": {
+      "industry_key": "新能源",
+      "industry_label": "新能源",
+      "composite": 47.1,
+      "level": "中性",
+      "emoji": "🟡",
+      "dimension_breakdown": {
+        "limit_up": 60.3,
+        "heat": 34.7,
+        "breadth": 45.7,
+        "fund_flow": 50.0,
+        "price": 50.0
+      },
+      "sub_sectors": {
+        "光伏": {
+          "composite": 25,
+          "zt_count": 0,
+          "concepts": [
+            "光伏",
+            "HIT电池",
+            "钙钛矿电池"
+          ]
+        },
+        "储能": {
+          "composite": 29.6,
+          "zt_count": 2,
+          "concepts": [
+            "储能",
+            "虚拟电厂",
+            "固态电池"
+          ]
+        },
+        "锂电": {
+          "composite": 25,
+          "zt_count": 0,
+          "concepts": [
+            "锂电池",
+            "钠电池",
+            "动力电池回收"
+          ]
+        },
+        "风电": {
+          "composite": 27.4,
+          "zt_count": 0,
+          "concepts": [
+            "风电",
+            "海上风电"
+          ]
+        }
+      },
+      "concept_count": 14,
+      "zt_in_industry": 4,
+      "heat_in_industry": 42.8,
+      "top_concepts": [
+        {
+          "name": "风电",
+          "composite": 17.4
+        },
+        {
+          "name": "固态电池",
+          "composite": 17.4
+        },
+        {
+          "name": "新能源",
+          "composite": 16.9
+        }
+      ],
+      "bottom_concepts": [
+        {
+          "name": "海上风电",
+          "composite": 15.0
+        },
+        {
+          "name": "动力电池回收",
+          "composite": 15.0
+        },
+        {
+          "name": "TOPCon电池",
+          "composite": 15.0
+        }
+      ]
+    },
+    "消费": {
+      "industry_key": "消费",
+      "industry_label": "消费",
+      "composite": 44.0,
+      "level": "中性",
+      "emoji": "🟡",
+      "dimension_breakdown": {
+        "limit_up": 60.3,
+        "heat": 25.0,
+        "breadth": 49.3,
+        "fund_flow": 50.0,
+        "price": 50.0
+      },
+      "sub_sectors": {
+        "白酒": {
+          "composite": 25,
+          "zt_count": 0,
+          "concepts": [
+            "酿酒概念",
+            "白酒"
+          ]
+        },
+        "食品": {
+          "composite": 25,
+          "zt_count": 0,
+          "concepts": [
+            "食品饮料",
+            "预制菜概念"
+          ]
+        },
+        "零售": {
+          "composite": 29.3,
+          "zt_count": 4,
+          "concepts": [
+            "新零售",
+            "免税概念",
+            "跨境电商"
+          ]
+        }
+      },
+      "concept_count": 7,
+      "zt_in_industry": 4,
+      "heat_in_industry": 0.0,
+      "top_concepts": [
+        {
+          "name": "新零售",
+          "composite": 16.9
+        },
+        {
+          "name": "跨境电商",
+          "composite": 16.9
+        },
+        {
+          "name": "酿酒概念",
+          "composite": 15.0
+        }
+      ],
+      "bottom_concepts": [
+        {
+          "name": "白酒",
+          "composite": 15.0
+        },
+        {
+          "name": "免税概念",
+          "composite": 15.0
+        },
+        {
+          "name": "预制菜概念",
+          "composite": 15.0
+        }
+      ]
+    },
+    "医药": {
+      "industry_key": "医药",
+      "industry_label": "医药",
+      "composite": 45.6,
+      "level": "中性",
+      "emoji": "🟡",
+      "dimension_breakdown": {
+        "limit_up": 59.0,
+        "heat": 25.0,
+        "breadth": 60.0,
+        "fund_flow": 50.0,
+        "price": 50.0
+      },
+      "sub_sectors": {
+        "创新药": {
+          "composite": 26.1,
+          "zt_count": 1,
+          "concepts": [
+            "创新药",
+            "生物制药",
+            "CXO概念"
+          ]
+        },
+        "医疗器械": {
+          "composite": 26.1,
+          "zt_count": 1,
+          "concepts": [
+            "医疗器械概念"
+          ]
+        },
+        "中药": {
+          "composite": 25,
+          "zt_count": 0,
+          "concepts": [
+            "中药概念"
+          ]
+        }
+      },
+      "concept_count": 6,
+      "zt_in_industry": 3,
+      "heat_in_industry": 0.0,
+      "top_concepts": [
+        {
+          "name": "医药",
+          "composite": 15.9
+        },
+        {
+          "name": "创新药",
+          "composite": 15.9
+        },
+        {
+          "name": "医疗器械概念",
+          "composite": 15.9
+        }
+      ],
+      "bottom_concepts": [
+        {
+          "name": "CXO概念",
+          "composite": 15.0
+        },
+        {
+          "name": "生物制药",
+          "composite": 15.0
+        },
+        {
+          "name": "中药概念",
+          "composite": 15.0
+        }
+      ]
+    },
+    "军工": {
+      "industry_key": "军工",
+      "industry_label": "军工",
+      "composite": 16.7,
+      "level": "极度悲观",
+      "emoji": "🟢",
+      "dimension_breakdown": {
+        "limit_up": 10,
+        "heat": 16.8,
+        "breadth": 30,
+        "fund_flow": 50.0,
+        "price": 50.0
+      },
+      "sub_sectors": {
+        "航空航天": {
+          "composite": 26.1,
+          "zt_count": 0,
+          "concepts": [
+            "大飞机",
+            "商业航天",
+            "航母概念"
+          ]
+        },
+        "军工电子": {
+          "composite": 25,
+          "zt_count": 0,
+          "concepts": [
+            "军工",
+            "军民融合",
+            "北斗导航"
+          ]
+        }
+      },
+      "concept_count": 6,
+      "zt_in_industry": 0,
+      "heat_in_industry": 9.7,
+      "top_concepts": [
+        {
+          "name": "商业航天",
+          "composite": 16.1
+        },
+        {
+          "name": "军工",
+          "composite": 15.0
+        },
+        {
+          "name": "军民融合",
+          "composite": 15.0
+        }
+      ],
+      "bottom_concepts": [
+        {
+          "name": "北斗导航",
+          "composite": 15.0
+        },
+        {
+          "name": "航母概念",
+          "composite": 15.0
+        },
+        {
+          "name": "大飞机",
+          "composite": 15.0
+        }
+      ]
+    },
+    "金融": {
+      "industry_key": "金融",
+      "industry_label": "金融",
+      "composite": 16.0,
+      "level": "极度悲观",
+      "emoji": "🟢",
+      "dimension_breakdown": {
+        "limit_up": 10,
+        "heat": 15.0,
+        "breadth": 30,
+        "fund_flow": 50.0,
+        "price": 50.0
+      },
+      "sub_sectors": {
+        "券商": {
+          "composite": 25,
+          "zt_count": 0,
+          "concepts": [
+            "券商概念"
+          ]
+        },
+        "银行": {
+          "composite": 25,
+          "zt_count": 0,
+          "concepts": [
+            "银行"
+          ]
+        },
+        "保险": {
+          "composite": 25,
+          "zt_count": 0,
+          "concepts": [
+            "保险"
+          ]
+        }
+      },
+      "concept_count": 4,
+      "zt_in_industry": 0,
+      "heat_in_industry": 0.0,
+      "top_concepts": [
+        {
+          "name": "券商概念",
+          "composite": 15.0
+        },
+        {
+          "name": "互联金融",
+          "composite": 15.0
+        },
+        {
+          "name": "银行",
+          "composite": 15.0
+        }
+      ],
+      "bottom_concepts": [
+        {
+          "name": "保险",
+          "composite": 15.0
+        },
+        {
+          "name": "银行",
+          "composite": 15.0
+        },
+        {
+          "name": "互联金融",
+          "composite": 15.0
+        }
+      ]
+    },
+    "汽车": {
+      "industry_key": "汽车",
+      "industry_label": "汽车",
+      "composite": 42.6,
+      "level": "中性",
+      "emoji": "🟡",
+      "dimension_breakdown": {
+        "limit_up": 59.0,
+        "heat": 25.0,
+        "breadth": 45.0,
+        "fund_flow": 50.0,
+        "price": 50.0
+      },
+      "sub_sectors": {
+        "整车": {
+          "composite": 25,
+          "zt_count": 0,
+          "concepts": [
+            "新能源车",
+            "智能汽车"
+          ]
+        },
+        "零部件": {
+          "composite": 28.2,
+          "zt_count": 3,
+          "concepts": [
+            "汽车零部件"
+          ]
+        },
+        "智能驾驶": {
+          "composite": 25,
+          "zt_count": 0,
+          "concepts": [
+            "无人驾驶",
+            "激光雷达"
+          ]
+        }
+      },
+      "concept_count": 5,
+      "zt_in_industry": 3,
+      "heat_in_industry": 0.0,
+      "top_concepts": [
+        {
+          "name": "汽车零部件",
+          "composite": 17.8
+        },
+        {
+          "name": "新能源车",
+          "composite": 15.0
+        },
+        {
+          "name": "无人驾驶",
+          "composite": 15.0
+        }
+      ],
+      "bottom_concepts": [
+        {
+          "name": "激光雷达",
+          "composite": 15.0
+        },
+        {
+          "name": "智能汽车",
+          "composite": 15.0
+        },
+        {
+          "name": "无人驾驶",
+          "composite": 15.0
+        }
+      ]
+    }
+  },
+  "signals": [
+    {
+      "signal_type": "🟠 局部亢奋",
+      "severity": "中",
+      "affected": "半导体",
+      "description": "部分行业情绪过热(1个)，关注分化"
+    },
+    {
+      "signal_type": "⚠️ 极端分化",
+      "severity": "中",
+      "affected": "半导体(89) vs 金融(16)",
+      "description": "行业情绪剪刀差 73 点，结构性行情极致演绎"
+    }
+  ],
+  "zt_data": {
+    "zt_list": [
+      {
+        "code": "001395",
+        "name": "亚联机械",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "专用设备",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002414",
+        "name": "高德红外",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "军工电子",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "603329",
+        "name": "上海雅仕",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "物流",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002632",
+        "name": "道明光学",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "塑料",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002829",
+        "name": "星网宇达",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "航天装备",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002274",
+        "name": "华昌化工",
+        "limit_days": 1,
+        "break_times": 4,
+        "industry": "化学原料",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002208",
+        "name": "合肥城建",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "房地产开",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "600992",
+        "name": "贵绳股份",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "通用设备",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "603137",
+        "name": "恒尚节能",
+        "limit_days": 8,
+        "break_times": 0,
+        "industry": "装修装饰",
+        "zt_stat": "8天8板"
+      },
+      {
+        "code": "002067",
+        "name": "景兴纸业",
+        "limit_days": 1,
+        "break_times": 1,
+        "industry": "造纸",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "600909",
+        "name": "华安证券",
+        "limit_days": 1,
+        "break_times": 1,
+        "industry": "证券Ⅱ",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002552",
+        "name": "宝鼎科技",
+        "limit_days": 1,
+        "break_times": 1,
+        "industry": "元件",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "000417",
+        "name": "合百集团",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "一般零售",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002845",
+        "name": "同兴达",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "光学光电",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "603928",
+        "name": "兴业股份",
+        "limit_days": 2,
+        "break_times": 3,
+        "industry": "塑料",
+        "zt_stat": "10天6板"
+      },
+      {
+        "code": "002346",
+        "name": "柘中股份",
+        "limit_days": 1,
+        "break_times": 1,
+        "industry": "电网设备",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002745",
+        "name": "木林森",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "光学光电",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "600353",
+        "name": "旭光电子",
+        "limit_days": 1,
+        "break_times": 1,
+        "industry": "其他电子",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "603726",
+        "name": "朗迪集团",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "家电零部",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "000977",
+        "name": "浪潮信息",
+        "limit_days": 2,
+        "break_times": 2,
+        "industry": "计算机设",
+        "zt_stat": "2天2板"
+      },
+      {
+        "code": "002579",
+        "name": "中京电子",
+        "limit_days": 1,
+        "break_times": 1,
+        "industry": "元件",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "301379",
+        "name": "天山电子",
+        "limit_days": 1,
+        "break_times": 2,
+        "industry": "光学光电",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "603813",
+        "name": "原尚股份",
+        "limit_days": 1,
+        "break_times": 2,
+        "industry": "物流",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "600228",
+        "name": "返利科技",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "数字媒体",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002677",
+        "name": "浙江美大",
+        "limit_days": 2,
+        "break_times": 0,
+        "industry": "厨卫电器",
+        "zt_stat": "5天3板"
+      },
+      {
+        "code": "000892",
+        "name": "欢瑞世纪",
+        "limit_days": 1,
+        "break_times": 3,
+        "industry": "影视院线",
+        "zt_stat": "6天3板"
+      },
+      {
+        "code": "603991",
+        "name": "领先股份",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "半导体",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "603666",
+        "name": "亿嘉和",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "自动化设",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "000004",
+        "name": "国华退",
+        "limit_days": 1,
+        "break_times": 2,
+        "industry": "软件开发",
+        "zt_stat": "9天5板"
+      },
+      {
+        "code": "003020",
+        "name": "立方制药",
+        "limit_days": 1,
+        "break_times": 2,
+        "industry": "化学制药",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002841",
+        "name": "视源股份",
+        "limit_days": 3,
+        "break_times": 69,
+        "industry": "消费电子",
+        "zt_stat": "3天3板"
+      },
+      {
+        "code": "002185",
+        "name": "华天科技",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "半导体",
+        "zt_stat": "3天2板"
+      },
+      {
+        "code": "688584",
+        "name": "上海合晶",
+        "limit_days": 1,
+        "break_times": 1,
+        "industry": "半导体",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "300626",
+        "name": "华瑞股份",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "电机Ⅱ",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "603898",
+        "name": "好莱客",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "家居用品",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "600418",
+        "name": "江淮汽车",
+        "limit_days": 1,
+        "break_times": 1,
+        "industry": "商用车",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "000887",
+        "name": "中鼎股份",
+        "limit_days": 1,
+        "break_times": 1,
+        "industry": "汽车零部",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002490",
+        "name": "山东墨龙",
+        "limit_days": 2,
+        "break_times": 0,
+        "industry": "专用设备",
+        "zt_stat": "2天2板"
+      },
+      {
+        "code": "002815",
+        "name": "崇达技术",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "元件",
+        "zt_stat": "4天2板"
+      },
+      {
+        "code": "002907",
+        "name": "华森制药",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "中药Ⅱ",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "605319",
+        "name": "无锡振华",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "汽车零部",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "000021",
+        "name": "深科技",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "消费电子",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "600584",
+        "name": "长电科技",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "半导体",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "688333",
+        "name": "铂力特",
+        "limit_days": 1,
+        "break_times": 2,
+        "industry": "通用设备",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "688328",
+        "name": "深科达",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "专用设备",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "600206",
+        "name": "有研新材",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "半导体",
+        "zt_stat": "3天2板"
+      },
+      {
+        "code": "688610",
+        "name": "埃科光电",
+        "limit_days": 1,
+        "break_times": 1,
+        "industry": "通用设备",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "603222",
+        "name": "济民健康",
+        "limit_days": 1,
+        "break_times": 10,
+        "industry": "医疗器械",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "688720",
+        "name": "艾森股份",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "半导体",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002156",
+        "name": "通富微电",
+        "limit_days": 1,
+        "break_times": 5,
+        "industry": "半导体",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "000672",
+        "name": "上峰材料",
+        "limit_days": 1,
+        "break_times": 4,
+        "industry": "水泥",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002409",
+        "name": "雅克科技",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "半导体",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "603986",
+        "name": "兆易创新",
+        "limit_days": 1,
+        "break_times": 2,
+        "industry": "半导体",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "688432",
+        "name": "有研硅",
+        "limit_days": 1,
+        "break_times": 3,
+        "industry": "半导体",
+        "zt_stat": "3天2板"
+      },
+      {
+        "code": "300469",
+        "name": "信息发展",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "软件开发",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "600667",
+        "name": "太极实业",
+        "limit_days": 1,
+        "break_times": 2,
+        "industry": "工程咨询",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "603688",
+        "name": "石英股份",
+        "limit_days": 1,
+        "break_times": 3,
+        "industry": "非金属材",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002364",
+        "name": "中恒电气",
+        "limit_days": 1,
+        "break_times": 4,
+        "industry": "其他电源",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002851",
+        "name": "麦格米特",
+        "limit_days": 1,
+        "break_times": 2,
+        "industry": "其他电源",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "000811",
+        "name": "冰轮环境",
+        "limit_days": 1,
+        "break_times": 1,
+        "industry": "通用设备",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002281",
+        "name": "光迅科技",
+        "limit_days": 1,
+        "break_times": 2,
+        "industry": "通信设备",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "603005",
+        "name": "晶方科技",
+        "limit_days": 1,
+        "break_times": 5,
+        "industry": "半导体",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "603757",
+        "name": "大元泵业",
+        "limit_days": 1,
+        "break_times": 1,
+        "industry": "通用设备",
+        "zt_stat": "4天2板"
+      },
+      {
+        "code": "603933",
+        "name": "睿能科技",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "其他电子",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "605358",
+        "name": "立昂微",
+        "limit_days": 1,
+        "break_times": 2,
+        "industry": "半导体",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002916",
+        "name": "深南电路",
+        "limit_days": 1,
+        "break_times": 14,
+        "industry": "元件",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "600770",
+        "name": "综艺股份",
+        "limit_days": 1,
+        "break_times": 3,
+        "industry": "综合Ⅱ",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002975",
+        "name": "博杰股份",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "自动化设",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "603061",
+        "name": "金海通",
+        "limit_days": 1,
+        "break_times": 1,
+        "industry": "半导体",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "603156",
+        "name": "养元饮品",
+        "limit_days": 1,
+        "break_times": 2,
+        "industry": "饮料乳品",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "688371",
+        "name": "菲沃泰",
+        "limit_days": 1,
+        "break_times": 1,
+        "industry": "电子化学",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "003018",
+        "name": "金富科技",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "包装印刷",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "301607",
+        "name": "富特科技",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "汽车零部",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002384",
+        "name": "东山精密",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "元件",
+        "zt_stat": "1天1板"
+      },
+      {
+        "code": "002436",
+        "name": "兴森科技",
+        "limit_days": 1,
+        "break_times": 0,
+        "industry": "元件",
+        "zt_stat": "1天1板"
+      }
+    ],
+    "zt_count": 75,
+    "dt_count": 12,
+    "break_rate": 52.0,
+    "max_height": 8,
+    "ladder": {
+      "1": 69,
+      "2": 4,
+      "3": 1,
+      "8": 1
+    },
+    "concept_zt_map": {
+      "机器人概念": 10,
+      "半导体概念": 27,
+      "军工电子": 1,
+      "跨境电商": 2,
+      "新零售": 2,
+      "新能源": 2,
+      "航天装备": 1,
+      "化学原料": 1,
+      "房地产开": 1,
+      "人工智能": 10,
+      "装修装饰": 1,
+      "造纸": 1,
+      "证券Ⅱ": 1,
+      "芯片概念": 22,
+      "一般零售": 1,
+      "储能": 1,
+      "虚拟电厂": 1,
+      "家电零部": 1,
+      "算力概念": 1,
+      "数字媒体": 1,
+      "厨卫电器": 1,
+      "影视院线": 1,
+      "半导体": 13,
+      "多模态AI": 2,
+      "AIGC概念": 2,
+      "创新药": 1,
+      "医药": 1,
+      "消费电子": 2,
+      "电机Ⅱ": 1,
+      "家居用品": 1,
+      "商用车": 1,
+      "汽车零部件": 3,
+      "中药Ⅱ": 1,
+      "医疗器械概念": 1,
+      "工程咨询": 1,
+      "非金属材": 1,
+      "其他电源": 2,
+      "5G概念": 1,
+      "CPO概念": 1,
+      "光通信": 1,
+      "综合Ⅱ": 1,
+      "饮料乳品": 1,
+      "电子化学": 1,
+      "包装印刷": 1
+    }
+  },
+  "meta": {
+    "zt_count": 75,
+    "dt_count": 12,
+    "break_rate": 52.0,
+    "max_height": 8,
+    "ths_hot_stocks": 100,
+    "ladder": {
+      "1": 69,
+      "2": 4,
+      "3": 1,
+      "8": 1
+    },
+    "data_note": "⚠️ push2概念板块行情API被封，情绪计算基于涨停池+热榜数据推导，资金面/价格面/量能面暂无法获取实盘数据"
+  }
+}

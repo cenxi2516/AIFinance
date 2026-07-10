@@ -1,0 +1,31 @@
+{
+  "scan_metadata": {
+    "scan_date": "2026-07-09",
+    "period": "2026-04 ~ 2026-07-09",
+    "previous_report": "2026-07-03",
+    "days_since_previous": 6,
+    "data_sources": [
+      "巨潮资讯网(cninfo) - 16个关键词轮询",
+      "东财全球资讯(eastmoney_global_news)",
+      "东财个股新闻(eastmoney_stock_news)",
+      "东财行业研报(eastmoney_industry_reports)",
+      "WebSearch - 13个组合搜索词"
+    ],
+    "total_raw_hits": 448,
+    "filtered_signals": 45,
+    "new_vs_previous": {
+      "new_signals": 18,
+      "progressed": 8,
+      "stalled": 3,
+      "terminated_new": 2,
+      "unchanged": 14
+    }
+  },
+  "statistics": {
+    "S级(公告确认+科技核心)": 8,
+    "A级(公告确认+科技相关)": 14,
+    "B级(少数股权/信息有限)": 10,
+    "C级(合作意向/传闻)": 7,
+    "终止/失败案例": 6
+  }
+}

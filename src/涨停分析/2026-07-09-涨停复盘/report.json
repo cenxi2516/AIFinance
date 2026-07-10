@@ -1,0 +1,6695 @@
+{
+  "report_date": "20260709",
+  "generated_at": "2026-07-09 17:07:07",
+  "data_sources": {
+    "quotes": "腾讯财经(web.sqt.gtimg.cn)",
+    "stock_list": "mootdx(通达信TCP:7709)",
+    "reasons": "同花顺热点(zx.10jqka.com.cn)",
+    "dragon_tiger": "东财datacenter",
+    "industry_concept": "东财slist(采样) + 同花顺reason解析"
+  },
+  "total": 163,
+  "new_listings": 0,
+  "stocks": [
+    {
+      "code": "300626",
+      "name": "华瑞股份",
+      "price": 33.35,
+      "pre_close": 27.79,
+      "change_pct": 20.01,
+      "limit_up_price": 33.35,
+      "volume": 107952.0,
+      "amount": 33678.0,
+      "turnover": 6.0,
+      "pe": 406.01,
+      "mcap": 60.03,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "机器人+换向器+股权转让+地方国资",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "机器人",
+        "换向器",
+        "股权转让",
+        "地方国资"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": true,
+      "dragon_tiger_detail": {
+        "reason": "5家机构买入，成功率28.72%",
+        "net_buy_wan": 1735.55,
+        "buy_wan": 7869.83,
+        "sell_wan": 6134.28,
+        "change_pct": 20.0072,
+        "turnover": 6.0006,
+        "close_price": 33.35
+      }
+    },
+    {
+      "code": "300469",
+      "name": "信息发展",
+      "price": 59.64,
+      "pre_close": 49.7,
+      "change_pct": 20.0,
+      "limit_up_price": 59.64,
+      "volume": 188296.0,
+      "amount": 107693.0,
+      "turnover": 7.59,
+      "pe": -86.38,
+      "mcap": 148.05,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "车路云一体化+北斗+保险+智慧交通",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "车路云一体化",
+        "北斗",
+        "保险",
+        "智慧交通"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": true,
+      "dragon_tiger_detail": {
+        "reason": "4家机构买入，成功率43.64%",
+        "net_buy_wan": 20466.65,
+        "buy_wan": 27655.57,
+        "sell_wan": 7188.92,
+        "change_pct": 20,
+        "turnover": 7.5891,
+        "close_price": 59.64
+      }
+    },
+    {
+      "code": "301607",
+      "name": "富特科技",
+      "price": 57.37,
+      "pre_close": 47.81,
+      "change_pct": 20.0,
+      "limit_up_price": 57.37,
+      "volume": 201043.0,
+      "amount": 106017.0,
+      "turnover": 13.24,
+      "pe": 49.33,
+      "mcap": 134.32,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "数据中心电源+800V高压平台+小米汽车",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "数据中心电源",
+        "800V高压平台",
+        "小米汽车"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": true,
+      "dragon_tiger_detail": {
+        "reason": "2家机构买入，成功率38.62%",
+        "net_buy_wan": 9527.4,
+        "buy_wan": 30866.79,
+        "sell_wan": 21339.39,
+        "change_pct": 19.9958,
+        "turnover": 13.2447,
+        "close_price": 57.37
+      }
+    },
+    {
+      "code": "688328",
+      "name": "深科达",
+      "price": 102.02,
+      "pre_close": 85.02,
+      "change_pct": 20.0,
+      "limit_up_price": 102.02,
+      "volume": 12093847.0,
+      "amount": 114219.0,
+      "turnover": 12.8,
+      "pe": 259.17,
+      "mcap": 96.36,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "半导体设备+存储芯片+一季报增长",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "半导体设备",
+        "存储芯片",
+        "一季报增长"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688333",
+      "name": "铂力特",
+      "price": 108.01,
+      "pre_close": 90.01,
+      "change_pct": 20.0,
+      "limit_up_price": 108.01,
+      "volume": 17978128.0,
+      "amount": 179788.0,
+      "turnover": 6.55,
+      "pe": 125.8,
+      "mcap": 296.3,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "金属3D打印+商业航天+优必选合作",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "金属3D打印",
+        "商业航天",
+        "优必选合作"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688432",
+      "name": "有研硅",
+      "price": 53.77,
+      "pre_close": 44.81,
+      "change_pct": 20.0,
+      "limit_up_price": 53.77,
+      "volume": 84423456.0,
+      "amount": 428480.0,
+      "turnover": 6.75,
+      "pe": 322.21,
+      "mcap": 672.29,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "收购晶隆半导体+半导体硅片+产能扩张",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "收购晶隆半导体",
+        "半导体硅片",
+        "产能扩张"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688610",
+      "name": "埃科光电",
+      "price": 231.5,
+      "pre_close": 192.92,
+      "change_pct": 20.0,
+      "limit_up_price": 231.5,
+      "volume": 2571577.0,
+      "amount": 55704.0,
+      "turnover": 6.28,
+      "pe": 200.41,
+      "mcap": 157.42,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "半导体检测+PCB+机器视觉+一季报增长",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "半导体检测",
+        "PCB",
+        "机器视觉",
+        "一季报增长"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688720",
+      "name": "艾森股份",
+      "price": 105.6,
+      "pre_close": 88.0,
+      "change_pct": 20.0,
+      "limit_up_price": 105.6,
+      "volume": 11452985.0,
+      "amount": 112267.0,
+      "turnover": 14.65,
+      "pe": 243.93,
+      "mcap": 129.51,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "先进封装+存储芯片+光刻胶+电镀液",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "先进封装",
+        "存储芯片",
+        "光刻胶",
+        "电镀液"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "301379",
+      "name": "天山电子",
+      "price": 36.97,
+      "pre_close": 30.81,
+      "change_pct": 19.99,
+      "limit_up_price": 36.97,
+      "volume": 411921.0,
+      "amount": 145912.0,
+      "turnover": 18.92,
+      "pe": 81.23,
+      "mcap": 102.22,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "存储芯片+企业级SSD+触显模组",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "存储芯片",
+        "企业级SSD",
+        "触显模组"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": true,
+      "dragon_tiger_detail": {
+        "reason": "1家机构买入，成功率25.95%",
+        "net_buy_wan": -12834.06,
+        "buy_wan": 18922.41,
+        "sell_wan": 31756.47,
+        "change_pct": 19.9935,
+        "turnover": 18.9227,
+        "close_price": 36.97
+      }
+    },
+    {
+      "code": "688371",
+      "name": "菲沃泰",
+      "price": 42.01,
+      "pre_close": 35.01,
+      "change_pct": 19.99,
+      "limit_up_price": 42.01,
+      "volume": 15028966.0,
+      "amount": 58205.0,
+      "turnover": 4.48,
+      "pe": 5247.49,
+      "mcap": 140.93,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "纳米镀膜+液冷服务器+汽车电子",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "纳米镀膜",
+        "液冷服务器",
+        "汽车电子"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688584",
+      "name": "上海合晶",
+      "price": 40.27,
+      "pre_close": 33.56,
+      "change_pct": 19.99,
+      "limit_up_price": 40.27,
+      "volume": 28365644.0,
+      "amount": 107583.0,
+      "turnover": 8.26,
+      "pe": 227.04,
+      "mcap": 269.48,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "半导体硅外延片+12英寸扩产+SOI布局",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "半导体硅外延片",
+        "12英寸扩产",
+        "SOI布局"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "300236",
+      "name": "上海新阳",
+      "price": 131.32,
+      "pre_close": 110.58,
+      "change_pct": 18.76,
+      "limit_up_price": 132.7,
+      "volume": 247159.0,
+      "amount": 305404.0,
+      "turnover": 8.87,
+      "pe": 116.52,
+      "mcap": 411.53,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": true,
+      "dragon_tiger_detail": {
+        "reason": "4家机构买入，成功率43.64%",
+        "net_buy_wan": 33579.74,
+        "buy_wan": 68356.96,
+        "sell_wan": 34777.22,
+        "change_pct": 18.7557,
+        "turnover": 8.873,
+        "close_price": 131.32
+      }
+    },
+    {
+      "code": "688207",
+      "name": "格灵深瞳",
+      "price": 23.06,
+      "pre_close": 19.52,
+      "change_pct": 18.14,
+      "limit_up_price": 23.42,
+      "volume": 34788239.0,
+      "amount": 74643.0,
+      "turnover": 13.43,
+      "pe": -32.71,
+      "mcap": 59.72,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "300604",
+      "name": "长川科技",
+      "price": 374.0,
+      "pre_close": 317.22,
+      "change_pct": 17.9,
+      "limit_up_price": 380.66,
+      "volume": 397850.0,
+      "amount": 1345620.0,
+      "turnover": 8.13,
+      "pe": 150.85,
+      "mcap": 2372.73,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "半导体设备",
+        "半导体",
+        "浙江板块",
+        "深成500",
+        "融资融券",
+        "创业成份",
+        "中证500",
+        "创业板综",
+        "深股通",
+        "MSCI中国"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "电子",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "688362",
+      "name": "甬矽电子",
+      "price": 114.8,
+      "pre_close": 98.0,
+      "change_pct": 17.14,
+      "limit_up_price": 117.6,
+      "volume": 51824184.0,
+      "amount": 550812.0,
+      "turnover": 11.44,
+      "pe": 621.1,
+      "mcap": 520.07,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688802",
+      "name": "沐曦股份-U",
+      "price": 981.88,
+      "pre_close": 840.08,
+      "change_pct": 16.88,
+      "limit_up_price": 1008.1,
+      "volume": 5491609.0,
+      "amount": 514329.0,
+      "turnover": 29.64,
+      "pe": -599.06,
+      "mcap": 3928.5,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "数字芯片设计",
+        "半导体",
+        "上海板块",
+        "次新股",
+        "QFII重仓",
+        "机构重仓",
+        "融资融券",
+        "国产芯片",
+        "半导体概念",
+        "AI芯片"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "电子",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "688120",
+      "name": "华海清科",
+      "price": 344.0,
+      "pre_close": 295.0,
+      "change_pct": 16.61,
+      "limit_up_price": 354.0,
+      "volume": 19165077.0,
+      "amount": 596441.0,
+      "turnover": 3.87,
+      "pe": 155.05,
+      "mcap": 1701.88,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "半导体设备",
+        "半导体",
+        "天津板块",
+        "融资融券",
+        "央国企改革",
+        "中证500",
+        "上证380",
+        "沪股通",
+        "MSCI中国",
+        "半导体概念"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "电子",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "301172",
+      "name": "君逸数码",
+      "price": 28.06,
+      "pre_close": 24.21,
+      "change_pct": 15.9,
+      "limit_up_price": 29.05,
+      "volume": 102460.0,
+      "amount": 26688.0,
+      "turnover": 10.37,
+      "pe": 137.45,
+      "mcap": 48.4,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688352",
+      "name": "颀中科技",
+      "price": 23.49,
+      "pre_close": 20.3,
+      "change_pct": 15.71,
+      "limit_up_price": 24.36,
+      "volume": 48350293.0,
+      "amount": 106099.0,
+      "turnover": 13.21,
+      "pe": -492.19,
+      "mcap": 279.31,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688008",
+      "name": "澜起科技",
+      "price": 285.8,
+      "pre_close": 247.15,
+      "change_pct": 15.64,
+      "limit_up_price": 296.58,
+      "volume": 82193197.0,
+      "amount": 2195810.0,
+      "turnover": 7.18,
+      "pe": 136.39,
+      "mcap": 3488.3,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "数字芯片设计",
+        "半导体",
+        "上海板块",
+        "AH股",
+        "HS300_",
+        "基金重仓",
+        "云计算",
+        "融资融券",
+        "上证50_",
+        "上证180_"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "电子",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "301303",
+      "name": "真兰仪表",
+      "price": 16.22,
+      "pre_close": 14.04,
+      "change_pct": 15.53,
+      "limit_up_price": 16.85,
+      "volume": 159835.0,
+      "amount": 24105.0,
+      "turnover": 15.64,
+      "pe": 20.33,
+      "mcap": 66.31,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688103",
+      "name": "国力电子",
+      "price": 100.97,
+      "pre_close": 87.7,
+      "change_pct": 15.13,
+      "limit_up_price": 105.24,
+      "volume": 11359306.0,
+      "amount": 106854.0,
+      "turnover": 11.92,
+      "pe": 147.23,
+      "mcap": 96.24,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "300821",
+      "name": "东岳硅材",
+      "price": 30.33,
+      "pre_close": 26.44,
+      "change_pct": 14.71,
+      "limit_up_price": 31.73,
+      "volume": 2135978.0,
+      "amount": 592577.0,
+      "turnover": 17.8,
+      "pe": 263.92,
+      "mcap": 363.96,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "300922",
+      "name": "天秦装备",
+      "price": 16.69,
+      "pre_close": 14.56,
+      "change_pct": 14.63,
+      "limit_up_price": 17.47,
+      "volume": 166757.0,
+      "amount": 26467.0,
+      "turnover": 13.21,
+      "pe": 80.51,
+      "mcap": 26.85,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688126",
+      "name": "沪硅产业",
+      "price": 37.25,
+      "pre_close": 32.5,
+      "change_pct": 14.62,
+      "limit_up_price": 39.0,
+      "volume": 209444987.0,
+      "amount": 734137.0,
+      "turnover": 7.37,
+      "pe": -69.08,
+      "mcap": 1231.12,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "半导体",
+        "上海板块",
+        "大盘股",
+        "昨日高振幅",
+        "存储芯片",
+        "中芯概念",
+        "半导体概念",
+        "国产芯片",
+        "MSCI中国",
+        "沪股通"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "半导体材料",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "688403",
+      "name": "汇成股份",
+      "price": 39.65,
+      "pre_close": 34.65,
+      "change_pct": 14.43,
+      "limit_up_price": 41.58,
+      "volume": 92759530.0,
+      "amount": 352273.0,
+      "turnover": 9.36,
+      "pe": 387.74,
+      "mcap": 392.91,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688025",
+      "name": "杰普特",
+      "price": 445.0,
+      "pre_close": 389.81,
+      "change_pct": 14.16,
+      "limit_up_price": 467.77,
+      "volume": 5009941.0,
+      "amount": 206783.0,
+      "turnover": 5.27,
+      "pe": 124.25,
+      "mcap": 422.97,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688535",
+      "name": "华海诚科",
+      "price": 179.2,
+      "pre_close": 157.0,
+      "change_pct": 14.14,
+      "limit_up_price": 188.4,
+      "volume": 14235759.0,
+      "amount": 240502.0,
+      "turnover": 10.66,
+      "pe": 839.85,
+      "mcap": 256.75,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "301323",
+      "name": "新莱福",
+      "price": 82.9,
+      "pre_close": 72.64,
+      "change_pct": 14.12,
+      "limit_up_price": 87.17,
+      "volume": 45958.0,
+      "amount": 36798.0,
+      "turnover": 6.7,
+      "pe": 59.48,
+      "mcap": 88.36,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688048",
+      "name": "长光华芯",
+      "price": 472.44,
+      "pre_close": 413.99,
+      "change_pct": 14.12,
+      "limit_up_price": 496.79,
+      "volume": 15646352.0,
+      "amount": 699829.0,
+      "turnover": 8.88,
+      "pe": 2468.12,
+      "mcap": 832.82,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "分立器件",
+        "半导体",
+        "江苏板块",
+        "沪股通",
+        "无人驾驶",
+        "MSCI中国",
+        "医美概念",
+        "国产芯片",
+        "半导体概念",
+        "数据中心"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "电子",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "688387",
+      "name": "信科移动-U",
+      "price": 20.62,
+      "pre_close": 18.07,
+      "change_pct": 14.11,
+      "limit_up_price": 21.68,
+      "volume": 87310579.0,
+      "amount": 168691.0,
+      "turnover": 4.33,
+      "pe": -292.01,
+      "mcap": 704.95,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "湖北板块",
+        "融资融券",
+        "央国企改革",
+        "中证500",
+        "上证380",
+        "沪股通",
+        "一带一路",
+        "5G概念",
+        "人工智能",
+        "边缘计算"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "通信设备",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "300506",
+      "name": "名家汇",
+      "price": 6.41,
+      "pre_close": 5.62,
+      "change_pct": 14.06,
+      "limit_up_price": 6.74,
+      "volume": 670444.0,
+      "amount": 41657.0,
+      "turnover": 9.13,
+      "pe": -143.31,
+      "mcap": 91.38,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688795",
+      "name": "摩尔线程-U",
+      "price": 759.0,
+      "pre_close": 666.0,
+      "change_pct": 13.96,
+      "limit_up_price": 799.2,
+      "volume": 7025157.0,
+      "amount": 510168.0,
+      "turnover": 23.24,
+      "pe": -415.34,
+      "mcap": 3567.51,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "数字芯片设计",
+        "半导体",
+        "北京板块",
+        "次新股",
+        "QFII重仓",
+        "机构重仓",
+        "融资融券",
+        "国产芯片",
+        "半导体概念",
+        "AI芯片"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "电子",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "300270",
+      "name": "中威电子",
+      "price": 12.99,
+      "pre_close": 11.4,
+      "change_pct": 13.95,
+      "limit_up_price": 13.68,
+      "volume": 326278.0,
+      "amount": 41468.0,
+      "turnover": 12.5,
+      "pe": -92.65,
+      "mcap": 39.33,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688981",
+      "name": "中芯国际",
+      "price": 173.0,
+      "pre_close": 152.1,
+      "change_pct": 13.74,
+      "limit_up_price": 182.52,
+      "volume": 144629617.0,
+      "amount": 2364591.0,
+      "turnover": 7.23,
+      "pe": 293.53,
+      "mcap": 14810.19,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "半导体",
+        "HS300_",
+        "融资融券",
+        "上证50_",
+        "上证180_",
+        "沪股通",
+        "MSCI中国",
+        "国产芯片",
+        "半导体概念",
+        "中芯概念"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "集成电路制造",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "301295",
+      "name": "美硕科技",
+      "price": 48.66,
+      "pre_close": 42.82,
+      "change_pct": 13.64,
+      "limit_up_price": 51.38,
+      "volume": 42385.0,
+      "amount": 19868.0,
+      "turnover": 14.42,
+      "pe": 141.75,
+      "mcap": 49.05,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688733",
+      "name": "壹石通",
+      "price": 43.15,
+      "pre_close": 37.99,
+      "change_pct": 13.58,
+      "limit_up_price": 45.59,
+      "volume": 19400666.0,
+      "amount": 76421.0,
+      "turnover": 9.71,
+      "pe": -1758.52,
+      "mcap": 86.2,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688057",
+      "name": "金达莱",
+      "price": 19.96,
+      "pre_close": 17.58,
+      "change_pct": 13.54,
+      "limit_up_price": 21.1,
+      "volume": 21671184.0,
+      "amount": 42232.0,
+      "turnover": 7.85,
+      "pe": 94.16,
+      "mcap": 55.09,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "300071",
+      "name": "福石控股",
+      "price": 4.12,
+      "pre_close": 3.63,
+      "change_pct": 13.5,
+      "limit_up_price": 4.36,
+      "volume": 2147922.0,
+      "amount": 89303.0,
+      "turnover": 22.72,
+      "pe": -34.97,
+      "mcap": 39.71,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688123",
+      "name": "聚辰股份",
+      "price": 217.12,
+      "pre_close": 191.69,
+      "change_pct": 13.27,
+      "limit_up_price": 230.03,
+      "volume": 19546014.0,
+      "amount": 392289.0,
+      "turnover": 12.3,
+      "pe": 116.98,
+      "mcap": 345.01,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "301307",
+      "name": "美利信",
+      "price": 92.84,
+      "pre_close": 82.01,
+      "change_pct": 13.21,
+      "limit_up_price": 98.41,
+      "volume": 278617.0,
+      "amount": 260190.0,
+      "turnover": 25.61,
+      "pe": -34.91,
+      "mcap": 195.52,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "301618",
+      "name": "长联科技",
+      "price": 41.77,
+      "pre_close": 36.9,
+      "change_pct": 13.2,
+      "limit_up_price": 44.28,
+      "volume": 62106.0,
+      "amount": 25199.0,
+      "turnover": 12.9,
+      "pe": 172.06,
+      "mcap": 52.76,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "300164",
+      "name": "通源石油",
+      "price": 9.18,
+      "pre_close": 8.13,
+      "change_pct": 12.92,
+      "limit_up_price": 9.76,
+      "volume": 2626277.0,
+      "amount": 240717.0,
+      "turnover": 45.03,
+      "pe": 235.53,
+      "mcap": 54.02,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": true,
+      "dragon_tiger_detail": {
+        "reason": "4家机构买入，成功率22.98%",
+        "net_buy_wan": -2956.13,
+        "buy_wan": 26959.81,
+        "sell_wan": 29915.93,
+        "change_pct": 12.9151,
+        "turnover": 45.0314,
+        "close_price": 9.18
+      }
+    },
+    {
+      "code": "688233",
+      "name": "神工股份",
+      "price": 196.9,
+      "pre_close": 174.8,
+      "change_pct": 12.64,
+      "limit_up_price": 209.76,
+      "volume": 14847297.0,
+      "amount": 283689.0,
+      "turnover": 8.72,
+      "pe": 339.02,
+      "mcap": 335.33,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688502",
+      "name": "茂莱光学",
+      "price": 600.21,
+      "pre_close": 533.0,
+      "change_pct": 12.61,
+      "limit_up_price": 639.6,
+      "volume": 2157414.0,
+      "amount": 122949.0,
+      "turnover": 4.09,
+      "pe": 1705.55,
+      "mcap": 316.92,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "300845",
+      "name": "捷安高科",
+      "price": 12.97,
+      "pre_close": 11.52,
+      "change_pct": 12.59,
+      "limit_up_price": 13.82,
+      "volume": 180186.0,
+      "amount": 22930.0,
+      "turnover": 12.53,
+      "pe": 80.5,
+      "mcap": 26.67,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "301486",
+      "name": "致尚科技",
+      "price": 206.22,
+      "pre_close": 183.4,
+      "change_pct": 12.44,
+      "limit_up_price": 220.08,
+      "volume": 74601.0,
+      "amount": 146508.0,
+      "turnover": 10.25,
+      "pe": 411.89,
+      "mcap": 265.37,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688797",
+      "name": "臻宝科技",
+      "price": 515.12,
+      "pre_close": 458.72,
+      "change_pct": 12.3,
+      "limit_up_price": 550.46,
+      "volume": 7805153.0,
+      "amount": 384296.0,
+      "turnover": 26.74,
+      "pe": 323.4,
+      "mcap": 799.93,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "半导体",
+        "重庆板块",
+        "存储芯片",
+        "百元股",
+        "半导体概念",
+        "融资融券",
+        "次新股"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "半导体材料",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "688206",
+      "name": "概伦电子",
+      "price": 53.0,
+      "pre_close": 47.2,
+      "change_pct": 12.29,
+      "limit_up_price": 56.64,
+      "volume": 25032101.0,
+      "amount": 127305.0,
+      "turnover": 5.73,
+      "pe": 1131.61,
+      "mcap": 231.39,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688820",
+      "name": "盛合晶微",
+      "price": 210.94,
+      "pre_close": 188.32,
+      "change_pct": 12.01,
+      "limit_up_price": 225.98,
+      "volume": 35922717.0,
+      "amount": 720862.0,
+      "turnover": 20.78,
+      "pe": 398.68,
+      "mcap": 3929.34,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "半导体",
+        "先进封装",
+        "百元股",
+        "半导体概念",
+        "融资融券",
+        "次新股"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "集成电路制造",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "688258",
+      "name": "卓易信息",
+      "price": 137.99,
+      "pre_close": 123.48,
+      "change_pct": 11.75,
+      "limit_up_price": 148.18,
+      "volume": 9290016.0,
+      "amount": 121862.0,
+      "turnover": 7.67,
+      "pe": 138.83,
+      "mcap": 167.16,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688347",
+      "name": "华虹宏力",
+      "price": 400.5,
+      "pre_close": 358.4,
+      "change_pct": 11.75,
+      "limit_up_price": 430.08,
+      "volume": 30575223.0,
+      "amount": 1157491.0,
+      "turnover": 7.5,
+      "pe": 1410.51,
+      "mcap": 6959.59,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "半导体",
+        "AH股",
+        "央国企改革",
+        "中证500",
+        "上证380",
+        "沪股通",
+        "MSCI中国",
+        "半导体概念",
+        "百元股",
+        "存储芯片"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "集成电路制造",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "300332",
+      "name": "天壕能源",
+      "price": 4.8,
+      "pre_close": 4.3,
+      "change_pct": 11.63,
+      "limit_up_price": 5.16,
+      "volume": 846833.0,
+      "amount": 40458.0,
+      "turnover": 10.42,
+      "pe": -12.9,
+      "mcap": 40.69,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688012",
+      "name": "中微公司",
+      "price": 471.59,
+      "pre_close": 423.0,
+      "change_pct": 11.49,
+      "limit_up_price": 507.6,
+      "volume": 33945458.0,
+      "amount": 1517904.0,
+      "turnover": 3.6,
+      "pe": 165.53,
+      "mcap": 4517.09,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "半导体设备",
+        "半导体",
+        "上海板块",
+        "HS300_",
+        "基金重仓",
+        "机构重仓",
+        "股权激励",
+        "LED概念",
+        "长江三角",
+        "融资融券"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "电子",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "688249",
+      "name": "晶合集成",
+      "price": 65.21,
+      "pre_close": 58.51,
+      "change_pct": 11.45,
+      "limit_up_price": 70.21,
+      "volume": 72184376.0,
+      "amount": 450121.0,
+      "turnover": 5.96,
+      "pe": 211.36,
+      "mcap": 1309.15,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "半导体",
+        "安徽板块",
+        "大盘成长",
+        "大盘股",
+        "半导体概念",
+        "MSCI中国",
+        "沪股通",
+        "央国企改革",
+        "上证180_",
+        "融资融券"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "集成电路制造",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "688375",
+      "name": "国博电子",
+      "price": 104.01,
+      "pre_close": 93.33,
+      "change_pct": 11.44,
+      "limit_up_price": 112.0,
+      "volume": 5974297.0,
+      "amount": 58558.0,
+      "turnover": 1.0,
+      "pe": 137.5,
+      "mcap": 619.92,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688179",
+      "name": "阿拉丁",
+      "price": 28.31,
+      "pre_close": 25.42,
+      "change_pct": 11.37,
+      "limit_up_price": 30.5,
+      "volume": 29636076.0,
+      "amount": 80704.0,
+      "turnover": 8.19,
+      "pe": 95.81,
+      "mcap": 102.48,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688727",
+      "name": "恒坤新材",
+      "price": 68.68,
+      "pre_close": 61.67,
+      "change_pct": 11.37,
+      "limit_up_price": 74.0,
+      "volume": 9868651.0,
+      "amount": 67039.0,
+      "turnover": 18.27,
+      "pe": 324.37,
+      "mcap": 308.59,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688147",
+      "name": "微导纳米",
+      "price": 157.0,
+      "pre_close": 141.5,
+      "change_pct": 10.95,
+      "limit_up_price": 169.8,
+      "volume": 14421398.0,
+      "amount": 217919.0,
+      "turnover": 3.1,
+      "pe": 466.58,
+      "mcap": 729.21,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "半导体设备",
+        "半导体",
+        "江苏板块",
+        "趋势股",
+        "中盘成长",
+        "中盘股",
+        "BC电池",
+        "TOPCon电池",
+        "百元股",
+        "专精特新"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "电子",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "300136",
+      "name": "信维通信",
+      "price": 99.71,
+      "pre_close": 89.88,
+      "change_pct": 10.94,
+      "limit_up_price": 107.86,
+      "volume": 653201.0,
+      "amount": 602299.0,
+      "turnover": 7.92,
+      "pe": 131.07,
+      "mcap": 964.76,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "广东板块",
+        "UWB概念",
+        "华为概念",
+        "MSCI中国",
+        "深股通",
+        "创业板综",
+        "5G概念",
+        "中证500",
+        "苹果概念",
+        "特斯拉概念"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "消费电子零部件及组装",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "301285",
+      "name": "鸿日达",
+      "price": 109.38,
+      "pre_close": 98.59,
+      "change_pct": 10.94,
+      "limit_up_price": 118.31,
+      "volume": 57544.0,
+      "amount": 59712.0,
+      "turnover": 2.78,
+      "pe": -312.4,
+      "mcap": 226.06,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688172",
+      "name": "燕东微",
+      "price": 88.3,
+      "pre_close": 79.62,
+      "change_pct": 10.9,
+      "limit_up_price": 95.54,
+      "volume": 29406048.0,
+      "amount": 245694.0,
+      "turnover": 2.45,
+      "pe": -276.3,
+      "mcap": 1260.59,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "分立器件",
+        "半导体",
+        "北京板块",
+        "央国企改革",
+        "中证500",
+        "上证380",
+        "沪股通",
+        "传感器",
+        "半导体概念",
+        "第三代半导体"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "电子",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "301396",
+      "name": "宏景科技",
+      "price": 285.0,
+      "pre_close": 257.0,
+      "change_pct": 10.89,
+      "limit_up_price": 308.4,
+      "volume": 169971.0,
+      "amount": 464272.0,
+      "turnover": 12.01,
+      "pe": 1747.4,
+      "mcap": 612.54,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688262",
+      "name": "国芯科技",
+      "price": 46.61,
+      "pre_close": 42.09,
+      "change_pct": 10.74,
+      "limit_up_price": 50.51,
+      "volume": 36847346.0,
+      "amount": 161724.0,
+      "turnover": 10.97,
+      "pe": -58.43,
+      "mcap": 156.61,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "300654",
+      "name": "世纪天鸿",
+      "price": 10.23,
+      "pre_close": 9.24,
+      "change_pct": 10.71,
+      "limit_up_price": 11.09,
+      "volume": 288281.0,
+      "amount": 28354.0,
+      "turnover": 8.18,
+      "pe": 148.66,
+      "mcap": 37.45,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "301317",
+      "name": "鑫磊股份",
+      "price": 57.49,
+      "pre_close": 51.94,
+      "change_pct": 10.69,
+      "limit_up_price": 62.33,
+      "volume": 106206.0,
+      "amount": 62412.0,
+      "turnover": 20.35,
+      "pe": -68.51,
+      "mcap": 90.37,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "300068",
+      "name": "ST南都",
+      "price": 4.48,
+      "pre_close": 4.05,
+      "change_pct": 10.62,
+      "limit_up_price": 4.86,
+      "volume": 1237890.0,
+      "amount": 57964.0,
+      "turnover": 14.5,
+      "pe": -1.5,
+      "mcap": 40.25,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "300560",
+      "name": "中富通",
+      "price": 19.91,
+      "pre_close": 18.0,
+      "change_pct": 10.61,
+      "limit_up_price": 21.6,
+      "volume": 170906.0,
+      "amount": 31987.0,
+      "turnover": 9.14,
+      "pe": -60.35,
+      "mcap": 45.74,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688181",
+      "name": "八亿时空",
+      "price": 55.79,
+      "pre_close": 50.46,
+      "change_pct": 10.56,
+      "limit_up_price": 60.55,
+      "volume": 11168555.0,
+      "amount": 59947.0,
+      "turnover": 8.3,
+      "pe": 91.75,
+      "mcap": 75.03,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "000004",
+      "name": "国华退",
+      "price": 0.42,
+      "pre_close": 0.38,
+      "change_pct": 10.53,
+      "limit_up_price": 0.42,
+      "volume": 53756.0,
+      "amount": 224.0,
+      "turnover": 4.26,
+      "pe": 4.72,
+      "mcap": 0.56,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "退市整理期+移动安全+减亏",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "退市整理期",
+        "移动安全",
+        "减亏"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": true,
+      "dragon_tiger_detail": {
+        "reason": "普通席位买入，成功率48.61%",
+        "net_buy_wan": 70.02,
+        "buy_wan": 164.9,
+        "sell_wan": 94.88,
+        "change_pct": 10.5263,
+        "turnover": 4.2566,
+        "close_price": 0.42
+      }
+    },
+    {
+      "code": "300394",
+      "name": "天孚通信",
+      "price": 271.5,
+      "pre_close": 245.68,
+      "change_pct": 10.51,
+      "limit_up_price": 294.82,
+      "volume": 556102.0,
+      "amount": 1446744.0,
+      "turnover": 5.11,
+      "pe": 136.36,
+      "mcap": 2961.59,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "江苏板块",
+        "HS300_",
+        "QFII重仓",
+        "基金重仓",
+        "深成500",
+        "融资融券",
+        "创业成份",
+        "5G概念",
+        "创业板综",
+        "深证100R"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "通信设备",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "301099",
+      "name": "雅创电子",
+      "price": 92.84,
+      "pre_close": 84.04,
+      "change_pct": 10.47,
+      "limit_up_price": 100.85,
+      "volume": 166022.0,
+      "amount": 150865.0,
+      "turnover": 18.49,
+      "pe": 73.49,
+      "mcap": 136.16,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "301666",
+      "name": "大普微-UW",
+      "price": 611.0,
+      "pre_close": 553.71,
+      "change_pct": 10.35,
+      "limit_up_price": 664.45,
+      "volume": 47501.0,
+      "amount": 284173.0,
+      "turnover": 17.91,
+      "pe": 20531.47,
+      "mcap": 2665.28,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "其他计算机设备",
+        "计算机",
+        "计算机设备",
+        "广东板块",
+        "次新股",
+        "融资融券",
+        "创业板综",
+        "百度概念",
+        "国产芯片",
+        "半导体概念"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688401",
+      "name": "路维光电",
+      "price": 95.99,
+      "pre_close": 87.0,
+      "change_pct": 10.33,
+      "limit_up_price": 104.4,
+      "volume": 12038080.0,
+      "amount": 111204.0,
+      "turnover": 6.23,
+      "pe": 68.47,
+      "mcap": 185.6,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "300656",
+      "name": "民德电子",
+      "price": 35.7,
+      "pre_close": 32.36,
+      "change_pct": 10.32,
+      "limit_up_price": 38.83,
+      "volume": 91510.0,
+      "amount": 30816.0,
+      "turnover": 6.89,
+      "pe": -37.82,
+      "mcap": 61.09,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688531",
+      "name": "日联科技",
+      "price": 194.6,
+      "pre_close": 176.4,
+      "change_pct": 10.32,
+      "limit_up_price": 211.68,
+      "volume": 11016648.0,
+      "amount": 207020.0,
+      "turnover": 9.6,
+      "pe": 174.31,
+      "mcap": 322.25,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688167",
+      "name": "炬光科技",
+      "price": 289.0,
+      "pre_close": 262.0,
+      "change_pct": 10.31,
+      "limit_up_price": 314.4,
+      "volume": 8245106.0,
+      "amount": 226064.0,
+      "turnover": 6.34,
+      "pe": -1913.26,
+      "mcap": 376.1,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "301021",
+      "name": "英诺激光",
+      "price": 99.44,
+      "pre_close": 90.16,
+      "change_pct": 10.29,
+      "limit_up_price": 108.19,
+      "volume": 85207.0,
+      "amount": 81926.0,
+      "turnover": 5.58,
+      "pe": 227.81,
+      "mcap": 152.01,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "300814",
+      "name": "中富电路",
+      "price": 177.45,
+      "pre_close": 161.06,
+      "change_pct": 10.18,
+      "limit_up_price": 193.27,
+      "volume": 74719.0,
+      "amount": 127088.0,
+      "turnover": 3.9,
+      "pe": 892.49,
+      "mcap": 339.69,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688627",
+      "name": "精智达",
+      "price": 647.88,
+      "pre_close": 588.0,
+      "change_pct": 10.18,
+      "limit_up_price": 705.6,
+      "volume": 5572822.0,
+      "amount": 344499.0,
+      "turnover": 7.69,
+      "pe": 634.01,
+      "mcap": 609.84,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "300260",
+      "name": "新莱应材",
+      "price": 95.0,
+      "pre_close": 86.26,
+      "change_pct": 10.13,
+      "limit_up_price": 103.51,
+      "volume": 238933.0,
+      "amount": 218666.0,
+      "turnover": 8.31,
+      "pe": 218.97,
+      "mcap": 387.42,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "301348",
+      "name": "蓝箭电子",
+      "price": 28.19,
+      "pre_close": 25.6,
+      "change_pct": 10.12,
+      "limit_up_price": 30.72,
+      "volume": 234120.0,
+      "amount": 63192.0,
+      "turnover": 15.09,
+      "pe": -177.5,
+      "mcap": 67.66,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "000892",
+      "name": "欢瑞世纪",
+      "price": 3.82,
+      "pre_close": 3.47,
+      "change_pct": 10.09,
+      "limit_up_price": 3.82,
+      "volume": 1216783.0,
+      "amount": 45848.0,
+      "turnover": 17.12,
+      "pe": -13.01,
+      "mcap": 37.47,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "互动影游+AI应用+短剧",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "互动影游",
+        "AI应用",
+        "短剧"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "002067",
+      "name": "景兴纸业",
+      "price": 4.05,
+      "pre_close": 3.68,
+      "change_pct": 10.05,
+      "limit_up_price": 4.05,
+      "volume": 818361.0,
+      "amount": 32907.0,
+      "turnover": 6.12,
+      "pe": 59.68,
+      "mcap": 59.73,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "2026中报预增+造纸+间接持股宇树科技",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "2026中报预增",
+        "造纸",
+        "间接持股宇树科技"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "002677",
+      "name": "浙江美大",
+      "price": 7.23,
+      "pre_close": 6.57,
+      "change_pct": 10.05,
+      "limit_up_price": 7.23,
+      "volume": 153281.0,
+      "amount": 10769.0,
+      "turnover": 2.78,
+      "pe": 701.52,
+      "mcap": 46.71,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "AI厨电+集成灶龙头+智能驾驶",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "AI厨电",
+        "集成灶龙头",
+        "智能驾驶"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": true,
+      "dragon_tiger_detail": {
+        "reason": "1家机构买入，成功率31.08%",
+        "net_buy_wan": 2112.22,
+        "buy_wan": 6219.01,
+        "sell_wan": 4106.79,
+        "change_pct": 10.0457,
+        "turnover": 2.7793,
+        "close_price": 7.23
+      }
+    },
+    {
+      "code": "002490",
+      "name": "山东墨龙",
+      "price": 7.67,
+      "pre_close": 6.97,
+      "change_pct": 10.04,
+      "limit_up_price": 7.67,
+      "volume": 914657.0,
+      "amount": 68039.0,
+      "turnover": 16.88,
+      "pe": 1151.07,
+      "mcap": 61.19,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "油气装备+海外大单+山东国资",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "油气装备",
+        "海外大单",
+        "山东国资"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": true,
+      "dragon_tiger_detail": {
+        "reason": "1家机构买入，成功率16.18%",
+        "net_buy_wan": -1707.43,
+        "buy_wan": 10261.63,
+        "sell_wan": 11969.06,
+        "change_pct": 10.043,
+        "turnover": 16.8843,
+        "close_price": 7.67
+      }
+    },
+    {
+      "code": "002907",
+      "name": "华森制药",
+      "price": 14.36,
+      "pre_close": 13.05,
+      "change_pct": 10.04,
+      "limit_up_price": 14.36,
+      "volume": 124707.0,
+      "amount": 17384.0,
+      "turnover": 3.71,
+      "pe": 104.25,
+      "mcap": 59.97,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "创新药+中药保护+中成药国际化",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "创新药",
+        "中药保护",
+        "中成药国际化"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "002745",
+      "name": "木林森",
+      "price": 12.72,
+      "pre_close": 11.56,
+      "change_pct": 10.03,
+      "limit_up_price": 12.72,
+      "volume": 490737.0,
+      "amount": 61424.0,
+      "turnover": 4.61,
+      "pe": -15.72,
+      "mcap": 188.79,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "实控人增持+PCB涨价+LED封装",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "实控人增持",
+        "PCB涨价",
+        "LED封装"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "300121",
+      "name": "阳谷华泰",
+      "price": 12.94,
+      "pre_close": 11.76,
+      "change_pct": 10.03,
+      "limit_up_price": 14.11,
+      "volume": 436307.0,
+      "amount": 53271.0,
+      "turnover": 10.16,
+      "pe": 29.58,
+      "mcap": 57.61,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "001395",
+      "name": "亚联机械",
+      "price": 26.03,
+      "pre_close": 23.66,
+      "change_pct": 10.02,
+      "limit_up_price": 26.03,
+      "volume": 6287.0,
+      "amount": 1637.0,
+      "turnover": 1.21,
+      "pe": 16.73,
+      "mcap": 29.52,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "2026中报预增+人造板装备+海外业务",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "2026中报预增",
+        "人造板装备",
+        "海外业务"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "301611",
+      "name": "珂玛科技",
+      "price": 156.3,
+      "pre_close": 142.07,
+      "change_pct": 10.02,
+      "limit_up_price": 170.48,
+      "volume": 143171.0,
+      "amount": 213599.0,
+      "turnover": 9.77,
+      "pe": 274.92,
+      "mcap": 681.47,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "半导体",
+        "江苏板块",
+        "转债标的",
+        "深成500",
+        "锂电池概念",
+        "融资融券",
+        "创业成份",
+        "医疗器械概念",
+        "燃料电池概念",
+        "中证500"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "半导体材料",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "600909",
+      "name": "华安证券",
+      "price": 10.1,
+      "pre_close": 9.18,
+      "change_pct": 10.02,
+      "limit_up_price": 10.1,
+      "volume": 3204070.0,
+      "amount": 317330.0,
+      "turnover": 6.38,
+      "pe": 25.16,
+      "mcap": 507.45,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "间接持有长鑫存储股份+证券+安徽国资",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "间接持有长鑫存储股份",
+        "证券",
+        "安徽国资"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "603666",
+      "name": "亿嘉和",
+      "price": 28.45,
+      "pre_close": 25.86,
+      "change_pct": 10.02,
+      "limit_up_price": 28.45,
+      "volume": 68105.0,
+      "amount": 19005.0,
+      "turnover": 3.31,
+      "pe": -58.57,
+      "mcap": 58.47,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "具身智能+华为合作+电力机器人",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "具身智能",
+        "华为合作",
+        "电力机器人"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "603726",
+      "name": "朗迪集团",
+      "price": 33.5,
+      "pre_close": 30.45,
+      "change_pct": 10.02,
+      "limit_up_price": 33.5,
+      "volume": 48751.0,
+      "amount": 16132.0,
+      "turnover": 2.64,
+      "pe": 27.34,
+      "mcap": 62.16,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "间接投资长鑫科技+人形机器人+空调风叶龙头",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "间接投资长鑫科技",
+        "人形机器人",
+        "空调风叶龙头"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "603928",
+      "name": "兴业股份",
+      "price": 18.0,
+      "pre_close": 16.36,
+      "change_pct": 10.02,
+      "limit_up_price": 18.0,
+      "volume": 670688.0,
+      "amount": 117184.0,
+      "turnover": 19.69,
+      "pe": 50.96,
+      "mcap": 61.33,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "半导体光刻胶+CVD硅碳负极+铸造树脂",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "半导体光刻胶",
+        "CVD硅碳负极",
+        "铸造树脂"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "000417",
+      "name": "合百集团",
+      "price": 8.24,
+      "pre_close": 7.49,
+      "change_pct": 10.01,
+      "limit_up_price": 8.24,
+      "volume": 298165.0,
+      "amount": 24235.0,
+      "turnover": 3.83,
+      "pe": 43.06,
+      "mcap": 64.26,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "间接投资长鑫科技+合肥国资+零售+农批",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "间接投资长鑫科技",
+        "合肥国资",
+        "零售",
+        "农批"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "000887",
+      "name": "中鼎股份",
+      "price": 18.8,
+      "pre_close": 17.09,
+      "change_pct": 10.01,
+      "limit_up_price": 18.8,
+      "volume": 601606.0,
+      "amount": 110225.0,
+      "turnover": 4.58,
+      "pe": 16.4,
+      "mcap": 247.5,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "人形机器人+液冷服务器+汽车零部件",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "人形机器人",
+        "液冷服务器",
+        "汽车零部件"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "002185",
+      "name": "华天科技",
+      "price": 23.73,
+      "pre_close": 21.57,
+      "change_pct": 10.01,
+      "limit_up_price": 23.73,
+      "volume": 4621013.0,
+      "amount": 1050768.0,
+      "turnover": 13.91,
+      "pe": 96.67,
+      "mcap": 788.65,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "先进封装+存储芯片+并购重组",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "先进封装",
+        "存储芯片",
+        "并购重组"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": true,
+      "dragon_tiger_detail": {
+        "reason": "1家机构买入，成功率47.57%",
+        "net_buy_wan": 136627.14,
+        "buy_wan": 235322.27,
+        "sell_wan": 98695.13,
+        "change_pct": 10.0139,
+        "turnover": 13.9076,
+        "close_price": 23.73
+      }
+    },
+    {
+      "code": "002208",
+      "name": "合肥城建",
+      "price": 19.12,
+      "pre_close": 17.38,
+      "change_pct": 10.01,
+      "limit_up_price": 19.12,
+      "volume": 209799.0,
+      "amount": 40077.0,
+      "turnover": 2.61,
+      "pe": -27.69,
+      "mcap": 153.59,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "间接投资长鑫科技+房地产+合肥国资",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "间接投资长鑫科技",
+        "房地产",
+        "合肥国资"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "002364",
+      "name": "中恒电气",
+      "price": 54.42,
+      "pre_close": 49.47,
+      "change_pct": 10.01,
+      "limit_up_price": 54.42,
+      "volume": 561637.0,
+      "amount": 291153.0,
+      "turnover": 10.06,
+      "pe": 234.08,
+      "mcap": 306.69,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "算力+HVDC+宁德时代拟入股",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "算力",
+        "HVDC",
+        "宁德时代拟入股"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "002552",
+      "name": "宝鼎科技",
+      "price": 64.54,
+      "pre_close": 58.67,
+      "change_pct": 10.01,
+      "limit_up_price": 64.54,
+      "volume": 123387.0,
+      "amount": 79012.0,
+      "turnover": 3.35,
+      "pe": 145.32,
+      "mcap": 250.41,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "中报预增+覆铜板+黄金+国企",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "中报预增",
+        "覆铜板",
+        "黄金",
+        "国企"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "002815",
+      "name": "崇达技术",
+      "price": 17.15,
+      "pre_close": 15.59,
+      "change_pct": 10.01,
+      "limit_up_price": 17.15,
+      "volume": 789616.0,
+      "amount": 131513.0,
+      "turnover": 10.16,
+      "pe": 87.77,
+      "mcap": 211.66,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "PCB+AI服务器+IC载板+高端产能",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "PCB",
+        "AI服务器",
+        "IC载板",
+        "高端产能"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "002845",
+      "name": "同兴达",
+      "price": 16.05,
+      "pre_close": 14.59,
+      "change_pct": 10.01,
+      "limit_up_price": 16.05,
+      "volume": 140331.0,
+      "amount": 22139.0,
+      "turnover": 5.61,
+      "pe": 130.23,
+      "mcap": 52.57,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "半导体先进封装+车载摄像头+显示模组",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "半导体先进封装",
+        "车载摄像头",
+        "显示模组"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "003020",
+      "name": "立方制药",
+      "price": 17.04,
+      "pre_close": 15.49,
+      "change_pct": 10.01,
+      "limit_up_price": 17.04,
+      "volume": 156297.0,
+      "amount": 26276.0,
+      "turnover": 9.27,
+      "pe": 23.97,
+      "mcap": 38.89,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "精麻药+盐酸哌甲酯放量+脑机接口",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "精麻药",
+        "盐酸哌甲酯放量",
+        "脑机接口"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "600353",
+      "name": "旭光电子",
+      "price": 40.88,
+      "pre_close": 37.16,
+      "change_pct": 10.01,
+      "limit_up_price": 40.88,
+      "volume": 259136.0,
+      "amount": 104418.0,
+      "turnover": 3.13,
+      "pe": 205.59,
+      "mcap": 338.82,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "氮化铝+韩国客户+可控核聚变",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "氮化铝",
+        "韩国客户",
+        "可控核聚变"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "600667",
+      "name": "太极实业",
+      "price": 26.27,
+      "pre_close": 23.88,
+      "change_pct": 10.01,
+      "limit_up_price": 26.27,
+      "volume": 3414727.0,
+      "amount": 869182.0,
+      "turnover": 16.33,
+      "pe": 119.63,
+      "mcap": 549.45,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "存储芯片封测+SK海力士+无锡国资",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "存储芯片封测",
+        "SK海力士",
+        "无锡国资"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "603688",
+      "name": "石英股份",
+      "price": 67.17,
+      "pre_close": 61.06,
+      "change_pct": 10.01,
+      "limit_up_price": 67.17,
+      "volume": 277630.0,
+      "amount": 179396.0,
+      "turnover": 5.13,
+      "pe": 264.9,
+      "mcap": 363.85,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "半导体石英+光纤概念+高纯石英砂",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "半导体石英",
+        "光纤概念",
+        "高纯石英砂"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "605358",
+      "name": "立昂微",
+      "price": 63.77,
+      "pre_close": 57.97,
+      "change_pct": 10.01,
+      "limit_up_price": 63.77,
+      "volume": 635396.0,
+      "amount": 388888.0,
+      "turnover": 8.23,
+      "pe": -908.82,
+      "mcap": 492.43,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "半导体硅片涨价+12英寸硅片+VCSEL芯片",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "半导体硅片涨价",
+        "12英寸硅片",
+        "VCSEL芯片"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "000811",
+      "name": "冰轮环境",
+      "price": 55.11,
+      "pre_close": 50.1,
+      "change_pct": 10.0,
+      "limit_up_price": 55.11,
+      "volume": 533676.0,
+      "amount": 281701.0,
+      "turnover": 5.45,
+      "pe": 93.04,
+      "mcap": 546.95,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "液冷服务器+拟收购+烟台国资",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "液冷服务器",
+        "拟收购",
+        "烟台国资"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "000977",
+      "name": "浪潮信息",
+      "price": 85.99,
+      "pre_close": 78.17,
+      "change_pct": 10.0,
+      "limit_up_price": 85.99,
+      "volume": 2181801.0,
+      "amount": 1853372.0,
+      "turnover": 14.87,
+      "pe": 49.42,
+      "mcap": 1262.74,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "中报预增+AI服务器+液冷+山东国资",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "中报预增",
+        "AI服务器",
+        "液冷",
+        "山东国资"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": true,
+      "dragon_tiger_detail": {
+        "reason": "1家机构买入，成功率46.58%",
+        "net_buy_wan": 235389.8,
+        "buy_wan": 430378.56,
+        "sell_wan": 194988.76,
+        "change_pct": 10.0038,
+        "turnover": 14.8742,
+        "close_price": 85.99
+      }
+    },
+    {
+      "code": "002156",
+      "name": "通富微电",
+      "price": 72.17,
+      "pre_close": 65.61,
+      "change_pct": 10.0,
+      "limit_up_price": 72.17,
+      "volume": 1632466.0,
+      "amount": 1133861.0,
+      "turnover": 10.76,
+      "pe": 75.72,
+      "mcap": 1095.25,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "AMD产业链+先进封装+定增获批",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "AMD产业链",
+        "先进封装",
+        "定增获批"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": true,
+      "dragon_tiger_detail": {
+        "reason": "4家机构买入，成功率43.64%",
+        "net_buy_wan": 155558.1,
+        "buy_wan": 268080.02,
+        "sell_wan": 112521.93,
+        "change_pct": 9.9985,
+        "turnover": 10.7579,
+        "close_price": 72.17
+      }
+    },
+    {
+      "code": "002281",
+      "name": "光迅科技",
+      "price": 238.49,
+      "pre_close": 216.81,
+      "change_pct": 10.0,
+      "limit_up_price": 238.49,
+      "volume": 477111.0,
+      "amount": 1086510.0,
+      "turnover": 6.11,
+      "pe": 190.49,
+      "mcap": 1973.66,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "3.2T硅光NPO+CPO+H股上市+央企",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "3.2T硅光NPO",
+        "CPO",
+        "H股上市",
+        "央企"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": true,
+      "dragon_tiger_detail": {
+        "reason": "3家机构买入，成功率42.30%",
+        "net_buy_wan": 35068.46,
+        "buy_wan": 180122.41,
+        "sell_wan": 145053.95,
+        "change_pct": 9.9995,
+        "turnover": 6.1129,
+        "close_price": 238.49
+      }
+    },
+    {
+      "code": "002384",
+      "name": "东山精密",
+      "price": 261.32,
+      "pre_close": 237.56,
+      "change_pct": 10.0,
+      "limit_up_price": 261.32,
+      "volume": 1123457.0,
+      "amount": 2778640.0,
+      "turnover": 8.1,
+      "pe": 234.61,
+      "mcap": 4786.36,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "光模块+光芯片+AI PCB",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "光模块",
+        "光芯片",
+        "AI PCB"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": true,
+      "dragon_tiger_detail": {
+        "reason": "2家机构买入，成功率24.44%",
+        "net_buy_wan": 52279.32,
+        "buy_wan": 361471.03,
+        "sell_wan": 309191.7,
+        "change_pct": 10.0017,
+        "turnover": 8.1039,
+        "close_price": 261.32
+      }
+    },
+    {
+      "code": "002409",
+      "name": "雅克科技",
+      "price": 209.0,
+      "pre_close": 190.0,
+      "change_pct": 10.0,
+      "limit_up_price": 209.0,
+      "volume": 335414.0,
+      "amount": 674320.0,
+      "turnover": 10.53,
+      "pe": 98.8,
+      "mcap": 994.69,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "半导体前驱体+存储芯片+HBM",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "半导体前驱体",
+        "存储芯片",
+        "HBM"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "002414",
+      "name": "高德红外",
+      "price": 13.31,
+      "pre_close": 12.1,
+      "change_pct": 10.0,
+      "limit_up_price": 13.31,
+      "volume": 207844.0,
+      "amount": 27664.0,
+      "turnover": 0.61,
+      "pe": 58.69,
+      "mcap": 568.43,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "半年报预增+型号产品交付+红外芯片",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "半年报预增",
+        "型号产品交付",
+        "红外芯片"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "002436",
+      "name": "兴森科技",
+      "price": 44.45,
+      "pre_close": 40.41,
+      "change_pct": 10.0,
+      "limit_up_price": 44.45,
+      "volume": 1141263.0,
+      "amount": 487122.0,
+      "turnover": 7.52,
+      "pe": 523.5,
+      "mcap": 755.5,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "定增扩产+mSAP基板+1.6T光模块",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "定增扩产",
+        "mSAP基板",
+        "1.6T光模块"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "002841",
+      "name": "视源股份",
+      "price": 52.13,
+      "pre_close": 47.39,
+      "change_pct": 10.0,
+      "limit_up_price": 52.13,
+      "volume": 506626.0,
+      "amount": 254665.0,
+      "turnover": 9.72,
+      "pe": 33.18,
+      "mcap": 364.49,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "中报预增+交互智能平板+AI教育+机器人",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "中报预增",
+        "交互智能平板",
+        "AI教育",
+        "机器人"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": true,
+      "dragon_tiger_detail": {
+        "reason": "2家机构买入，成功率41.52%",
+        "net_buy_wan": 10855.29,
+        "buy_wan": 45605.57,
+        "sell_wan": 34750.28,
+        "change_pct": 10.0021,
+        "turnover": 9.7177,
+        "close_price": 52.13
+      }
+    },
+    {
+      "code": "002851",
+      "name": "麦格米特",
+      "price": 159.59,
+      "pre_close": 145.08,
+      "change_pct": 10.0,
+      "limit_up_price": 159.59,
+      "volume": 444555.0,
+      "amount": 694867.0,
+      "turnover": 9.7,
+      "pe": 606.12,
+      "mcap": 928.47,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "AI电源+英伟达产业链+H股上市",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "AI电源",
+        "英伟达产业链",
+        "H股上市"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "002916",
+      "name": "深南电路",
+      "price": 442.56,
+      "pre_close": 402.33,
+      "change_pct": 10.0,
+      "limit_up_price": 442.56,
+      "volume": 154991.0,
+      "amount": 664652.0,
+      "turnover": 2.33,
+      "pe": 82.94,
+      "mcap": 3014.57,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "AI算力+PCB+定增获批+央企",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "AI算力",
+        "PCB",
+        "定增获批",
+        "央企"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "002975",
+      "name": "博杰股份",
+      "price": 121.35,
+      "pre_close": 110.32,
+      "change_pct": 10.0,
+      "limit_up_price": 121.35,
+      "volume": 91607.0,
+      "amount": 106636.0,
+      "turnover": 6.67,
+      "pe": 108.45,
+      "mcap": 252.57,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "AI服务器测试+MLCC设备+人形机器人+存储芯片",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "AI服务器测试",
+        "MLCC设备",
+        "人形机器人",
+        "存储芯片"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "003018",
+      "name": "金富科技",
+      "price": 68.31,
+      "pre_close": 62.1,
+      "change_pct": 10.0,
+      "limit_up_price": 68.31,
+      "volume": 89812.0,
+      "amount": 58511.0,
+      "turnover": 3.78,
+      "pe": 186.49,
+      "mcap": 178.94,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "液冷服务器+拟定增扩产+饮料瓶盖龙头",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "液冷服务器",
+        "拟定增扩产",
+        "饮料瓶盖龙头"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "600206",
+      "name": "有研新材",
+      "price": 59.38,
+      "pre_close": 53.98,
+      "change_pct": 10.0,
+      "limit_up_price": 59.38,
+      "volume": 1318474.0,
+      "amount": 755589.0,
+      "turnover": 15.57,
+      "pe": 175.96,
+      "mcap": 502.68,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "终止定增+半导体靶材+存储芯片+央企",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "终止定增",
+        "半导体靶材",
+        "存储芯片",
+        "央企"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "600228",
+      "name": "返利科技",
+      "price": 7.04,
+      "pre_close": 6.4,
+      "change_pct": 10.0,
+      "limit_up_price": 7.04,
+      "volume": 205870.0,
+      "amount": 14121.0,
+      "turnover": 4.95,
+      "pe": -46.29,
+      "mcap": 29.33,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "AI应用+在线导购+苹果概念+控制权变更",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "AI应用",
+        "在线导购",
+        "苹果概念",
+        "控制权变更"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "600584",
+      "name": "长电科技",
+      "price": 103.52,
+      "pre_close": 94.11,
+      "change_pct": 10.0,
+      "limit_up_price": 103.52,
+      "volume": 2063758.0,
+      "amount": 2049714.0,
+      "turnover": 11.53,
+      "pe": 112.12,
+      "mcap": 1852.4,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "先进封装+CPO光引擎+存储芯片+央企",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "先进封装",
+        "CPO光引擎",
+        "存储芯片",
+        "央企"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "600992",
+      "name": "贵绳股份",
+      "price": 9.68,
+      "pre_close": 8.8,
+      "change_pct": 10.0,
+      "limit_up_price": 9.68,
+      "volume": 48033.0,
+      "amount": 4639.0,
+      "turnover": 1.96,
+      "pe": -806.25,
+      "mcap": 23.72,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "商业航天+钢丝绳龙头+国企改革",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "商业航天",
+        "钢丝绳龙头",
+        "国企改革"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "603005",
+      "name": "晶方科技",
+      "price": 45.19,
+      "pre_close": 41.08,
+      "change_pct": 10.0,
+      "limit_up_price": 45.19,
+      "volume": 739121.0,
+      "amount": 321100.0,
+      "turnover": 11.33,
+      "pe": 79.72,
+      "mcap": 294.72,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "先进封装+分拆上市+车规CIS",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "先进封装",
+        "分拆上市",
+        "车规CIS"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "603061",
+      "name": "金海通",
+      "price": 487.54,
+      "pre_close": 443.22,
+      "change_pct": 10.0,
+      "limit_up_price": 487.54,
+      "volume": 34165.0,
+      "amount": 158894.0,
+      "turnover": 3.93,
+      "pe": 181.76,
+      "mcap": 424.16,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "半导体测试设备+一季报增长+可转债募资",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "半导体测试设备",
+        "一季报增长",
+        "可转债募资"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "603137",
+      "name": "恒尚节能",
+      "price": 25.2,
+      "pre_close": 22.91,
+      "change_pct": 10.0,
+      "limit_up_price": 25.2,
+      "volume": 132015.0,
+      "amount": 32703.0,
+      "turnover": 7.22,
+      "pe": -99.41,
+      "mcap": 46.1,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "拟收购存储公司+建筑幕墙+跨界转型",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "拟收购存储公司",
+        "建筑幕墙",
+        "跨界转型"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "603156",
+      "name": "养元饮品",
+      "price": 48.71,
+      "pre_close": 44.28,
+      "change_pct": 10.0,
+      "limit_up_price": 48.71,
+      "volume": 183526.0,
+      "amount": 86260.0,
+      "turnover": 1.46,
+      "pe": 43.07,
+      "mcap": 613.88,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "长江存储+创投+核桃乳",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "长江存储",
+        "创投",
+        "核桃乳"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "603222",
+      "name": "济民健康",
+      "price": 10.12,
+      "pre_close": 9.2,
+      "change_pct": 10.0,
+      "limit_up_price": 10.12,
+      "volume": 554506.0,
+      "amount": 53798.0,
+      "turnover": 10.56,
+      "pe": -20.61,
+      "mcap": 53.14,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "集成电路+AI芯片+创新药+医疗器械",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "集成电路",
+        "AI芯片",
+        "创新药",
+        "医疗器械"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "603757",
+      "name": "大元泵业",
+      "price": 77.12,
+      "pre_close": 70.11,
+      "change_pct": 10.0,
+      "limit_up_price": 77.12,
+      "volume": 161096.0,
+      "amount": 117453.0,
+      "turnover": 8.64,
+      "pe": 123.01,
+      "mcap": 143.87,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "液冷泵+算力温控+泵业龙头",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "液冷泵",
+        "算力温控",
+        "泵业龙头"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "603813",
+      "name": "原尚股份",
+      "price": 36.42,
+      "pre_close": 33.11,
+      "change_pct": 10.0,
+      "limit_up_price": 36.42,
+      "volume": 9636.0,
+      "amount": 3458.0,
+      "turnover": 0.92,
+      "pe": -50.47,
+      "mcap": 38.25,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "终止协议+供应链物流+氢能源+摘帽",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "终止协议",
+        "供应链物流",
+        "氢能源",
+        "摘帽"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "603933",
+      "name": "睿能科技",
+      "price": 23.2,
+      "pre_close": 21.09,
+      "change_pct": 10.0,
+      "limit_up_price": 23.2,
+      "volume": 83176.0,
+      "amount": 18321.0,
+      "turnover": 4.01,
+      "pe": 85.45,
+      "mcap": 48.15,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "拟收购博泰智能+半导体分销+人形机器人",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "拟收购博泰智能",
+        "半导体分销",
+        "人形机器人"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "price": 663.49,
+      "pre_close": 603.17,
+      "change_pct": 10.0,
+      "limit_up_price": 663.49,
+      "volume": 590920.0,
+      "amount": 3818502.0,
+      "turnover": 8.84,
+      "pe": 161.97,
+      "mcap": 4656.01,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "长鑫+存储芯片+MCU",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "长鑫",
+        "存储芯片",
+        "MCU"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "603991",
+      "name": "领先股份",
+      "price": 167.06,
+      "pre_close": 151.87,
+      "change_pct": 10.0,
+      "limit_up_price": 167.06,
+      "volume": 39396.0,
+      "amount": 64201.0,
+      "turnover": 4.4,
+      "pe": 1371.94,
+      "mcap": 255.12,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "半导体引线框架+资产重组+一季报扭亏",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "半导体引线框架",
+        "资产重组",
+        "一季报扭亏"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "000021",
+      "name": "深科技",
+      "price": 56.24,
+      "pre_close": 51.13,
+      "change_pct": 9.99,
+      "limit_up_price": 56.24,
+      "volume": 1845381.0,
+      "amount": 1010941.0,
+      "turnover": 11.72,
+      "pe": 73.85,
+      "mcap": 885.43,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "存储封测扩产+高端存储芯片+央企",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "存储封测扩产",
+        "高端存储芯片",
+        "央企"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "000672",
+      "name": "上峰材料",
+      "price": 21.8,
+      "pre_close": 19.82,
+      "change_pct": 9.99,
+      "limit_up_price": 21.8,
+      "volume": 386805.0,
+      "amount": 81935.0,
+      "turnover": 3.99,
+      "pe": 35.84,
+      "mcap": 211.33,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "长鑫科技+半导体封装基板+创投+水泥",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "长鑫科技",
+        "半导体封装基板",
+        "创投",
+        "水泥"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "002579",
+      "name": "中京电子",
+      "price": 18.06,
+      "pre_close": 16.42,
+      "change_pct": 9.99,
+      "limit_up_price": 18.06,
+      "volume": 1027509.0,
+      "amount": 181277.0,
+      "turnover": 17.61,
+      "pe": 421.83,
+      "mcap": 110.64,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "PCB+高阶HDI+AIPC+定增通过",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "PCB",
+        "高阶HDI",
+        "AIPC",
+        "定增通过"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "002829",
+      "name": "星网宇达",
+      "price": 17.73,
+      "pre_close": 16.12,
+      "change_pct": 9.99,
+      "limit_up_price": 17.73,
+      "volume": 36527.0,
+      "amount": 6476.0,
+      "turnover": 2.5,
+      "pe": -29.71,
+      "mcap": 36.84,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "中报扭亏+商业航天+无人系统",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "中报扭亏",
+        "商业航天",
+        "无人系统"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "600418",
+      "name": "江淮汽车",
+      "price": 24.45,
+      "pre_close": 22.23,
+      "change_pct": 9.99,
+      "limit_up_price": 24.45,
+      "volume": 1313159.0,
+      "amount": 310644.0,
+      "turnover": 6.01,
+      "pe": -26.43,
+      "mcap": 551.15,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "业绩落地+尊界+安徽国资",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "业绩落地",
+        "尊界",
+        "安徽国资"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "605319",
+      "name": "无锡振华",
+      "price": 24.23,
+      "pre_close": 22.03,
+      "change_pct": 9.99,
+      "limit_up_price": 24.23,
+      "volume": 67207.0,
+      "amount": 15785.0,
+      "turnover": 1.93,
+      "pe": 17.99,
+      "mcap": 84.83,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "功率半导体+汽车零部件+小米汽车+拟收购德维嘉",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "功率半导体",
+        "汽车零部件",
+        "小米汽车",
+        "拟收购德维嘉"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "002346",
+      "name": "柘中股份",
+      "price": 19.83,
+      "pre_close": 18.03,
+      "change_pct": 9.98,
+      "limit_up_price": 19.83,
+      "volume": 30735.0,
+      "amount": 5994.0,
+      "turnover": 0.78,
+      "pe": 31.4,
+      "mcap": 87.56,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "成套开关设备+订单新高+集成电路",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "成套开关设备",
+        "订单新高",
+        "集成电路"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "002632",
+      "name": "道明光学",
+      "price": 9.15,
+      "pre_close": 8.32,
+      "change_pct": 9.98,
+      "limit_up_price": 9.15,
+      "volume": 159897.0,
+      "amount": 14631.0,
+      "turnover": 2.78,
+      "pe": 27.06,
+      "mcap": 57.15,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "努比亚AI手机+石墨烯散热+液冷服务器+反光材料龙头",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "努比亚AI手机",
+        "石墨烯散热",
+        "液冷服务器",
+        "反光材料龙头"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "603898",
+      "name": "好莱客",
+      "price": 13.88,
+      "pre_close": 12.62,
+      "change_pct": 9.98,
+      "limit_up_price": 13.88,
+      "volume": 79104.0,
+      "amount": 10497.0,
+      "turnover": 2.63,
+      "pe": -432.35,
+      "mcap": 41.67,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "AI智能家居+门店智能化升级+定制家居",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "AI智能家居",
+        "门店智能化升级",
+        "定制家居"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "603329",
+      "name": "上海雅仕",
+      "price": 10.16,
+      "pre_close": 9.24,
+      "change_pct": 9.96,
+      "limit_up_price": 10.16,
+      "volume": 53765.0,
+      "amount": 5463.0,
+      "turnover": 2.61,
+      "pe": 37.08,
+      "mcap": 25.41,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "中报预增+硫磺涨价+供应链物流+湖北国资",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "中报预增",
+        "硫磺涨价",
+        "供应链物流",
+        "湖北国资"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "600770",
+      "name": "综艺股份",
+      "price": 6.64,
+      "pre_close": 6.04,
+      "change_pct": 9.93,
+      "limit_up_price": 6.64,
+      "volume": 861050.0,
+      "amount": 55132.0,
+      "turnover": 6.62,
+      "pe": 66.03,
+      "mcap": 86.32,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "参股神州龙芯（CPU）+功率半导体IDM+金刚石散热",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "参股神州龙芯（CPU）",
+        "功率半导体IDM",
+        "金刚石散热"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688307",
+      "name": "中润光学",
+      "price": 70.85,
+      "pre_close": 64.45,
+      "change_pct": 9.93,
+      "limit_up_price": 77.34,
+      "volume": 8526082.0,
+      "amount": 58546.0,
+      "turnover": 6.86,
+      "pe": 130.16,
+      "mcap": 88.05,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688519",
+      "name": "南亚新材",
+      "price": 351.23,
+      "pre_close": 319.5,
+      "change_pct": 9.93,
+      "limit_up_price": 383.4,
+      "volume": 6825520.0,
+      "amount": 232861.0,
+      "turnover": 2.9,
+      "pe": 223.65,
+      "mcap": 826.02,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "元件",
+        "印制电路板",
+        "上海板块",
+        "融资融券",
+        "智能穿戴",
+        "沪股通",
+        "虚拟现实",
+        "增强现实",
+        "华为概念",
+        "PCB"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "电子",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "002274",
+      "name": "华昌化工",
+      "price": 5.43,
+      "pre_close": 4.94,
+      "change_pct": 9.92,
+      "limit_up_price": 5.43,
+      "volume": 383420.0,
+      "amount": 20745.0,
+      "turnover": 4.09,
+      "pe": -28.03,
+      "mcap": 51.71,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "中报预增+多元醇+煤化工",
+      "reason_src": "同花顺热点",
+      "concepts": [
+        "中报预增",
+        "多元醇",
+        "煤化工"
+      ],
+      "concepts_src": "同花顺reason解析",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688785",
+      "name": "恒运昌",
+      "price": 424.0,
+      "pre_close": 385.77,
+      "change_pct": 9.91,
+      "limit_up_price": 462.92,
+      "volume": 888657.0,
+      "amount": 36090.0,
+      "turnover": 6.98,
+      "pe": 297.79,
+      "mcap": 287.06,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688146",
+      "name": "中船特气",
+      "price": 363.6,
+      "pre_close": 331.0,
+      "change_pct": 9.85,
+      "limit_up_price": 397.2,
+      "volume": 14017581.0,
+      "amount": 485494.0,
+      "turnover": 9.67,
+      "pe": 534.51,
+      "mcap": 1924.94,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "半导体",
+        "河北板块",
+        "融资融券",
+        "央国企改革",
+        "沪股通",
+        "光刻机(胶)",
+        "半导体概念",
+        "中芯概念",
+        "固态电池",
+        "百元股"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "半导体材料",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "688766",
+      "name": "普冉股份",
+      "price": 762.07,
+      "pre_close": 694.0,
+      "change_pct": 9.81,
+      "limit_up_price": 832.8,
+      "volume": 11394907.0,
+      "amount": 855749.0,
+      "turnover": 7.66,
+      "pe": 257.45,
+      "mcap": 1133.23,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "数字芯片设计",
+        "半导体",
+        "上海板块",
+        "基金重仓",
+        "机构重仓",
+        "物联网",
+        "融资融券",
+        "智能穿戴",
+        "智能家居",
+        "沪股通"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "电子",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "300475",
+      "name": "香农芯创",
+      "price": 267.98,
+      "pre_close": 244.09,
+      "change_pct": 9.79,
+      "limit_up_price": 292.91,
+      "volume": 411240.0,
+      "amount": 1062734.0,
+      "turnover": 9.14,
+      "pe": 67.82,
+      "mcap": 1258.28,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "安徽板块",
+        "深成500",
+        "融资融券",
+        "创业成份",
+        "中证500",
+        "创业板综",
+        "深股通",
+        "MSCI中国",
+        "半导体概念",
+        "百元股"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "其他电子Ⅲ",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "300870",
+      "name": "欧陆通",
+      "price": 292.0,
+      "pre_close": 266.1,
+      "change_pct": 9.73,
+      "limit_up_price": 319.32,
+      "volume": 67916.0,
+      "amount": 187431.0,
+      "turnover": 4.45,
+      "pe": 245.05,
+      "mcap": 445.72,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688809",
+      "name": "强一股份",
+      "price": 594.8,
+      "pre_close": 542.09,
+      "change_pct": 9.72,
+      "limit_up_price": 650.51,
+      "volume": 2599280.0,
+      "amount": 146812.0,
+      "turnover": 10.03,
+      "pe": 156.35,
+      "mcap": 770.62,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "半导体",
+        "江苏板块",
+        "2026一季报预增",
+        "2025年报预增",
+        "中盘成长",
+        "中盘股",
+        "百元股",
+        "半导体概念",
+        "融资融券",
+        "次新股"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "半导体材料",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "688449",
+      "name": "联芸科技",
+      "price": 81.9,
+      "pre_close": 74.65,
+      "change_pct": 9.71,
+      "limit_up_price": 89.58,
+      "volume": 13024225.0,
+      "amount": 102861.0,
+      "turnover": 4.44,
+      "pe": 214.28,
+      "mcap": 376.74,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "300757",
+      "name": "罗博特科",
+      "price": 521.27,
+      "pre_close": 475.2,
+      "change_pct": 9.69,
+      "limit_up_price": 570.24,
+      "volume": 76563.0,
+      "amount": 380205.0,
+      "turnover": 4.71,
+      "pe": -1104.7,
+      "mcap": 873.69,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "其他自动化设备",
+        "自动化设备",
+        "机械设备",
+        "江苏板块",
+        "深成500",
+        "融资融券",
+        "创业成份",
+        "中证500",
+        "创业板综",
+        "深股通"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "光通信模块",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "300842",
+      "name": "帝科股份",
+      "price": 81.0,
+      "pre_close": 73.86,
+      "change_pct": 9.67,
+      "limit_up_price": 88.63,
+      "volume": 73381.0,
+      "amount": 56531.0,
+      "turnover": 5.68,
+      "pe": -39.68,
+      "mcap": 117.68,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "688216",
+      "name": "气派科技",
+      "price": 39.54,
+      "pre_close": 36.08,
+      "change_pct": 9.59,
+      "limit_up_price": 43.3,
+      "volume": 10881281.0,
+      "amount": 41288.0,
+      "turnover": 10.24,
+      "pe": -96.38,
+      "mcap": 45.24,
+      "market": "科创板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "300223",
+      "name": "北京君正",
+      "price": 236.02,
+      "pre_close": 215.38,
+      "change_pct": 9.58,
+      "limit_up_price": 258.46,
+      "volume": 425540.0,
+      "amount": 976934.0,
+      "turnover": 10.09,
+      "pe": 183.73,
+      "mcap": 1141.54,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "数字芯片设计",
+        "半导体",
+        "北京板块",
+        "超清视频",
+        "OLED",
+        "MSCI中国",
+        "深股通",
+        "人工智能",
+        "富时罗素",
+        "中证500"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "电子",
+      "industry_src": "东财slist"
+    },
+    {
+      "code": "300736",
+      "name": "百邦科技",
+      "price": 31.28,
+      "pre_close": 28.55,
+      "change_pct": 9.56,
+      "limit_up_price": 34.26,
+      "volume": 80797.0,
+      "amount": 24270.0,
+      "turnover": 6.48,
+      "pe": -137.74,
+      "mcap": 40.02,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "301316",
+      "name": "慧博云通",
+      "price": 44.82,
+      "pre_close": 40.92,
+      "change_pct": 9.53,
+      "limit_up_price": 49.1,
+      "volume": 341751.0,
+      "amount": 148405.0,
+      "turnover": 8.73,
+      "pe": 178.76,
+      "mcap": 181.07,
+      "market": "创业板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [],
+      "concepts_src": "未匹配",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null
+    },
+    {
+      "code": "002371",
+      "name": "北方华创",
+      "price": 878.43,
+      "pre_close": 802.32,
+      "change_pct": 9.49,
+      "limit_up_price": 882.55,
+      "volume": 158615.0,
+      "amount": 1333947.0,
+      "turnover": 2.19,
+      "pe": 114.32,
+      "mcap": 6374.67,
+      "market": "主板",
+      "consecutive_days": 1,
+      "prev_day_limit_up": false,
+      "limit_up_reason": "",
+      "reason_src": "未匹配",
+      "concepts": [
+        "半导体",
+        "半导体设备",
+        "北京板块",
+        "光刻机(胶)",
+        "标准普尔",
+        "富时罗素",
+        "华为概念",
+        "OLED",
+        "MSCI中国",
+        "国产芯片"
+      ],
+      "concepts_src": "未匹配+东财slist",
+      "on_dragon_tiger_board": false,
+      "dragon_tiger_detail": null,
+      "industry": "电子",
+      "industry_src": "东财slist"
+    }
+  ],
+  "by_market": {
+    "创业板": 45,
+    "科创板": 53,
+    "主板": 65
+  },
+  "by_consecutive": {
+    "1": 163,
+    "2": 0,
+    "3": 0,
+    "4+": 0
+  },
+  "industry_ranking": [
+    {
+      "industry": "未分类",
+      "count": 136,
+      "top_stocks": [
+        "300626",
+        "300469",
+        "301607",
+        "688328",
+        "688333"
+      ]
+    },
+    {
+      "industry": "电子",
+      "count": 13,
+      "top_stocks": [
+        "300604",
+        "688802",
+        "688120",
+        "688008",
+        "688048"
+      ]
+    },
+    {
+      "industry": "半导体材料",
+      "count": 5,
+      "top_stocks": [
+        "688126",
+        "688797",
+        "301611",
+        "688146",
+        "688809"
+      ]
+    },
+    {
+      "industry": "集成电路制造",
+      "count": 4,
+      "top_stocks": [
+        "688981",
+        "688820",
+        "688347",
+        "688249"
+      ]
+    },
+    {
+      "industry": "通信设备",
+      "count": 2,
+      "top_stocks": [
+        "688387",
+        "300394"
+      ]
+    },
+    {
+      "industry": "消费电子零部件及组装",
+      "count": 1,
+      "top_stocks": [
+        "300136"
+      ]
+    },
+    {
+      "industry": "其他电子Ⅲ",
+      "count": 1,
+      "top_stocks": [
+        "300475"
+      ]
+    },
+    {
+      "industry": "光通信模块",
+      "count": 1,
+      "top_stocks": [
+        "300757"
+      ]
+    }
+  ],
+  "concept_ranking": [
+    {
+      "concept": "半导体",
+      "count": 21,
+      "top_stocks": [
+        "300604",
+        "688802",
+        "688120",
+        "688008",
+        "688126"
+      ]
+    },
+    {
+      "concept": "融资融券",
+      "count": 20,
+      "top_stocks": [
+        "300604",
+        "688802",
+        "688120",
+        "688008",
+        "688387"
+      ]
+    },
+    {
+      "concept": "半导体概念",
+      "count": 15,
+      "top_stocks": [
+        "688802",
+        "688120",
+        "688126",
+        "688048",
+        "688795"
+      ]
+    },
+    {
+      "concept": "存储芯片",
+      "count": 12,
+      "top_stocks": [
+        "688328",
+        "688720",
+        "301379",
+        "688126",
+        "688797"
+      ]
+    },
+    {
+      "concept": "MSCI中国",
+      "count": 11,
+      "top_stocks": [
+        "300604",
+        "688120",
+        "688126",
+        "688048",
+        "688981"
+      ]
+    },
+    {
+      "concept": "沪股通",
+      "count": 11,
+      "top_stocks": [
+        "688120",
+        "688126",
+        "688048",
+        "688387",
+        "688981"
+      ]
+    },
+    {
+      "concept": "中证500",
+      "count": 10,
+      "top_stocks": [
+        "300604",
+        "688120",
+        "688387",
+        "688347",
+        "300136"
+      ]
+    },
+    {
+      "concept": "国产芯片",
+      "count": 7,
+      "top_stocks": [
+        "688802",
+        "688126",
+        "688048",
+        "688795",
+        "688981"
+      ]
+    },
+    {
+      "concept": "百元股",
+      "count": 7,
+      "top_stocks": [
+        "688797",
+        "688820",
+        "688347",
+        "688147",
+        "688146"
+      ]
+    },
+    {
+      "concept": "半导体设备",
+      "count": 6,
+      "top_stocks": [
+        "688328",
+        "300604",
+        "688120",
+        "688012",
+        "688147"
+      ]
+    },
+    {
+      "concept": "先进封装",
+      "count": 6,
+      "top_stocks": [
+        "688720",
+        "688820",
+        "002185",
+        "002156",
+        "600584"
+      ]
+    },
+    {
+      "concept": "创业板综",
+      "count": 6,
+      "top_stocks": [
+        "300604",
+        "300136",
+        "300394",
+        "301666",
+        "300475"
+      ]
+    },
+    {
+      "concept": "上海板块",
+      "count": 6,
+      "top_stocks": [
+        "688802",
+        "688008",
+        "688126",
+        "688012",
+        "688519"
+      ]
+    },
+    {
+      "concept": "次新股",
+      "count": 6,
+      "top_stocks": [
+        "688802",
+        "688795",
+        "688797",
+        "688820",
+        "301666"
+      ]
+    },
+    {
+      "concept": "央国企改革",
+      "count": 6,
+      "top_stocks": [
+        "688120",
+        "688387",
+        "688347",
+        "688249",
+        "688172"
+      ]
+    },
+    {
+      "concept": "江苏板块",
+      "count": 6,
+      "top_stocks": [
+        "688048",
+        "688147",
+        "300394",
+        "301611",
+        "688809"
+      ]
+    },
+    {
+      "concept": "PCB",
+      "count": 5,
+      "top_stocks": [
+        "688610",
+        "002815",
+        "002916",
+        "002579",
+        "688519"
+      ]
+    },
+    {
+      "concept": "液冷服务器",
+      "count": 5,
+      "top_stocks": [
+        "688371",
+        "000887",
+        "000811",
+        "003018",
+        "002632"
+      ]
+    },
+    {
+      "concept": "深成500",
+      "count": 5,
+      "top_stocks": [
+        "300604",
+        "300394",
+        "301611",
+        "300475",
+        "300757"
+      ]
+    },
+    {
+      "concept": "创业成份",
+      "count": 5,
+      "top_stocks": [
+        "300604",
+        "300394",
+        "301611",
+        "300475",
+        "300757"
+      ]
+    },
+    {
+      "concept": "深股通",
+      "count": 5,
+      "top_stocks": [
+        "300604",
+        "300136",
+        "300475",
+        "300757",
+        "300223"
+      ]
+    },
+    {
+      "concept": "数字芯片设计",
+      "count": 5,
+      "top_stocks": [
+        "688802",
+        "688008",
+        "688795",
+        "688766",
+        "300223"
+      ]
+    },
+    {
+      "concept": "中报预增",
+      "count": 5,
+      "top_stocks": [
+        "002552",
+        "000977",
+        "002841",
+        "603329",
+        "002274"
+      ]
+    },
+    {
+      "concept": "央企",
+      "count": 5,
+      "top_stocks": [
+        "002281",
+        "002916",
+        "600206",
+        "600584",
+        "000021"
+      ]
+    },
+    {
+      "concept": "机构重仓",
+      "count": 4,
+      "top_stocks": [
+        "688802",
+        "688795",
+        "688012",
+        "688766"
+      ]
+    },
+    {
+      "concept": "上证380",
+      "count": 4,
+      "top_stocks": [
+        "688120",
+        "688387",
+        "688347",
+        "688172"
+      ]
+    },
+    {
+      "concept": "HS300_",
+      "count": 4,
+      "top_stocks": [
+        "688008",
+        "688981",
+        "688012",
+        "300394"
+      ]
+    },
+    {
+      "concept": "基金重仓",
+      "count": 4,
+      "top_stocks": [
+        "688008",
+        "688012",
+        "300394",
+        "688766"
+      ]
+    },
+    {
+      "concept": "北京板块",
+      "count": 4,
+      "top_stocks": [
+        "688795",
+        "688172",
+        "300223",
+        "002371"
+      ]
+    },
+    {
+      "concept": "人形机器人",
+      "count": 4,
+      "top_stocks": [
+        "603726",
+        "000887",
+        "002975",
+        "603933"
+      ]
+    },
+    {
+      "concept": "一季报增长",
+      "count": 3,
+      "top_stocks": [
+        "688328",
+        "688610",
+        "603061"
+      ]
+    },
+    {
+      "concept": "商业航天",
+      "count": 3,
+      "top_stocks": [
+        "688333",
+        "600992",
+        "002829"
+      ]
+    },
+    {
+      "concept": "QFII重仓",
+      "count": 3,
+      "top_stocks": [
+        "688802",
+        "688795",
+        "300394"
+      ]
+    },
+    {
+      "concept": "AI芯片",
+      "count": 3,
+      "top_stocks": [
+        "688802",
+        "688795",
+        "603222"
+      ]
+    },
+    {
+      "concept": "上证180_",
+      "count": 3,
+      "top_stocks": [
+        "688008",
+        "688981",
+        "688249"
+      ]
+    },
+    {
+      "concept": "中芯概念",
+      "count": 3,
+      "top_stocks": [
+        "688126",
+        "688981",
+        "688146"
+      ]
+    },
+    {
+      "concept": "5G概念",
+      "count": 3,
+      "top_stocks": [
+        "688387",
+        "300136",
+        "300394"
+      ]
+    },
+    {
+      "concept": "华为概念",
+      "count": 3,
+      "top_stocks": [
+        "300136",
+        "688519",
+        "002371"
+      ]
+    },
+    {
+      "concept": "间接投资长鑫科技",
+      "count": 3,
+      "top_stocks": [
+        "603726",
+        "000417",
+        "002208"
+      ]
+    },
+    {
+      "concept": "机器人",
+      "count": 2,
+      "top_stocks": [
+        "300626",
+        "002841"
+      ]
+    },
+    {
+      "concept": "小米汽车",
+      "count": 2,
+      "top_stocks": [
+        "301607",
+        "605319"
+      ]
+    },
+    {
+      "concept": "AH股",
+      "count": 2,
+      "top_stocks": [
+        "688008",
+        "688347"
+      ]
+    },
+    {
+      "concept": "上证50_",
+      "count": 2,
+      "top_stocks": [
+        "688008",
+        "688981"
+      ]
+    },
+    {
+      "concept": "大盘股",
+      "count": 2,
+      "top_stocks": [
+        "688126",
+        "688249"
+      ]
+    },
+    {
+      "concept": "分立器件",
+      "count": 2,
+      "top_stocks": [
+        "688048",
+        "688172"
+      ]
+    },
+    {
+      "concept": "人工智能",
+      "count": 2,
+      "top_stocks": [
+        "688387",
+        "300223"
+      ]
+    },
+    {
+      "concept": "安徽板块",
+      "count": 2,
+      "top_stocks": [
+        "688249",
+        "300475"
+      ]
+    },
+    {
+      "concept": "中盘成长",
+      "count": 2,
+      "top_stocks": [
+        "688147",
+        "688809"
+      ]
+    },
+    {
+      "concept": "中盘股",
+      "count": 2,
+      "top_stocks": [
+        "688147",
+        "688809"
+      ]
+    },
+    {
+      "concept": "广东板块",
+      "count": 2,
+      "top_stocks": [
+        "300136",
+        "301666"
+      ]
+    },
+    {
+      "concept": "苹果概念",
+      "count": 2,
+      "top_stocks": [
+        "300136",
+        "600228"
+      ]
+    },
+    {
+      "concept": "AI应用",
+      "count": 2,
+      "top_stocks": [
+        "000892",
+        "600228"
+      ]
+    },
+    {
+      "concept": "2026中报预增",
+      "count": 2,
+      "top_stocks": [
+        "002067",
+        "001395"
+      ]
+    },
+    {
+      "concept": "山东国资",
+      "count": 2,
+      "top_stocks": [
+        "002490",
+        "000977"
+      ]
+    },
+    {
+      "concept": "创新药",
+      "count": 2,
+      "top_stocks": [
+        "002907",
+        "603222"
+      ]
+    },
+    {
+      "concept": "安徽国资",
+      "count": 2,
+      "top_stocks": [
+        "600909",
+        "600418"
+      ]
+    },
+    {
+      "concept": "合肥国资",
+      "count": 2,
+      "top_stocks": [
+        "000417",
+        "002208"
+      ]
+    },
+    {
+      "concept": "汽车零部件",
+      "count": 2,
+      "top_stocks": [
+        "000887",
+        "605319"
+      ]
+    },
+    {
+      "concept": "AI服务器",
+      "count": 2,
+      "top_stocks": [
+        "002815",
+        "000977"
+      ]
+    },
+    {
+      "concept": "定增获批",
+      "count": 2,
+      "top_stocks": [
+        "002156",
+        "002916"
+      ]
+    },
+    {
+      "concept": "H股上市",
+      "count": 2,
+      "top_stocks": [
+        "002281",
+        "002851"
+      ]
+    },
+    {
+      "concept": "创投",
+      "count": 2,
+      "top_stocks": [
+        "603156",
+        "000672"
+      ]
+    },
+    {
+      "concept": "集成电路",
+      "count": 2,
+      "top_stocks": [
+        "603222",
+        "002346"
+      ]
+    },
+    {
+      "concept": "供应链物流",
+      "count": 2,
+      "top_stocks": [
+        "603813",
+        "603329"
+      ]
+    },
+    {
+      "concept": "智能穿戴",
+      "count": 2,
+      "top_stocks": [
+        "688519",
+        "688766"
+      ]
+    },
+    {
+      "concept": "光刻机(胶)",
+      "count": 2,
+      "top_stocks": [
+        "688146",
+        "002371"
+      ]
+    },
+    {
+      "concept": "OLED",
+      "count": 2,
+      "top_stocks": [
+        "300223",
+        "002371"
+      ]
+    },
+    {
+      "concept": "富时罗素",
+      "count": 2,
+      "top_stocks": [
+        "300223",
+        "002371"
+      ]
+    },
+    {
+      "concept": "换向器",
+      "count": 1,
+      "top_stocks": [
+        "300626"
+      ]
+    },
+    {
+      "concept": "股权转让",
+      "count": 1,
+      "top_stocks": [
+        "300626"
+      ]
+    },
+    {
+      "concept": "地方国资",
+      "count": 1,
+      "top_stocks": [
+        "300626"
+      ]
+    },
+    {
+      "concept": "车路云一体化",
+      "count": 1,
+      "top_stocks": [
+        "300469"
+      ]
+    },
+    {
+      "concept": "北斗",
+      "count": 1,
+      "top_stocks": [
+        "300469"
+      ]
+    },
+    {
+      "concept": "保险",
+      "count": 1,
+      "top_stocks": [
+        "300469"
+      ]
+    },
+    {
+      "concept": "智慧交通",
+      "count": 1,
+      "top_stocks": [
+        "300469"
+      ]
+    },
+    {
+      "concept": "数据中心电源",
+      "count": 1,
+      "top_stocks": [
+        "301607"
+      ]
+    },
+    {
+      "concept": "800V高压平台",
+      "count": 1,
+      "top_stocks": [
+        "301607"
+      ]
+    },
+    {
+      "concept": "金属3D打印",
+      "count": 1,
+      "top_stocks": [
+        "688333"
+      ]
+    },
+    {
+      "concept": "优必选合作",
+      "count": 1,
+      "top_stocks": [
+        "688333"
+      ]
+    },
+    {
+      "concept": "收购晶隆半导体",
+      "count": 1,
+      "top_stocks": [
+        "688432"
+      ]
+    },
+    {
+      "concept": "半导体硅片",
+      "count": 1,
+      "top_stocks": [
+        "688432"
+      ]
+    },
+    {
+      "concept": "产能扩张",
+      "count": 1,
+      "top_stocks": [
+        "688432"
+      ]
+    },
+    {
+      "concept": "半导体检测",
+      "count": 1,
+      "top_stocks": [
+        "688610"
+      ]
+    },
+    {
+      "concept": "机器视觉",
+      "count": 1,
+      "top_stocks": [
+        "688610"
+      ]
+    },
+    {
+      "concept": "光刻胶",
+      "count": 1,
+      "top_stocks": [
+        "688720"
+      ]
+    },
+    {
+      "concept": "电镀液",
+      "count": 1,
+      "top_stocks": [
+        "688720"
+      ]
+    },
+    {
+      "concept": "企业级SSD",
+      "count": 1,
+      "top_stocks": [
+        "301379"
+      ]
+    },
+    {
+      "concept": "触显模组",
+      "count": 1,
+      "top_stocks": [
+        "301379"
+      ]
+    },
+    {
+      "concept": "纳米镀膜",
+      "count": 1,
+      "top_stocks": [
+        "688371"
+      ]
+    },
+    {
+      "concept": "汽车电子",
+      "count": 1,
+      "top_stocks": [
+        "688371"
+      ]
+    },
+    {
+      "concept": "半导体硅外延片",
+      "count": 1,
+      "top_stocks": [
+        "688584"
+      ]
+    },
+    {
+      "concept": "12英寸扩产",
+      "count": 1,
+      "top_stocks": [
+        "688584"
+      ]
+    },
+    {
+      "concept": "SOI布局",
+      "count": 1,
+      "top_stocks": [
+        "688584"
+      ]
+    },
+    {
+      "concept": "浙江板块",
+      "count": 1,
+      "top_stocks": [
+        "300604"
+      ]
+    },
+    {
+      "concept": "天津板块",
+      "count": 1,
+      "top_stocks": [
+        "688120"
+      ]
+    },
+    {
+      "concept": "云计算",
+      "count": 1,
+      "top_stocks": [
+        "688008"
+      ]
+    },
+    {
+      "concept": "昨日高振幅",
+      "count": 1,
+      "top_stocks": [
+        "688126"
+      ]
+    },
+    {
+      "concept": "无人驾驶",
+      "count": 1,
+      "top_stocks": [
+        "688048"
+      ]
+    },
+    {
+      "concept": "医美概念",
+      "count": 1,
+      "top_stocks": [
+        "688048"
+      ]
+    },
+    {
+      "concept": "数据中心",
+      "count": 1,
+      "top_stocks": [
+        "688048"
+      ]
+    },
+    {
+      "concept": "湖北板块",
+      "count": 1,
+      "top_stocks": [
+        "688387"
+      ]
+    },
+    {
+      "concept": "一带一路",
+      "count": 1,
+      "top_stocks": [
+        "688387"
+      ]
+    },
+    {
+      "concept": "边缘计算",
+      "count": 1,
+      "top_stocks": [
+        "688387"
+      ]
+    },
+    {
+      "concept": "重庆板块",
+      "count": 1,
+      "top_stocks": [
+        "688797"
+      ]
+    },
+    {
+      "concept": "股权激励",
+      "count": 1,
+      "top_stocks": [
+        "688012"
+      ]
+    },
+    {
+      "concept": "LED概念",
+      "count": 1,
+      "top_stocks": [
+        "688012"
+      ]
+    },
+    {
+      "concept": "长江三角",
+      "count": 1,
+      "top_stocks": [
+        "688012"
+      ]
+    },
+    {
+      "concept": "大盘成长",
+      "count": 1,
+      "top_stocks": [
+        "688249"
+      ]
+    },
+    {
+      "concept": "趋势股",
+      "count": 1,
+      "top_stocks": [
+        "688147"
+      ]
+    },
+    {
+      "concept": "BC电池",
+      "count": 1,
+      "top_stocks": [
+        "688147"
+      ]
+    },
+    {
+      "concept": "TOPCon电池",
+      "count": 1,
+      "top_stocks": [
+        "688147"
+      ]
+    },
+    {
+      "concept": "专精特新",
+      "count": 1,
+      "top_stocks": [
+        "688147"
+      ]
+    },
+    {
+      "concept": "UWB概念",
+      "count": 1,
+      "top_stocks": [
+        "300136"
+      ]
+    },
+    {
+      "concept": "特斯拉概念",
+      "count": 1,
+      "top_stocks": [
+        "300136"
+      ]
+    },
+    {
+      "concept": "传感器",
+      "count": 1,
+      "top_stocks": [
+        "688172"
+      ]
+    },
+    {
+      "concept": "第三代半导体",
+      "count": 1,
+      "top_stocks": [
+        "688172"
+      ]
+    },
+    {
+      "concept": "退市整理期",
+      "count": 1,
+      "top_stocks": [
+        "000004"
+      ]
+    },
+    {
+      "concept": "移动安全",
+      "count": 1,
+      "top_stocks": [
+        "000004"
+      ]
+    },
+    {
+      "concept": "减亏",
+      "count": 1,
+      "top_stocks": [
+        "000004"
+      ]
+    },
+    {
+      "concept": "深证100R",
+      "count": 1,
+      "top_stocks": [
+        "300394"
+      ]
+    },
+    {
+      "concept": "其他计算机设备",
+      "count": 1,
+      "top_stocks": [
+        "301666"
+      ]
+    },
+    {
+      "concept": "计算机",
+      "count": 1,
+      "top_stocks": [
+        "301666"
+      ]
+    },
+    {
+      "concept": "计算机设备",
+      "count": 1,
+      "top_stocks": [
+        "301666"
+      ]
+    },
+    {
+      "concept": "百度概念",
+      "count": 1,
+      "top_stocks": [
+        "301666"
+      ]
+    },
+    {
+      "concept": "互动影游",
+      "count": 1,
+      "top_stocks": [
+        "000892"
+      ]
+    },
+    {
+      "concept": "短剧",
+      "count": 1,
+      "top_stocks": [
+        "000892"
+      ]
+    },
+    {
+      "concept": "造纸",
+      "count": 1,
+      "top_stocks": [
+        "002067"
+      ]
+    },
+    {
+      "concept": "间接持股宇树科技",
+      "count": 1,
+      "top_stocks": [
+        "002067"
+      ]
+    },
+    {
+      "concept": "AI厨电",
+      "count": 1,
+      "top_stocks": [
+        "002677"
+      ]
+    },
+    {
+      "concept": "集成灶龙头",
+      "count": 1,
+      "top_stocks": [
+        "002677"
+      ]
+    },
+    {
+      "concept": "智能驾驶",
+      "count": 1,
+      "top_stocks": [
+        "002677"
+      ]
+    },
+    {
+      "concept": "油气装备",
+      "count": 1,
+      "top_stocks": [
+        "002490"
+      ]
+    },
+    {
+      "concept": "海外大单",
+      "count": 1,
+      "top_stocks": [
+        "002490"
+      ]
+    },
+    {
+      "concept": "中药保护",
+      "count": 1,
+      "top_stocks": [
+        "002907"
+      ]
+    },
+    {
+      "concept": "中成药国际化",
+      "count": 1,
+      "top_stocks": [
+        "002907"
+      ]
+    },
+    {
+      "concept": "实控人增持",
+      "count": 1,
+      "top_stocks": [
+        "002745"
+      ]
+    },
+    {
+      "concept": "PCB涨价",
+      "count": 1,
+      "top_stocks": [
+        "002745"
+      ]
+    },
+    {
+      "concept": "LED封装",
+      "count": 1,
+      "top_stocks": [
+        "002745"
+      ]
+    },
+    {
+      "concept": "人造板装备",
+      "count": 1,
+      "top_stocks": [
+        "001395"
+      ]
+    },
+    {
+      "concept": "海外业务",
+      "count": 1,
+      "top_stocks": [
+        "001395"
+      ]
+    },
+    {
+      "concept": "转债标的",
+      "count": 1,
+      "top_stocks": [
+        "301611"
+      ]
+    },
+    {
+      "concept": "锂电池概念",
+      "count": 1,
+      "top_stocks": [
+        "301611"
+      ]
+    },
+    {
+      "concept": "医疗器械概念",
+      "count": 1,
+      "top_stocks": [
+        "301611"
+      ]
+    },
+    {
+      "concept": "燃料电池概念",
+      "count": 1,
+      "top_stocks": [
+        "301611"
+      ]
+    },
+    {
+      "concept": "间接持有长鑫存储股份",
+      "count": 1,
+      "top_stocks": [
+        "600909"
+      ]
+    },
+    {
+      "concept": "证券",
+      "count": 1,
+      "top_stocks": [
+        "600909"
+      ]
+    },
+    {
+      "concept": "具身智能",
+      "count": 1,
+      "top_stocks": [
+        "603666"
+      ]
+    },
+    {
+      "concept": "华为合作",
+      "count": 1,
+      "top_stocks": [
+        "603666"
+      ]
+    },
+    {
+      "concept": "电力机器人",
+      "count": 1,
+      "top_stocks": [
+        "603666"
+      ]
+    },
+    {
+      "concept": "空调风叶龙头",
+      "count": 1,
+      "top_stocks": [
+        "603726"
+      ]
+    },
+    {
+      "concept": "半导体光刻胶",
+      "count": 1,
+      "top_stocks": [
+        "603928"
+      ]
+    },
+    {
+      "concept": "CVD硅碳负极",
+      "count": 1,
+      "top_stocks": [
+        "603928"
+      ]
+    },
+    {
+      "concept": "铸造树脂",
+      "count": 1,
+      "top_stocks": [
+        "603928"
+      ]
+    },
+    {
+      "concept": "零售",
+      "count": 1,
+      "top_stocks": [
+        "000417"
+      ]
+    },
+    {
+      "concept": "农批",
+      "count": 1,
+      "top_stocks": [
+        "000417"
+      ]
+    },
+    {
+      "concept": "并购重组",
+      "count": 1,
+      "top_stocks": [
+        "002185"
+      ]
+    },
+    {
+      "concept": "房地产",
+      "count": 1,
+      "top_stocks": [
+        "002208"
+      ]
+    },
+    {
+      "concept": "算力",
+      "count": 1,
+      "top_stocks": [
+        "002364"
+      ]
+    },
+    {
+      "concept": "HVDC",
+      "count": 1,
+      "top_stocks": [
+        "002364"
+      ]
+    },
+    {
+      "concept": "宁德时代拟入股",
+      "count": 1,
+      "top_stocks": [
+        "002364"
+      ]
+    },
+    {
+      "concept": "覆铜板",
+      "count": 1,
+      "top_stocks": [
+        "002552"
+      ]
+    },
+    {
+      "concept": "黄金",
+      "count": 1,
+      "top_stocks": [
+        "002552"
+      ]
+    },
+    {
+      "concept": "国企",
+      "count": 1,
+      "top_stocks": [
+        "002552"
+      ]
+    },
+    {
+      "concept": "IC载板",
+      "count": 1,
+      "top_stocks": [
+        "002815"
+      ]
+    },
+    {
+      "concept": "高端产能",
+      "count": 1,
+      "top_stocks": [
+        "002815"
+      ]
+    },
+    {
+      "concept": "半导体先进封装",
+      "count": 1,
+      "top_stocks": [
+        "002845"
+      ]
+    },
+    {
+      "concept": "车载摄像头",
+      "count": 1,
+      "top_stocks": [
+        "002845"
+      ]
+    },
+    {
+      "concept": "显示模组",
+      "count": 1,
+      "top_stocks": [
+        "002845"
+      ]
+    },
+    {
+      "concept": "精麻药",
+      "count": 1,
+      "top_stocks": [
+        "003020"
+      ]
+    },
+    {
+      "concept": "盐酸哌甲酯放量",
+      "count": 1,
+      "top_stocks": [
+        "003020"
+      ]
+    },
+    {
+      "concept": "脑机接口",
+      "count": 1,
+      "top_stocks": [
+        "003020"
+      ]
+    },
+    {
+      "concept": "氮化铝",
+      "count": 1,
+      "top_stocks": [
+        "600353"
+      ]
+    },
+    {
+      "concept": "韩国客户",
+      "count": 1,
+      "top_stocks": [
+        "600353"
+      ]
+    },
+    {
+      "concept": "可控核聚变",
+      "count": 1,
+      "top_stocks": [
+        "600353"
+      ]
+    },
+    {
+      "concept": "存储芯片封测",
+      "count": 1,
+      "top_stocks": [
+        "600667"
+      ]
+    },
+    {
+      "concept": "SK海力士",
+      "count": 1,
+      "top_stocks": [
+        "600667"
+      ]
+    },
+    {
+      "concept": "无锡国资",
+      "count": 1,
+      "top_stocks": [
+        "600667"
+      ]
+    },
+    {
+      "concept": "半导体石英",
+      "count": 1,
+      "top_stocks": [
+        "603688"
+      ]
+    },
+    {
+      "concept": "光纤概念",
+      "count": 1,
+      "top_stocks": [
+        "603688"
+      ]
+    },
+    {
+      "concept": "高纯石英砂",
+      "count": 1,
+      "top_stocks": [
+        "603688"
+      ]
+    },
+    {
+      "concept": "半导体硅片涨价",
+      "count": 1,
+      "top_stocks": [
+        "605358"
+      ]
+    },
+    {
+      "concept": "12英寸硅片",
+      "count": 1,
+      "top_stocks": [
+        "605358"
+      ]
+    },
+    {
+      "concept": "VCSEL芯片",
+      "count": 1,
+      "top_stocks": [
+        "605358"
+      ]
+    },
+    {
+      "concept": "拟收购",
+      "count": 1,
+      "top_stocks": [
+        "000811"
+      ]
+    },
+    {
+      "concept": "烟台国资",
+      "count": 1,
+      "top_stocks": [
+        "000811"
+      ]
+    },
+    {
+      "concept": "液冷",
+      "count": 1,
+      "top_stocks": [
+        "000977"
+      ]
+    },
+    {
+      "concept": "AMD产业链",
+      "count": 1,
+      "top_stocks": [
+        "002156"
+      ]
+    },
+    {
+      "concept": "3.2T硅光NPO",
+      "count": 1,
+      "top_stocks": [
+        "002281"
+      ]
+    },
+    {
+      "concept": "CPO",
+      "count": 1,
+      "top_stocks": [
+        "002281"
+      ]
+    },
+    {
+      "concept": "光模块",
+      "count": 1,
+      "top_stocks": [
+        "002384"
+      ]
+    },
+    {
+      "concept": "光芯片",
+      "count": 1,
+      "top_stocks": [
+        "002384"
+      ]
+    },
+    {
+      "concept": "AI PCB",
+      "count": 1,
+      "top_stocks": [
+        "002384"
+      ]
+    },
+    {
+      "concept": "半导体前驱体",
+      "count": 1,
+      "top_stocks": [
+        "002409"
+      ]
+    },
+    {
+      "concept": "HBM",
+      "count": 1,
+      "top_stocks": [
+        "002409"
+      ]
+    },
+    {
+      "concept": "半年报预增",
+      "count": 1,
+      "top_stocks": [
+        "002414"
+      ]
+    },
+    {
+      "concept": "型号产品交付",
+      "count": 1,
+      "top_stocks": [
+        "002414"
+      ]
+    },
+    {
+      "concept": "红外芯片",
+      "count": 1,
+      "top_stocks": [
+        "002414"
+      ]
+    },
+    {
+      "concept": "定增扩产",
+      "count": 1,
+      "top_stocks": [
+        "002436"
+      ]
+    },
+    {
+      "concept": "mSAP基板",
+      "count": 1,
+      "top_stocks": [
+        "002436"
+      ]
+    },
+    {
+      "concept": "1.6T光模块",
+      "count": 1,
+      "top_stocks": [
+        "002436"
+      ]
+    },
+    {
+      "concept": "交互智能平板",
+      "count": 1,
+      "top_stocks": [
+        "002841"
+      ]
+    },
+    {
+      "concept": "AI教育",
+      "count": 1,
+      "top_stocks": [
+        "002841"
+      ]
+    },
+    {
+      "concept": "AI电源",
+      "count": 1,
+      "top_stocks": [
+        "002851"
+      ]
+    },
+    {
+      "concept": "英伟达产业链",
+      "count": 1,
+      "top_stocks": [
+        "002851"
+      ]
+    },
+    {
+      "concept": "AI算力",
+      "count": 1,
+      "top_stocks": [
+        "002916"
+      ]
+    },
+    {
+      "concept": "AI服务器测试",
+      "count": 1,
+      "top_stocks": [
+        "002975"
+      ]
+    },
+    {
+      "concept": "MLCC设备",
+      "count": 1,
+      "top_stocks": [
+        "002975"
+      ]
+    },
+    {
+      "concept": "拟定增扩产",
+      "count": 1,
+      "top_stocks": [
+        "003018"
+      ]
+    },
+    {
+      "concept": "饮料瓶盖龙头",
+      "count": 1,
+      "top_stocks": [
+        "003018"
+      ]
+    },
+    {
+      "concept": "终止定增",
+      "count": 1,
+      "top_stocks": [
+        "600206"
+      ]
+    },
+    {
+      "concept": "半导体靶材",
+      "count": 1,
+      "top_stocks": [
+        "600206"
+      ]
+    },
+    {
+      "concept": "在线导购",
+      "count": 1,
+      "top_stocks": [
+        "600228"
+      ]
+    },
+    {
+      "concept": "控制权变更",
+      "count": 1,
+      "top_stocks": [
+        "600228"
+      ]
+    },
+    {
+      "concept": "CPO光引擎",
+      "count": 1,
+      "top_stocks": [
+        "600584"
+      ]
+    },
+    {
+      "concept": "钢丝绳龙头",
+      "count": 1,
+      "top_stocks": [
+        "600992"
+      ]
+    },
+    {
+      "concept": "国企改革",
+      "count": 1,
+      "top_stocks": [
+        "600992"
+      ]
+    },
+    {
+      "concept": "分拆上市",
+      "count": 1,
+      "top_stocks": [
+        "603005"
+      ]
+    },
+    {
+      "concept": "车规CIS",
+      "count": 1,
+      "top_stocks": [
+        "603005"
+      ]
+    },
+    {
+      "concept": "半导体测试设备",
+      "count": 1,
+      "top_stocks": [
+        "603061"
+      ]
+    },
+    {
+      "concept": "可转债募资",
+      "count": 1,
+      "top_stocks": [
+        "603061"
+      ]
+    },
+    {
+      "concept": "拟收购存储公司",
+      "count": 1,
+      "top_stocks": [
+        "603137"
+      ]
+    },
+    {
+      "concept": "建筑幕墙",
+      "count": 1,
+      "top_stocks": [
+        "603137"
+      ]
+    },
+    {
+      "concept": "跨界转型",
+      "count": 1,
+      "top_stocks": [
+        "603137"
+      ]
+    },
+    {
+      "concept": "长江存储",
+      "count": 1,
+      "top_stocks": [
+        "603156"
+      ]
+    },
+    {
+      "concept": "核桃乳",
+      "count": 1,
+      "top_stocks": [
+        "603156"
+      ]
+    },
+    {
+      "concept": "医疗器械",
+      "count": 1,
+      "top_stocks": [
+        "603222"
+      ]
+    },
+    {
+      "concept": "液冷泵",
+      "count": 1,
+      "top_stocks": [
+        "603757"
+      ]
+    },
+    {
+      "concept": "算力温控",
+      "count": 1,
+      "top_stocks": [
+        "603757"
+      ]
+    },
+    {
+      "concept": "泵业龙头",
+      "count": 1,
+      "top_stocks": [
+        "603757"
+      ]
+    },
+    {
+      "concept": "终止协议",
+      "count": 1,
+      "top_stocks": [
+        "603813"
+      ]
+    },
+    {
+      "concept": "氢能源",
+      "count": 1,
+      "top_stocks": [
+        "603813"
+      ]
+    },
+    {
+      "concept": "摘帽",
+      "count": 1,
+      "top_stocks": [
+        "603813"
+      ]
+    },
+    {
+      "concept": "拟收购博泰智能",
+      "count": 1,
+      "top_stocks": [
+        "603933"
+      ]
+    },
+    {
+      "concept": "半导体分销",
+      "count": 1,
+      "top_stocks": [
+        "603933"
+      ]
+    },
+    {
+      "concept": "长鑫",
+      "count": 1,
+      "top_stocks": [
+        "603986"
+      ]
+    },
+    {
+      "concept": "MCU",
+      "count": 1,
+      "top_stocks": [
+        "603986"
+      ]
+    },
+    {
+      "concept": "半导体引线框架",
+      "count": 1,
+      "top_stocks": [
+        "603991"
+      ]
+    },
+    {
+      "concept": "资产重组",
+      "count": 1,
+      "top_stocks": [
+        "603991"
+      ]
+    },
+    {
+      "concept": "一季报扭亏",
+      "count": 1,
+      "top_stocks": [
+        "603991"
+      ]
+    },
+    {
+      "concept": "存储封测扩产",
+      "count": 1,
+      "top_stocks": [
+        "000021"
+      ]
+    },
+    {
+      "concept": "高端存储芯片",
+      "count": 1,
+      "top_stocks": [
+        "000021"
+      ]
+    },
+    {
+      "concept": "长鑫科技",
+      "count": 1,
+      "top_stocks": [
+        "000672"
+      ]
+    },
+    {
+      "concept": "半导体封装基板",
+      "count": 1,
+      "top_stocks": [
+        "000672"
+      ]
+    },
+    {
+      "concept": "水泥",
+      "count": 1,
+      "top_stocks": [
+        "000672"
+      ]
+    },
+    {
+      "concept": "高阶HDI",
+      "count": 1,
+      "top_stocks": [
+        "002579"
+      ]
+    },
+    {
+      "concept": "AIPC",
+      "count": 1,
+      "top_stocks": [
+        "002579"
+      ]
+    },
+    {
+      "concept": "定增通过",
+      "count": 1,
+      "top_stocks": [
+        "002579"
+      ]
+    },
+    {
+      "concept": "中报扭亏",
+      "count": 1,
+      "top_stocks": [
+        "002829"
+      ]
+    },
+    {
+      "concept": "无人系统",
+      "count": 1,
+      "top_stocks": [
+        "002829"
+      ]
+    },
+    {
+      "concept": "业绩落地",
+      "count": 1,
+      "top_stocks": [
+        "600418"
+      ]
+    },
+    {
+      "concept": "尊界",
+      "count": 1,
+      "top_stocks": [
+        "600418"
+      ]
+    },
+    {
+      "concept": "功率半导体",
+      "count": 1,
+      "top_stocks": [
+        "605319"
+      ]
+    },
+    {
+      "concept": "拟收购德维嘉",
+      "count": 1,
+      "top_stocks": [
+        "605319"
+      ]
+    },
+    {
+      "concept": "成套开关设备",
+      "count": 1,
+      "top_stocks": [
+        "002346"
+      ]
+    },
+    {
+      "concept": "订单新高",
+      "count": 1,
+      "top_stocks": [
+        "002346"
+      ]
+    },
+    {
+      "concept": "努比亚AI手机",
+      "count": 1,
+      "top_stocks": [
+        "002632"
+      ]
+    },
+    {
+      "concept": "石墨烯散热",
+      "count": 1,
+      "top_stocks": [
+        "002632"
+      ]
+    },
+    {
+      "concept": "反光材料龙头",
+      "count": 1,
+      "top_stocks": [
+        "002632"
+      ]
+    },
+    {
+      "concept": "AI智能家居",
+      "count": 1,
+      "top_stocks": [
+        "603898"
+      ]
+    },
+    {
+      "concept": "门店智能化升级",
+      "count": 1,
+      "top_stocks": [
+        "603898"
+      ]
+    },
+    {
+      "concept": "定制家居",
+      "count": 1,
+      "top_stocks": [
+        "603898"
+      ]
+    },
+    {
+      "concept": "硫磺涨价",
+      "count": 1,
+      "top_stocks": [
+        "603329"
+      ]
+    },
+    {
+      "concept": "湖北国资",
+      "count": 1,
+      "top_stocks": [
+        "603329"
+      ]
+    },
+    {
+      "concept": "参股神州龙芯（CPU）",
+      "count": 1,
+      "top_stocks": [
+        "600770"
+      ]
+    },
+    {
+      "concept": "功率半导体IDM",
+      "count": 1,
+      "top_stocks": [
+        "600770"
+      ]
+    },
+    {
+      "concept": "金刚石散热",
+      "count": 1,
+      "top_stocks": [
+        "600770"
+      ]
+    },
+    {
+      "concept": "元件",
+      "count": 1,
+      "top_stocks": [
+        "688519"
+      ]
+    },
+    {
+      "concept": "印制电路板",
+      "count": 1,
+      "top_stocks": [
+        "688519"
+      ]
+    },
+    {
+      "concept": "虚拟现实",
+      "count": 1,
+      "top_stocks": [
+        "688519"
+      ]
+    },
+    {
+      "concept": "增强现实",
+      "count": 1,
+      "top_stocks": [
+        "688519"
+      ]
+    },
+    {
+      "concept": "多元醇",
+      "count": 1,
+      "top_stocks": [
+        "002274"
+      ]
+    },
+    {
+      "concept": "煤化工",
+      "count": 1,
+      "top_stocks": [
+        "002274"
+      ]
+    },
+    {
+      "concept": "河北板块",
+      "count": 1,
+      "top_stocks": [
+        "688146"
+      ]
+    },
+    {
+      "concept": "固态电池",
+      "count": 1,
+      "top_stocks": [
+        "688146"
+      ]
+    },
+    {
+      "concept": "物联网",
+      "count": 1,
+      "top_stocks": [
+        "688766"
+      ]
+    },
+    {
+      "concept": "智能家居",
+      "count": 1,
+      "top_stocks": [
+        "688766"
+      ]
+    },
+    {
+      "concept": "2026一季报预增",
+      "count": 1,
+      "top_stocks": [
+        "688809"
+      ]
+    },
+    {
+      "concept": "2025年报预增",
+      "count": 1,
+      "top_stocks": [
+        "688809"
+      ]
+    },
+    {
+      "concept": "其他自动化设备",
+      "count": 1,
+      "top_stocks": [
+        "300757"
+      ]
+    },
+    {
+      "concept": "自动化设备",
+      "count": 1,
+      "top_stocks": [
+        "300757"
+      ]
+    },
+    {
+      "concept": "机械设备",
+      "count": 1,
+      "top_stocks": [
+        "300757"
+      ]
+    },
+    {
+      "concept": "超清视频",
+      "count": 1,
+      "top_stocks": [
+        "300223"
+      ]
+    },
+    {
+      "concept": "标准普尔",
+      "count": 1,
+      "top_stocks": [
+        "002371"
+      ]
+    }
+  ],
+  "high_mark_tracking": [],
+  "dragon_tiger_cross": {
+    "total_on_board": 15,
+    "top_net_buy": [
+      {
+        "code": "000977",
+        "name": "浪潮信息",
+        "net_buy_wan": 235389.8
+      },
+      {
+        "code": "002156",
+        "name": "通富微电",
+        "net_buy_wan": 155558.1
+      },
+      {
+        "code": "002185",
+        "name": "华天科技",
+        "net_buy_wan": 136627.14
+      },
+      {
+        "code": "002384",
+        "name": "东山精密",
+        "net_buy_wan": 52279.32
+      },
+      {
+        "code": "002281",
+        "name": "光迅科技",
+        "net_buy_wan": 35068.46
+      },
+      {
+        "code": "300236",
+        "name": "上海新阳",
+        "net_buy_wan": 33579.74
+      },
+      {
+        "code": "300469",
+        "name": "信息发展",
+        "net_buy_wan": 20466.65
+      },
+      {
+        "code": "002841",
+        "name": "视源股份",
+        "net_buy_wan": 10855.29
+      },
+      {
+        "code": "301607",
+        "name": "富特科技",
+        "net_buy_wan": 9527.4
+      },
+      {
+        "code": "002677",
+        "name": "浙江美大",
+        "net_buy_wan": 2112.22
+      }
+    ]
+  },
+  "data_quality": {
+    "industry_coverage_pct": 16.6,
+    "concept_coverage_pct": 63.2,
+    "reason_coverage_pct": 46.0,
+    "dragon_tiger_coverage_pct": 9.2,
+    "missing_fields": [
+      "seal_amount",
+      "first_limit_time",
+      "reopen_count"
+    ],
+    "missing_reason": "东财push2ex涨停池API失效(rc=102)，盘中动态字段不可获取"
+  }
+}
