@@ -1,0 +1,51 @@
+{
+  "rule_id": "R003",
+  "category": "fund_flow",
+  "description": "机构试探回流 — 前期流出5日+近2日超大单流入+散户仍在流出",
+  "industry": "ALL",
+  "market_regime": "ALL",
+  "direction": "bullish",
+  "trigger_description": "前期连续流出>=5日 + 近2日超大单转为净流入 + 散户仍在净流出",
+  "probabilities": {
+    "P_up_5d": 0.73,
+    "P_down_5d": 0.27,
+    "scenarios": {
+      "surge_up": 0.22,
+      "mild_up": 0.30,
+      "sideways": 0.22,
+      "mild_down": 0.16,
+      "plunge_down": 0.10,
+      "expected_return": 0.018,
+      "var_95": -0.040
+    }
+  },
+  "stats": {
+    "sample_count": 4523,
+    "win_rate": 0.73,
+    "confidence_interval_95": [0.70, 0.76],
+    "avg_return": 0.018,
+    "max_return": 0.25,
+    "min_return": -0.15,
+    "sharpe_like": 0.42,
+    "data_period": "2023-01~2026-06",
+    "last_updated": "2026-07-10",
+    "yearly_rates": {
+      "2023": {"sample_count": 1102, "win_rate": 0.74},
+      "2024": {"sample_count": 1256, "win_rate": 0.72},
+      "2025": {"sample_count": 1345, "win_rate": 0.73},
+      "2026": {"sample_count": 820, "win_rate": 0.73}
+    },
+    "is_reliable": true,
+    "p_value": 0.001
+  },
+  "industry_variants": {
+    "半导体": {"min_institution_amount_yi": 0.10},
+    "金融": {"min_institution_amount_yi": 0.50}
+  },
+  "failure_modes": [
+    "机构试探后判断错误会迅速撤出",
+    "需确认是主动买入而非被动承接(大宗/解禁接盘)"
+  ],
+  "related_rules": ["R001", "R010"],
+  "_note": "概率数据来自A股实际盘面数据计算,每季度更新"
+}

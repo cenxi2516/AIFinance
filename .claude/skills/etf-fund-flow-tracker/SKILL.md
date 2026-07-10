@@ -22,101 +22,29 @@ updated: 2026-07-07
 - 用户要检测**增量资金入场信号**（ETF份额持续增加 + 成交放量）
 - 关键词：`ETF`、`ETF资金流`、`ETF资金走势`、`宽基ETF`、`行业ETF`、`主题ETF`、`ETF轮动`、`盘面分析`
 
-## Prerequisites
+## Prerequisites — 数据拉取全部委托给 a-stock-api
 
-本 skill 依赖 a-stock-data 的通用 helper：
-
-```python
-import time, random, requests, json, re
-from datetime import datetime, timedelta
-from collections import defaultdict
-
-UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
-EM_SESSION = requests.Session()
-EM_SESSION.headers.update({"User-Agent": UA})
-EM_MIN_INTERVAL = 1.5
-_em_last_call = [0.0]
-
-def em_get(url, params=None, headers=None, timeout=15):
-    """东财统一请求：自动节流 + Keep-Alive"""
-    wait = EM_MIN_INTERVAL - (time.time() - _em_last_call[0])
-    if wait > 0:
-        time.sleep(wait + random.uniform(0.1, 0.5))
-    try:
-        return EM_SESSION.get(url, params=params, headers=headers, timeout=timeout)
-    finally:
-        _em_last_call[0] = time.time()
-
-DATACENTER_URL = "https://datacenter-web.eastmoney.com/api/data/v1/get"
-
-def eastmoney_datacenter(report_name, columns="ALL", filter_str="",
-                          page_size=50, sort_columns="", sort_types="-1"):
-    params = {
-        "reportName": report_name, "columns": columns,
-        "filter": filter_str, "pageNumber": "1", "pageSize": str(page_size),
-        "sortColumns": sort_columns, "sortTypes": sort_types,
-        "source": "WEB", "client": "WEB",
-    }
-    r = em_get(DATACENTER_URL, params=params, timeout=15)
-    d = r.json()
-    if d.get("result") and d["result"].get("data"):
-        return d["result"]["data"]
-    return []
-```
-
----
-
-## ETF 分类体系
-
-### 七大类 ETF
-
-| 类别 | 特征 | 代表ETF | 资金含义 |
-|------|------|---------|---------|
-| 🏛️ **宽基ETF** | 跟踪大盘指数 | 510050(上证50), 510300(沪深300), 510500(中证500), 588000(科创50), 159915(创业板) | **市场整体风向标**，增量资金最先流入宽基 |
-| 🏭 **行业ETF** | 跟踪特定行业 | 512880(证券), 512480(半导体), 159995(芯片), 516160(新能源) | **行业轮动信号**，机构配置方向 |
-| 💡 **主题ETF** | 跟踪概念主题 | 515050(5G), 516020(人工智能) | **题材热度指标**，与涨停板情绪互相验证 |
-| 📐 **策略ETF** | 红利/低波/质量 | 510880(红利), 512890(红利低波) | **防御型资金**，市场避险情绪指标 |
-| 🏦 **债券ETF** | 国债/信用债/可转债 | 511010(国债), 511380(转债) | **固收配置**，股票风险偏好反向指标 |
-| 🌍 **跨境ETF** | 港股/美股/日经 | 513050(中概互联), 513100(纳指) | **海外配置**，A股吸引力替代指标 |
-| 🥇 **商品ETF** | 黄金/有色/能源 | 518880(黄金), 159980(有色) | **通胀/避险**，与宏观事件相关 |
-
-### 核心 ETF 池
+本 skill **不内置数据拉取代码**。所有行情/资金流/新闻/板块/融资融券/龙虎榜数据，统一通过项目共享模块 `a_stock_api` 获取。
 
 ```python
-# 核心ETF池（按市值和流动性筛选，2026-07 实测）
-CORE_ETFS = {
-    # === 宽基ETF ===
-    "510050": {"name": "上证50ETF",       "cat": "宽基", "style": "大盘价值"},
-    "510300": {"name": "沪深300ETF",      "cat": "宽基", "style": "大盘均衡"},
-    "510500": {"name": "中证500ETF",      "cat": "宽基", "style": "中盘成长"},
-    "159915": {"name": "创业板ETF",       "cat": "宽基", "style": "成长"},
-    "588000": {"name": "科创50ETF",       "cat": "宽基", "style": "硬科技"},
-    "510330": {"name": "沪深300ETF华夏",  "cat": "宽基", "style": "大盘均衡"},
-    "159845": {"name": "中证1000ETF",     "cat": "宽基", "style": "小盘成长"},
-    # === 行业ETF ===
-    "512880": {"name": "证券ETF",         "cat": "行业", "style": "券商"},
-    "512480": {"name": "半导体ETF",       "cat": "行业", "style": "半导体"},
-    "159995": {"name": "芯片ETF",         "cat": "行业", "style": "芯片"},
-    "516160": {"name": "新能源ETF",       "cat": "行业", "style": "新能源"},
-    "512660": {"name": "军工ETF",         "cat": "行业", "style": "军工"},
-    "512690": {"name": "酒ETF",           "cat": "行业", "style": "消费"},
-    "512010": {"name": "医药ETF",         "cat": "行业", "style": "医药"},
-    "516510": {"name": "云计算ETF",       "cat": "行业", "style": "云计算"},
-    "159869": {"name": "游戏ETF",         "cat": "行业", "style": "游戏"},
-    # === 策略ETF ===
-    "510880": {"name": "红利ETF",         "cat": "策略", "style": "红利防御"},
-    "512890": {"name": "红利低波ETF",     "cat": "策略", "style": "红利低波"},
-    # === 跨境ETF ===
-    "513050": {"name": "中概互联ETF",     "cat": "跨境", "style": "中概互联"},
-    "513100": {"name": "纳指ETF",         "cat": "跨境", "style": "纳斯达克"},
-    # === 商品ETF ===
-    "518880": {"name": "黄金ETF",         "cat": "商品", "style": "黄金避险"},
-}
-
-def get_etf_info(code: str) -> dict:
-    """查ETF基本信息（优先核心池）"""
-    return CORE_ETFS.get(code, {"name": code, "cat": "其他", "style": ""})
+import sys
+sys.path.insert(0, '.claude/skills/_shared')
+from a_stock_api import (
+    em_get,                    # 东财统一请求入口（已内置限流+重试）
+    eastmoney_datacenter,      # 东财数据中心通用查询
+    tencent_quote,             # 腾讯行情（PE/PB/市值/换手率，不封IP）
+    stock_fund_flow_120d,      # 个股资金流120日
+    eastmoney_fund_flow_minute, # 个股资金流分钟级
+    industry_comparison,       # 行业板块排名
+    eastmoney_concept_blocks,  # 个股概念板块归属
+    eastmoney_stock_news,      # 个股新闻
+    concept_sector_fund_flow,  # 概念板块资金流
+    em_zt_pool,               # 涨停池
+    full_valuation,            # 完整估值
+)
 ```
+
+> 所有 `eastmoney.com` 请求已内置限流（≥1s 间隔 + 随机抖动 + Keep-Alive + 自动重试），无需自行实现。
 
 ---
 

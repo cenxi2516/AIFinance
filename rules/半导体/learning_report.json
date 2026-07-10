@@ -1,0 +1,110 @@
+{
+  "industry": "半导体",
+  "learning_date": "2026-07-10",
+  "data_summary": {
+    "stocks_pulled": 2,
+    "codes": [
+      "002371",
+      "688525"
+    ],
+    "kline_days": 500,
+    "flow_days": 120
+  },
+  "rules": {
+    "R001_outflow_exhaustion": {
+      "rule_id": "R001",
+      "sample_count": 3,
+      "is_reliable": false,
+      "error": "触发样本不足(仅3个)",
+      "trigger_details": [
+        {
+          "code": "688525",
+          "date": "2024-09-27",
+          "trigger_price": 50.29,
+          "future_date": "2024-10-11",
+          "future_price": 60.8,
+          "return": 0.208988
+        },
+        {
+          "code": "688525",
+          "date": "2024-09-30",
+          "trigger_price": 60.39,
+          "future_date": "2024-10-14",
+          "future_price": 65.26,
+          "return": 0.080642
+        },
+        {
+          "code": "688525",
+          "date": "2024-11-12",
+          "trigger_price": 68.4,
+          "future_date": "2024-11-19",
+          "future_price": 60.55,
+          "return": -0.114766
+        }
+      ]
+    },
+    "R004_accelerating_outflow": {
+      "rule_id": "R004",
+      "sample_count": 6,
+      "is_reliable": false,
+      "error": "触发样本不足(仅6个)",
+      "trigger_details": [
+        {
+          "code": "002371",
+          "date": "2024-09-19",
+          "trigger_price": 215.13,
+          "future_date": "2024-09-26",
+          "future_price": 222.9,
+          "return": 0.036118
+        },
+        {
+          "code": "002371",
+          "date": "2024-09-20",
+          "trigger_price": 215.8,
+          "future_date": "2024-09-27",
+          "future_price": 245.34,
+          "return": 0.136886
+        },
+        {
+          "code": "688525",
+          "date": "2024-08-01",
+          "trigger_price": 56.5,
+          "future_date": "2024-08-08",
+          "future_price": 48.15,
+          "return": -0.147788
+        },
+        {
+          "code": "688525",
+          "date": "2024-08-29",
+          "trigger_price": 43.18,
+          "future_date": "2024-09-05",
+          "future_price": 43.28,
+          "return": 0.002316
+        },
+        {
+          "code": "688525",
+          "date": "2024-12-02",
+          "trigger_price": 59.52,
+          "future_date": "2024-12-09",
+          "future_price": 58.08,
+          "return": -0.024194
+        },
+        {
+          "code": "688525",
+          "date": "2024-12-03",
+          "trigger_price": 58.32,
+          "future_date": "2024-12-10",
+          "future_price": 58.62,
+          "return": 0.005144
+        }
+      ]
+    }
+  },
+  "methodology": {
+    "data_source": "东财 push2his (K线+资金流)",
+    "horizon": "T+5 / T+10",
+    "min_samples_for_reliable": 100,
+    "bootstrap_iterations": 1000,
+    "confidence_level": "95%"
+  }
+}

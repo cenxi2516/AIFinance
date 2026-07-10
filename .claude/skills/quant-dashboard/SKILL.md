@@ -1,7 +1,7 @@
 ---
 name: quant-dashboard
 description: 全市场量化综合研判仪表盘 — 实时拉取行情/ETF资金流/消息，五层量化引擎(市场状态识别→动态权重分配→六维评分修正→跷跷板检测→综合评分+时机参考)，内置30+条历史统计规律。核心理念：股价主要受消息和资金驱动，其他维度作为辅助修正。Use when 用户询问"现在市场怎么看""该入场还是离场""XX板块走势预判""仓位建议""市场风格判断""高低切换""风险预警"等需要全市场量化研判时。
-version: 2.0.0
+version: 2.1.0
 updated: 2026-07-10
 ---
 
@@ -675,7 +675,11 @@ def generate_reference_conditions(composite: dict) -> dict:
 ```
 ## 历史统计规律知识库
 
-以下规律来自券商研报对 A 股过去 10-20 年数据的量化回测，每条标注触发条件、历史胜率和适用环境。
+> **V2.1 更新 (2026-07-10)**: 规律已接入统一概率引擎 `probability_engine.py`。**概率主来源: A股实际盘面数据计算**（通过 `rule_learner.py` 拉取2023-2026年数据）。**券商研报作为参考辅助**（提供分类框架和方法论验证，不直接引用其概率数字）。
+>
+> 详细定义: `.claude/skills/_shared/historical-rules-kb.md` | 规则JSON: `rules/_common/`
+>
+> 以下清单标注了每条规律的数据来源类型（自计算 / 参考框架）：
 
 ### 类别 1: 涨跌幅约束类
 
@@ -731,117 +735,20 @@ def generate_reference_conditions(composite: dict) -> dict:
 
 ---
 
-## 实时数据拉取
-
-### 实时行情 (腾讯 API — 不封 IP，优先使用)
+## 实时数据拉取 — 全部委托给 a-stock-api
 
 ```python
-import urllib.request
-
-def fetch_realtime_quotes(codes: list[str]) -> dict:
-    """
-    腾讯财经实时行情 — 一次请求拉取多只标的。
-    
-    codes: ['sh512480', 'sz159995', 'sh600176', 'sh600879', ...]
-    返回: {code: {name, price, change_pct, open, high, low, pre_close, turnover, vol_ratio, amplitude}}
-    """
-    url = 'https://qt.gtimg.cn/q=' + ','.join(codes)
-    req = urllib.request.Request(url)
-    req.add_header('User-Agent', 'Mozilla/5.0')
-    resp = urllib.request.urlopen(req, timeout=10)
-    data = resp.read().decode('gbk')
-    
-    results = {}
-    for line in data.strip().split('\n'):
-        if not line.strip():
-            continue
-        parts = line.split('~')
-        if len(parts) < 50:
-            continue
-        code = parts[2]
-        results[code] = {
-            "name": parts[1], "price": float(parts[3]) if parts[3] else 0,
-            "change_pct": float(parts[32]) if parts[32] else 0,
-            "open": float(parts[5]) if parts[5] else 0,
-            "high": float(parts[33]) if parts[33] else 0,
-            "low": float(parts[34]) if parts[34] else 0,
-            "pre_close": float(parts[4]) if parts[4] else 0,
-            "turnover": float(parts[38]) if parts[38] else 0,
-            "vol_ratio": float(parts[49]) if parts[49] else 0,
-            "amplitude": float(parts[43]) if parts[43] else 0,
-        }
-    return results
+import sys
+sys.path.insert(0, '.claude/skills/_shared')
+from a_stock_api import (
+    tencent_quote,             # 替代内联的 fetch_realtime_quotes()
+    industry_comparison,       # 行业板块排名
+    concept_sector_fund_flow,  # 概念板块资金流
+    em_get,                    # 东财统一请求（已内置限流+重试）
+)
 ```
 
-### 概念板块资金流 (东财 push2 — 限流，仅在关键分析时使用)
-
-```python
-import time, random, requests
-
-UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
-EM_SESSION = requests.Session()
-EM_SESSION.headers.update({"User-Agent": UA})
-_em_last_call = [0.0]
-
-def em_get(url, params=None, headers=None, timeout=15):
-    """东财统一请求：自动节流（≥2秒间隔，资金流接口更敏感）"""
-    wait = 2.0 + random.uniform(0.5, 1.5) - (time.time() - _em_last_call[0])
-    if wait > 0:
-        time.sleep(wait)
-    try:
-        return EM_SESSION.get(url, params=params, headers=headers, timeout=timeout)
-    finally:
-        _em_last_call[0] = time.time()
-
-def fetch_concept_sector_flows() -> dict:
-    """拉取全量概念板块资金流（约494个概念板块）"""
-    url = 'https://push2.eastmoney.com/api/qt/clist/get'
-    params = {
-        'pn': '1', 'pz': '500', 'po': '0', 'np': '1',
-        'fltt': '2', 'invt': '2',
-        'fs': 'm:90+t:3',
-        'fields': 'f2,f3,f8,f10,f12,f14,f62,f66,f72,f78,f84,f104,f105,f128',
-        'st': 'f62',
-    }
-    headers = {'Referer': 'https://data.eastmoney.com/'}
-    r = em_get(url, params=params, headers=headers, timeout=20)
-    d = r.json()
-    items = d.get('data', {}).get('diff', []) or []
-    return {
-        "total": d.get('data', {}).get('total', 0),
-        "sectors": [
-            {
-                "code": it.get('f12', ''),
-                "name": it.get('f14', ''),
-                "main_net": (it.get('f62') or 0) / 1e8,  # 转换为亿
-                "change_pct": it.get('f3', 0),
-                "up_count": it.get('f104', 0),
-                "down_count": it.get('f105', 0),
-            }
-            for it in items
-        ],
-    }
-```
-
-### 消息面 (WebSearch — 必须筛选"具备实质影响"的消息)
-
-```python
-# 消息采集优先级:
-# 1. WebSearch: "板块/个股 + 2026年7月 + 事件/政策/新闻"
-# 2. WebSearch: "A股 重大事件 2026年7月10日"
-# 3. WebFetch: 获取政策原文/事件详情
-
-# ━━ 消息过滤规则 ━━
-# ✅ 保留: 涉及真实政策/业绩/重大事件的新闻
-# ❌ 丢弃: 纯市场评论/价格预测/自媒体观点/AI生成内容
-# ⚠️ 标记: 传闻(未证实)/分析师预测(二级来源)
-
-# ━━ 影响判断 ━━
-# 每条保留消息必须回答:
-# 1. 这个事件改变了什么基本面假设？
-# 2. 市场是否已经定价？（前期涨跌幅检查）
-# 3. 影响的持续性是脉冲还是趋势？（事件持续性分类）
-```
+> **数据源优先级**：① 腾讯(行情)不封IP ② mootdx(K线,TCP)不封IP ③ push2(资金流) ④ push2his(日级资金流)
 
 ---
 

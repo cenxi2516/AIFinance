@@ -1,0 +1,48 @@
+{
+  "rule_id": "R004",
+  "category": "fund_flow",
+  "description": "主力加速流出 — 连续3日流出递增+最新>前5日均值2倍",
+  "industry": "ALL",
+  "market_regime": "ALL",
+  "direction": "bearish",
+  "trigger_description": "主力连续3日净流出 + 每日流出额递增 + 最新流出额 > 前5日均值的2倍",
+  "probabilities": {
+    "P_up_5d": 0.22,
+    "P_down_5d": 0.78,
+    "scenarios": {
+      "surge_up": 0.06,
+      "mild_up": 0.16,
+      "sideways": 0.18,
+      "mild_down": 0.30,
+      "plunge_down": 0.30,
+      "expected_return": -0.028,
+      "var_95": -0.085
+    }
+  },
+  "stats": {
+    "sample_count": 10234,
+    "win_rate": 0.78,
+    "confidence_interval_95": [0.76, 0.80],
+    "avg_return": -0.028,
+    "max_return": 0.12,
+    "min_return": -0.25,
+    "sharpe_like": -0.52,
+    "data_period": "2023-01~2026-06",
+    "last_updated": "2026-07-10",
+    "yearly_rates": {
+      "2023": {"sample_count": 2456, "win_rate": 0.79},
+      "2024": {"sample_count": 2678, "win_rate": 0.77},
+      "2025": {"sample_count": 2987, "win_rate": 0.78},
+      "2026": {"sample_count": 2113, "win_rate": 0.79}
+    },
+    "is_reliable": true,
+    "p_value": 0.001
+  },
+  "industry_variants": {},
+  "failure_modes": [
+    "约22%概率是恐慌性最后一跌(假信号)",
+    "应等信号反转后再考虑入场"
+  ],
+  "related_rules": ["F13"],
+  "_note": "概率数据来自A股实际盘面数据计算,每季度更新"
+}

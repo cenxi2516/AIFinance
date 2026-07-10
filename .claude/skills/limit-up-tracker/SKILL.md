@@ -36,55 +36,29 @@ updated: 2026-07-02
 - 用户要做**涨停板复盘**（今日涨停回顾 + 前日对比）
 - 关键词：`涨停`、`涨停板`、`炸板`、`封板`、`连板`、`涨停潮`、`涨停复盘`、`打板`、`题材热点`、`板块涨停`、`首板`、`二板`、`高标`
 
-## Prerequisites
+## Prerequisites — 数据拉取全部委托给 a-stock-api
 
-本 skill 依赖 a-stock-data 的通用 helper，使用前需先加载：
+本 skill **不内置数据拉取代码**。所有行情/资金流/新闻/板块/融资融券/龙虎榜数据，统一通过项目共享模块 `a_stock_api` 获取。
 
 ```python
-# 从 a-stock-data 继承的通用 helper（必须）
-import time, random, requests, json
-from datetime import datetime, timedelta
-
-UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
-EM_SESSION = requests.Session()
-EM_SESSION.headers.update({"User-Agent": UA})
-EM_MIN_INTERVAL = 1.2
-_em_last_call = [0.0]
-
-def em_get(url, params=None, headers=None, timeout=15):
-    """东财统一请求：自动节流 + Keep-Alive"""
-    wait = EM_MIN_INTERVAL - (time.time() - _em_last_call[0])
-    if wait > 0:
-        time.sleep(wait + random.uniform(0.1, 0.5))
-    try:
-        return EM_SESSION.get(url, params=params, headers=headers, timeout=timeout)
-    finally:
-        _em_last_call[0] = time.time()
+import sys
+sys.path.insert(0, '.claude/skills/_shared')
+from a_stock_api import (
+    em_get,                    # 东财统一请求入口（已内置限流+重试）
+    eastmoney_datacenter,      # 东财数据中心通用查询
+    tencent_quote,             # 腾讯行情（PE/PB/市值/换手率，不封IP）
+    stock_fund_flow_120d,      # 个股资金流120日
+    eastmoney_fund_flow_minute, # 个股资金流分钟级
+    industry_comparison,       # 行业板块排名
+    eastmoney_concept_blocks,  # 个股概念板块归属
+    eastmoney_stock_news,      # 个股新闻
+    concept_sector_fund_flow,  # 概念板块资金流
+    em_zt_pool,               # 涨停池
+    full_valuation,            # 完整估值
+)
 ```
 
----
-
-## 核心数据源：东财涨停池 API
-
-东财 push2ex 涨停池是按日期和市场分类的涨停股票清单，包含涨停时间、炸板次数、封单金额、连板数等核心字段。
-
-```
-端点: https://push2ex.eastmoney.com/getTopicZTPool
-市场: m:0+t:6(主板)  m:0+t:80(科创板)  m:0+t:7(创业板)  m:0+t:81(北交所)
-```
-
-### 市场与涨跌幅限制
-
-| 市场代码 | 市场名称 | 涨跌幅限制 | 简称 |
-|----------|---------|-----------|------|
-| `m:0+t:6` | 沪深主板 | ±10% | 主板 |
-| `m:0+t:7` | 创业板 | ±20% | 创业板 |
-| `m:0+t:80` | 科创板 | ±20% | 科创板 |
-| `m:0+t:81` | 北交所 | ±30% | 北交所 |
-| `m:0+t:6+f:!50` | 沪深主板（排除ST）| ±10% | 主板非ST |
-| `m:0+t:6+f:50` | ST 板块 | ±5% | ST |
-
-> **注意：** push2ex 涨停池接口在不同时段表现不同——**当日盘中**可获取实时涨停数据（包含涨停时间、炸板次数等动态字段）；**历史日期**（昨日/前天）返回的是最终涨停状态（去重后的封板股票清单，部分盘中动态字段可能为空）。因此历史回溯时以数量统计和行业分布为主，盘中动态指标以当日为准。
+> 所有 `eastmoney.com` 请求已内置限流（≥1s 间隔 + 随机抖动 + Keep-Alive + 自动重试），无需自行实现。
 
 ---
 

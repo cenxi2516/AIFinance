@@ -23,47 +23,29 @@ updated: 2026-07-01
 - 用户要**板块轮动研判**（资金从哪来、往哪去）
 - 关键词：`资金流向`、`主力资金`、`板块轮动`、`机构动向`、`游资`、`散户`、`龙虎榜`、`行业资金流`、`概念资金流`、`主力净流入`、`资金排名`、`为什么涨`、`为什么跌`、`涨跌原因`、`归因分析`
 
-## Prerequisites
+## Prerequisites — 数据拉取全部委托给 a-stock-api
 
-本 skill 依赖 a-stock-data 的通用 helper，使用前需先加载：
+本 skill **不内置数据拉取代码**。所有行情/资金流/新闻/板块/融资融券/龙虎榜数据，统一通过项目共享模块 `a_stock_api` 获取。
 
 ```python
-# 从 a-stock-data 继承的通用 helper（必须）
-import time, random, requests
-
-UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
-EM_SESSION = requests.Session()
-EM_SESSION.headers.update({"User-Agent": UA})
-EM_MIN_INTERVAL = 1.5  # 资金流接口更敏感，调大间隔
-_em_last_call = [0.0]
-
-def em_get(url, params=None, headers=None, timeout=15):
-    """东财统一请求：自动节流 + Keep-Alive"""
-    wait = EM_MIN_INTERVAL - (time.time() - _em_last_call[0])
-    if wait > 0:
-        time.sleep(wait + random.uniform(0.1, 0.5))
-    try:
-        return EM_SESSION.get(url, params=params, headers=headers, timeout=timeout)
-    finally:
-        _em_last_call[0] = time.time()
-
-DATACENTER_URL = "https://datacenter-web.eastmoney.com/api/data/v1/get"
-
-def eastmoney_datacenter(report_name, columns="ALL", filter_str="",
-                          page_size=50, sort_columns="", sort_types="-1"):
-    """东财数据中心统一查询（已内置限流）"""
-    params = {
-        "reportName": report_name, "columns": columns,
-        "filter": filter_str, "pageNumber": "1", "pageSize": str(page_size),
-        "sortColumns": sort_columns, "sortTypes": sort_types,
-        "source": "WEB", "client": "WEB",
-    }
-    r = em_get(DATACENTER_URL, params=params, timeout=15)
-    d = r.json()
-    if d.get("result") and d["result"].get("data"):
-        return d["result"]["data"]
-    return []
+import sys
+sys.path.insert(0, '.claude/skills/_shared')
+from a_stock_api import (
+    em_get,                    # 东财统一请求入口（已内置限流+重试）
+    eastmoney_datacenter,      # 东财数据中心通用查询
+    tencent_quote,             # 腾讯行情（PE/PB/市值/换手率，不封IP）
+    stock_fund_flow_120d,      # 个股资金流120日
+    eastmoney_fund_flow_minute, # 个股资金流分钟级
+    industry_comparison,       # 行业板块排名
+    eastmoney_concept_blocks,  # 个股概念板块归属
+    eastmoney_stock_news,      # 个股新闻
+    concept_sector_fund_flow,  # 概念板块资金流
+    em_zt_pool,               # 涨停池
+    full_valuation,            # 完整估值
+)
 ```
+
+> 所有 `eastmoney.com` 请求已内置限流（≥1s 间隔 + 随机抖动 + Keep-Alive + 自动重试），无需自行实现。
 
 ---
 

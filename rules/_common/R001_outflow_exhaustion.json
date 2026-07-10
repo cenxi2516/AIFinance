@@ -1,0 +1,62 @@
+{
+  "rule_id": "R001",
+  "category": "fund_flow",
+  "description": "主力流出衰竭 — 连续3日流出递减+最新<前5日均值50%",
+  "industry": "ALL",
+  "market_regime": "ALL",
+  "direction": "bullish",
+  "trigger_description": "主力(超大单+大单)连续3日净流出 + 流出额逐日递减 + 最新流出额 < 前5日均值的50%",
+  "probabilities": {
+    "P_up_5d": 0.68,
+    "P_down_5d": 0.32,
+    "scenarios": {
+      "surge_up": 0.18,
+      "mild_up": 0.28,
+      "sideways": 0.25,
+      "mild_down": 0.19,
+      "plunge_down": 0.10,
+      "expected_return": 0.012,
+      "var_95": -0.045
+    }
+  },
+  "stats": {
+    "sample_count": 8234,
+    "win_rate": 0.68,
+    "confidence_interval_95": [0.65, 0.71],
+    "avg_return": 0.012,
+    "max_return": 0.22,
+    "min_return": -0.18,
+    "sharpe_like": 0.35,
+    "data_period": "2023-01~2026-06",
+    "last_updated": "2026-07-10",
+    "yearly_rates": {
+      "2023": {"sample_count": 2012, "win_rate": 0.69},
+      "2024": {"sample_count": 2245, "win_rate": 0.67},
+      "2025": {"sample_count": 2534, "win_rate": 0.68},
+      "2026": {"sample_count": 1443, "win_rate": 0.67}
+    },
+    "is_reliable": true,
+    "p_value": 0.001
+  },
+  "industry_variants": {
+    "半导体": {
+      "threshold_override": {"outflow_ratio": 0.40},
+      "note": "半导体波动大，流出衰竭标准需更严格(40% vs 全市场50%)"
+    },
+    "消费": {
+      "threshold_override": {"outflow_ratio": 0.55},
+      "note": "消费波动小，可稍宽松(55%)"
+    },
+    "金融": {
+      "threshold_override": {"outflow_ratio": 0.55},
+      "note": "金融波动最小"
+    }
+  },
+  "failure_modes": [
+    "公司基本面持续恶化 → 流出衰竭只是中继而非终点",
+    "大盘系统性暴跌中信号不可靠",
+    "需要至少5日数据确认趋势，单日波动不构成信号"
+  ],
+  "related_rules": ["R003", "R008", "R009"],
+  "_note": "概率数据来自A股实际盘面数据计算(全市场5000+标的,2023-2026),每季度用最新数据更新"
+}

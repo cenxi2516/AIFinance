@@ -22,64 +22,29 @@ updated: 2026-07-09
 - 用户要做**多维交叉验证**（情绪分 + 资金流 + 涨停 + ETF 是否共振）
 - 关键词：`情绪指数`、`行业情绪`、`市场情绪`、`情绪热力图`、`情绪温度`、`半导体情绪`、`板块热度`、`市场热度`
 
-## Prerequisites
+## Prerequisites — 数据拉取全部委托给 a-stock-api
 
-本 skill 依赖 a-stock-data 的通用 helper：
+本 skill **不内置数据拉取代码**。所有行情/资金流/新闻/板块/融资融券/龙虎榜数据，统一通过项目共享模块 `a_stock_api` 获取。
 
 ```python
-import time, random, requests, json, math, re, os
-from datetime import datetime, timedelta
-from collections import defaultdict
-
-UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
-EM_SESSION = requests.Session()
-EM_SESSION.headers.update({"User-Agent": UA})
-EM_MIN_INTERVAL = 1.5
-_em_last_call = [0.0]
-
-def em_get(url, params=None, headers=None, timeout=15):
-    """东财统一请求：自动节流 + Keep-Alive"""
-    wait = EM_MIN_INTERVAL - (time.time() - _em_last_call[0])
-    if wait > 0:
-        time.sleep(wait + random.uniform(0.1, 0.5))
-    try:
-        return EM_SESSION.get(url, params=params, headers=headers, timeout=timeout)
-    finally:
-        _em_last_call[0] = time.time()
+import sys
+sys.path.insert(0, '.claude/skills/_shared')
+from a_stock_api import (
+    em_get,                    # 东财统一请求入口（已内置限流+重试）
+    eastmoney_datacenter,      # 东财数据中心通用查询
+    tencent_quote,             # 腾讯行情（PE/PB/市值/换手率，不封IP）
+    stock_fund_flow_120d,      # 个股资金流120日
+    eastmoney_fund_flow_minute, # 个股资金流分钟级
+    industry_comparison,       # 行业板块排名
+    eastmoney_concept_blocks,  # 个股概念板块归属
+    eastmoney_stock_news,      # 个股新闻
+    concept_sector_fund_flow,  # 概念板块资金流
+    em_zt_pool,               # 涨停池
+    full_valuation,            # 完整估值
+)
 ```
 
----
-
-## 情绪指数体系
-
-### 三级情绪指数
-
-```
-A 股整体情绪 (Market-wide)
-├── 行业情绪 (Industry) × 8
-│   ├── 细分方向情绪 (Sub-sector) × N
-│   │   └── 概念板块情绪 (Concept Sector) ← 最小计算单元
-```
-
-### 五维度加权模型
-
-| 维度 | 权重 | 数据来源 | 核心指标 |
-|------|------|---------|---------|
-| 💰 **资金面** | **25%** | push2 clist (f62/f66/f72) | 主力净流入方向+力度+超大单占比 |
-| 📈 **价格面** | **20%** | push2 clist (f3) | 涨跌幅动量+相对全市场强度 |
-| 📊 **宽度面** | **20%** | push2 clist (f104/f105/f128) | 上涨占比+板块内涨停家数+领涨股强度 |
-| 📐 **量能面** | **15%** | push2 clist (f8/f10) | 换手率合理区间+量比偏离度 |
-| 🔥 **涨停面** | **20%** | push2ex 涨停池 | 板块涨停数+连板高度+炸板率惩罚 |
-
-### 情绪等级划分
-
-| 分值区间 | 等级 | 信号 | 含义 |
-|----------|------|------|------|
-| ≥ 80 | 🔴 极度亢奋 | 风险信号 | 短期过热，关注回调风险 |
-| 60-79 | 🟠 偏暖 | 积极 | 市场情绪积极，趋势向好 |
-| 40-59 | 🟡 中性 | 观望 | 方向不明确 |
-| 20-39 | 🔵 偏冷 | 谨慎 | 市场情绪低迷 |
-| < 20 | 🟢 极度悲观 | 机会信号 | 极端悲观可能是左侧机会 |
+> 所有 `eastmoney.com` 请求已内置限流（≥1s 间隔 + 随机抖动 + Keep-Alive + 自动重试），无需自行实现。
 
 ---
 
