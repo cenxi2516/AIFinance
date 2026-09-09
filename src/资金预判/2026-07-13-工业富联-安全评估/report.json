@@ -1,0 +1,1688 @@
+{
+  "generated_at": "2026-07-13 16:35",
+  "target": "601138",
+  "target_type": "stock",
+  "target_name": "工业富联",
+  "track": "B",
+  "track_label": "ETF轨(量价+消息面)",
+  "summary": {
+    "price": 63.08,
+    "last_close": 66.27,
+    "change": -3.19,
+    "change_pct": -4.81,
+    "high": 66.16,
+    "low": 62.5,
+    "volume": 1264134,
+    "turnover_pct": 0.64,
+    "change_1w": -0.8,
+    "change_1m": -9.3
+  },
+  "realtime": {
+    "name": "工业富联",
+    "code": "601138",
+    "price": 63.08,
+    "last_close": 66.27,
+    "open": 65.3,
+    "volume": 1264134,
+    "change_amt": -3.19,
+    "change_pct": -4.81,
+    "high": 66.16,
+    "low": 62.5,
+    "amount_wan": 810210.0,
+    "turnover_pct": 0.64,
+    "pe_ttm": 30.79,
+    "amplitude_pct": 5.52,
+    "mcap_yi": 12517.65,
+    "float_mcap_yi": 12517.65,
+    "pb": 7.1,
+    "limit_up": 72.9,
+    "limit_down": 59.64,
+    "_validation": {
+      "passed": true,
+      "quality": "🟢 高置信度(双源验证通过)",
+      "checks": [
+        {
+          "metric": "当前价",
+          "tencent": 63.08,
+          "sina": 63.08,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "开盘价",
+          "tencent": 65.3,
+          "sina": 65.3,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "最高价",
+          "tencent": 66.16,
+          "sina": 66.16,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "最低价",
+          "tencent": 62.5,
+          "sina": 62.5,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "昨收价",
+          "tencent": 66.27,
+          "sina": 66.27,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "涨跌幅%",
+          "tencent": -4.81,
+          "sina": -4.81,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "成交额(亿)",
+          "tencent": 81.021,
+          "sina": 81.02096295,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "成交量(股)",
+          "tencent": 126413400,
+          "sina": 126413447,
+          "diff_pct": 0.0,
+          "ok": true
+        }
+      ],
+      "summary": "通过8项, 未通过0项, 单源0项"
+    },
+    "_sources": [
+      "腾讯",
+      "新浪"
+    ]
+  },
+  "daily": [
+    {
+      "date": "2026-04-14",
+      "open": 56.47,
+      "close": 58.92,
+      "high": 59.29,
+      "low": 56.13,
+      "volume": 2549507.0,
+      "change_pct": 4.34,
+      "amplitude": 5.63,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-04-15",
+      "open": 59.36,
+      "close": 57.82,
+      "high": 59.97,
+      "low": 57.2,
+      "volume": 1973741.0,
+      "change_pct": -2.59,
+      "amplitude": 4.84,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-04-16",
+      "open": 57.99,
+      "close": 59.32,
+      "high": 59.99,
+      "low": 57.4,
+      "volume": 1805236.0,
+      "change_pct": 2.29,
+      "amplitude": 4.51,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-04-17",
+      "open": 59.6,
+      "close": 60.97,
+      "high": 61.2,
+      "low": 58.98,
+      "volume": 1878179.0,
+      "change_pct": 2.3,
+      "amplitude": 3.76,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-04-20",
+      "open": 61.89,
+      "close": 61.51,
+      "high": 63.33,
+      "low": 61.01,
+      "volume": 2131508.0,
+      "change_pct": -0.61,
+      "amplitude": 3.8,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-04-21",
+      "open": 60.97,
+      "close": 61.41,
+      "high": 61.5,
+      "low": 59.87,
+      "volume": 1392037.0,
+      "change_pct": 0.72,
+      "amplitude": 2.72,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-04-22",
+      "open": 61.19,
+      "close": 66.89,
+      "high": 67.55,
+      "low": 61.03,
+      "volume": 3160832.0,
+      "change_pct": 9.32,
+      "amplitude": 10.68,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-04-23",
+      "open": 66.98,
+      "close": 67.92,
+      "high": 69.1,
+      "low": 66.66,
+      "volume": 2777453.0,
+      "change_pct": 1.4,
+      "amplitude": 3.66,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-04-24",
+      "open": 66.57,
+      "close": 65.01,
+      "high": 67.21,
+      "low": 63.67,
+      "volume": 2646640.0,
+      "change_pct": -2.34,
+      "amplitude": 5.56,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-04-27",
+      "open": 66.01,
+      "close": 67.25,
+      "high": 68.0,
+      "low": 65.38,
+      "volume": 2358367.0,
+      "change_pct": 1.88,
+      "amplitude": 4.01,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-04-28",
+      "open": 67.25,
+      "close": 68.2,
+      "high": 68.99,
+      "low": 66.92,
+      "volume": 2371396.0,
+      "change_pct": 1.41,
+      "amplitude": 3.09,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-04-29",
+      "open": 67.77,
+      "close": 66.26,
+      "high": 67.77,
+      "low": 64.0,
+      "volume": 2823039.0,
+      "change_pct": -2.23,
+      "amplitude": 5.89,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-04-30",
+      "open": 65.9,
+      "close": 62.88,
+      "high": 66.2,
+      "low": 62.71,
+      "volume": 2924075.0,
+      "change_pct": -4.58,
+      "amplitude": 5.57,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-05-06",
+      "open": 63.28,
+      "close": 63.08,
+      "high": 63.88,
+      "low": 61.74,
+      "volume": 2652838.0,
+      "change_pct": -0.32,
+      "amplitude": 3.47,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-05-07",
+      "open": 64.09,
+      "close": 64.18,
+      "high": 64.59,
+      "low": 63.0,
+      "volume": 2103300.0,
+      "change_pct": 0.14,
+      "amplitude": 2.52,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-05-08",
+      "open": 63.0,
+      "close": 63.28,
+      "high": 64.2,
+      "low": 62.77,
+      "volume": 1620171.0,
+      "change_pct": 0.44,
+      "amplitude": 2.28,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-05-11",
+      "open": 64.2,
+      "close": 65.85,
+      "high": 65.87,
+      "low": 63.0,
+      "volume": 2724029.0,
+      "change_pct": 2.57,
+      "amplitude": 4.56,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-05-12",
+      "open": 65.87,
+      "close": 64.4,
+      "high": 65.9,
+      "low": 63.23,
+      "volume": 2135259.0,
+      "change_pct": -2.23,
+      "amplitude": 4.22,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-05-13",
+      "open": 64.1,
+      "close": 70.84,
+      "high": 70.84,
+      "low": 63.86,
+      "volume": 4073570.0,
+      "change_pct": 10.51,
+      "amplitude": 10.93,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-05-14",
+      "open": 74.0,
+      "close": 68.6,
+      "high": 74.0,
+      "low": 67.28,
+      "volume": 4017452.0,
+      "change_pct": -7.3,
+      "amplitude": 9.99,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-05-15",
+      "open": 69.5,
+      "close": 67.62,
+      "high": 71.76,
+      "low": 67.37,
+      "volume": 3425679.0,
+      "change_pct": -2.71,
+      "amplitude": 6.52,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-05-18",
+      "open": 65.88,
+      "close": 68.98,
+      "high": 70.23,
+      "low": 64.95,
+      "volume": 2518482.0,
+      "change_pct": 4.71,
+      "amplitude": 8.13,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-05-19",
+      "open": 68.3,
+      "close": 68.56,
+      "high": 69.04,
+      "low": 66.4,
+      "volume": 1914641.0,
+      "change_pct": 0.38,
+      "amplitude": 3.98,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-05-20",
+      "open": 68.2,
+      "close": 68.15,
+      "high": 68.49,
+      "low": 66.5,
+      "volume": 2102607.0,
+      "change_pct": -0.07,
+      "amplitude": 2.99,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-05-21",
+      "open": 69.2,
+      "close": 65.5,
+      "high": 69.5,
+      "low": 65.0,
+      "volume": 2096550.0,
+      "change_pct": -5.35,
+      "amplitude": 6.92,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-05-22",
+      "open": 66.11,
+      "close": 67.16,
+      "high": 67.66,
+      "low": 64.5,
+      "volume": 1947455.0,
+      "change_pct": 1.59,
+      "amplitude": 4.9,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-05-25",
+      "open": 68.0,
+      "close": 70.3,
+      "high": 70.5,
+      "low": 67.3,
+      "volume": 2659917.0,
+      "change_pct": 3.38,
+      "amplitude": 4.75,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-05-26",
+      "open": 69.86,
+      "close": 69.98,
+      "high": 70.8,
+      "low": 68.0,
+      "volume": 2189253.0,
+      "change_pct": 0.17,
+      "amplitude": 4.12,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-05-27",
+      "open": 69.9,
+      "close": 70.08,
+      "high": 73.74,
+      "low": 69.69,
+      "volume": 2892366.0,
+      "change_pct": 0.26,
+      "amplitude": 5.81,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-05-28",
+      "open": 70.0,
+      "close": 75.0,
+      "high": 76.28,
+      "low": 68.89,
+      "volume": 3616913.0,
+      "change_pct": 7.14,
+      "amplitude": 10.73,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-05-29",
+      "open": 78.75,
+      "close": 73.4,
+      "high": 79.63,
+      "low": 73.1,
+      "volume": 3593584.0,
+      "change_pct": -6.79,
+      "amplitude": 8.93,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-01",
+      "open": 75.2,
+      "close": 73.75,
+      "high": 76.5,
+      "low": 72.19,
+      "volume": 3013251.0,
+      "change_pct": -1.93,
+      "amplitude": 5.97,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-02",
+      "open": 75.0,
+      "close": 80.01,
+      "high": 81.11,
+      "low": 73.85,
+      "volume": 3778912.0,
+      "change_pct": 6.68,
+      "amplitude": 9.83,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-03",
+      "open": 79.95,
+      "close": 81.05,
+      "high": 84.95,
+      "low": 78.43,
+      "volume": 3866136.0,
+      "change_pct": 1.38,
+      "amplitude": 8.31,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-04",
+      "open": 80.0,
+      "close": 78.55,
+      "high": 80.86,
+      "low": 77.35,
+      "volume": 2805857.0,
+      "change_pct": -1.81,
+      "amplitude": 4.54,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-05",
+      "open": 77.5,
+      "close": 74.06,
+      "high": 78.21,
+      "low": 73.1,
+      "volume": 2616486.0,
+      "change_pct": -4.44,
+      "amplitude": 6.99,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-08",
+      "open": 69.99,
+      "close": 70.48,
+      "high": 73.3,
+      "low": 69.34,
+      "volume": 1973161.0,
+      "change_pct": 0.7,
+      "amplitude": 5.71,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-09",
+      "open": 71.99,
+      "close": 74.74,
+      "high": 74.88,
+      "low": 70.88,
+      "volume": 2025786.0,
+      "change_pct": 3.82,
+      "amplitude": 5.64,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-10",
+      "open": 72.9,
+      "close": 71.13,
+      "high": 73.5,
+      "low": 70.25,
+      "volume": 1464118.0,
+      "change_pct": -2.43,
+      "amplitude": 4.63,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-11",
+      "open": 69.82,
+      "close": 69.52,
+      "high": 71.55,
+      "low": 68.2,
+      "volume": 1484767.0,
+      "change_pct": -0.43,
+      "amplitude": 4.91,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-12",
+      "open": 71.94,
+      "close": 70.13,
+      "high": 72.26,
+      "low": 70.0,
+      "volume": 1465028.0,
+      "change_pct": -2.52,
+      "amplitude": 3.23,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-15",
+      "open": 71.47,
+      "close": 73.4,
+      "high": 73.4,
+      "low": 70.48,
+      "volume": 1626218.0,
+      "change_pct": 2.7,
+      "amplitude": 4.14,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-16",
+      "open": 73.4,
+      "close": 72.9,
+      "high": 74.99,
+      "low": 72.5,
+      "volume": 1741995.0,
+      "change_pct": -0.68,
+      "amplitude": 3.43,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-17",
+      "open": 71.7,
+      "close": 72.64,
+      "high": 72.83,
+      "low": 71.0,
+      "volume": 1654286.0,
+      "change_pct": 1.31,
+      "amplitude": 2.58,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-18",
+      "open": 72.0,
+      "close": 78.08,
+      "high": 79.9,
+      "low": 71.95,
+      "volume": 4249682.0,
+      "change_pct": 8.44,
+      "amplitude": 11.05,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-22",
+      "open": 78.08,
+      "close": 78.88,
+      "high": 79.41,
+      "low": 75.8,
+      "volume": 2989520.0,
+      "change_pct": 1.02,
+      "amplitude": 4.76,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-23",
+      "open": 78.88,
+      "close": 74.1,
+      "high": 78.89,
+      "low": 73.7,
+      "volume": 2416537.0,
+      "change_pct": -6.06,
+      "amplitude": 7.04,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-24",
+      "open": 73.0,
+      "close": 76.78,
+      "high": 76.99,
+      "low": 73.0,
+      "volume": 2147290.0,
+      "change_pct": 5.18,
+      "amplitude": 5.47,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-25",
+      "open": 77.59,
+      "close": 76.99,
+      "high": 77.7,
+      "low": 74.85,
+      "volume": 1961813.0,
+      "change_pct": -0.77,
+      "amplitude": 3.81,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-26",
+      "open": 75.0,
+      "close": 70.22,
+      "high": 75.0,
+      "low": 70.0,
+      "volume": 2623513.0,
+      "change_pct": -6.37,
+      "amplitude": 7.14,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-29",
+      "open": 69.3,
+      "close": 69.61,
+      "high": 71.46,
+      "low": 66.5,
+      "volume": 1964970.0,
+      "change_pct": 0.45,
+      "amplitude": 7.46,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-30",
+      "open": 69.56,
+      "close": 72.15,
+      "high": 72.96,
+      "low": 69.18,
+      "volume": 1637706.0,
+      "change_pct": 3.72,
+      "amplitude": 5.46,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-01",
+      "open": 73.0,
+      "close": 70.0,
+      "high": 73.88,
+      "low": 69.5,
+      "volume": 1629668.0,
+      "change_pct": -4.11,
+      "amplitude": 6.3,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-02",
+      "open": 67.46,
+      "close": 64.02,
+      "high": 67.47,
+      "low": 63.63,
+      "volume": 1935915.0,
+      "change_pct": -5.1,
+      "amplitude": 6.03,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-03",
+      "open": 63.5,
+      "close": 64.72,
+      "high": 66.22,
+      "low": 62.99,
+      "volume": 1301297.0,
+      "change_pct": 1.92,
+      "amplitude": 5.13,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-06",
+      "open": 65.77,
+      "close": 63.59,
+      "high": 66.0,
+      "low": 61.5,
+      "volume": 1231123.0,
+      "change_pct": -3.31,
+      "amplitude": 7.32,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-07",
+      "open": 63.17,
+      "close": 63.78,
+      "high": 64.65,
+      "low": 62.5,
+      "volume": 958989.0,
+      "change_pct": 0.97,
+      "amplitude": 3.44,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-08",
+      "open": 65.0,
+      "close": 66.01,
+      "high": 67.57,
+      "low": 64.32,
+      "volume": 1803771.0,
+      "change_pct": 1.55,
+      "amplitude": 5.05,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-09",
+      "open": 66.61,
+      "close": 69.53,
+      "high": 69.66,
+      "low": 65.61,
+      "volume": 1736829.0,
+      "change_pct": 4.38,
+      "amplitude": 6.17,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-10",
+      "open": 71.0,
+      "close": 66.27,
+      "high": 71.0,
+      "low": 66.2,
+      "volume": 2082384.0,
+      "change_pct": -6.66,
+      "amplitude": 7.25,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-13",
+      "open": 65.3,
+      "close": 63.08,
+      "high": 66.16,
+      "low": 62.5,
+      "volume": 1264134,
+      "change_pct": -3.4,
+      "amplitude": 5.86,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    }
+  ],
+  "industry_flow": [],
+  "auxiliary_data": {
+    "margin": {
+      "available": true,
+      "latest_balance_yi": 91.66188247,
+      "trend": "平稳",
+      "net_flow_5d_yi": -2.11,
+      "net_flow_10d_yi": -9.45,
+      "records": [
+        {
+          "date": "2026-07-10",
+          "rzye_yi": 91.66188247,
+          "rzmre_yi": 12.83026524,
+          "rzche_yi": 13.91899493,
+          "net_yi": -1.088729690000001
+        },
+        {
+          "date": "2026-07-09",
+          "rzye_yi": 92.75061214,
+          "rzmre_yi": 9.88230783,
+          "rzche_yi": 9.83682004,
+          "net_yi": 0.04548779000000103
+        },
+        {
+          "date": "2026-07-08",
+          "rzye_yi": 92.70512437,
+          "rzmre_yi": 9.50899599,
+          "rzche_yi": 11.38066775,
+          "net_yi": -1.87167176
+        },
+        {
+          "date": "2026-07-07",
+          "rzye_yi": 94.57679612,
+          "rzmre_yi": 6.13769481,
+          "rzche_yi": 5.19599538,
+          "net_yi": 0.9416994299999999
+        },
+        {
+          "date": "2026-07-06",
+          "rzye_yi": 93.6350967,
+          "rzmre_yi": 6.50834247,
+          "rzche_yi": 6.64850114,
+          "net_yi": -0.14015866999999993
+        },
+        {
+          "date": "2026-07-03",
+          "rzye_yi": 93.77525536,
+          "rzmre_yi": 6.20996005,
+          "rzche_yi": 9.55421517,
+          "net_yi": -3.3442551200000006
+        },
+        {
+          "date": "2026-07-02",
+          "rzye_yi": 97.11951048,
+          "rzmre_yi": 11.48566822,
+          "rzche_yi": 14.10149237,
+          "net_yi": -2.61582415
+        },
+        {
+          "date": "2026-07-01",
+          "rzye_yi": 99.73533462,
+          "rzmre_yi": 12.22054674,
+          "rzche_yi": 12.28576676,
+          "net_yi": -0.06522001999999993
+        },
+        {
+          "date": "2026-06-30",
+          "rzye_yi": 99.80055464,
+          "rzmre_yi": 14.08711345,
+          "rzche_yi": 12.51128586,
+          "net_yi": 1.5758275900000012
+        },
+        {
+          "date": "2026-06-29",
+          "rzye_yi": 98.22472705,
+          "rzmre_yi": 10.44379905,
+          "rzche_yi": 13.33514605,
+          "net_yi": -2.8913469999999997
+        },
+        {
+          "date": "2026-06-26",
+          "rzye_yi": 101.11607405,
+          "rzmre_yi": 19.16559781,
+          "rzche_yi": 21.75396857,
+          "net_yi": -2.58837076
+        },
+        {
+          "date": "2026-06-25",
+          "rzye_yi": 103.70444483,
+          "rzmre_yi": 20.60894335,
+          "rzche_yi": 20.98463065,
+          "net_yi": -0.37568729999999917
+        },
+        {
+          "date": "2026-06-24",
+          "rzye_yi": 104.08013213,
+          "rzmre_yi": 15.27050839,
+          "rzche_yi": 18.69580771,
+          "net_yi": -3.4252993200000006
+        },
+        {
+          "date": "2026-06-23",
+          "rzye_yi": 107.50543144,
+          "rzmre_yi": 21.287118,
+          "rzche_yi": 20.76678362,
+          "net_yi": 0.5203343799999978
+        },
+        {
+          "date": "2026-06-22",
+          "rzye_yi": 106.98509709,
+          "rzmre_yi": 30.59289226,
+          "rzche_yi": 28.67508784,
+          "net_yi": 1.9178044199999995
+        },
+        {
+          "date": "2026-06-18",
+          "rzye_yi": 105.07436079,
+          "rzmre_yi": 41.67703451,
+          "rzche_yi": 41.36531196,
+          "net_yi": 0.31172254999999893
+        },
+        {
+          "date": "2026-06-17",
+          "rzye_yi": 104.76263825,
+          "rzmre_yi": 15.45912437,
+          "rzche_yi": 15.45514853,
+          "net_yi": 0.0039758399999989535
+        },
+        {
+          "date": "2026-06-16",
+          "rzye_yi": 104.75866242,
+          "rzmre_yi": 14.35617134,
+          "rzche_yi": 12.97476985,
+          "net_yi": 1.38140149
+        },
+        {
+          "date": "2026-06-15",
+          "rzye_yi": 103.37726093,
+          "rzmre_yi": 11.92844066,
+          "rzche_yi": 10.58608629,
+          "net_yi": 1.342354369999999
+        },
+        {
+          "date": "2026-06-12",
+          "rzye_yi": 102.03490656,
+          "rzmre_yi": 11.99220468,
+          "rzche_yi": 11.48713827,
+          "net_yi": 0.5050664099999995
+        },
+        {
+          "date": "2026-06-11",
+          "rzye_yi": 101.52984014,
+          "rzmre_yi": 9.67508573,
+          "rzche_yi": 11.66309991,
+          "net_yi": -1.9880141800000004
+        },
+        {
+          "date": "2026-06-10",
+          "rzye_yi": 103.51785433,
+          "rzmre_yi": 10.31765577,
+          "rzche_yi": 10.93929749,
+          "net_yi": -0.6216417199999995
+        },
+        {
+          "date": "2026-06-09",
+          "rzye_yi": 104.13949604,
+          "rzmre_yi": 13.74132357,
+          "rzche_yi": 13.71216738,
+          "net_yi": 0.029156190000000137
+        },
+        {
+          "date": "2026-06-08",
+          "rzye_yi": 104.11615563,
+          "rzmre_yi": 10.31167134,
+          "rzche_yi": 16.88088513,
+          "net_yi": -6.569213789999999
+        },
+        {
+          "date": "2026-06-05",
+          "rzye_yi": 110.68536942,
+          "rzmre_yi": 21.4358363,
+          "rzche_yi": 26.23474163,
+          "net_yi": -4.79890533
+        },
+        {
+          "date": "2026-06-04",
+          "rzye_yi": 115.48427475,
+          "rzmre_yi": 25.79899844,
+          "rzche_yi": 22.49564305,
+          "net_yi": 3.3033553899999966
+        },
+        {
+          "date": "2026-06-03",
+          "rzye_yi": 112.18091937,
+          "rzmre_yi": 35.7894448,
+          "rzche_yi": 39.36353053,
+          "net_yi": -3.57408573
+        },
+        {
+          "date": "2026-06-02",
+          "rzye_yi": 115.7550051,
+          "rzmre_yi": 33.49300683,
+          "rzche_yi": 30.93308448,
+          "net_yi": 2.5599223499999972
+        },
+        {
+          "date": "2026-06-01",
+          "rzye_yi": 113.19508274,
+          "rzmre_yi": 24.70899815,
+          "rzche_yi": 25.94972947,
+          "net_yi": -1.2407313200000019
+        },
+        {
+          "date": "2026-05-29",
+          "rzye_yi": 114.43581406,
+          "rzmre_yi": 28.54307875,
+          "rzche_yi": 36.83002109,
+          "net_yi": -8.286942340000003
+        }
+      ]
+    },
+    "north_bound": {
+      "available": false,
+      "reason": "北向缓存CSV不存在"
+    },
+    "industry_flow": []
+  },
+  "concept_flow": {
+    "available": false,
+    "reason": "未找到概念板块"
+  },
+  "margin_data": {
+    "available": true,
+    "latest_balance_yi": 91.66188247,
+    "trend": "平稳",
+    "net_flow_5d_yi": -2.11,
+    "net_flow_10d_yi": -9.45,
+    "records": [
+      {
+        "date": "2026-07-10",
+        "rzye_yi": 91.66188247,
+        "rzmre_yi": 12.83026524,
+        "rzche_yi": 13.91899493,
+        "net_yi": -1.088729690000001
+      },
+      {
+        "date": "2026-07-09",
+        "rzye_yi": 92.75061214,
+        "rzmre_yi": 9.88230783,
+        "rzche_yi": 9.83682004,
+        "net_yi": 0.04548779000000103
+      },
+      {
+        "date": "2026-07-08",
+        "rzye_yi": 92.70512437,
+        "rzmre_yi": 9.50899599,
+        "rzche_yi": 11.38066775,
+        "net_yi": -1.87167176
+      },
+      {
+        "date": "2026-07-07",
+        "rzye_yi": 94.57679612,
+        "rzmre_yi": 6.13769481,
+        "rzche_yi": 5.19599538,
+        "net_yi": 0.9416994299999999
+      },
+      {
+        "date": "2026-07-06",
+        "rzye_yi": 93.6350967,
+        "rzmre_yi": 6.50834247,
+        "rzche_yi": 6.64850114,
+        "net_yi": -0.14015866999999993
+      },
+      {
+        "date": "2026-07-03",
+        "rzye_yi": 93.77525536,
+        "rzmre_yi": 6.20996005,
+        "rzche_yi": 9.55421517,
+        "net_yi": -3.3442551200000006
+      },
+      {
+        "date": "2026-07-02",
+        "rzye_yi": 97.11951048,
+        "rzmre_yi": 11.48566822,
+        "rzche_yi": 14.10149237,
+        "net_yi": -2.61582415
+      },
+      {
+        "date": "2026-07-01",
+        "rzye_yi": 99.73533462,
+        "rzmre_yi": 12.22054674,
+        "rzche_yi": 12.28576676,
+        "net_yi": -0.06522001999999993
+      },
+      {
+        "date": "2026-06-30",
+        "rzye_yi": 99.80055464,
+        "rzmre_yi": 14.08711345,
+        "rzche_yi": 12.51128586,
+        "net_yi": 1.5758275900000012
+      },
+      {
+        "date": "2026-06-29",
+        "rzye_yi": 98.22472705,
+        "rzmre_yi": 10.44379905,
+        "rzche_yi": 13.33514605,
+        "net_yi": -2.8913469999999997
+      },
+      {
+        "date": "2026-06-26",
+        "rzye_yi": 101.11607405,
+        "rzmre_yi": 19.16559781,
+        "rzche_yi": 21.75396857,
+        "net_yi": -2.58837076
+      },
+      {
+        "date": "2026-06-25",
+        "rzye_yi": 103.70444483,
+        "rzmre_yi": 20.60894335,
+        "rzche_yi": 20.98463065,
+        "net_yi": -0.37568729999999917
+      },
+      {
+        "date": "2026-06-24",
+        "rzye_yi": 104.08013213,
+        "rzmre_yi": 15.27050839,
+        "rzche_yi": 18.69580771,
+        "net_yi": -3.4252993200000006
+      },
+      {
+        "date": "2026-06-23",
+        "rzye_yi": 107.50543144,
+        "rzmre_yi": 21.287118,
+        "rzche_yi": 20.76678362,
+        "net_yi": 0.5203343799999978
+      },
+      {
+        "date": "2026-06-22",
+        "rzye_yi": 106.98509709,
+        "rzmre_yi": 30.59289226,
+        "rzche_yi": 28.67508784,
+        "net_yi": 1.9178044199999995
+      },
+      {
+        "date": "2026-06-18",
+        "rzye_yi": 105.07436079,
+        "rzmre_yi": 41.67703451,
+        "rzche_yi": 41.36531196,
+        "net_yi": 0.31172254999999893
+      },
+      {
+        "date": "2026-06-17",
+        "rzye_yi": 104.76263825,
+        "rzmre_yi": 15.45912437,
+        "rzche_yi": 15.45514853,
+        "net_yi": 0.0039758399999989535
+      },
+      {
+        "date": "2026-06-16",
+        "rzye_yi": 104.75866242,
+        "rzmre_yi": 14.35617134,
+        "rzche_yi": 12.97476985,
+        "net_yi": 1.38140149
+      },
+      {
+        "date": "2026-06-15",
+        "rzye_yi": 103.37726093,
+        "rzmre_yi": 11.92844066,
+        "rzche_yi": 10.58608629,
+        "net_yi": 1.342354369999999
+      },
+      {
+        "date": "2026-06-12",
+        "rzye_yi": 102.03490656,
+        "rzmre_yi": 11.99220468,
+        "rzche_yi": 11.48713827,
+        "net_yi": 0.5050664099999995
+      },
+      {
+        "date": "2026-06-11",
+        "rzye_yi": 101.52984014,
+        "rzmre_yi": 9.67508573,
+        "rzche_yi": 11.66309991,
+        "net_yi": -1.9880141800000004
+      },
+      {
+        "date": "2026-06-10",
+        "rzye_yi": 103.51785433,
+        "rzmre_yi": 10.31765577,
+        "rzche_yi": 10.93929749,
+        "net_yi": -0.6216417199999995
+      },
+      {
+        "date": "2026-06-09",
+        "rzye_yi": 104.13949604,
+        "rzmre_yi": 13.74132357,
+        "rzche_yi": 13.71216738,
+        "net_yi": 0.029156190000000137
+      },
+      {
+        "date": "2026-06-08",
+        "rzye_yi": 104.11615563,
+        "rzmre_yi": 10.31167134,
+        "rzche_yi": 16.88088513,
+        "net_yi": -6.569213789999999
+      },
+      {
+        "date": "2026-06-05",
+        "rzye_yi": 110.68536942,
+        "rzmre_yi": 21.4358363,
+        "rzche_yi": 26.23474163,
+        "net_yi": -4.79890533
+      },
+      {
+        "date": "2026-06-04",
+        "rzye_yi": 115.48427475,
+        "rzmre_yi": 25.79899844,
+        "rzche_yi": 22.49564305,
+        "net_yi": 3.3033553899999966
+      },
+      {
+        "date": "2026-06-03",
+        "rzye_yi": 112.18091937,
+        "rzmre_yi": 35.7894448,
+        "rzche_yi": 39.36353053,
+        "net_yi": -3.57408573
+      },
+      {
+        "date": "2026-06-02",
+        "rzye_yi": 115.7550051,
+        "rzmre_yi": 33.49300683,
+        "rzche_yi": 30.93308448,
+        "net_yi": 2.5599223499999972
+      },
+      {
+        "date": "2026-06-01",
+        "rzye_yi": 113.19508274,
+        "rzmre_yi": 24.70899815,
+        "rzche_yi": 25.94972947,
+        "net_yi": -1.2407313200000019
+      },
+      {
+        "date": "2026-05-29",
+        "rzye_yi": 114.43581406,
+        "rzmre_yi": 28.54307875,
+        "rzche_yi": 36.83002109,
+        "net_yi": -8.286942340000003
+      }
+    ]
+  },
+  "safety_signals": {
+    "f1_exhaustion": {
+      "triggered": false,
+      "signal_name": "F1: 卖压衰竭(量价)",
+      "decreasing_declines": true,
+      "volume_shrink": false,
+      "no_new_low": true,
+      "strength": "弱",
+      "meaning": "卖压尚未衰竭，继续观察"
+    },
+    "f2_institution_return": {
+      "triggered": false,
+      "signal_name": "F2: 放量反弹回流",
+      "early_decline": true,
+      "has_bullish_volume": false,
+      "strength": "弱",
+      "meaning": "未见明确的资金回流信号"
+    },
+    "f3_retail_exhaustion": {
+      "triggered": false,
+      "signal_name": "F3: 恐慌出尽(缩量)",
+      "decline_narrowing": true,
+      "volume_shrink": false,
+      "strength": "弱",
+      "meaning": "恐慌盘可能尚未出尽"
+    },
+    "f8_volume_stabilization": {
+      "triggered": false,
+      "signal_name": "F8: 缩量止跌盘整",
+      "narrow_range": false,
+      "volume_shrink": false,
+      "amp_narrow": false,
+      "outflow_shrink": true,
+      "avg_vol_20": 1947882.0,
+      "recent_vol_3": 1694449.0,
+      "strength": "弱",
+      "meaning": "尚未缩量止跌，仍在波动"
+    }
+  },
+  "danger_signals": {
+    "f4_accelerating": {
+      "triggered": false,
+      "reason": "近期非持续下跌"
+    },
+    "f5_top_distribution": {
+      "triggered": false,
+      "signal_name": "F5: 🔴 高位放量逆转",
+      "danger_level": "高危",
+      "early_rise_pct": -8.5,
+      "has_distribution": false,
+      "meaning": "无顶部派发信号",
+      "action": "继续观察"
+    },
+    "f7_news_exhausted": {
+      "triggered": false,
+      "signal_name": "F7: 🔴 利好出尽/高开低走",
+      "danger_level": "非常高",
+      "pre_rise_2w": -14.2,
+      "latest_news": "<em>601138</em>，冲击涨停！成交额A股第二",
+      "meaning": "前期涨幅可接受或未出现利好兑现",
+      "action": ""
+    }
+  },
+  "safety_score": {
+    "safety_score": 55,
+    "safety_level": "🟠 风险区间",
+    "can_enter": false,
+    "description": "安全信号不足或有危险信号，不建议入场",
+    "positive_signals": [],
+    "negative_signals": [],
+    "adjustment_details": [
+      [
+        "偏离20MA-10%(超卖)",
+        5
+      ]
+    ],
+    "stabilization": {
+      "is_stabilized": false,
+      "passed_count": 2,
+      "total_count": 5,
+      "checks": {
+        "no_new_low": true,
+        "narrow_range": false,
+        "flow_normal": true,
+        "lows_rising": false,
+        "above_ma5": false
+      },
+      "meaning": "仅通过2/5项，尚未企稳"
+    },
+    "principle": "可以少挣，必须少亏 — 只有 ≥75 分才建议考虑入场"
+  },
+  "timing": {
+    "entry": {
+      "ready": false,
+      "ready_enhanced": false,
+      "conditions": [
+        {
+          "condition": "安全评分 ≥ 75分",
+          "met": false,
+          "current": "55分",
+          "weight": "必须"
+        },
+        {
+          "condition": "企稳确认 (≥4/5项)",
+          "met": false,
+          "current": "2/5项",
+          "weight": "必须"
+        },
+        {
+          "condition": "≥2个安全信号触发",
+          "met": false,
+          "current": "0个",
+          "weight": "建议"
+        },
+        {
+          "condition": "无危险信号",
+          "met": true,
+          "current": "0个",
+          "weight": "必须"
+        },
+        {
+          "condition": "近日放量阳线确认（增强信号）",
+          "met": false,
+          "current": "未出现",
+          "weight": "加分项（非必须）"
+        }
+      ],
+      "verdict": "❌ 买入条件不满足，继续等待"
+    },
+    "exit": {
+      "any_triggered": false,
+      "conditions": [
+        {
+          "condition": "🔴 硬止损: 持仓亏损>5% + 主力仍在净流出",
+          "triggered": false,
+          "rule": "F13: 亏损控制 — 亏损的数学是不对称的",
+          "action": "全部离场"
+        },
+        {
+          "condition": "🟠 利润保护: 盈利>5% + 主力连续2日净流出",
+          "triggered": false,
+          "rule": "F12: 利润保护 — 可以少挣，必须少亏",
+          "action": "至少减仓50%"
+        },
+        {
+          "condition": "🔴 任何高危信号触发 (F4/F5/F7)",
+          "triggered": false,
+          "current": "无",
+          "rule": "危险信号 > 一切买入信号",
+          "action": "不买，已持有则评估是否离场"
+        },
+        {
+          "condition": "🔴 安全评分降至 < 40分",
+          "triggered": false,
+          "current": "55分",
+          "rule": "危险区间 = 持币观望",
+          "action": "远离，等安全评分回升"
+        }
+      ]
+    },
+    "principle": "可以少挣，必须少亏 — 宁可错过，不可做错"
+  },
+  "news": [
+    {
+      "title": "<em>601138</em>，冲击涨停！成交额A股第二",
+      "date": "2026-06-02 14:14:00",
+      "url": "http://finance.eastmoney.com/a/202606023757469380.html",
+      "summary": "6月2日，工业富联（<em>601138</em>）盘中最高涨9.98%至81.11元/股，逼近涨停。截至发稿，工业富联涨9.69%，总市值超16000亿元，成交额超250亿元，位居A股成交额第二。"
+    },
+    {
+      "title": "工业富联：预计2<em>0</em>2<em>6</em>年半年度净利润同比增长9<em>3</em>%-<em>101</em>%",
+      "date": "2026-07-09 17:56:00",
+      "url": "http://finance.eastmoney.com/a/202607093800151328.html",
+      "summary": "工业富联(<em>601138</em>.SH)公告称，预计2026年半年度归属于上市公司股东的净利润为234亿元-244亿元，同比增长93%-101%。业绩变动主要系云计算业务中AI服务器收入同比增长超230%，以及800G以上数据中心交换机出货量同比增长1.4倍。"
+    },
+    {
+      "title": "工业富联：预计上半年净利同比增9<em>3</em>%—<em>101</em>%",
+      "date": "2026-07-09 21:55:15",
+      "url": "http://finance.eastmoney.com/a/202607093800423336.html",
+      "summary": "7月9日，工业富联(<em>601138</em>.SH)公告称，预计2026年半年度归属于上市公司股东的净利润为234亿元-244亿元，同比增长93%-101%。 　　云计算业务方面，公司产品结构持续优化，经营效益同比实现大幅提升。"
+    },
+    {
+      "title": "工业富联上半年净利预计最高244亿元 云服务商AI服务器营收同比增长超2<em>30</em>%",
+      "date": "2026-07-09 18:23:05",
+      "url": "http://finance.eastmoney.com/a/202607093800164891.html",
+      "summary": "人民财讯7月9日电，7月9日，工业富联(<em>601138</em>)发布2026年半年度业绩预增公告，预计2026年上半年实现归母净利润234亿元至244亿元，同比增长93%至101%；其中，第二季度单季归母净利润预计达128亿元至138亿元，同比增长86%至101%，延续高基数下的高增长态势。"
+    },
+    {
+      "title": "工业富联上半年净利预增9<em>3</em>%—<em>101</em>%",
+      "date": "2026-07-09 18:46:59",
+      "url": "http://finance.eastmoney.com/a/202607093800178938.html",
+      "summary": "工业富联（<em>601138</em>）发布2026年半年度业绩预增公告显示，公司预计上半年实现归属净利润234亿元到244亿元，同比增长93%到101%。 　　对于业绩预增原因，工业富联表示，云计算业务方面，公司产品结构持续优化，经营效益同比实现大幅提升。"
+    },
+    {
+      "title": "工业富联：预计上半年归母净利润同比增9<em>3</em>%到<em>101</em>%",
+      "date": "2026-07-09 18:19:00",
+      "url": "http://finance.eastmoney.com/a/202607093800163020.html",
+      "summary": "7月9日，工业富联（<em>601138</em>）发布公告，预计2026年第二季度实现归母净利润128亿元到138亿元，与上年同期相比，同比上升86%到101%；2026年半年度实现归母净利润234亿元到244亿元，同比上升93%到101%。"
+    },
+    {
+      "title": "工业富联：郑弘孟当选董事长",
+      "date": "2026-07-07 18:51:30",
+      "url": "http://finance.eastmoney.com/a/202607073796876764.html",
+      "summary": "工业富联(<em>601138</em>.SH)公告称，公司已完成第四届董事会换届选举，郑弘孟当选董事长并兼任总经理。同时，聘任张瑞雄、白家南、吴振廷为副总经理，沈道邦为财务总监，刘宗长为董事会秘书，揭晓小为证券事务代表。"
+    },
+    {
+      "title": "工业富联：预计上半年归母净利2<em>3</em>4亿-244亿元 云服务商AI服务器营收同比增超2<em>30</em>%",
+      "date": "2026-07-09 19:35:29",
+      "url": "http://finance.eastmoney.com/a/202607093800213168.html",
+      "summary": "央广网北京7月9日消息工业富联（<em>601138</em>.SH）发布2026年半年度业绩预增公告，预计2026年上半年实现归母净利润234亿元至244亿元，同比增长93%至101%；其中，第二季度单季归母净利润预计达128亿元至138亿元，同比增长86%至101%。"
+    }
+  ],
+  "principle": "可以少挣，必须少亏。所有判断基于数据，每个信号绑定可验证条件。"
+}

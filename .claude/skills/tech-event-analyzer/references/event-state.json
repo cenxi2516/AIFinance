@@ -1,0 +1,222 @@
+{
+  "updated": "2026-07-23",
+  "version": "1.0.0",
+  "active_events": [
+    {
+      "id": "nvidia-vera-rubin-mass-production",
+      "title": "NVIDIA Vera Rubin正式量产交付(OpenAI/Anthropic已收货) + 纬创德州工厂揭幕(5000亿美元承诺)",
+      "burst_date": "2026-07-22",
+      "initial_score": 5.9,
+      "direction": "bullish",
+      "sub_sectors": ["AI算力", "半导体"],
+      "decay_stage": "rapid",
+      "current_residual": 4.72,
+      "key_stocks": ["中际旭创300308", "工业富联601138", "新易盛300502", "天孚通信300394", "英维克002837", "沪电股份002463"],
+      "notes": "T2升级：从部署→量产交付。跨赛道共振(+1.5)。利好出尽-0.5。NVL144 PCB+233%、1.6T光模块Q3放量。与AMD大会+三星扩产共振"
+    },
+    {
+      "id": "big-fund-3-3440b-landing",
+      "title": "大基金三期3440亿落地 + 长鑫科技IPO 295亿 + 国家队500亿维稳组合拳",
+      "burst_date": "2026-07-22",
+      "initial_score": 5.3,
+      "direction": "bullish",
+      "sub_sectors": ["半导体", "AI算力"],
+      "decay_stage": "rapid",
+      "current_residual": 4.24,
+      "key_stocks": ["中芯国际688981", "北方华创002371", "沪硅产业688126", "南大光电300346", "江丰电子300666"],
+      "notes": "共振+1.0。宏观政策面，评分可能低估中长期影响。实际事件起始于07/08，衰减从07-22起算"
+    },
+    {
+      "id": "tesla-optimus-v3-2026q3",
+      "title": "特斯拉Optimus V3定型在即 + 首条产线验收(7月已运抵安装) + 环动科技获认证 + 三星成立机器人部门 + 优必选U1订单13361台 + 工业机器人产量+28.1%",
+      "burst_date": "2026-07-21",
+      "initial_score": 5.2,
+      "direction": "bullish",
+      "sub_sectors": ["高端制造"],
+      "decay_stage": "rapid",
+      "current_residual": 4.16,
+      "key_stocks": ["拓普集团601689", "绿的谐波688017", "双环传动002472", "鸣志电器603728"],
+      "notes": "强共振(+1.0)，7/22衰减暂停，7/23恢复衰减。新催化：弗里蒙特Model S/X产线改造+宇树科技IPO注册生效+减速器供需拐点预期。摩根士丹利预计2026中国市场规模20亿美元"
+    },
+    {
+      "id": "asml-q2-beat-guide-raise",
+      "title": "ASML Q2营收93亿欧元超预期 + 全年指引上调至430-450亿欧元 + EUV/DUV同步扩产路线图(EUV 2028年达2.5倍)",
+      "burst_date": "2026-07-22",
+      "initial_score": 5.6,
+      "direction": "bullish",
+      "sub_sectors": ["半导体", "AI算力"],
+      "decay_stage": "rapid",
+      "current_residual": 5.6,
+      "key_stocks": ["中微公司688012", "北方华创002371", "拓荆科技688072", "盛美上海688082", "中芯国际688981"],
+      "notes": "与台积电CAPEX↑+三星扩产+SK海力士四重共振(+1.0)。全球设备订单能见度拉至2028年。供给侧最强验证"
+    },
+    {
+      "id": "samsung-q2-profit-200pct-hbm-supply-cliff",
+      "title": "三星Q2利润暴增200%+HBM4量产+HBM营收增3倍 + KB证券预警2027通用存储供应悬崖(短缺至2028)",
+      "burst_date": "2026-07-22",
+      "initial_score": 5.25,
+      "direction": "bullish",
+      "sub_sectors": ["半导体", "AI算力"],
+      "decay_stage": "rapid",
+      "current_residual": 5.25,
+      "key_stocks": ["江波龙301308", "兆易创新603986", "通富微电002156", "长电科技600584"],
+      "notes": "共振+1.0。HBM吞噬通用DRAM产能→供应悬崖→涨价周期至少到2028年。与三星泰勒扩产共振"
+    },
+    {
+      "id": "csp-capex-2026-ai",
+      "title": "海外CSP 2026 Capex 5964亿美元(+47%) + 谷歌在手订单4620亿(环比翻倍) + 亚马逊3640亿 + 多款AI芯片新品",
+      "burst_date": "2026-07-21",
+      "initial_score": 5.8,
+      "direction": "bullish",
+      "sub_sectors": ["AI算力", "半导体"],
+      "decay_stage": "rapid",
+      "current_residual": 3.71,
+      "key_stocks": ["中际旭创300308", "新易盛300502", "浪潮信息000977", "寒武纪688256", "海光信息688041"],
+      "notes": "跨赛道共振(+1.0)。7/23新增数据：谷歌在手订单4620亿环比翻倍+Tower硅光收入增3倍+康宁再获两份长协，持续验证需求"
+    },
+    {
+      "id": "samsung-taylor-2nm-double-capacity",
+      "title": "三星泰勒厂2nm产能翻倍(4→8万片/月) + 特斯拉AI5芯片2nm流片完成",
+      "burst_date": "2026-07-22",
+      "initial_score": 4.5,
+      "direction": "bullish",
+      "sub_sectors": ["半导体"],
+      "decay_stage": "rapid",
+      "current_residual": 3.60,
+      "key_stocks": ["北方华创002371", "中微公司688012", "中芯国际688981"],
+      "notes": "与台积电CAPEX↑+ASML扩产形成三重共振(+1.0)。利好出尽-0.5。全球设备订单能见度拉至2-3年"
+    },
+    {
+      "id": "amd-advancing-ai-2026",
+      "title": "AMD Advancing AI 2026大会(7/22-23) — 微软Azure全包Helios + 定价反超NVIDIA + 巴克莱目标价665$",
+      "burst_date": "2026-07-22",
+      "initial_score": 4.4,
+      "direction": "bullish",
+      "sub_sectors": ["AI算力", "半导体"],
+      "decay_stage": "paused",
+      "current_residual": 4.4,
+      "key_stocks": ["通富微电002156", "中际旭创300308", "浪潮信息000977"],
+      "notes": "大会进行中(7/22-23，今天最后一天)，衰减暂停。微软确认Helios部署+AMD拿下定价权。利好出尽-0.5。与Vera Rubin竞争性共振(+1.0)。⚠️今天最后一天，若没有超预期内容明日恢复衰减"
+    },
+    {
+      "id": "t1p6-optical-module-q3-ramp",
+      "title": "1.6T光模块Q3规模放量 + NVL144 PCB价值暴涨233% + Lumentum/Coherent业绩验证爬坡超预期",
+      "burst_date": "2026-07-19",
+      "initial_score": 3.8,
+      "direction": "bullish",
+      "sub_sectors": ["AI算力"],
+      "decay_stage": "paused",
+      "current_residual": 3.8,
+      "key_stocks": ["中际旭创300308", "新易盛300502", "沪电股份002463", "天孚通信300394"],
+      "notes": "产业趋势型事件，衰减较慢。7/23被Lumentum EML紧缺+Coherent 6英寸InP加速+AXT InP衬底积压订单破1亿美元强化，衰减暂停1天"
+    },
+    {
+      "id": "nvidia-spectrum6-cpo",
+      "title": "NVIDIA Spectrum-6交换芯片发布(102.4Tbps, 首款CPO集成+液冷, 支持超10万GPU互联)",
+      "burst_date": "2026-07-22",
+      "initial_score": 4.8,
+      "direction": "bullish",
+      "sub_sectors": ["AI算力", "通信/量子"],
+      "decay_stage": "rapid",
+      "current_residual": 4.8,
+      "key_stocks": ["天孚通信300394", "中际旭创300308", "英维克002837", "沪电股份002463"],
+      "notes": "跨赛道共振(+1.0，AI算力+通信)。CPO技术从概念→旗舰产品集成，路线确认。与Vera Rubin+1.6T光模块共振"
+    },
+    {
+      "id": "star-etf-inflow-record",
+      "title": "科创50ETF单日净流入137亿创纪录 + 央企增持600亿 + 科创50暴涨10.73%验证",
+      "burst_date": "2026-07-20",
+      "initial_score": 5.5,
+      "direction": "bullish",
+      "sub_sectors": ["半导体", "AI算力"],
+      "decay_stage": "paused",
+      "current_residual": 3.52,
+      "key_stocks": [],
+      "notes": "7/23被央企具体增持600亿+科创50 7/21暴涨10.73%验证，衰减暂停1天。被大基金三期+长鑫科技IPO共振"
+    },
+    {
+      "id": "spacex-starship-13-20260723",
+      "title": "SpaceX星舰第13次试飞(7/23今日发射！) + 引力一号遥四东海首发成功",
+      "burst_date": "2026-07-21",
+      "initial_score": 4.1,
+      "direction": "bullish",
+      "sub_sectors": ["航空航天"],
+      "decay_stage": "paused",
+      "current_residual": 3.28,
+      "key_stocks": ["航天电子600879", "中国卫星600118"],
+      "notes": "🚀今日(7/23)发射窗口！衰减暂停。上次7/16因发动机点火失败中止。SpaceX股价破发+做空250亿压制。新增催化：引力一号遥四7/22东海首发成功+中国上半年44次发射+26%"
+    },
+    {
+      "id": "skt-sys-cliff-2026h2",
+      "title": "天岳先进SiC衬底全球市占率27.6%问鼎第一(8英寸全球份额51.3%) + T1200碳纤维全球首家量产 + 华特气体江西项目7月竣工",
+      "burst_date": "2026-07-23",
+      "initial_score": 4.2,
+      "direction": "bullish",
+      "sub_sectors": ["新材料"],
+      "decay_stage": "rapid",
+      "current_residual": 4.2,
+      "key_stocks": ["天岳先进688234", "晶盛机电300316", "中复神鹰688295", "华特气体688268"],
+      "notes": "反预期+1.0（中国SiC衬底首次全球第一）。新材料赛道独立催化，不与半导体/AI重叠。更多是中长期国产替代信心提振"
+    },
+    {
+      "id": "cz10b-sea-recovery-success",
+      "title": "长征十号乙首飞成功(全球首次海上网系可控回收) + 15家商业航天IPO",
+      "burst_date": "2026-07-22",
+      "initial_score": 3.2,
+      "direction": "bullish",
+      "sub_sectors": ["航空航天"],
+      "decay_stage": "rapid",
+      "current_residual": 2.56,
+      "key_stocks": ["航天电子600879", "中国卫星600118"],
+      "notes": "实际7/10首飞。首次运行于7/22评分，衰减从07-22起算。与SpaceX星舰+引力一号共振。十余款国产火箭密集待发"
+    },
+    {
+      "id": "tsmc-2027-price-hike-10pct",
+      "title": "台积电计划2027年代工涨价最高10%(先进+成熟制程)",
+      "burst_date": "2026-07-22",
+      "initial_score": 3.2,
+      "direction": "bullish",
+      "sub_sectors": ["半导体"],
+      "decay_stage": "slow",
+      "current_residual": 2.56,
+      "key_stocks": ["中芯国际688981"],
+      "notes": "双面性：利好制造/设备，利空fabless设计公司。2027年执行，时效较远。验证行业景气度"
+    },
+    {
+      "id": "citi-upgrade-china-overweight",
+      "title": "花旗上调中国至超配 + 高盛显示外资创纪录逃离美股科技",
+      "burst_date": "2026-07-20",
+      "initial_score": 4.9,
+      "direction": "bullish",
+      "sub_sectors": ["半导体", "AI算力", "消费电子"],
+      "decay_stage": "steady",
+      "current_residual": 2.83,
+      "key_stocks": [],
+      "notes": "反预期(+1.0)。7/21费城半导体+5.21%+北向资金持仓3.13万亿创新高，验证资金再平衡逻辑"
+    },
+    {
+      "id": "tsmc-capex-2026q3",
+      "title": "台积电上调2026全年资本开支至600-640亿美元",
+      "burst_date": "2026-07-16",
+      "initial_score": 6.4,
+      "direction": "bullish",
+      "sub_sectors": ["半导体", "AI算力"],
+      "decay_stage": "slow",
+      "current_residual": 2.70,
+      "key_stocks": ["中微公司688012", "北方华创002371", "拓荆科技688072", "盛美上海688082", "正帆科技688596"],
+      "notes": "跨赛道共振(+1.5)。day 7慢速衰减。被ASML扩产+三星SK海力士持续共振。高盛进一步上调27/28年CAPEX至780/820亿"
+    }
+  ],
+  "digested_events": [
+    {
+      "id": "philly-semicon-bear-202607",
+      "title": "费城半导体指数入熊(高点回撤>20%)",
+      "burst_date": "2026-07-17",
+      "initial_score": 3.5,
+      "direction": "bearish",
+      "sub_sectors": ["半导体"],
+      "digested_date": "2026-07-22",
+      "digest_reason": "7/21费城半导体暴涨5.21%+7/22连续反弹，对冲加速衰减至0.99<1.0，入熊叙事已终结"
+    }
+  ]
+}

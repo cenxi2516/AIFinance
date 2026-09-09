@@ -1,0 +1,91 @@
+{
+  "target": {
+    "type": "个股",
+    "code": "600392",
+    "name": "盛和资源"
+  },
+  "analysis_time": "2026-07-14T11:31:20.102021",
+  "data_source": "mootdx(分时) + 腾讯(行情/指数)",
+  "note": "东财push2 API暂时限流,切换到mootdx方案",
+  "quote": {
+    "name": "盛和资源",
+    "code": "600392",
+    "price": 23.01,
+    "prev_close": 23.26,
+    "open": 23.3,
+    "high": 23.71,
+    "low": 22.78,
+    "change_pct": -1.07,
+    "turnover_pct": 2.68,
+    "amplitude": 4.0,
+    "vol_ratio": 1.05,
+    "amount": 109291.0,
+    "pe": 40.41,
+    "mcap": 403.33
+  },
+  "flow_summary": {
+    "total_buy_vol": 194698,
+    "total_sell_vol": 225555,
+    "total_net_vol": -30857,
+    "buy_ratio_pct": 46.3,
+    "data_points": 119,
+    "first_time": "1",
+    "last_time": "119"
+  },
+  "flow_trend": {
+    "direction": "卖方占优",
+    "acceleration": "卖压加速",
+    "first_slope": 207.0,
+    "second_slope": -957.0
+  },
+  "flow_source": "mootdx 分时 → 买卖力道推导",
+  "market": {
+    "benchmark": "上证指数",
+    "benchmark_change": -0.66,
+    "relative_strength": -0.41,
+    "relative_rating": "➖ 与大盘同步",
+    "market_env": "🟠 大盘微跌",
+    "detail": {
+      "上证指数": {
+        "price": 3887.92,
+        "change_pct": -0.66
+      },
+      "深证成指": {
+        "price": 14461.2,
+        "change_pct": -0.42
+      },
+      "创业板指": {
+        "price": 3712.74,
+        "change_pct": -0.29
+      }
+    }
+  },
+  "scenarios": [
+    {
+      "name": "情景D: 弱势下跌",
+      "probability": 32.0,
+      "met_count": 2,
+      "total_conditions": 4
+    },
+    {
+      "name": "情景A: V形反弹/强势上涨",
+      "probability": 28.0,
+      "met_count": 2,
+      "total_conditions": 5
+    },
+    {
+      "name": "情景B: 震荡横盘",
+      "probability": 24.0,
+      "met_count": 1,
+      "total_conditions": 3
+    },
+    {
+      "name": "情景C: 冲高回落",
+      "probability": 16.0,
+      "met_count": 1,
+      "total_conditions": 3
+    }
+  ],
+  "news_count": 2,
+  "overall_verdict": "总体中性: 买力46.3%均衡,方向不明确。建议观望等待。"
+}

@@ -1,0 +1,968 @@
+{
+  "generated_at": "2026-07-13 16:07",
+  "target": "159792",
+  "target_type": "etf",
+  "target_name": "港股通互联网ETF富国",
+  "track": "B",
+  "track_label": "ETF轨(量价+消息面)",
+  "summary": {
+    "price": 0.582,
+    "last_close": 0.597,
+    "change": -0.015,
+    "change_pct": -2.51,
+    "high": 0.603,
+    "low": 0.581,
+    "volume": 52315369,
+    "turnover_pct": 8.12,
+    "change_1w": 4.5,
+    "change_1m": -1.7
+  },
+  "realtime": {
+    "name": "港股通互联网ETF富国",
+    "code": "159792",
+    "price": 0.582,
+    "last_close": 0.597,
+    "open": 0.593,
+    "volume": 52315369,
+    "change_amt": -0.015,
+    "change_pct": -2.51,
+    "high": 0.603,
+    "low": 0.581,
+    "amount_wan": 309022.0,
+    "turnover_pct": 8.12,
+    "pe_ttm": 0,
+    "amplitude_pct": 3.69,
+    "mcap_yi": 374.83,
+    "float_mcap_yi": 374.83,
+    "pb": 0.0,
+    "_validation": {
+      "passed": true,
+      "quality": "🟢 高置信度(双源验证通过)",
+      "checks": [
+        {
+          "metric": "当前价",
+          "tencent": 0.582,
+          "sina": 0.582,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "开盘价",
+          "tencent": 0.593,
+          "sina": 0.593,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "最高价",
+          "tencent": 0.603,
+          "sina": 0.603,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "最低价",
+          "tencent": 0.581,
+          "sina": 0.581,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "昨收价",
+          "tencent": 0.597,
+          "sina": 0.597,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "涨跌幅%",
+          "tencent": -2.51,
+          "sina": -2.51,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "成交额(亿)",
+          "tencent": 30.9022,
+          "sina": 30.90223930617,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "成交量(股)",
+          "tencent": 5231536900,
+          "sina": 5231536899,
+          "diff_pct": 0.0,
+          "ok": true
+        }
+      ],
+      "summary": "通过8项, 未通过0项, 单源0项"
+    },
+    "_sources": [
+      "腾讯",
+      "新浪"
+    ]
+  },
+  "daily": [
+    {
+      "date": "2026-04-14",
+      "open": 0.696,
+      "close": 0.689,
+      "high": 0.699,
+      "low": 0.684,
+      "volume": 19255252.0,
+      "change_pct": -1.01,
+      "amplitude": 2.19
+    },
+    {
+      "date": "2026-04-15",
+      "open": 0.701,
+      "close": 0.698,
+      "high": 0.71,
+      "low": 0.696,
+      "volume": 21470592.0,
+      "change_pct": -0.43,
+      "amplitude": 2.01
+    },
+    {
+      "date": "2026-04-16",
+      "open": 0.707,
+      "close": 0.724,
+      "high": 0.726,
+      "low": 0.706,
+      "volume": 32745078.0,
+      "change_pct": 2.4,
+      "amplitude": 2.83
+    },
+    {
+      "date": "2026-04-17",
+      "open": 0.718,
+      "close": 0.715,
+      "high": 0.721,
+      "low": 0.71,
+      "volume": 16503852.0,
+      "change_pct": -0.42,
+      "amplitude": 1.55
+    },
+    {
+      "date": "2026-04-20",
+      "open": 0.717,
+      "close": 0.725,
+      "high": 0.729,
+      "low": 0.713,
+      "volume": 21484999.0,
+      "change_pct": 1.12,
+      "amplitude": 2.24
+    },
+    {
+      "date": "2026-04-21",
+      "open": 0.724,
+      "close": 0.719,
+      "high": 0.726,
+      "low": 0.715,
+      "volume": 15980217.0,
+      "change_pct": -0.69,
+      "amplitude": 1.54
+    },
+    {
+      "date": "2026-04-22",
+      "open": 0.712,
+      "close": 0.702,
+      "high": 0.712,
+      "low": 0.699,
+      "volume": 22448859.0,
+      "change_pct": -1.4,
+      "amplitude": 1.86
+    },
+    {
+      "date": "2026-04-23",
+      "open": 0.701,
+      "close": 0.691,
+      "high": 0.702,
+      "low": 0.688,
+      "volume": 27793027.0,
+      "change_pct": -1.43,
+      "amplitude": 2.03
+    },
+    {
+      "date": "2026-04-24",
+      "open": 0.685,
+      "close": 0.69,
+      "high": 0.692,
+      "low": 0.676,
+      "volume": 28821719.0,
+      "change_pct": 0.73,
+      "amplitude": 2.37
+    },
+    {
+      "date": "2026-04-27",
+      "open": 0.688,
+      "close": 0.682,
+      "high": 0.689,
+      "low": 0.68,
+      "volume": 18785061.0,
+      "change_pct": -0.87,
+      "amplitude": 1.32
+    },
+    {
+      "date": "2026-04-28",
+      "open": 0.675,
+      "close": 0.666,
+      "high": 0.679,
+      "low": 0.662,
+      "volume": 25227157.0,
+      "change_pct": -1.33,
+      "amplitude": 2.57
+    },
+    {
+      "date": "2026-04-29",
+      "open": 0.672,
+      "close": 0.677,
+      "high": 0.68,
+      "low": 0.669,
+      "volume": 23190186.0,
+      "change_pct": 0.74,
+      "amplitude": 1.64
+    },
+    {
+      "date": "2026-04-30",
+      "open": 0.671,
+      "close": 0.67,
+      "high": 0.675,
+      "low": 0.663,
+      "volume": 25063745.0,
+      "change_pct": -0.15,
+      "amplitude": 1.81
+    },
+    {
+      "date": "2026-05-06",
+      "open": 0.681,
+      "close": 0.685,
+      "high": 0.691,
+      "low": 0.675,
+      "volume": 29711658.0,
+      "change_pct": 0.59,
+      "amplitude": 2.37
+    },
+    {
+      "date": "2026-05-07",
+      "open": 0.699,
+      "close": 0.704,
+      "high": 0.705,
+      "low": 0.698,
+      "volume": 22129065.0,
+      "change_pct": 0.72,
+      "amplitude": 1.0
+    },
+    {
+      "date": "2026-05-08",
+      "open": 0.699,
+      "close": 0.708,
+      "high": 0.708,
+      "low": 0.698,
+      "volume": 16625692.0,
+      "change_pct": 1.29,
+      "amplitude": 1.43
+    },
+    {
+      "date": "2026-05-11",
+      "open": 0.702,
+      "close": 0.699,
+      "high": 0.704,
+      "low": 0.693,
+      "volume": 21459436.0,
+      "change_pct": -0.43,
+      "amplitude": 1.59
+    },
+    {
+      "date": "2026-05-12",
+      "open": 0.699,
+      "close": 0.69,
+      "high": 0.703,
+      "low": 0.689,
+      "volume": 20753902.0,
+      "change_pct": -1.29,
+      "amplitude": 2.03
+    },
+    {
+      "date": "2026-05-13",
+      "open": 0.687,
+      "close": 0.69,
+      "high": 0.698,
+      "low": 0.683,
+      "volume": 41496093.0,
+      "change_pct": 0.44,
+      "amplitude": 2.2
+    },
+    {
+      "date": "2026-05-14",
+      "open": 0.712,
+      "close": 0.696,
+      "high": 0.72,
+      "low": 0.696,
+      "volume": 47539538.0,
+      "change_pct": -2.25,
+      "amplitude": 3.45
+    },
+    {
+      "date": "2026-05-15",
+      "open": 0.692,
+      "close": 0.673,
+      "high": 0.693,
+      "low": 0.669,
+      "volume": 27674765.0,
+      "change_pct": -2.75,
+      "amplitude": 3.59
+    },
+    {
+      "date": "2026-05-18",
+      "open": 0.669,
+      "close": 0.661,
+      "high": 0.671,
+      "low": 0.657,
+      "volume": 31705886.0,
+      "change_pct": -1.2,
+      "amplitude": 2.13
+    },
+    {
+      "date": "2026-05-19",
+      "open": 0.66,
+      "close": 0.668,
+      "high": 0.671,
+      "low": 0.66,
+      "volume": 29278408.0,
+      "change_pct": 1.21,
+      "amplitude": 1.67
+    },
+    {
+      "date": "2026-05-20",
+      "open": 0.666,
+      "close": 0.657,
+      "high": 0.667,
+      "low": 0.654,
+      "volume": 21710385.0,
+      "change_pct": -1.35,
+      "amplitude": 1.99
+    },
+    {
+      "date": "2026-05-21",
+      "open": 0.66,
+      "close": 0.637,
+      "high": 0.661,
+      "low": 0.636,
+      "volume": 40989236.0,
+      "change_pct": -3.48,
+      "amplitude": 3.93
+    },
+    {
+      "date": "2026-05-22",
+      "open": 0.642,
+      "close": 0.637,
+      "high": 0.642,
+      "low": 0.631,
+      "volume": 31001951.0,
+      "change_pct": -0.78,
+      "amplitude": 1.74
+    },
+    {
+      "date": "2026-05-25",
+      "open": 0.631,
+      "close": 0.633,
+      "high": 0.634,
+      "low": 0.629,
+      "volume": 20742749.0,
+      "change_pct": 0.32,
+      "amplitude": 0.79
+    },
+    {
+      "date": "2026-05-26",
+      "open": 0.632,
+      "close": 0.633,
+      "high": 0.635,
+      "low": 0.617,
+      "volume": 53129600.0,
+      "change_pct": 0.16,
+      "amplitude": 2.92
+    },
+    {
+      "date": "2026-05-27",
+      "open": 0.63,
+      "close": 0.621,
+      "high": 0.635,
+      "low": 0.619,
+      "volume": 33265499.0,
+      "change_pct": -1.43,
+      "amplitude": 2.58
+    },
+    {
+      "date": "2026-05-28",
+      "open": 0.617,
+      "close": 0.603,
+      "high": 0.618,
+      "low": 0.595,
+      "volume": 53374295.0,
+      "change_pct": -2.27,
+      "amplitude": 3.87
+    },
+    {
+      "date": "2026-05-29",
+      "open": 0.608,
+      "close": 0.607,
+      "high": 0.615,
+      "low": 0.598,
+      "volume": 58869002.0,
+      "change_pct": -0.16,
+      "amplitude": 2.84
+    },
+    {
+      "date": "2026-06-01",
+      "open": 0.607,
+      "close": 0.63,
+      "high": 0.63,
+      "low": 0.607,
+      "volume": 61058729.0,
+      "change_pct": 3.79,
+      "amplitude": 3.79
+    },
+    {
+      "date": "2026-06-02",
+      "open": 0.631,
+      "close": 0.659,
+      "high": 0.66,
+      "low": 0.63,
+      "volume": 69802777.0,
+      "change_pct": 4.44,
+      "amplitude": 4.76
+    },
+    {
+      "date": "2026-06-03",
+      "open": 0.658,
+      "close": 0.636,
+      "high": 0.658,
+      "low": 0.633,
+      "volume": 38876105.0,
+      "change_pct": -3.34,
+      "amplitude": 3.95
+    },
+    {
+      "date": "2026-06-04",
+      "open": 0.628,
+      "close": 0.623,
+      "high": 0.633,
+      "low": 0.619,
+      "volume": 23656446.0,
+      "change_pct": -0.8,
+      "amplitude": 2.26
+    },
+    {
+      "date": "2026-06-05",
+      "open": 0.623,
+      "close": 0.621,
+      "high": 0.629,
+      "low": 0.615,
+      "volume": 31312228.0,
+      "change_pct": -0.32,
+      "amplitude": 2.28
+    },
+    {
+      "date": "2026-06-08",
+      "open": 0.603,
+      "close": 0.6,
+      "high": 0.611,
+      "low": 0.597,
+      "volume": 27112075.0,
+      "change_pct": -0.5,
+      "amplitude": 2.35
+    },
+    {
+      "date": "2026-06-09",
+      "open": 0.6,
+      "close": 0.61,
+      "high": 0.613,
+      "low": 0.599,
+      "volume": 37186504.0,
+      "change_pct": 1.67,
+      "amplitude": 2.34
+    },
+    {
+      "date": "2026-06-10",
+      "open": 0.601,
+      "close": 0.602,
+      "high": 0.606,
+      "low": 0.594,
+      "volume": 28156743.0,
+      "change_pct": 0.17,
+      "amplitude": 2.02
+    },
+    {
+      "date": "2026-06-11",
+      "open": 0.603,
+      "close": 0.592,
+      "high": 0.609,
+      "low": 0.587,
+      "volume": 26880330.0,
+      "change_pct": -1.82,
+      "amplitude": 3.75
+    },
+    {
+      "date": "2026-06-12",
+      "open": 0.6,
+      "close": 0.595,
+      "high": 0.602,
+      "low": 0.593,
+      "volume": 63899172.0,
+      "change_pct": -0.83,
+      "amplitude": 1.52
+    },
+    {
+      "date": "2026-06-15",
+      "open": 0.606,
+      "close": 0.598,
+      "high": 0.609,
+      "low": 0.594,
+      "volume": 37687107.0,
+      "change_pct": -1.32,
+      "amplitude": 2.53
+    },
+    {
+      "date": "2026-06-16",
+      "open": 0.598,
+      "close": 0.581,
+      "high": 0.599,
+      "low": 0.58,
+      "volume": 37163222.0,
+      "change_pct": -2.84,
+      "amplitude": 3.28
+    },
+    {
+      "date": "2026-06-17",
+      "open": 0.581,
+      "close": 0.578,
+      "high": 0.586,
+      "low": 0.575,
+      "volume": 39005941.0,
+      "change_pct": -0.52,
+      "amplitude": 1.91
+    },
+    {
+      "date": "2026-06-18",
+      "open": 0.573,
+      "close": 0.562,
+      "high": 0.576,
+      "low": 0.56,
+      "volume": 37463499.0,
+      "change_pct": -1.92,
+      "amplitude": 2.86
+    },
+    {
+      "date": "2026-06-22",
+      "open": 0.561,
+      "close": 0.559,
+      "high": 0.563,
+      "low": 0.548,
+      "volume": 47266837.0,
+      "change_pct": -0.36,
+      "amplitude": 2.74
+    },
+    {
+      "date": "2026-06-23",
+      "open": 0.556,
+      "close": 0.536,
+      "high": 0.556,
+      "low": 0.534,
+      "volume": 38831693.0,
+      "change_pct": -3.6,
+      "amplitude": 4.12
+    },
+    {
+      "date": "2026-06-24",
+      "open": 0.538,
+      "close": 0.538,
+      "high": 0.548,
+      "low": 0.531,
+      "volume": 50063830.0,
+      "change_pct": 0.0,
+      "amplitude": 3.2
+    },
+    {
+      "date": "2026-06-25",
+      "open": 0.535,
+      "close": 0.524,
+      "high": 0.536,
+      "low": 0.521,
+      "volume": 48956619.0,
+      "change_pct": -2.06,
+      "amplitude": 2.88
+    },
+    {
+      "date": "2026-06-26",
+      "open": 0.518,
+      "close": 0.511,
+      "high": 0.52,
+      "low": 0.507,
+      "volume": 55492798.0,
+      "change_pct": -1.35,
+      "amplitude": 2.56
+    },
+    {
+      "date": "2026-06-29",
+      "open": 0.517,
+      "close": 0.527,
+      "high": 0.534,
+      "low": 0.515,
+      "volume": 71615559.0,
+      "change_pct": 1.93,
+      "amplitude": 3.69
+    },
+    {
+      "date": "2026-06-30",
+      "open": 0.525,
+      "close": 0.525,
+      "high": 0.53,
+      "low": 0.516,
+      "volume": 45340338.0,
+      "change_pct": 0.0,
+      "amplitude": 2.71
+    },
+    {
+      "date": "2026-07-01",
+      "open": 0.527,
+      "close": 0.525,
+      "high": 0.527,
+      "low": 0.522,
+      "volume": 15785990.0,
+      "change_pct": -0.38,
+      "amplitude": 0.96
+    },
+    {
+      "date": "2026-07-02",
+      "open": 0.536,
+      "close": 0.539,
+      "high": 0.552,
+      "low": 0.535,
+      "volume": 47279840.0,
+      "change_pct": 0.56,
+      "amplitude": 3.18
+    },
+    {
+      "date": "2026-07-03",
+      "open": 0.541,
+      "close": 0.549,
+      "high": 0.555,
+      "low": 0.54,
+      "volume": 35922259.0,
+      "change_pct": 1.48,
+      "amplitude": 2.78
+    },
+    {
+      "date": "2026-07-06",
+      "open": 0.548,
+      "close": 0.557,
+      "high": 0.564,
+      "low": 0.539,
+      "volume": 45335036.0,
+      "change_pct": 1.64,
+      "amplitude": 4.64
+    },
+    {
+      "date": "2026-07-07",
+      "open": 0.556,
+      "close": 0.561,
+      "high": 0.581,
+      "low": 0.556,
+      "volume": 72325728.0,
+      "change_pct": 0.9,
+      "amplitude": 4.5
+    },
+    {
+      "date": "2026-07-08",
+      "open": 0.563,
+      "close": 0.595,
+      "high": 0.607,
+      "low": 0.562,
+      "volume": 112105213.0,
+      "change_pct": 5.68,
+      "amplitude": 8.01
+    },
+    {
+      "date": "2026-07-09",
+      "open": 0.6,
+      "close": 0.59,
+      "high": 0.613,
+      "low": 0.586,
+      "volume": 87712876.0,
+      "change_pct": -1.67,
+      "amplitude": 4.61
+    },
+    {
+      "date": "2026-07-10",
+      "open": 0.598,
+      "close": 0.597,
+      "high": 0.607,
+      "low": 0.584,
+      "volume": 55384534.0,
+      "change_pct": -0.17,
+      "amplitude": 3.94
+    },
+    {
+      "date": "2026-07-13",
+      "open": 0.593,
+      "close": 0.582,
+      "high": 0.603,
+      "low": 0.581,
+      "volume": 52315369,
+      "change_pct": -1.85,
+      "amplitude": 3.79
+    }
+  ],
+  "industry_flow": [],
+  "concept_flow": {
+    "available": false,
+    "reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without"
+  },
+  "margin_data": {
+    "available": false,
+    "reason": "无融资融券数据"
+  },
+  "auxiliary_data": {
+    "concept_flow": {
+      "available": false,
+      "reason": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without"
+    },
+    "margin": {
+      "available": false,
+      "reason": "无融资融券数据"
+    },
+    "industry_flow": []
+  },
+  "safety_signals": {
+    "f1_exhaustion": {
+      "triggered": false,
+      "signal_name": "F1: 卖压衰竭(量价)",
+      "decreasing_declines": false,
+      "volume_shrink": false,
+      "no_new_low": true,
+      "strength": "弱",
+      "meaning": "卖压尚未衰竭，继续观察"
+    },
+    "f2_institution_return": {
+      "triggered": false,
+      "signal_name": "F2: 放量反弹回流",
+      "early_decline": false,
+      "has_bullish_volume": false,
+      "strength": "弱",
+      "meaning": "未见明确的资金回流信号"
+    },
+    "f3_retail_exhaustion": {
+      "triggered": false,
+      "signal_name": "F3: 恐慌出尽(缩量止跌)",
+      "decline_narrowing": false,
+      "volume_shrink": false,
+      "strength": "弱",
+      "meaning": "恐慌盘可能尚未出尽"
+    },
+    "f8_volume_stabilization": {
+      "triggered": false,
+      "signal_name": "F8: 缩量止跌盘整",
+      "narrow_range": true,
+      "volume_shrink": false,
+      "amp_narrow": true,
+      "avg_vol_20": 51652714.0,
+      "recent_vol_3": 65137593.0,
+      "strength": "弱",
+      "meaning": "尚未缩量止跌，仍在波动"
+    }
+  },
+  "danger_signals": {
+    "f4_accelerating": {
+      "triggered": false,
+      "signal_name": "F4: 🔴 加速放量下跌",
+      "danger_level": "高危",
+      "accelerating": false,
+      "volume_expanding": false,
+      "vol_surge_ratio": 0.8,
+      "meaning": "下跌尚未加速",
+      "action": "继续观察"
+    },
+    "f5_top_distribution": {
+      "triggered": false,
+      "signal_name": "F5: 🔴 高位放量逆转",
+      "danger_level": "高危",
+      "early_rise_pct": 13.3,
+      "has_distribution": false,
+      "meaning": "无顶部派发信号",
+      "action": "继续观察"
+    },
+    "f7_news_exhausted": {
+      "triggered": false,
+      "signal_name": "F7: 🔴 利好出尽/高开低走",
+      "danger_level": "非常高",
+      "pre_rise_2w": 3.9,
+      "latest_news": "<em>港股</em>市场持续回暖，同类产品最低费率档的<em>港股通互联网</em>ETF华夏（520910）早盘翻红",
+      "meaning": "前期涨幅可接受或未出现利好兑现",
+      "action": ""
+    }
+  },
+  "safety_score": {
+    "safety_score": 60,
+    "safety_level": "🟡 接近安全",
+    "can_enter": false,
+    "description": "部分条件满足，再等1-3日确认",
+    "positive_signals": [],
+    "negative_signals": [],
+    "adjustment_details": [
+      [
+        "企稳确认",
+        10
+      ]
+    ],
+    "stabilization": {
+      "is_stabilized": true,
+      "passed_count": 4,
+      "total_count": 5,
+      "checks": {
+        "no_new_low": true,
+        "narrow_range": true,
+        "flow_normal": true,
+        "lows_rising": false,
+        "above_ma5": true
+      },
+      "meaning": "企稳确认，下行风险大幅降低"
+    },
+    "principle": "可以少挣，必须少亏 — 只有 ≥75 分才建议考虑入场"
+  },
+  "timing": {
+    "entry": {
+      "ready": false,
+      "ready_enhanced": false,
+      "conditions": [
+        {
+          "condition": "安全评分 ≥ 75分",
+          "met": false,
+          "current": "60分",
+          "weight": "必须"
+        },
+        {
+          "condition": "企稳确认 (≥4/5项)",
+          "met": true,
+          "current": "4/5项",
+          "weight": "必须"
+        },
+        {
+          "condition": "≥2个安全信号触发",
+          "met": false,
+          "current": "0个",
+          "weight": "建议"
+        },
+        {
+          "condition": "无危险信号",
+          "met": true,
+          "current": "0个",
+          "weight": "必须"
+        },
+        {
+          "condition": "近日放量阳线确认（增强信号）",
+          "met": false,
+          "current": "未出现",
+          "weight": "加分项（非必须）"
+        }
+      ],
+      "verdict": "❌ 买入条件不满足，继续等待"
+    },
+    "exit": {
+      "any_triggered": false,
+      "conditions": [
+        {
+          "condition": "🔴 硬止损: 持仓亏损>5% + 持续放量下跌",
+          "triggered": false,
+          "rule": "F13: 亏损控制",
+          "action": "全部离场"
+        },
+        {
+          "condition": "🟠 利润保护: 盈利>5% + 放量滞涨/高位逆转",
+          "triggered": false,
+          "rule": "F12: 利润保护",
+          "action": "至少减仓50%"
+        },
+        {
+          "condition": "🔴 任何高危信号触发 (F4/F5/F7)",
+          "triggered": false,
+          "current": "无",
+          "rule": "危险信号 > 一切买入信号",
+          "action": "不买，已持有则评估是否离场"
+        },
+        {
+          "condition": "🔴 安全评分降至 < 40分",
+          "triggered": false,
+          "current": "60分",
+          "rule": "危险区间 = 持币观望",
+          "action": "远离，等安全评分回升"
+        }
+      ]
+    },
+    "principle": "可以少挣，必须少亏 — 宁可错过，不可做错"
+  },
+  "news": [
+    {
+      "title": "<em>港股</em>市场持续回暖，同类产品最低费率档的<em>港股通互联网</em>ETF华夏（520910）早盘翻红",
+      "date": "2026-07-13 10:02:18",
+      "summary": "港股互联网早盘低开后窄幅震荡，同类产品最低费率档的<em>港股通互联网</em>ETF华夏（520910）现翻红微涨。截至7月10日，<em>港股通互联网</em>ETF华夏（520910）规模达4.85亿元。",
+      "url": "http://stock.eastmoney.com/a/202607133803078161.html"
+    },
+    {
+      "title": "AI商业化提速，<em>港股通互联网</em>ETF易方达（513040）近3日“吸金”累超6亿元",
+      "date": "2026-07-13 14:12:00",
+      "summary": "7月13日，截至13:41，中证<em>港股通互联网</em>指数下跌1.0%，中证海外中国互联网50指数上涨0.5%。同花顺iFinD数据显示，截至上一交易日，<em>港股通互联网</em>ETF易方达（513040）已连续3日获资金净流入，合计约6.6亿元。",
+      "url": "http://stock.eastmoney.com/a/202607133803700973.html"
+    },
+    {
+      "title": "ETF资金榜 | <em>港股通互联网</em>ETF易方达(513040)：净流入2.26亿元，居可比基金第一-20260710",
+      "date": "2026-07-13 09:33:31",
+      "summary": "<em>港股通互联网</em>ETF易方达(513040.SH)，场外联接(A：019313；C：019314)。",
+      "url": "http://stock.eastmoney.com/a/202607133803185120.html"
+    },
+    {
+      "title": "AI商业化提速叠加板块基本面韧性强，<em>港股通互联网</em>ETF易方达（513040）近3日“吸金”超6亿元",
+      "date": "2026-07-13 13:55:06",
+      "summary": "截至13:41，中证<em>港股通互联网</em>指数下跌1.0%，中证海外中国互联网50指数上涨0.5%。同花顺iFinD数据显示，截止上一交易日，<em>港股通互联网</em>ETF易方达（513040）已连续3日获资金净流入，合计约6.6亿元。",
+      "url": "http://stock.eastmoney.com/a/202607133803638563.html"
+    },
+    {
+      "title": "<em>港股通互联网</em>ETF富国，获资金大举增持",
+      "date": "2026-07-08 16:07:56",
+      "summary": "值得注意的是，部分港股通主题ETF今日迎资金大举增持，截至收盘，<em>港股通互联网</em>ETF富国（159792）涨超6%，该ETF获得超26亿份净申购，按照收盘价估算，净流入规模约为15亿元。",
+      "url": "http://stock.eastmoney.com/a/202607083798388669.html"
+    },
+    {
+      "title": "<em>港股通互联网</em>板块活跃，低费率<em>港股通互联网</em>ETF富国（159792）盘中实时净申购8.15亿份，成交额突破23亿元，盘中涨幅达2.18%",
+      "date": "2026-07-09 10:36:17",
+      "summary": "场外投资者可以通过富国中证<em>港股通互联网</em>ETF联接基金（A类014673；C类014674）关注投资机遇。",
+      "url": "http://stock.eastmoney.com/a/202607093799859936.html"
+    },
+    {
+      "title": "涨超2.1%，<em>港股通互联网</em>ETF华夏(520910)冲击6连涨",
+      "date": "2026-07-09 09:44:15",
+      "summary": "<em>港股通互联网</em>ETF华夏(520910)上涨2.15%， 冲击6连涨。最新价报0.66元。拉长时间看，截至2026年7月8日，<em>港股通互联网</em>ETF华夏近1周累计上涨12.46%。",
+      "url": "http://stock.eastmoney.com/a/202607093799968423.html"
+    },
+    {
+      "title": "<em>港股通互联网</em>ETF永赢冲击六连涨，AI价值重估与资金风格切换共振！",
+      "date": "2026-07-09 10:50:05",
+      "summary": "<em>港股通互联网</em>ETF永赢（159170）紧密跟踪国证<em>港股通互联网</em>指数（987022），聚焦港股通范围内的互联网及相关科技龙头，覆盖平台经济、AI大模型与应用、智能终端、机器人等核心领域。",
+      "url": "http://finance.eastmoney.com/a/202607093799664930.html"
+    },
+    {
+      "title": "<em>港股通互联网</em>逆势走强！<em>港股通互联网</em>ETF易方达（513040）涨2.53%，南向资金持续涌入",
+      "date": "2026-07-07 09:54:34",
+      "summary": "关联产品：<em>港股通互联网</em>ETF易方达（513040）",
+      "url": "http://finance.eastmoney.com/a/202607073796190713.html"
+    },
+    {
+      "title": "阿里云业务或超预期，聚焦同类产品最低费率档<em>港股通互联网</em>ETF华夏（520910）布局机遇",
+      "date": "2026-07-09 14:31:59",
+      "summary": "公开资料显示，<em>港股通互联网</em>ETF华夏（520910）跟踪中证<em>港股通互联网</em>指数，精准覆盖电商平台、内容生态、社交媒体及软件服务等核心互联网领域，AI应用占比较高，与AI驱动互联网商业模式升级的产业深化路径相契合，成分股中涵盖有望在后续AI加速渗透中持续受益的阿里巴巴、腾讯控股、美团、",
+      "url": "http://stock.eastmoney.com/a/202607093799925025.html"
+    }
+  ],
+  "principle": "可以少挣，必须少亏。所有判断基于数据，每个信号绑定可验证条件。"
+}

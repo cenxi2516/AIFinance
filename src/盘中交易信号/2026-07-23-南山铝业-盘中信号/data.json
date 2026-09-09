@@ -1,0 +1,631 @@
+{
+  "target": {
+    "type": "个股",
+    "code": "600219",
+    "name": "南山铝业"
+  },
+  "analysis_time": "2026-07-23T18:08:30.525000",
+  "freshness": {
+    "phase": 4,
+    "phase_name": "尾盘(518min)",
+    "minutes_from_open": 518.3238440166666,
+    "freshness": {
+      "quote": 1.0,
+      "minute_flow": 1.0,
+      "sector": 1.0,
+      "news": 1.0,
+      "north_bound": 1.0,
+      "market": 1.0,
+      "breadth": 1.0
+    }
+  },
+  "quote": {
+    "name": "南山铝业",
+    "code": "600219",
+    "price": 4.79,
+    "prev_close": 4.35,
+    "open": 4.35,
+    "volume": 4040756.0,
+    "high": 4.79,
+    "low": 4.32,
+    "change_pct": 10.11,
+    "turnover_pct": 3.52,
+    "amplitude": 10.8,
+    "vol_ratio": 1.81,
+    "amount": 187450.0,
+    "pe": 13.31,
+    "mcap": 550.07
+  },
+  "flow_summary": {
+    "total_main_net": 0.0,
+    "total_main_net_wan": 0.0,
+    "total_super_net_wan": 0.0,
+    "total_large_net_wan": 0.0,
+    "total_mid_net_wan": 0.0,
+    "total_small_net_wan": 0.0,
+    "data_points": 120,
+    "first_time": "202607231301",
+    "last_time": "202607231500",
+    "_source": "quant_estimate",
+    "_total_amount_wan": 0.0
+  },
+  "flow_trend": {
+    "direction": "卖压占优",
+    "acceleration": "匀速卖出",
+    "first_half_slope_wan_per_min": 0.0,
+    "second_half_slope_wan_per_min": 0.0,
+    "cum_sequence_wan": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "last_turn": null,
+    "_source": "quant_estimate"
+  },
+  "parties": {
+    "scenario": "多空分歧，方向不明确(量化推断)",
+    "level": "⚪ 观望",
+    "main_direction": "空头占优"
+  },
+  "sector_sentiment": {
+    "sentiment_score": 46.8,
+    "level": "🟡 中性",
+    "inflow_blocks": 2,
+    "total_blocks": 6,
+    "avg_change_pct": 1.03,
+    "total_sector_flow_wan": 678365.6,
+    "all_sectors_count": 200,
+    "data_basis": "2/6板块流入, 合计+678366万",
+    "api_status": "ok"
+  },
+  "north_bound": {
+    "total_net_yi": 0,
+    "direction": "数据不可用",
+    "signal": "⚠️ 无数据",
+    "data_basis": "北向资金API暂不可用",
+    "source": "无",
+    "status": "unavailable"
+  },
+  "market_strength": {
+    "benchmark": "上证指数",
+    "benchmark_change": 0.25,
+    "market_env": "🟡 大盘微涨",
+    "relative_strength": 9.86,
+    "relative_rating": "🚀 显著跑赢",
+    "market_detail": {
+      "上证指数": 0.25,
+      "深证成指": 0.44,
+      "创业板指": 0.25
+    },
+    "data_basis": "上证指数+0.25%, 个股+10.11%, 相对强弱+9.86%"
+  },
+  "market_breadth": {
+    "up_count": 0,
+    "down_count": 0,
+    "up_ratio_pct": 50,
+    "breadth_level": "⚠️ 数据不可用",
+    "breadth_score": 50,
+    "limit_up_count": 0,
+    "limit_down_count": 0,
+    "limit_ratio": 1.0,
+    "money_effect": "⚠️ 数据不可用",
+    "data_basis": "全市场涨0跌0(50.0%), 涨停0/跌停0, 赚钱效应:⚠️ 数据不可用",
+    "status": "unavailable"
+  },
+  "scenarios": [
+    {
+      "name": "情景B: 震荡横盘",
+      "probability": 62.5,
+      "met_count": 4,
+      "total_conditions": 5
+    },
+    {
+      "name": "情景A: 强势上涨",
+      "probability": 29.2,
+      "met_count": 4,
+      "total_conditions": 9
+    },
+    {
+      "name": "情景C: 冲高回落",
+      "probability": 8.3,
+      "met_count": 1,
+      "total_conditions": 5
+    },
+    {
+      "name": "情景D: 弱势下跌",
+      "probability": 0.0,
+      "met_count": 0,
+      "total_conditions": 6
+    }
+  ],
+  "signals": {
+    "main_net_wan": 0.0,
+    "inst_net_wan": 0.0,
+    "retail_net_wan": 0,
+    "sentiment_score": 46.8,
+    "change_pct": 10.11,
+    "turnover_pct": 3.52,
+    "vol_ratio": 1.81,
+    "acceleration": "匀速卖出"
+  },
+  "overall_verdict": "总体中性: 主力+0万, 信号不明确。建议观望, 等待更清晰的信号。",
+  "minute_data": [
+    {
+      "time": "202607231401",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231402",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231403",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231404",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231405",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231406",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231407",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231408",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231409",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231410",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231411",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231412",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231413",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231414",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231415",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231416",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231417",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231418",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231419",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231420",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231421",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231422",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231423",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231424",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231425",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231426",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231427",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231428",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231429",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231430",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231431",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231432",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231433",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231434",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231435",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231436",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231437",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231438",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231439",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231440",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231441",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231442",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231443",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231444",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231445",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231446",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231447",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231448",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231449",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231450",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231451",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231452",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231453",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231454",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231455",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231456",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231457",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231458",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231459",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607231500",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    }
+  ]
+}

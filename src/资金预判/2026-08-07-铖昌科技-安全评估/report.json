@@ -1,0 +1,1888 @@
+{
+  "generated_at": "2026-08-07 14:06",
+  "target": "001270",
+  "target_type": "stock",
+  "target_name": "铖昌科技",
+  "track": "A",
+  "track_label": "A轨(资金流+量价)",
+  "summary": {
+    "price": 117.74,
+    "last_close": 116.2,
+    "change": 1.54,
+    "change_pct": 1.33,
+    "open": 117.25,
+    "high": 118.85,
+    "low": 114.38,
+    "turnover_pct": 3.65,
+    "pe_ttm": 183.82,
+    "pb": 15.97,
+    "mcap_yi": 241.14,
+    "float_mcap_yi": 242.68,
+    "change_1w": 27.2,
+    "change_1m": -28.3
+  },
+  "realtime": {
+    "name": "铖昌科技",
+    "code": "001270",
+    "price": 117.74,
+    "last_close": 116.2,
+    "open": 117.25,
+    "volume": 74740,
+    "change_amt": 1.54,
+    "change_pct": 1.33,
+    "high": 118.85,
+    "low": 114.38,
+    "amount_wan": 87692.0,
+    "turnover_pct": 3.65,
+    "pe_ttm": 183.82,
+    "amplitude_pct": 3.85,
+    "mcap_yi": 241.14,
+    "float_mcap_yi": 242.68,
+    "pb": 15.97,
+    "limit_up": 127.82,
+    "limit_down": 104.58,
+    "_validation": {
+      "passed": true,
+      "quality": "🟢 高置信度(双源验证通过)",
+      "checks": [
+        {
+          "metric": "当前价",
+          "tencent": 117.74,
+          "sina": 117.74,
+          "diff_pct": 0.0,
+          "ok": true,
+          "threshold": 0.5
+        },
+        {
+          "metric": "开盘价",
+          "tencent": 117.25,
+          "sina": 117.25,
+          "diff_pct": 0.0,
+          "ok": true,
+          "threshold": 0.5
+        },
+        {
+          "metric": "最高价",
+          "tencent": 118.85,
+          "sina": 118.85,
+          "diff_pct": 0.0,
+          "ok": true,
+          "threshold": 0.5
+        },
+        {
+          "metric": "最低价",
+          "tencent": 114.38,
+          "sina": 114.38,
+          "diff_pct": 0.0,
+          "ok": true,
+          "threshold": 0.5
+        },
+        {
+          "metric": "昨收价",
+          "tencent": 116.2,
+          "sina": 116.2,
+          "diff_pct": 0.0,
+          "ok": true,
+          "threshold": 0.5
+        },
+        {
+          "metric": "涨跌幅%",
+          "tencent": 1.33,
+          "sina": 1.33,
+          "diff_pct": 0.0,
+          "ok": true,
+          "threshold": 0.5
+        },
+        {
+          "metric": "成交额(亿)",
+          "tencent": 8.7692,
+          "sina": 8.769162782999999,
+          "diff_pct": 0.0,
+          "ok": true,
+          "threshold": 2.0
+        },
+        {
+          "metric": "成交量(股)",
+          "tencent": 7474000,
+          "sina": 7474046,
+          "diff_pct": 0.001,
+          "ok": true,
+          "threshold": 5.0
+        }
+      ],
+      "summary": "通过8项, 未通过0项, 单源0项 → 🟢 高置信度(双源验证通过)",
+      "sources": [
+        "腾讯",
+        "新浪"
+      ]
+    },
+    "_sources": [
+      "腾讯",
+      "新浪"
+    ]
+  },
+  "daily": [
+    {
+      "date": "2026-05-13",
+      "open": 151.8,
+      "close": 155.4,
+      "high": 157.8,
+      "low": 150.1,
+      "volume": 73314.0,
+      "change_pct": 2.37,
+      "amplitude": 5.13,
+      "main_net": -1530.9,
+      "super_net": 443.8,
+      "large_net": -1974.8,
+      "mid_net": -990.2,
+      "small_net": 2521.1
+    },
+    {
+      "date": "2026-05-14",
+      "open": 153.38,
+      "close": 147.62,
+      "high": 154.8,
+      "low": 147.62,
+      "volume": 81631.0,
+      "change_pct": -3.76,
+      "amplitude": 4.86,
+      "main_net": -17819.0,
+      "super_net": -13329.3,
+      "large_net": -4489.7,
+      "mid_net": 4392.5,
+      "small_net": 13426.5
+    },
+    {
+      "date": "2026-05-15",
+      "open": 148.41,
+      "close": 144.8,
+      "high": 150.29,
+      "low": 140.8,
+      "volume": 70638.0,
+      "change_pct": -2.43,
+      "amplitude": 6.74,
+      "main_net": -7148.3,
+      "super_net": -3909.1,
+      "large_net": -3239.2,
+      "mid_net": 1319.5,
+      "small_net": 5828.8
+    },
+    {
+      "date": "2026-05-18",
+      "open": 142.8,
+      "close": 142.45,
+      "high": 148.67,
+      "low": 141.6,
+      "volume": 63253.0,
+      "change_pct": -0.25,
+      "amplitude": 4.99,
+      "main_net": -11206.1,
+      "super_net": -4648.4,
+      "large_net": -6557.7,
+      "mid_net": 4938.0,
+      "small_net": 6268.1
+    },
+    {
+      "date": "2026-05-20",
+      "open": 145.01,
+      "close": 137.76,
+      "high": 152.8,
+      "low": 137.6,
+      "volume": 155249.0,
+      "change_pct": -5.0,
+      "amplitude": 11.05,
+      "main_net": -32634.2,
+      "super_net": -28951.1,
+      "large_net": -3683.1,
+      "mid_net": 13016.4,
+      "small_net": 19617.8
+    },
+    {
+      "date": "2026-05-21",
+      "open": 136.57,
+      "close": 146.3,
+      "high": 151.56,
+      "low": 136.57,
+      "volume": 205867.0,
+      "change_pct": 7.12,
+      "amplitude": 10.98,
+      "main_net": 19175.0,
+      "super_net": 23910.9,
+      "large_net": -4735.9,
+      "mid_net": -16958.2,
+      "small_net": -2216.8
+    },
+    {
+      "date": "2026-05-22",
+      "open": 143.86,
+      "close": 143.2,
+      "high": 144.16,
+      "low": 136.0,
+      "volume": 166290.0,
+      "change_pct": -0.46,
+      "amplitude": 6.0,
+      "main_net": -5607.8,
+      "super_net": -5993.5,
+      "large_net": 385.7,
+      "mid_net": 2451.6,
+      "small_net": 3156.2
+    },
+    {
+      "date": "2026-05-25",
+      "open": 144.8,
+      "close": 143.29,
+      "high": 148.28,
+      "low": 136.38,
+      "volume": 161208.0,
+      "change_pct": -1.04,
+      "amplitude": 8.73,
+      "main_net": -16413.3,
+      "super_net": -7853.4,
+      "large_net": -8559.9,
+      "mid_net": 6282.3,
+      "small_net": 10131.0
+    },
+    {
+      "date": "2026-05-26",
+      "open": 140.01,
+      "close": 143.35,
+      "high": 144.8,
+      "low": 133.87,
+      "volume": 132430.0,
+      "change_pct": 2.39,
+      "amplitude": 8.16,
+      "main_net": 5170.3,
+      "super_net": 8645.6,
+      "large_net": -3475.3,
+      "mid_net": -6009.7,
+      "small_net": 839.3
+    },
+    {
+      "date": "2026-05-27",
+      "open": 146.07,
+      "close": 154.03,
+      "high": 157.69,
+      "low": 146.07,
+      "volume": 182118.0,
+      "change_pct": 5.45,
+      "amplitude": 7.96,
+      "main_net": 22035.6,
+      "super_net": 26673.6,
+      "large_net": -4637.9,
+      "mid_net": -16559.8,
+      "small_net": -5475.8
+    },
+    {
+      "date": "2026-05-28",
+      "open": 156.81,
+      "close": 162.0,
+      "high": 166.18,
+      "low": 153.81,
+      "volume": 160106.0,
+      "change_pct": 3.31,
+      "amplitude": 8.04,
+      "main_net": 14890.0,
+      "super_net": 7924.0,
+      "large_net": 6966.0,
+      "mid_net": -7190.7,
+      "small_net": -7699.3
+    },
+    {
+      "date": "2026-05-29",
+      "open": 158.0,
+      "close": 145.8,
+      "high": 160.55,
+      "low": 145.8,
+      "volume": 147969.0,
+      "change_pct": -7.72,
+      "amplitude": 10.12,
+      "main_net": -46550.3,
+      "super_net": -24542.8,
+      "large_net": -22007.4,
+      "mid_net": 21419.7,
+      "small_net": 25130.6
+    },
+    {
+      "date": "2026-06-01",
+      "open": 141.13,
+      "close": 131.55,
+      "high": 144.0,
+      "low": 131.22,
+      "volume": 114917.0,
+      "change_pct": -6.79,
+      "amplitude": 9.74,
+      "main_net": -15820.0,
+      "super_net": -1205.4,
+      "large_net": -14614.7,
+      "mid_net": 603.2,
+      "small_net": 15216.8
+    },
+    {
+      "date": "2026-06-02",
+      "open": 133.63,
+      "close": 126.23,
+      "high": 134.49,
+      "low": 123.45,
+      "volume": 113054.0,
+      "change_pct": -5.54,
+      "amplitude": 8.94,
+      "main_net": -10346.7,
+      "super_net": -2729.5,
+      "large_net": -7617.2,
+      "mid_net": -1858.8,
+      "small_net": 12205.4
+    },
+    {
+      "date": "2026-06-03",
+      "open": 127.45,
+      "close": 136.9,
+      "high": 138.85,
+      "low": 127.4,
+      "volume": 155597.0,
+      "change_pct": 7.41,
+      "amplitude": 8.99,
+      "main_net": 18300.1,
+      "super_net": 12405.7,
+      "large_net": 5894.4,
+      "mid_net": -15073.2,
+      "small_net": -3227.0
+    },
+    {
+      "date": "2026-06-04",
+      "open": 135.0,
+      "close": 136.79,
+      "high": 139.1,
+      "low": 133.8,
+      "volume": 90919.0,
+      "change_pct": 1.33,
+      "amplitude": 3.96,
+      "main_net": 2190.5,
+      "super_net": 4532.2,
+      "large_net": -2341.7,
+      "mid_net": -5214.7,
+      "small_net": 3024.3
+    },
+    {
+      "date": "2026-06-05",
+      "open": 140.09,
+      "close": 137.61,
+      "high": 142.39,
+      "low": 134.16,
+      "volume": 122945.0,
+      "change_pct": -1.77,
+      "amplitude": 6.13,
+      "main_net": 10795.4,
+      "super_net": 1326.7,
+      "large_net": 9468.8,
+      "mid_net": -4096.8,
+      "small_net": -6698.6
+    },
+    {
+      "date": "2026-06-08",
+      "open": 128.01,
+      "close": 132.61,
+      "high": 140.75,
+      "low": 128.01,
+      "volume": 91000.0,
+      "change_pct": 3.59,
+      "amplitude": 9.95,
+      "main_net": -10299.8,
+      "super_net": -5666.5,
+      "large_net": -4633.3,
+      "mid_net": 430.6,
+      "small_net": 9869.2
+    },
+    {
+      "date": "2026-06-09",
+      "open": 135.12,
+      "close": 136.75,
+      "high": 138.47,
+      "low": 128.61,
+      "volume": 88196.0,
+      "change_pct": 1.21,
+      "amplitude": 7.67,
+      "main_net": 3548.7,
+      "super_net": 3909.5,
+      "large_net": -360.8,
+      "mid_net": -3177.8,
+      "small_net": -370.9
+    },
+    {
+      "date": "2026-06-10",
+      "open": 135.02,
+      "close": 129.4,
+      "high": 138.3,
+      "low": 127.77,
+      "volume": 73676.0,
+      "change_pct": -4.16,
+      "amplitude": 8.24,
+      "main_net": -15362.2,
+      "super_net": -10138.7,
+      "large_net": -5223.5,
+      "mid_net": 4382.0,
+      "small_net": 10980.2
+    },
+    {
+      "date": "2026-06-11",
+      "open": 128.14,
+      "close": 129.42,
+      "high": 132.15,
+      "low": 124.03,
+      "volume": 74045.0,
+      "change_pct": 1.0,
+      "amplitude": 6.55,
+      "main_net": -3524.5,
+      "super_net": 1443.7,
+      "large_net": -4968.2,
+      "mid_net": -2123.9,
+      "small_net": 5648.4
+    },
+    {
+      "date": "2026-06-12",
+      "open": 134.35,
+      "close": 125.65,
+      "high": 134.49,
+      "low": 125.43,
+      "volume": 74590.0,
+      "change_pct": -6.48,
+      "amplitude": 7.22,
+      "main_net": -3687.7,
+      "super_net": -1410.9,
+      "large_net": -2276.8,
+      "mid_net": 2006.0,
+      "small_net": 1681.6
+    },
+    {
+      "date": "2026-06-15",
+      "open": 124.0,
+      "close": 125.0,
+      "high": 127.95,
+      "low": 120.5,
+      "volume": 80135.0,
+      "change_pct": 0.81,
+      "amplitude": 6.18,
+      "main_net": -8535.7,
+      "super_net": -4416.0,
+      "large_net": -4119.7,
+      "mid_net": 714.8,
+      "small_net": 7820.8
+    },
+    {
+      "date": "2026-06-16",
+      "open": 127.0,
+      "close": 121.84,
+      "high": 128.5,
+      "low": 120.43,
+      "volume": 100001.0,
+      "change_pct": -4.06,
+      "amplitude": 6.7,
+      "main_net": -17290.9,
+      "super_net": -11719.7,
+      "large_net": -5571.2,
+      "mid_net": 4343.5,
+      "small_net": 12947.3
+    },
+    {
+      "date": "2026-06-17",
+      "open": 121.22,
+      "close": 127.78,
+      "high": 132.0,
+      "low": 121.0,
+      "volume": 120551.0,
+      "change_pct": 5.41,
+      "amplitude": 9.09,
+      "main_net": 4689.2,
+      "super_net": 4480.0,
+      "large_net": 209.1,
+      "mid_net": -4954.8,
+      "small_net": 265.7
+    },
+    {
+      "date": "2026-06-18",
+      "open": 125.37,
+      "close": 134.28,
+      "high": 137.65,
+      "low": 125.29,
+      "volume": 112345.0,
+      "change_pct": 7.11,
+      "amplitude": 9.87,
+      "main_net": 2610.5,
+      "super_net": 7534.9,
+      "large_net": -4924.5,
+      "mid_net": -6160.4,
+      "small_net": 3549.9
+    },
+    {
+      "date": "2026-06-22",
+      "open": 134.31,
+      "close": 128.28,
+      "high": 135.79,
+      "low": 126.6,
+      "volume": 102297.0,
+      "change_pct": -4.49,
+      "amplitude": 7.26,
+      "main_net": -11299.7,
+      "super_net": -4476.3,
+      "large_net": -6823.4,
+      "mid_net": 4025.1,
+      "small_net": 7274.6
+    },
+    {
+      "date": "2026-06-23",
+      "open": 125.07,
+      "close": 122.4,
+      "high": 126.35,
+      "low": 120.55,
+      "volume": 86659.0,
+      "change_pct": -2.13,
+      "amplitude": 4.81,
+      "main_net": -19846.1,
+      "super_net": -13272.9,
+      "large_net": -6573.1,
+      "mid_net": 1847.4,
+      "small_net": 17998.7
+    },
+    {
+      "date": "2026-06-24",
+      "open": 121.0,
+      "close": 124.56,
+      "high": 126.36,
+      "low": 117.66,
+      "volume": 80114.0,
+      "change_pct": 2.94,
+      "amplitude": 7.39,
+      "main_net": -2919.1,
+      "super_net": 1268.8,
+      "large_net": -4187.9,
+      "mid_net": 1236.5,
+      "small_net": 1682.6
+    },
+    {
+      "date": "2026-06-25",
+      "open": 122.33,
+      "close": 126.75,
+      "high": 128.89,
+      "low": 120.5,
+      "volume": 110457.0,
+      "change_pct": 3.61,
+      "amplitude": 6.96,
+      "main_net": 2302.1,
+      "super_net": 2300.9,
+      "large_net": 1.2,
+      "mid_net": 2116.7,
+      "small_net": -4418.8
+    },
+    {
+      "date": "2026-06-26",
+      "open": 124.24,
+      "close": 139.43,
+      "high": 139.43,
+      "low": 121.51,
+      "volume": 149995.0,
+      "change_pct": 12.23,
+      "amplitude": 14.75,
+      "main_net": 35249.8,
+      "super_net": 32366.9,
+      "large_net": 2882.8,
+      "mid_net": -21531.3,
+      "small_net": -13718.4
+    },
+    {
+      "date": "2026-06-29",
+      "open": 143.99,
+      "close": 153.31,
+      "high": 153.37,
+      "low": 142.21,
+      "volume": 189220.0,
+      "change_pct": 6.47,
+      "amplitude": 7.85,
+      "main_net": 18349.3,
+      "super_net": 3801.1,
+      "large_net": 14548.2,
+      "mid_net": 567.6,
+      "small_net": -18916.8
+    },
+    {
+      "date": "2026-06-30",
+      "open": 155.0,
+      "close": 155.99,
+      "high": 157.02,
+      "low": 149.58,
+      "volume": 147411.0,
+      "change_pct": 0.64,
+      "amplitude": 4.97,
+      "main_net": -4999.5,
+      "super_net": -3993.3,
+      "large_net": -1006.2,
+      "mid_net": 3844.8,
+      "small_net": 1154.7
+    },
+    {
+      "date": "2026-07-01",
+      "open": 155.96,
+      "close": 159.0,
+      "high": 163.01,
+      "low": 152.0,
+      "volume": 145675.0,
+      "change_pct": 1.95,
+      "amplitude": 7.24,
+      "main_net": 6437.7,
+      "super_net": 4916.9,
+      "large_net": 1520.8,
+      "mid_net": -3074.3,
+      "small_net": -3363.4
+    },
+    {
+      "date": "2026-07-02",
+      "open": 156.0,
+      "close": 148.47,
+      "high": 163.79,
+      "low": 148.03,
+      "volume": 137002.0,
+      "change_pct": -4.83,
+      "amplitude": 10.65,
+      "main_net": -27974.6,
+      "super_net": -11296.8,
+      "large_net": -16677.7,
+      "mid_net": 4618.5,
+      "small_net": 23356.1
+    },
+    {
+      "date": "2026-07-03",
+      "open": 150.84,
+      "close": 163.32,
+      "high": 163.32,
+      "low": 150.84,
+      "volume": 46416.0,
+      "change_pct": 8.27,
+      "amplitude": 8.27,
+      "main_net": 22174.2,
+      "super_net": 29057.8,
+      "large_net": -6883.6,
+      "mid_net": -13958.9,
+      "small_net": -8215.4
+    },
+    {
+      "date": "2026-07-06",
+      "open": 177.0,
+      "close": 159.39,
+      "high": 179.65,
+      "low": 158.0,
+      "volume": 242284.0,
+      "change_pct": -9.95,
+      "amplitude": 13.7,
+      "main_net": -926.8,
+      "super_net": -5043.3,
+      "large_net": 4116.5,
+      "mid_net": -4155.4,
+      "small_net": 5082.1
+    },
+    {
+      "date": "2026-07-07",
+      "open": 160.33,
+      "close": 165.6,
+      "high": 172.88,
+      "low": 158.88,
+      "volume": 192935.0,
+      "change_pct": 3.29,
+      "amplitude": 8.81,
+      "main_net": -5246.8,
+      "super_net": -3136.8,
+      "large_net": -2110.0,
+      "mid_net": -7121.1,
+      "small_net": 12367.9
+    },
+    {
+      "date": "2026-07-08",
+      "open": 163.25,
+      "close": 151.33,
+      "high": 167.8,
+      "low": 151.33,
+      "volume": 172204.0,
+      "change_pct": -7.3,
+      "amplitude": 10.88,
+      "main_net": -14554.5,
+      "super_net": -6812.7,
+      "large_net": -7741.8,
+      "mid_net": 4289.4,
+      "small_net": 10265.1
+    },
+    {
+      "date": "2026-07-09",
+      "open": 155.9,
+      "close": 164.22,
+      "high": 166.46,
+      "low": 146.85,
+      "volume": 160670.0,
+      "change_pct": 5.34,
+      "amplitude": 13.35,
+      "main_net": 14587.0,
+      "super_net": 5184.2,
+      "large_net": 9402.7,
+      "mid_net": -9261.3,
+      "small_net": -5325.7
+    },
+    {
+      "date": "2026-07-10",
+      "open": 161.27,
+      "close": 166.3,
+      "high": 180.64,
+      "low": 158.2,
+      "volume": 226139.0,
+      "change_pct": 3.12,
+      "amplitude": 14.18,
+      "main_net": 24420.5,
+      "super_net": 31656.2,
+      "large_net": -7235.7,
+      "mid_net": -9696.0,
+      "small_net": -14724.5
+    },
+    {
+      "date": "2026-07-13",
+      "open": 165.11,
+      "close": 149.67,
+      "high": 165.11,
+      "low": 149.67,
+      "volume": 179943.0,
+      "change_pct": -9.35,
+      "amplitude": 10.32,
+      "main_net": -59954.6,
+      "super_net": -60291.4,
+      "large_net": 336.8,
+      "mid_net": 31483.6,
+      "small_net": 28471.0
+    },
+    {
+      "date": "2026-07-14",
+      "open": 141.0,
+      "close": 134.7,
+      "high": 144.07,
+      "low": 134.7,
+      "volume": 88952.0,
+      "change_pct": -4.47,
+      "amplitude": 6.96,
+      "main_net": -22482.1,
+      "super_net": -19689.7,
+      "large_net": -2792.4,
+      "mid_net": 11275.1,
+      "small_net": 11207.0
+    },
+    {
+      "date": "2026-07-15",
+      "open": 128.0,
+      "close": 121.61,
+      "high": 131.8,
+      "low": 121.5,
+      "volume": 161902.0,
+      "change_pct": -4.99,
+      "amplitude": 8.48,
+      "main_net": -14593.6,
+      "super_net": -6718.6,
+      "large_net": -7875.0,
+      "mid_net": -175.7,
+      "small_net": 14769.3
+    },
+    {
+      "date": "2026-07-16",
+      "open": 119.0,
+      "close": 122.16,
+      "high": 128.87,
+      "low": 118.27,
+      "volume": 122544.0,
+      "change_pct": 2.66,
+      "amplitude": 8.96,
+      "main_net": -2281.8,
+      "super_net": 1573.0,
+      "large_net": -3854.9,
+      "mid_net": -6091.4,
+      "small_net": 8373.2
+    },
+    {
+      "date": "2026-07-17",
+      "open": 120.0,
+      "close": 109.94,
+      "high": 121.15,
+      "low": 109.94,
+      "volume": 72924.0,
+      "change_pct": -8.38,
+      "amplitude": 10.2,
+      "main_net": -19274.3,
+      "super_net": -20966.7,
+      "large_net": 1692.4,
+      "mid_net": 9164.6,
+      "small_net": 10109.7
+    },
+    {
+      "date": "2026-07-20",
+      "open": 105.21,
+      "close": 98.95,
+      "high": 108.11,
+      "low": 98.95,
+      "volume": 125660.0,
+      "change_pct": -5.95,
+      "amplitude": 9.26,
+      "main_net": -9123.5,
+      "super_net": -6127.0,
+      "large_net": -2996.5,
+      "mid_net": 1136.9,
+      "small_net": 7986.5
+    },
+    {
+      "date": "2026-07-21",
+      "open": 98.95,
+      "close": 102.0,
+      "high": 103.0,
+      "low": 89.06,
+      "volume": 167847.0,
+      "change_pct": 3.08,
+      "amplitude": 15.65,
+      "main_net": -4547.8,
+      "super_net": 212.9,
+      "large_net": -4760.7,
+      "mid_net": -382.5,
+      "small_net": 4930.3
+    },
+    {
+      "date": "2026-07-22",
+      "open": 102.0,
+      "close": 100.11,
+      "high": 106.96,
+      "low": 99.15,
+      "volume": 122209.0,
+      "change_pct": -1.85,
+      "amplitude": 7.88,
+      "main_net": -6467.6,
+      "super_net": -5126.4,
+      "large_net": -1341.2,
+      "mid_net": 2137.7,
+      "small_net": 4330.0
+    },
+    {
+      "date": "2026-07-23",
+      "open": 99.98,
+      "close": 102.25,
+      "high": 106.22,
+      "low": 99.1,
+      "volume": 104528.0,
+      "change_pct": 2.27,
+      "amplitude": 7.18,
+      "main_net": 689.2,
+      "super_net": 1748.9,
+      "large_net": -1059.7,
+      "mid_net": -3296.2,
+      "small_net": 2607.0
+    },
+    {
+      "date": "2026-07-24",
+      "open": 101.1,
+      "close": 96.67,
+      "high": 102.69,
+      "low": 96.5,
+      "volume": 85588.0,
+      "change_pct": -4.38,
+      "amplitude": 6.41,
+      "main_net": -7591.6,
+      "super_net": -5177.1,
+      "large_net": -2414.5,
+      "mid_net": 1336.0,
+      "small_net": 6255.6
+    },
+    {
+      "date": "2026-07-27",
+      "open": 96.5,
+      "close": 102.0,
+      "high": 102.0,
+      "low": 96.48,
+      "volume": 93041.0,
+      "change_pct": 5.7,
+      "amplitude": 5.72,
+      "main_net": -2797.1,
+      "super_net": -2818.3,
+      "large_net": 21.3,
+      "mid_net": -1075.1,
+      "small_net": 3872.2
+    },
+    {
+      "date": "2026-07-28",
+      "open": 101.03,
+      "close": 95.99,
+      "high": 102.8,
+      "low": 95.01,
+      "volume": 78786.0,
+      "change_pct": -4.99,
+      "amplitude": 8.2,
+      "main_net": -6199.9,
+      "super_net": -1964.0,
+      "large_net": -4235.9,
+      "mid_net": 2706.1,
+      "small_net": 3493.8
+    },
+    {
+      "date": "2026-07-29",
+      "open": 98.0,
+      "close": 95.22,
+      "high": 98.17,
+      "low": 91.66,
+      "volume": 77776.0,
+      "change_pct": -2.84,
+      "amplitude": 7.1,
+      "main_net": -924.0,
+      "super_net": 1135.1,
+      "large_net": -2059.1,
+      "mid_net": -474.8,
+      "small_net": 1398.9
+    },
+    {
+      "date": "2026-07-30",
+      "open": 95.12,
+      "close": 88.05,
+      "high": 96.88,
+      "low": 87.88,
+      "volume": 85539.0,
+      "change_pct": -7.43,
+      "amplitude": 10.24,
+      "main_net": -7001.4,
+      "super_net": -3964.0,
+      "large_net": -3037.4,
+      "mid_net": 952.8,
+      "small_net": 6048.7
+    },
+    {
+      "date": "2026-07-31",
+      "open": 92.5,
+      "close": 92.56,
+      "high": 96.66,
+      "low": 92.5,
+      "volume": 97105.0,
+      "change_pct": 0.06,
+      "amplitude": 4.5,
+      "main_net": -4074.9,
+      "super_net": -1894.8,
+      "large_net": -2180.1,
+      "mid_net": -2858.5,
+      "small_net": 6933.4
+    },
+    {
+      "date": "2026-08-03",
+      "open": 91.95,
+      "close": 99.9,
+      "high": 101.82,
+      "low": 91.95,
+      "volume": 132527.0,
+      "change_pct": 8.65,
+      "amplitude": 10.73,
+      "main_net": 20540.7,
+      "super_net": 14588.1,
+      "large_net": 5952.5,
+      "mid_net": -5533.6,
+      "small_net": -15007.1
+    },
+    {
+      "date": "2026-08-04",
+      "open": 102.03,
+      "close": 106.17,
+      "high": 106.88,
+      "low": 102.03,
+      "volume": 123104.0,
+      "change_pct": 4.06,
+      "amplitude": 4.75,
+      "main_net": 8840.0,
+      "super_net": 5590.0,
+      "large_net": 3250.0,
+      "mid_net": -3122.0,
+      "small_net": -5718.1
+    },
+    {
+      "date": "2026-08-05",
+      "open": 106.17,
+      "close": 114.42,
+      "high": 116.79,
+      "low": 105.67,
+      "volume": 130298.0,
+      "change_pct": 7.77,
+      "amplitude": 10.52,
+      "main_net": 13725.6,
+      "super_net": 9071.4,
+      "large_net": 4654.2,
+      "mid_net": -6142.2,
+      "small_net": -7583.4
+    },
+    {
+      "date": "2026-08-06",
+      "open": 112.0,
+      "close": 116.2,
+      "high": 118.86,
+      "low": 111.73,
+      "volume": 110021.0,
+      "change_pct": 3.75,
+      "amplitude": 6.38,
+      "main_net": -1191.7,
+      "super_net": -1700.2,
+      "large_net": 508.5,
+      "mid_net": 2250.1,
+      "small_net": -1058.4
+    },
+    {
+      "date": "2026-08-07",
+      "open": 117.25,
+      "close": 117.74,
+      "high": 118.85,
+      "low": 114.38,
+      "volume": 74740,
+      "change_pct": 0.42,
+      "amplitude": 3.91,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    }
+  ],
+  "industry_flow": [
+    {
+      "code": "BK1600",
+      "name": "医疗研发外包",
+      "change_pct": 11.64,
+      "up_count": "-",
+      "down_count": 5.58,
+      "main_net": 1865504768.0
+    },
+    {
+      "code": "BK1340",
+      "name": "印制电路板",
+      "change_pct": 8.17,
+      "up_count": "-",
+      "down_count": 11.11,
+      "main_net": 12306780672.0
+    },
+    {
+      "code": "BK1620",
+      "name": "钴",
+      "change_pct": 7.67,
+      "up_count": "-",
+      "down_count": 3.66,
+      "main_net": 64051303.0
+    },
+    {
+      "code": "BK0727",
+      "name": "医疗服务",
+      "change_pct": 7.15,
+      "up_count": "-",
+      "down_count": 4.58,
+      "main_net": 1847430400.0
+    },
+    {
+      "code": "BK1596",
+      "name": "其他生物制品",
+      "change_pct": 7.13,
+      "up_count": "-",
+      "down_count": 7.15,
+      "main_net": 945287968.0
+    },
+    {
+      "code": "BK1626",
+      "name": "稀土",
+      "change_pct": 6.48,
+      "up_count": "-",
+      "down_count": 11.29,
+      "main_net": 1463387536.0
+    },
+    {
+      "code": "BK0459",
+      "name": "元件",
+      "change_pct": 6.27,
+      "up_count": "-",
+      "down_count": 8.55,
+      "main_net": 12415495936.0
+    },
+    {
+      "code": "BK1622",
+      "name": "镍",
+      "change_pct": 6.21,
+      "up_count": "-",
+      "down_count": 5.85,
+      "main_net": 362402256.0
+    },
+    {
+      "code": "BK1462",
+      "name": "玻纤制造",
+      "change_pct": 5.98,
+      "up_count": "-",
+      "down_count": 9.0,
+      "main_net": 2967664640.0
+    },
+    {
+      "code": "BK1044",
+      "name": "生物制品",
+      "change_pct": 5.67,
+      "up_count": "-",
+      "down_count": 6.8,
+      "main_net": 1131816912.0
+    },
+    {
+      "code": "BK1616",
+      "name": "白银",
+      "change_pct": 5.14,
+      "up_count": "-",
+      "down_count": 4.51,
+      "main_net": 321289280.0
+    },
+    {
+      "code": "BK1332",
+      "name": "电子化学品Ⅲ",
+      "change_pct": 4.2,
+      "up_count": "-",
+      "down_count": 2.83,
+      "main_net": 1422204160.0
+    },
+    {
+      "code": "BK1039",
+      "name": "电子化学品Ⅱ",
+      "change_pct": 4.2,
+      "up_count": "-",
+      "down_count": 2.83,
+      "main_net": 1422204160.0
+    },
+    {
+      "code": "BK1328",
+      "name": "集成电路封测",
+      "change_pct": 3.89,
+      "up_count": "-",
+      "down_count": 0.33,
+      "main_net": 128655360.0
+    },
+    {
+      "code": "BK0732",
+      "name": "贵金属",
+      "change_pct": 3.78,
+      "up_count": "-",
+      "down_count": 1.45,
+      "main_net": 331675872.0
+    },
+    {
+      "code": "BK1594",
+      "name": "化学制剂",
+      "change_pct": 3.77,
+      "up_count": "-",
+      "down_count": 7.66,
+      "main_net": 3260297712.0
+    },
+    {
+      "code": "BK1318",
+      "name": "光伏主材",
+      "change_pct": 3.75,
+      "up_count": "-",
+      "down_count": 11.22,
+      "main_net": 387407200.0
+    },
+    {
+      "code": "BK0465",
+      "name": "化学制药",
+      "change_pct": 3.7,
+      "up_count": "-",
+      "down_count": 6.81,
+      "main_net": 3621082688.0
+    },
+    {
+      "code": "BK1327",
+      "name": "分立器件",
+      "change_pct": 3.69,
+      "up_count": "-",
+      "down_count": 3.07,
+      "main_net": 675919008.0
+    },
+    {
+      "code": "BK1615",
+      "name": "铜",
+      "change_pct": 3.66,
+      "up_count": "-",
+      "down_count": 4.44,
+      "main_net": 1398614016.0
+    },
+    {
+      "code": "BK1595",
+      "name": "原料药",
+      "change_pct": 3.52,
+      "up_count": "-",
+      "down_count": 3.41,
+      "main_net": 360784960.0
+    },
+    {
+      "code": "BK1216",
+      "name": "医药生物",
+      "change_pct": 3.5,
+      "up_count": "-",
+      "down_count": 4.98,
+      "main_net": 7461116928.0
+    },
+    {
+      "code": "BK1326",
+      "name": "半导体设备",
+      "change_pct": 3.43,
+      "up_count": "-",
+      "down_count": -0.07,
+      "main_net": -31677952.0
+    },
+    {
+      "code": "BK1617",
+      "name": "黄金",
+      "change_pct": 3.37,
+      "up_count": "-",
+      "down_count": 0.07,
+      "main_net": 10386608.0
+    },
+    {
+      "code": "BK1409",
+      "name": "激光设备",
+      "change_pct": 3.31,
+      "up_count": "-",
+      "down_count": 3.67,
+      "main_net": 586824688.0
+    },
+    {
+      "code": "BK1623",
+      "name": "钼",
+      "change_pct": 3.25,
+      "up_count": "-",
+      "down_count": 4.65,
+      "main_net": 120485761.0
+    },
+    {
+      "code": "BK1325",
+      "name": "半导体材料",
+      "change_pct": 3.2,
+      "up_count": "-",
+      "down_count": 2.72,
+      "main_net": 1195997440.0
+    },
+    {
+      "code": "BK1598",
+      "name": "疫苗",
+      "change_pct": 3.12,
+      "up_count": "-",
+      "down_count": 5.67,
+      "main_net": 154343345.0
+    },
+    {
+      "code": "BK1602",
+      "name": "诊断服务",
+      "change_pct": 3.12,
+      "up_count": "-",
+      "down_count": 3.72,
+      "main_net": 54024975.0
+    },
+    {
+      "code": "BK1410",
+      "name": "其他自动化设备",
+      "change_pct": 3.05,
+      "up_count": "-",
+      "down_count": 3.92,
+      "main_net": 308294384.0
+    },
+    {
+      "code": "BK1036",
+      "name": "半导体",
+      "change_pct": 3.0,
+      "up_count": "-",
+      "down_count": 2.88,
+      "main_net": 9654871808.0
+    },
+    {
+      "code": "BK1329",
+      "name": "集成电路制造",
+      "change_pct": 2.95,
+      "up_count": "-",
+      "down_count": 3.62,
+      "main_net": 634393424.0
+    },
+    {
+      "code": "BK1298",
+      "name": "文字媒体",
+      "change_pct": 2.93,
+      "up_count": "-",
+      "down_count": 0.18,
+      "main_net": 5355888.0
+    },
+    {
+      "code": "BK1015",
+      "name": "能源金属",
+      "change_pct": 2.93,
+      "up_count": "-",
+      "down_count": 2.43,
+      "main_net": 406928064.0
+    },
+    {
+      "code": "BK1500",
+      "name": "医美耗材",
+      "change_pct": 2.81,
+      "up_count": "-",
+      "down_count": 3.84,
+      "main_net": 32241955.0
+    },
+    {
+      "code": "BK1201",
+      "name": "电子",
+      "change_pct": 2.68,
+      "up_count": "-",
+      "down_count": 3.78,
+      "main_net": 25250484224.0
+    },
+    {
+      "code": "BK1599",
+      "name": "其他医疗服务",
+      "change_pct": 2.67,
+      "up_count": "-",
+      "down_count": -2.88,
+      "main_net": -36916312.0
+    },
+    {
+      "code": "BK1027",
+      "name": "小金属",
+      "change_pct": 2.62,
+      "up_count": "-",
+      "down_count": 4.11,
+      "main_net": 2278296064.0
+    },
+    {
+      "code": "BK1330",
+      "name": "模拟芯片设计",
+      "change_pct": 2.62,
+      "up_count": "-",
+      "down_count": 7.96,
+      "main_net": 1262542000.0
+    },
+    {
+      "code": "BK1592",
+      "name": "通信线缆及配套",
+      "change_pct": 2.6,
+      "up_count": "-",
+      "down_count": 4.04,
+      "main_net": 1596716800.0
+    },
+    {
+      "code": "BK0546",
+      "name": "玻璃玻纤",
+      "change_pct": 2.48,
+      "up_count": "-",
+      "down_count": 8.87,
+      "main_net": 2994409472.0
+    },
+    {
+      "code": "BK1614",
+      "name": "铅锌",
+      "change_pct": 2.48,
+      "up_count": "-",
+      "down_count": 2.59,
+      "main_net": 210415472.0
+    },
+    {
+      "code": "BK1331",
+      "name": "数字芯片设计",
+      "change_pct": 2.48,
+      "up_count": "-",
+      "down_count": 3.76,
+      "main_net": 5789041152.0
+    },
+    {
+      "code": "BK1604",
+      "name": "医疗耗材",
+      "change_pct": 2.47,
+      "up_count": "-",
+      "down_count": 1.95,
+      "main_net": 159759056.0
+    },
+    {
+      "code": "BK0478",
+      "name": "有色金属",
+      "change_pct": 2.44,
+      "up_count": "-",
+      "down_count": 3.31,
+      "main_net": 5367355904.0
+    },
+    {
+      "code": "BK1411",
+      "name": "非金属材料Ⅲ",
+      "change_pct": 2.43,
+      "up_count": "-",
+      "down_count": 8.52,
+      "main_net": 470187952.0
+    },
+    {
+      "code": "BK1020",
+      "name": "非金属材料Ⅱ",
+      "change_pct": 2.43,
+      "up_count": "-",
+      "down_count": 8.52,
+      "main_net": 470187952.0
+    },
+    {
+      "code": "BK1603",
+      "name": "体外诊断",
+      "change_pct": 2.41,
+      "up_count": "-",
+      "down_count": 0.55,
+      "main_net": 34033248.0
+    },
+    {
+      "code": "BK1618",
+      "name": "磁性材料",
+      "change_pct": 2.4,
+      "up_count": "-",
+      "down_count": 3.01,
+      "main_net": 185663152.0
+    },
+    {
+      "code": "BK1303",
+      "name": "锂电池",
+      "change_pct": 2.34,
+      "up_count": "-",
+      "down_count": 5.61,
+      "main_net": 1831463680.0
+    }
+  ],
+  "concept_flow": {
+    "available": false,
+    "reason": "概念板块API异常: HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/clist/get?pn=1&pz=30&po=0&np=1&fltt=2&invt=2&fid=f62&fs=b%3ABK0492&fields=f3%2Cf12%2Cf14%2Cf62 (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
+  },
+  "margin_data": {
+    "available": true,
+    "records": [
+      {
+        "date": "2026-08-06",
+        "rzye_yi": 3.45,
+        "rzmre_yi": 0.86,
+        "rzche_yi": 0.71,
+        "net_yi": 0.15
+      },
+      {
+        "date": "2026-08-05",
+        "rzye_yi": 3.3,
+        "rzmre_yi": 1.2,
+        "rzche_yi": 0.88,
+        "net_yi": 0.32
+      },
+      {
+        "date": "2026-08-04",
+        "rzye_yi": 2.97,
+        "rzmre_yi": 0.91,
+        "rzche_yi": 0.75,
+        "net_yi": 0.16
+      },
+      {
+        "date": "2026-08-03",
+        "rzye_yi": 2.81,
+        "rzmre_yi": 0.67,
+        "rzche_yi": 0.83,
+        "net_yi": -0.17
+      },
+      {
+        "date": "2026-07-31",
+        "rzye_yi": 2.97,
+        "rzmre_yi": 0.78,
+        "rzche_yi": 0.52,
+        "net_yi": 0.25
+      },
+      {
+        "date": "2026-07-30",
+        "rzye_yi": 2.72,
+        "rzmre_yi": 0.37,
+        "rzche_yi": 0.38,
+        "net_yi": -0.0
+      },
+      {
+        "date": "2026-07-29",
+        "rzye_yi": 2.72,
+        "rzmre_yi": 0.37,
+        "rzche_yi": 0.61,
+        "net_yi": -0.24
+      },
+      {
+        "date": "2026-07-28",
+        "rzye_yi": 2.96,
+        "rzmre_yi": 0.4,
+        "rzche_yi": 0.45,
+        "net_yi": -0.05
+      },
+      {
+        "date": "2026-07-27",
+        "rzye_yi": 3.02,
+        "rzmre_yi": 0.73,
+        "rzche_yi": 0.55,
+        "net_yi": 0.18
+      },
+      {
+        "date": "2026-07-24",
+        "rzye_yi": 2.84,
+        "rzmre_yi": 0.38,
+        "rzche_yi": 0.45,
+        "net_yi": -0.07
+      },
+      {
+        "date": "2026-07-23",
+        "rzye_yi": 2.91,
+        "rzmre_yi": 0.55,
+        "rzche_yi": 0.74,
+        "net_yi": -0.19
+      },
+      {
+        "date": "2026-07-22",
+        "rzye_yi": 3.1,
+        "rzmre_yi": 0.83,
+        "rzche_yi": 0.61,
+        "net_yi": 0.23
+      },
+      {
+        "date": "2026-07-21",
+        "rzye_yi": 2.87,
+        "rzmre_yi": 0.86,
+        "rzche_yi": 0.83,
+        "net_yi": 0.03
+      },
+      {
+        "date": "2026-07-20",
+        "rzye_yi": 2.85,
+        "rzmre_yi": 0.65,
+        "rzche_yi": 0.56,
+        "net_yi": 0.09
+      },
+      {
+        "date": "2026-07-17",
+        "rzye_yi": 2.76,
+        "rzmre_yi": 0.45,
+        "rzche_yi": 0.35,
+        "net_yi": 0.1
+      },
+      {
+        "date": "2026-07-16",
+        "rzye_yi": 2.66,
+        "rzmre_yi": 0.8,
+        "rzche_yi": 0.7,
+        "net_yi": 0.11
+      },
+      {
+        "date": "2026-07-15",
+        "rzye_yi": 2.56,
+        "rzmre_yi": 1.22,
+        "rzche_yi": 0.52,
+        "net_yi": 0.7
+      },
+      {
+        "date": "2026-07-14",
+        "rzye_yi": 1.86,
+        "rzmre_yi": 0.87,
+        "rzche_yi": 0.3,
+        "net_yi": 0.57
+      },
+      {
+        "date": "2026-07-13",
+        "rzye_yi": 1.29,
+        "rzmre_yi": 1.31,
+        "rzche_yi": 2.08,
+        "net_yi": -0.77
+      },
+      {
+        "date": "2025-04-23",
+        "rzye_yi": 2.06,
+        "rzmre_yi": 0.0,
+        "rzche_yi": 0.01,
+        "net_yi": -0.01
+      },
+      {
+        "date": "2025-04-22",
+        "rzye_yi": 2.07,
+        "rzmre_yi": 0.07,
+        "rzche_yi": 0.18,
+        "net_yi": -0.11
+      },
+      {
+        "date": "2025-04-21",
+        "rzye_yi": 2.19,
+        "rzmre_yi": 0.05,
+        "rzche_yi": 0.19,
+        "net_yi": -0.14
+      },
+      {
+        "date": "2025-04-18",
+        "rzye_yi": 2.33,
+        "rzmre_yi": 0.04,
+        "rzche_yi": 0.07,
+        "net_yi": -0.03
+      },
+      {
+        "date": "2025-04-17",
+        "rzye_yi": 2.35,
+        "rzmre_yi": 0.07,
+        "rzche_yi": 0.1,
+        "net_yi": -0.03
+      },
+      {
+        "date": "2025-04-16",
+        "rzye_yi": 2.38,
+        "rzmre_yi": 0.07,
+        "rzche_yi": 0.05,
+        "net_yi": 0.02
+      },
+      {
+        "date": "2025-04-15",
+        "rzye_yi": 2.36,
+        "rzmre_yi": 0.08,
+        "rzche_yi": 0.06,
+        "net_yi": 0.03
+      },
+      {
+        "date": "2025-04-14",
+        "rzye_yi": 2.33,
+        "rzmre_yi": 0.11,
+        "rzche_yi": 0.09,
+        "net_yi": 0.02
+      },
+      {
+        "date": "2025-04-11",
+        "rzye_yi": 2.31,
+        "rzmre_yi": 0.15,
+        "rzche_yi": 0.22,
+        "net_yi": -0.08
+      },
+      {
+        "date": "2025-04-10",
+        "rzye_yi": 2.39,
+        "rzmre_yi": 0.02,
+        "rzche_yi": 0.04,
+        "net_yi": -0.02
+      },
+      {
+        "date": "2025-04-09",
+        "rzye_yi": 2.41,
+        "rzmre_yi": 0.06,
+        "rzche_yi": 0.04,
+        "net_yi": 0.03
+      }
+    ],
+    "latest_balance_yi": 3.45,
+    "trend": "上升",
+    "net_flow_5d_yi": 0.71,
+    "net_flow_10d_yi": 0.53,
+    "total_records": 626
+  },
+  "safety_signals": {
+    "f1_exhaustion": {
+      "triggered": false,
+      "reason": "近期无持续流出"
+    },
+    "f2_institution_return": {
+      "triggered": false,
+      "signal_name": "F2: 机构试探回流",
+      "early_institution_net": 10672.1,
+      "recent_institution_net": 7371.2,
+      "recent_retail_net": -12533.9,
+      "strength": "弱",
+      "meaning": "机构尚未回流"
+    },
+    "f3_retail_exhaustion": {
+      "triggered": false,
+      "reason": "散户未持续流出"
+    },
+    "f8_volume_stabilization": {
+      "triggered": false,
+      "signal_name": "F8: 缩量止跌盘整",
+      "narrow_range": false,
+      "volume_shrink": false,
+      "amp_narrow": false,
+      "outflow_shrink": false,
+      "avg_vol_20": 111752.0,
+      "recent_vol_3": 105020.0,
+      "strength": "弱",
+      "meaning": "尚未缩量止跌，仍在波动"
+    }
+  },
+  "danger_signals": {
+    "f4_accelerating": {
+      "triggered": false,
+      "reason": "近期非持续流出"
+    },
+    "f5_top_distribution": {
+      "triggered": false,
+      "signal_name": "F5: 🔴 顶部派发",
+      "danger_level": "高危",
+      "price_up": true,
+      "institution_outflow": false,
+      "retail_inflow": false,
+      "meaning": "无顶部派发信号",
+      "action": "继续观察"
+    },
+    "f7_news_exhausted": {
+      "triggered": false,
+      "signal_name": "F7: 🔴 利好出尽/高开低走",
+      "danger_level": "非常高",
+      "pre_rise_2w": -6.5,
+      "latest_news": "A股掀涨停潮！全球首创网系回收落地，万亿商业航天市场获重估",
+      "meaning": "前期涨幅可接受或未出现利好兑现",
+      "action": ""
+    }
+  },
+  "safety_score": {
+    "safety_score": 63,
+    "safety_level": "🟡 接近安全",
+    "can_enter": false,
+    "description": "部分条件满足，再等1-3日确认",
+    "positive_signals": [],
+    "negative_signals": [],
+    "adjustment_details": [
+      [
+        "企稳确认",
+        10
+      ],
+      [
+        "融资温和上升(近5日+0.7亿)",
+        3
+      ]
+    ],
+    "stabilization": {
+      "is_stabilized": true,
+      "passed_count": 4,
+      "total_count": 5,
+      "checks": {
+        "no_new_low": true,
+        "narrow_range": false,
+        "flow_normal": true,
+        "lows_rising": true,
+        "above_ma5": true
+      },
+      "meaning": "企稳确认，下行风险大幅降低"
+    },
+    "principle": "可以少挣，必须少亏 — 只有 ≥75 分才建议考虑入场"
+  },
+  "timing": {
+    "entry": {
+      "ready": false,
+      "ready_enhanced": false,
+      "conditions": [
+        {
+          "condition": "安全评分 ≥ 75分",
+          "met": false,
+          "current": "63分",
+          "weight": "必须"
+        },
+        {
+          "condition": "企稳确认 (≥4/5项)",
+          "met": true,
+          "current": "4/5项",
+          "weight": "必须"
+        },
+        {
+          "condition": "≥2个安全信号触发",
+          "met": false,
+          "current": "0个",
+          "weight": "建议"
+        },
+        {
+          "condition": "无危险信号",
+          "met": true,
+          "current": "0个",
+          "weight": "必须"
+        },
+        {
+          "condition": "近日放量阳线确认（增强信号）",
+          "met": true,
+          "current": "已出现",
+          "weight": "加分项（非必须）"
+        }
+      ],
+      "verdict": "❌ 买入条件不满足，继续等待"
+    },
+    "exit": {
+      "any_triggered": false,
+      "conditions": [
+        {
+          "condition": "🔴 硬止损: 持仓亏损>5% + 主力仍在净流出",
+          "triggered": false,
+          "rule": "F13: 亏损控制",
+          "action": "全部离场"
+        },
+        {
+          "condition": "🟠 利润保护: 盈利>5% + 主力连续2日净流出",
+          "triggered": false,
+          "rule": "F12: 利润保护",
+          "action": "至少减仓50%"
+        },
+        {
+          "condition": "🔴 任何高危信号触发 (F4/F5/F7)",
+          "triggered": false,
+          "current": "无",
+          "rule": "危险信号 > 一切买入信号",
+          "action": "不买，已持有则评估是否离场"
+        },
+        {
+          "condition": "🔴 安全评分降至 < 40分",
+          "triggered": false,
+          "current": "63分",
+          "rule": "危险区间 = 持币观望",
+          "action": "远离，等安全评分回升"
+        }
+      ]
+    },
+    "principle": "可以少挣，必须少亏 — 宁可错过，不可做错"
+  },
+  "news": [
+    {
+      "title": "太空算力风起 星载相控阵芯片成算力底座 上游厂商迎估值重塑",
+      "date": "2026-07-30",
+      "summary": "其中，铖昌科技（<em>001270</em>.SZ）是国内少数能提供宇航级相控阵T/R芯片完整解决方案的企业，星载产品已在多系列遥感卫星实现常态化批量交付，并在低轨卫星通信领域抢先推出完整解决方案，叠加下游需求回暖与规模效应，在本轮星载组网提速中或可享受产业发展红利。",
+      "url": "http://finance.eastmoney.com/a/202607303826425624.html"
+    },
+    {
+      "title": "算力的下一站 在太空：三体计算星座加速组网 离千星还有多远？| 活力中国调研行",
+      "date": "2026-07-30",
+      "summary": "铖昌科技（<em>001270</em>.SZ）2025年报显示，其相控阵T/R芯片已在星载、地面、机载雷达及低轨卫星通信领域实现批量应用。臻镭科技（688270.SH，现证券简称ST臻镭）披露，星载微系统及模组可推动载荷小型化、轻量化，相关产品已有在轨运行案例。",
+      "url": "http://finance.eastmoney.com/a/202607303827094098.html"
+    },
+    {
+      "title": "<em>1</em>96股获杠杆资金大手笔加仓",
+      "date": "2026-07-16",
+      "summary": "300684 中石科技 16692.74 51.85 0.97 电子 600361 创新新材 1405.60 49.70 1.71 有色金属 301520 万邦医药 9635.42 44.20 20.00 医药生物 000620 盈新发展 3886.25 39.09 -4.27 房地产 <em>001270</em>",
+      "url": "http://finance.eastmoney.com/a/202607163808318658.html"
+    },
+    {
+      "title": "<em>10</em>5股融资余额增幅超5%",
+      "date": "2026-07-14",
+      "summary": "华锡有色 1541.26 -77.50 -7.29 有色金属 920266 生物谷 359.25 -49.45 10.96 医药生物 000620 盈新发展 1988.84 -40.37 -7.44 房地产 920012 创达新材 2891.22 -37.79 -8.36 电子 <em>001270</em>",
+      "url": "http://finance.eastmoney.com/a/202607143804940723.html"
+    },
+    {
+      "title": "沪指收跌<em>0</em>.<em>2</em>9%，创指跌<em>1</em>.<em>21</em>%：创新药概念股逆势爆发",
+      "date": "2026-07-15",
+      "summary": "国防军工继续下挫，中国卫星（600118）、高凌信息（688175）等跌停或跌超10%，铖昌科技（<em>001270</em>）、航天电子（600879）跌超9%，华丰科技（688629）、星网宇达（002829）、宏达电子（300726）等跌超5%。",
+      "url": "http://finance.eastmoney.com/a/202607153807418250.html"
+    },
+    {
+      "title": "A股掀涨停潮！全球首创网系回收落地，万亿商业航天市场获重估",
+      "date": "2026-07-10",
+      "summary": "个股层面，海兰信（300065.SZ）20%涨停，中国卫星（600118.SH）、中国卫通（601698.SH）、航天电子（600879.SH）、钧达股份（002865.SZ）等多只个股封死涨停，国博电子（688375.SH）、铖昌科技（<em>001270</em>.SZ）等相关标的亦集体走强。",
+      "url": "http://finance.eastmoney.com/a/202607103802500187.html"
+    },
+    {
+      "title": "可回收火箭时代开启！A股商业航天板块集体暴涨，产业链多家公司回应",
+      "date": "2026-07-10",
+      "summary": "上游核心零部件环节是商业航天产业链中技术壁垒最高、盈利能力最强的环节，涵盖模拟芯片设计、军工电子、金属制品、航天装备等多个二级行业，诸如铖昌科技（<em>001270</em>.SZ）、ST臻镭（688270.SH）等；中游环节是产业链的核心载体，涵盖火箭总装制造、卫星平台与载荷制造、地面设备与测控系统领域",
+      "url": "http://finance.eastmoney.com/a/202607103802128436.html"
+    },
+    {
+      "title": "A股冲高回落收涨：机器人概念股掀涨停潮，超38<em>00</em>股飘红",
+      "date": "2026-07-03",
+      "summary": "国防军工表现强势，中简科技（300777）、甘化科工（000576）、铖昌科技（<em>001270</em>）、航发科技（600391）、智明达（688636）等涨停或涨超10%。",
+      "url": "http://stock.eastmoney.com/a/202607033793543651.html"
+    },
+    {
+      "title": "中科宇航、蓝箭航天竞逐“商业航天第一股” 万亿赛道迎拐点",
+      "date": "2026-07-04",
+      "summary": "《中国经营报》记者梳理后发现，7月3日，金发科技（600143.SH）、龙溪股份（600592.SH）、铖昌科技（<em>001270</em>.SZ）等多股封板，盟升电子（688311.SH）、航天环宇（688523.SH）、昊志机电（300503.SZ）大涨超16%，信科移动（688387.SH",
+      "url": "http://finance.eastmoney.com/a/202607043794202947.html"
+    },
+    {
+      "title": "A股超38<em>00</em>只个股飘红，机器人、商业航天板块掀上涨潮",
+      "date": "2026-07-03",
+      "summary": "国防军工表现强势，中简科技（300777.SZ）、甘化科工（000576.SZ）、铖昌科技（<em>001270</em>.SZ）、航发科技（600391.SH）、智明达（688636.SH）等涨停或涨超10%。",
+      "url": "http://finance.eastmoney.com/a/202607033793605951.html"
+    }
+  ]
+}

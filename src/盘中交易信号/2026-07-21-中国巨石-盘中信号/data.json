@@ -1,0 +1,372 @@
+{
+  "target": {
+    "type": "个股",
+    "code": "600176",
+    "name": "中国巨石"
+  },
+  "analysis_time": "2026-07-21T10:02:23.396778",
+  "freshness": {
+    "phase": 2,
+    "phase_name": "早盘过渡(32min)",
+    "minutes_from_open": 32.19705555,
+    "freshness": {
+      "quote": 1.0,
+      "minute_flow": 1.0,
+      "sector": 0.8,
+      "news": 1.0,
+      "north_bound": 0.3,
+      "market": 1.0,
+      "breadth": 0.6
+    }
+  },
+  "quote": {
+    "name": "中国巨石",
+    "code": "600176",
+    "price": 36.8,
+    "prev_close": 39.44,
+    "open": 40.24,
+    "volume": 679007.0,
+    "high": 40.88,
+    "low": 36.78,
+    "change_pct": -6.69,
+    "turnover_pct": 1.71,
+    "amplitude": 10.4,
+    "vol_ratio": 2.46,
+    "amount": 263891.0,
+    "pe": 38.54,
+    "mcap": 1473.15
+  },
+  "flow_summary": {
+    "total_main_net": 32657100.0,
+    "total_main_net_wan": 3265.7,
+    "total_super_net_wan": 7243.7,
+    "total_large_net_wan": -3978.0,
+    "total_mid_net_wan": 2041.8,
+    "total_small_net_wan": -5305.6,
+    "data_points": 32,
+    "first_time": "2026-07-21 09:32",
+    "last_time": "2026-07-21 10:03"
+  },
+  "flow_trend": {
+    "direction": "流入",
+    "acceleration": "加速流出",
+    "first_half_slope_wan_per_min": 273.41,
+    "second_half_slope_wan_per_min": -119.08,
+    "cum_sequence_wan": [
+      89.8,
+      -551.0,
+      -1080.1,
+      -114.7,
+      -682.9,
+      891.2,
+      2772.8,
+      2561.6,
+      2336.6,
+      2485.3,
+      2710.5,
+      3789.0,
+      4481.0,
+      4503.1,
+      4238.2,
+      4464.3,
+      5170.9,
+      5603.1,
+      6040.0,
+      4239.5,
+      3705.3,
+      4703.2,
+      4489.2,
+      4637.0,
+      3877.4,
+      3814.5,
+      3170.0,
+      3727.6,
+      4207.8,
+      3525.7,
+      3080.5,
+      3265.7
+    ],
+    "last_turn": null
+  },
+  "parties": {
+    "scenario": "机构独力做多7244万，游资-3978万+散户-3264万不跟 → 孤军深入，持续性存疑",
+    "level": "🟡 中性",
+    "main_direction": "多头占优"
+  },
+  "sector_sentiment": {
+    "sentiment_score": 35.1,
+    "level": "🔵 偏冷",
+    "inflow_blocks": 2,
+    "total_blocks": 6,
+    "avg_change_pct": -1.31,
+    "total_sector_flow_wan": 28625.1,
+    "all_sectors_count": 200,
+    "data_basis": "2/6板块流入, 合计+28625万, 平均涨跌-1.31%, 情绪分35.1"
+  },
+  "north_bound": {
+    "total_net_yi": 0,
+    "direction": "数据不可用",
+    "signal": "⚠️ 无数据",
+    "data_basis": "北向资金API暂不可用(同花顺DNS失败,东财无实时数据)",
+    "source": "无",
+    "status": "unavailable"
+  },
+  "market_strength": {
+    "benchmark": "上证指数",
+    "benchmark_change": -1.07,
+    "market_env": "🔴 大盘弱势",
+    "relative_strength": -5.62,
+    "relative_rating": "🔴 显著跑输",
+    "market_detail": {
+      "上证指数": -1.07,
+      "深证成指": -1.17,
+      "创业板指": -1.17
+    },
+    "data_basis": "上证指数-1.07%, 个股-6.69%, 相对强弱-5.62%"
+  },
+  "market_breadth": {
+    "up_count": 0,
+    "down_count": 0,
+    "up_ratio_pct": 0.0,
+    "breadth_level": "⚠️ 数据缺失",
+    "breadth_score": 30,
+    "limit_up_count": 0,
+    "limit_down_count": 0,
+    "limit_ratio": 0,
+    "money_effect": "⚠️ 数据缺失",
+    "data_basis": "全市场涨0跌0(0.0%), 涨停0/跌停0, 赚钱效应:⚠️ 数据缺失",
+    "status": "partial"
+  },
+  "scenarios": [
+    {
+      "name": "情景A: 强势上涨",
+      "probability": 41.6,
+      "met_count": 4,
+      "total_conditions": 9
+    },
+    {
+      "name": "情景D: 弱势下跌",
+      "probability": 41.0,
+      "met_count": 4,
+      "total_conditions": 7
+    },
+    {
+      "name": "情景B: 震荡横盘",
+      "probability": 17.4,
+      "met_count": 2,
+      "total_conditions": 5
+    },
+    {
+      "name": "情景C: 冲高回落",
+      "probability": 0.0,
+      "met_count": 0,
+      "total_conditions": 5
+    }
+  ],
+  "signals": {
+    "main_net_wan": 3265.7,
+    "inst_net_wan": 7243.7,
+    "retail_net_wan": -3263.8,
+    "sentiment_score": 35.1,
+    "change_pct": -6.69,
+    "turnover_pct": 1.71,
+    "vol_ratio": 2.46,
+    "acceleration": "加速流出",
+    "analysis_time": "2026-07-21 10:02:23"
+  },
+  "overall_verdict": "总体中性: 主力+3266万, 信号不明确。建议观望, 等待更清晰的信号。",
+  "minute_data": [
+    {
+      "time": "2026-07-21 09:32",
+      "main_net": 897773.0,
+      "super_net": 8210026.0,
+      "large_net": -7312253.0
+    },
+    {
+      "time": "2026-07-21 09:33",
+      "main_net": -6408115.0,
+      "super_net": 3773120.0,
+      "large_net": -10181235.0
+    },
+    {
+      "time": "2026-07-21 09:34",
+      "main_net": -5290957.0,
+      "super_net": 5712075.0,
+      "large_net": -11003032.0
+    },
+    {
+      "time": "2026-07-21 09:35",
+      "main_net": 9653927.0,
+      "super_net": 12124545.0,
+      "large_net": -2470618.0
+    },
+    {
+      "time": "2026-07-21 09:36",
+      "main_net": -5681543.0,
+      "super_net": 54956.0,
+      "large_net": -5736499.0
+    },
+    {
+      "time": "2026-07-21 09:37",
+      "main_net": 15740567.0,
+      "super_net": 13939199.0,
+      "large_net": 1801368.0
+    },
+    {
+      "time": "2026-07-21 09:38",
+      "main_net": 18816318.0,
+      "super_net": 16822256.0,
+      "large_net": 1994062.0
+    },
+    {
+      "time": "2026-07-21 09:39",
+      "main_net": -2112166.0,
+      "super_net": 2952759.0,
+      "large_net": -5064925.0
+    },
+    {
+      "time": "2026-07-21 09:40",
+      "main_net": -2249804.0,
+      "super_net": -8578026.0,
+      "large_net": 6328222.0
+    },
+    {
+      "time": "2026-07-21 09:41",
+      "main_net": 1487193.0,
+      "super_net": -1728304.0,
+      "large_net": 3215497.0
+    },
+    {
+      "time": "2026-07-21 09:42",
+      "main_net": 2252054.0,
+      "super_net": -2145591.0,
+      "large_net": 4397645.0
+    },
+    {
+      "time": "2026-07-21 09:43",
+      "main_net": 10784649.0,
+      "super_net": -441448.0,
+      "large_net": 11226097.0
+    },
+    {
+      "time": "2026-07-21 09:44",
+      "main_net": 6920264.0,
+      "super_net": -4116371.0,
+      "large_net": 11036635.0
+    },
+    {
+      "time": "2026-07-21 09:45",
+      "main_net": 221034.0,
+      "super_net": 1385883.0,
+      "large_net": -1164849.0
+    },
+    {
+      "time": "2026-07-21 09:46",
+      "main_net": -2648954.0,
+      "super_net": -749157.0,
+      "large_net": -1899797.0
+    },
+    {
+      "time": "2026-07-21 09:47",
+      "main_net": 2260710.0,
+      "super_net": 8587997.0,
+      "large_net": -6327287.0
+    },
+    {
+      "time": "2026-07-21 09:48",
+      "main_net": 7066315.0,
+      "super_net": 2974263.0,
+      "large_net": 4092052.0
+    },
+    {
+      "time": "2026-07-21 09:49",
+      "main_net": 4321282.0,
+      "super_net": 1818903.0,
+      "large_net": 2502379.0
+    },
+    {
+      "time": "2026-07-21 09:50",
+      "main_net": 4369687.0,
+      "super_net": 4164070.0,
+      "large_net": 205617.0
+    },
+    {
+      "time": "2026-07-21 09:51",
+      "main_net": -18005262.0,
+      "super_net": -7407023.0,
+      "large_net": -10598239.0
+    },
+    {
+      "time": "2026-07-21 09:52",
+      "main_net": -5341920.0,
+      "super_net": -5053728.0,
+      "large_net": -288192.0
+    },
+    {
+      "time": "2026-07-21 09:53",
+      "main_net": 9979310.0,
+      "super_net": 9055237.0,
+      "large_net": 924073.0
+    },
+    {
+      "time": "2026-07-21 09:54",
+      "main_net": -2140143.0,
+      "super_net": 927644.0,
+      "large_net": -3067787.0
+    },
+    {
+      "time": "2026-07-21 09:55",
+      "main_net": 1477352.0,
+      "super_net": 4666685.0,
+      "large_net": -3189333.0
+    },
+    {
+      "time": "2026-07-21 09:56",
+      "main_net": -7595580.0,
+      "super_net": 462094.0,
+      "large_net": -8057674.0
+    },
+    {
+      "time": "2026-07-21 09:57",
+      "main_net": -629029.0,
+      "super_net": -1165359.0,
+      "large_net": 536330.0
+    },
+    {
+      "time": "2026-07-21 09:58",
+      "main_net": -6445107.0,
+      "super_net": -4984835.0,
+      "large_net": -1460272.0
+    },
+    {
+      "time": "2026-07-21 09:59",
+      "main_net": 5576640.0,
+      "super_net": 8151971.0,
+      "large_net": -2575331.0
+    },
+    {
+      "time": "2026-07-21 10:00",
+      "main_net": 4801799.0,
+      "super_net": 1566403.0,
+      "large_net": 3235396.0
+    },
+    {
+      "time": "2026-07-21 10:01",
+      "main_net": -6820838.0,
+      "super_net": -1331482.0,
+      "large_net": -5489356.0
+    },
+    {
+      "time": "2026-07-21 10:02",
+      "main_net": -4452090.0,
+      "super_net": 2218414.0,
+      "large_net": -6670504.0
+    },
+    {
+      "time": "2026-07-21 10:03",
+      "main_net": 1851734.0,
+      "super_net": 570268.0,
+      "large_net": 1281466.0
+    }
+  ]
+}

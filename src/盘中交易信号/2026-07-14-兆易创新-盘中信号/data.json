@@ -1,0 +1,50 @@
+{
+  "target": {
+    "type": "个股",
+    "code": "603986",
+    "name": "兆易创新"
+  },
+  "analysis_time": "2026-07-14 11:08:09",
+  "quote_price": 541.66,
+  "quote_change_pct": -1.66,
+  "quote_turnover": 5.08,
+  "quote_vol_ratio": 1.27,
+  "quote_amplitude": 5.56,
+  "flow_source": "mootdx",
+  "buy_ratio_pct": 48.2,
+  "flow_direction": "卖方占优",
+  "flow_acceleration": "卖压加速",
+  "sector_sentiment_score": 50,
+  "north_bound_net_yi": 0.0,
+  "benchmark_change": -0.74,
+  "relative_strength": -0.9199999999999999,
+  "scenarios": [
+    {
+      "name": "情景B: 震荡横盘",
+      "probability": 41.4,
+      "met": 4,
+      "total": 6
+    },
+    {
+      "name": "情景A: 强势上涨/反弹",
+      "probability": 27.6,
+      "met": 3,
+      "total": 7
+    },
+    {
+      "name": "情景D: 弱势下跌",
+      "probability": 17.2,
+      "met": 1,
+      "total": 5
+    },
+    {
+      "name": "情景C: 冲高回落/弱势延续",
+      "probability": 13.8,
+      "met": 1,
+      "total": 5
+    }
+  ],
+  "buy_signal": "⚪ 暂不建议买入",
+  "sell_signal": "⚪ 暂不需卖出",
+  "overall_verdict": "总体中性: 买力48.2%, 信号暂不明确。建议观望等待。"
+}

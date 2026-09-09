@@ -1,0 +1,571 @@
+{
+  "target": {
+    "type": "个股",
+    "code": "600176",
+    "name": "中国巨石"
+  },
+  "analysis_time": "2026-07-15T10:34:01.561551",
+  "freshness": {
+    "phase": 2,
+    "phase_name": "早盘过渡(64min)",
+    "minutes_from_open": 63.747761133333334,
+    "freshness": {
+      "quote": 1.0,
+      "minute_flow": 1.0,
+      "sector": 0.8,
+      "news": 1.0,
+      "north_bound": 0.3,
+      "market": 1.0,
+      "breadth": 0.6
+    }
+  },
+  "quote": {
+    "name": "中国巨石",
+    "code": "600176",
+    "price": 55.09,
+    "prev_close": 54.52,
+    "open": 55.0,
+    "volume": 1032623.0,
+    "high": 56.0,
+    "low": 53.43,
+    "change_pct": 1.05,
+    "turnover_pct": 2.6,
+    "amplitude": 4.71,
+    "vol_ratio": 1.68,
+    "amount": 564966.0,
+    "pe": 57.7,
+    "mcap": 2205.33
+  },
+  "flow_summary": {
+    "total_main_net": -169267506.0,
+    "total_main_net_wan": -16926.8,
+    "total_super_net_wan": -30235.2,
+    "total_large_net_wan": 13308.5,
+    "total_mid_net_wan": -5512.1,
+    "total_small_net_wan": 22438.9,
+    "data_points": 63,
+    "first_time": "2026-07-15 09:32",
+    "last_time": "2026-07-15 10:34"
+  },
+  "flow_trend": {
+    "direction": "流出",
+    "acceleration": "流出减缓",
+    "first_half_slope_wan_per_min": -502.96,
+    "second_half_slope_wan_per_min": -54.7,
+    "cum_sequence_wan": [
+      -405.9,
+      2013.9,
+      1921.2,
+      968.8,
+      1676.5,
+      2706.2,
+      845.1,
+      -250.2,
+      -564.3,
+      279.1,
+      -506.8,
+      168.4,
+      -285.4,
+      -1755.2,
+      -3368.7,
+      -5065.7,
+      -6115.3,
+      -5306.6,
+      -5360.7,
+      -4578.5,
+      -5459.6,
+      -7807.9,
+      -11088.5,
+      -12363.3,
+      -12718.3,
+      -13346.1,
+      -14599.3,
+      -14800.4,
+      -15248.2,
+      -15975.3,
+      -15997.6,
+      -15176.3,
+      -15415.4,
+      -15130.6,
+      -15947.1,
+      -15726.2,
+      -15261.8,
+      -15321.9,
+      -15390.5,
+      -15953.9,
+      -17399.8,
+      -17551.4,
+      -17511.9,
+      -17389.1,
+      -17482.9,
+      -18131.6,
+      -18305.8,
+      -18337.4,
+      -18151.0,
+      -17834.6,
+      -16505.6,
+      -16876.1,
+      -16066.1,
+      -16739.3,
+      -16973.3,
+      -16770.2,
+      -17116.2,
+      -16674.2,
+      -16934.3,
+      -17606.6,
+      -17564.2,
+      -17156.8,
+      -16926.8
+    ],
+    "last_turn": null
+  },
+  "parties": {
+    "scenario": "机构净流出30235万 + 散户净流入16927万 → 机构派发、散户接盘，⚠️ 明确风险信号",
+    "level": "🔴 警惕",
+    "main_direction": "空头占优"
+  },
+  "sector_sentiment": {
+    "sentiment_score": 24.5,
+    "level": "❄️ 极冷",
+    "inflow_blocks": 0,
+    "total_blocks": 6,
+    "avg_change_pct": -0.11,
+    "total_sector_flow_wan": -176051.4,
+    "all_sectors_count": 200,
+    "data_basis": "0/6板块流入, 合计-176051万, 平均涨跌-0.11%, 情绪分24.5"
+  },
+  "north_bound": {
+    "total_net_yi": 0,
+    "direction": "数据不可用",
+    "signal": "⚠️ 无数据",
+    "data_basis": "北向资金API暂不可用(同花顺DNS失败,东财无实时数据)",
+    "source": "无",
+    "status": "unavailable"
+  },
+  "market_strength": {
+    "benchmark": "上证指数",
+    "benchmark_change": 0.23,
+    "market_env": "🟡 大盘微涨",
+    "relative_strength": 0.82,
+    "relative_rating": "➖ 与大盘同步",
+    "market_detail": {
+      "上证指数": 0.23,
+      "深证成指": 0.45,
+      "创业板指": 0.88
+    },
+    "data_basis": "上证指数+0.23%, 个股+1.05%, 相对强弱+0.82%"
+  },
+  "market_breadth": {
+    "up_count": 0,
+    "down_count": 0,
+    "up_ratio_pct": 0.0,
+    "breadth_level": "⚠️ 数据缺失",
+    "breadth_score": 30,
+    "limit_up_count": 0,
+    "limit_down_count": 0,
+    "limit_ratio": 0,
+    "money_effect": "⚠️ 数据缺失",
+    "data_basis": "全市场涨0跌0(0.0%), 涨停0/跌停0, 赚钱效应:⚠️ 数据缺失",
+    "status": "partial"
+  },
+  "scenarios": [
+    {
+      "name": "情景D: 弱势下跌",
+      "probability": 55.0,
+      "met_count": 3,
+      "total_conditions": 7
+    },
+    {
+      "name": "情景C: 冲高回落",
+      "probability": 22.5,
+      "met_count": 1,
+      "total_conditions": 5
+    },
+    {
+      "name": "情景A: 强势上涨",
+      "probability": 19.8,
+      "met_count": 2,
+      "total_conditions": 9
+    },
+    {
+      "name": "情景B: 震荡横盘",
+      "probability": 2.7,
+      "met_count": 1,
+      "total_conditions": 5
+    }
+  ],
+  "signals": {
+    "main_net_wan": -16926.8,
+    "inst_net_wan": -30235.2,
+    "retail_net_wan": 16926.800000000003,
+    "sentiment_score": 24.5,
+    "change_pct": 1.05,
+    "turnover_pct": 2.6,
+    "vol_ratio": 1.68,
+    "acceleration": "流出减缓",
+    "analysis_time": "2026-07-15 10:34:01"
+  },
+  "overall_verdict": "总体谨慎: 有卖出压力。机构-30235万, 散户+16927万。持有者应审视持仓, 未持有者建议等待。",
+  "minute_data": [
+    {
+      "time": "2026-07-15 09:35",
+      "main_net": -9523917.0,
+      "super_net": -16129692.0,
+      "large_net": 6605775.0
+    },
+    {
+      "time": "2026-07-15 09:36",
+      "main_net": 7076635.0,
+      "super_net": -2006129.0,
+      "large_net": 9082764.0
+    },
+    {
+      "time": "2026-07-15 09:37",
+      "main_net": 10297170.0,
+      "super_net": -3554340.0,
+      "large_net": 13851510.0
+    },
+    {
+      "time": "2026-07-15 09:38",
+      "main_net": -18611170.0,
+      "super_net": -19197150.0,
+      "large_net": 585980.0
+    },
+    {
+      "time": "2026-07-15 09:39",
+      "main_net": -10953117.0,
+      "super_net": -3201889.0,
+      "large_net": -7751228.0
+    },
+    {
+      "time": "2026-07-15 09:40",
+      "main_net": -3140243.0,
+      "super_net": 8213042.0,
+      "large_net": -11353285.0
+    },
+    {
+      "time": "2026-07-15 09:41",
+      "main_net": 8433266.0,
+      "super_net": 213771.0,
+      "large_net": 8219495.0
+    },
+    {
+      "time": "2026-07-15 09:42",
+      "main_net": -7858571.0,
+      "super_net": 4793673.0,
+      "large_net": -12652244.0
+    },
+    {
+      "time": "2026-07-15 09:43",
+      "main_net": 6752239.0,
+      "super_net": 14976922.0,
+      "large_net": -8224683.0
+    },
+    {
+      "time": "2026-07-15 09:44",
+      "main_net": -4538745.0,
+      "super_net": 3019131.0,
+      "large_net": -7557876.0
+    },
+    {
+      "time": "2026-07-15 09:45",
+      "main_net": -14697607.0,
+      "super_net": -12576704.0,
+      "large_net": -2120903.0
+    },
+    {
+      "time": "2026-07-15 09:46",
+      "main_net": -16134860.0,
+      "super_net": 207220.0,
+      "large_net": -16342080.0
+    },
+    {
+      "time": "2026-07-15 09:47",
+      "main_net": -16970451.0,
+      "super_net": -9329489.0,
+      "large_net": -7640962.0
+    },
+    {
+      "time": "2026-07-15 09:48",
+      "main_net": -10496170.0,
+      "super_net": -17941832.0,
+      "large_net": 7445662.0
+    },
+    {
+      "time": "2026-07-15 09:49",
+      "main_net": 8087803.0,
+      "super_net": -17217517.0,
+      "large_net": 25305320.0
+    },
+    {
+      "time": "2026-07-15 09:50",
+      "main_net": -541326.0,
+      "super_net": -25791707.0,
+      "large_net": 25250381.0
+    },
+    {
+      "time": "2026-07-15 09:51",
+      "main_net": 7821511.0,
+      "super_net": -11095337.0,
+      "large_net": 18916848.0
+    },
+    {
+      "time": "2026-07-15 09:52",
+      "main_net": -8810790.0,
+      "super_net": -18545227.0,
+      "large_net": 9734437.0
+    },
+    {
+      "time": "2026-07-15 09:53",
+      "main_net": -23482412.0,
+      "super_net": -34057361.0,
+      "large_net": 10574949.0
+    },
+    {
+      "time": "2026-07-15 09:54",
+      "main_net": -32806715.0,
+      "super_net": -57269763.0,
+      "large_net": 24463048.0
+    },
+    {
+      "time": "2026-07-15 09:55",
+      "main_net": -12747605.0,
+      "super_net": -23236511.0,
+      "large_net": 10488906.0
+    },
+    {
+      "time": "2026-07-15 09:56",
+      "main_net": -3550016.0,
+      "super_net": -14870265.0,
+      "large_net": 11320249.0
+    },
+    {
+      "time": "2026-07-15 09:57",
+      "main_net": -6278014.0,
+      "super_net": -12877870.0,
+      "large_net": 6599856.0
+    },
+    {
+      "time": "2026-07-15 09:58",
+      "main_net": -12532473.0,
+      "super_net": 3729581.0,
+      "large_net": -16262054.0
+    },
+    {
+      "time": "2026-07-15 09:59",
+      "main_net": -2010957.0,
+      "super_net": 1199946.0,
+      "large_net": -3210903.0
+    },
+    {
+      "time": "2026-07-15 10:00",
+      "main_net": -4477816.0,
+      "super_net": -1526873.0,
+      "large_net": -2950943.0
+    },
+    {
+      "time": "2026-07-15 10:01",
+      "main_net": -7270866.0,
+      "super_net": 144279.0,
+      "large_net": -7415145.0
+    },
+    {
+      "time": "2026-07-15 10:02",
+      "main_net": -222851.0,
+      "super_net": 6307247.0,
+      "large_net": -6530098.0
+    },
+    {
+      "time": "2026-07-15 10:03",
+      "main_net": 8212662.0,
+      "super_net": 9607835.0,
+      "large_net": -1395173.0
+    },
+    {
+      "time": "2026-07-15 10:04",
+      "main_net": -2390690.0,
+      "super_net": -7911147.0,
+      "large_net": 5520457.0
+    },
+    {
+      "time": "2026-07-15 10:05",
+      "main_net": 2848275.0,
+      "super_net": -8427388.0,
+      "large_net": 11275663.0
+    },
+    {
+      "time": "2026-07-15 10:06",
+      "main_net": -8164913.0,
+      "super_net": -12016829.0,
+      "large_net": 3851916.0
+    },
+    {
+      "time": "2026-07-15 10:07",
+      "main_net": 2208546.0,
+      "super_net": -4391120.0,
+      "large_net": 6599666.0
+    },
+    {
+      "time": "2026-07-15 10:08",
+      "main_net": 4643740.0,
+      "super_net": 7122485.0,
+      "large_net": -2478745.0
+    },
+    {
+      "time": "2026-07-15 10:09",
+      "main_net": -600424.0,
+      "super_net": 1460241.0,
+      "large_net": -2060665.0
+    },
+    {
+      "time": "2026-07-15 10:10",
+      "main_net": -685787.0,
+      "super_net": 1361063.0,
+      "large_net": -2046850.0
+    },
+    {
+      "time": "2026-07-15 10:11",
+      "main_net": -5634236.0,
+      "super_net": -6319612.0,
+      "large_net": 685376.0
+    },
+    {
+      "time": "2026-07-15 10:12",
+      "main_net": -14459348.0,
+      "super_net": -12769031.0,
+      "large_net": -1690317.0
+    },
+    {
+      "time": "2026-07-15 10:13",
+      "main_net": -1515616.0,
+      "super_net": -1344436.0,
+      "large_net": -171180.0
+    },
+    {
+      "time": "2026-07-15 10:14",
+      "main_net": 394450.0,
+      "super_net": 527632.0,
+      "large_net": -133182.0
+    },
+    {
+      "time": "2026-07-15 10:15",
+      "main_net": 1228396.0,
+      "super_net": 2224597.0,
+      "large_net": -996201.0
+    },
+    {
+      "time": "2026-07-15 10:16",
+      "main_net": -937805.0,
+      "super_net": -1359160.0,
+      "large_net": 421355.0
+    },
+    {
+      "time": "2026-07-15 10:17",
+      "main_net": -6486907.0,
+      "super_net": -9220761.0,
+      "large_net": 2733854.0
+    },
+    {
+      "time": "2026-07-15 10:18",
+      "main_net": -1742370.0,
+      "super_net": 3443414.0,
+      "large_net": -5185784.0
+    },
+    {
+      "time": "2026-07-15 10:19",
+      "main_net": -316267.0,
+      "super_net": 50001.0,
+      "large_net": -366268.0
+    },
+    {
+      "time": "2026-07-15 10:20",
+      "main_net": 1864342.0,
+      "super_net": 0.0,
+      "large_net": 1864342.0
+    },
+    {
+      "time": "2026-07-15 10:21",
+      "main_net": 3164111.0,
+      "super_net": -2706203.0,
+      "large_net": 5870314.0
+    },
+    {
+      "time": "2026-07-15 10:22",
+      "main_net": 13289642.0,
+      "super_net": 9579879.0,
+      "large_net": 3709763.0
+    },
+    {
+      "time": "2026-07-15 10:23",
+      "main_net": -3704419.0,
+      "super_net": -12199705.0,
+      "large_net": 8495286.0
+    },
+    {
+      "time": "2026-07-15 10:24",
+      "main_net": 8099657.0,
+      "super_net": 8549845.0,
+      "large_net": -450188.0
+    },
+    {
+      "time": "2026-07-15 10:25",
+      "main_net": -6732487.0,
+      "super_net": -5455655.0,
+      "large_net": -1276832.0
+    },
+    {
+      "time": "2026-07-15 10:26",
+      "main_net": -2340071.0,
+      "super_net": 1974067.0,
+      "large_net": -4314138.0
+    },
+    {
+      "time": "2026-07-15 10:27",
+      "main_net": 2031527.0,
+      "super_net": -5483504.0,
+      "large_net": 7515031.0
+    },
+    {
+      "time": "2026-07-15 10:28",
+      "main_net": -3459868.0,
+      "super_net": -26249.0,
+      "large_net": -3433619.0
+    },
+    {
+      "time": "2026-07-15 10:29",
+      "main_net": 4419532.0,
+      "super_net": 1764251.0,
+      "large_net": 2655281.0
+    },
+    {
+      "time": "2026-07-15 10:30",
+      "main_net": -2600288.0,
+      "super_net": 4937450.0,
+      "large_net": -7537738.0
+    },
+    {
+      "time": "2026-07-15 10:31",
+      "main_net": -6723780.0,
+      "super_net": -3264921.0,
+      "large_net": -3458859.0
+    },
+    {
+      "time": "2026-07-15 10:32",
+      "main_net": 424098.0,
+      "super_net": -3670456.0,
+      "large_net": 4094554.0
+    },
+    {
+      "time": "2026-07-15 10:33",
+      "main_net": 4074055.0,
+      "super_net": 3376644.0,
+      "large_net": 697411.0
+    },
+    {
+      "time": "2026-07-15 10:34",
+      "main_net": 2300708.0,
+      "super_net": 0.0,
+      "large_net": 2300708.0
+    }
+  ]
+}

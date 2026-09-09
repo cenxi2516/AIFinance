@@ -1,0 +1,52 @@
+{
+  "target": {
+    "type": "ETF",
+    "code": "159516",
+    "name": "半导体设备ETF国泰"
+  },
+  "analysis_time": "2026-07-15 10:14",
+  "freshness_phase": "早盘过渡(44min, 板块/北向逐渐刷新)",
+  "phase": 2,
+  "quote": {
+    "price": 0.826,
+    "prev_close": 0.862,
+    "open": 0.879,
+    "high": 0.879,
+    "low": 0.822,
+    "change_pct": -4.18,
+    "amplitude": 6.61,
+    "turnover_pct": 5.89,
+    "vol_ratio": 2.31,
+    "amount_wan": 273670
+  },
+  "flow": {
+    "buy_vol": 9964408,
+    "sell_vol": 17812497,
+    "buy_ratio_pct": 35.9,
+    "net_vol": -7848089,
+    "direction": "卖方占优",
+    "acceleration": "卖压减弱",
+    "data_points": 42,
+    "first_half_slope": -235076,
+    "second_half_slope": -129528
+  },
+  "phase1_vs_phase2": {
+    "phase1_price": 0.844,
+    "phase2_price": 0.826,
+    "phase1_change": -2.09,
+    "phase2_change": -4.18,
+    "phase1_buy_ratio": 35.7,
+    "phase2_buy_ratio": 35.9,
+    "phase1_net_vol": -5317586,
+    "phase2_net_vol": -7848089,
+    "phase1_accel": "买方加速",
+    "phase2_accel": "卖压减弱",
+    "phase1_turnover": 3.97,
+    "phase2_turnover": 5.89,
+    "phase1_vol_ratio": 3.27,
+    "phase2_vol_ratio": 2.31,
+    "bounce_failed": true,
+    "bounce_detail": "反弹(0.822→0.844)确认失败，价格重新回到0.822-0.826区间"
+  },
+  "verdict": "弱势下跌主导。放量高开低走+独立暴跌。反弹已失败。建议观望。"
+}

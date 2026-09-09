@@ -1,0 +1,497 @@
+{
+  "generated_at": "2026-07-15 09:32",
+  "target": "589360",
+  "target_type": "etf",
+  "target_name": "科创50ETF国泰",
+  "track": "B",
+  "track_label": "B轨(ETF-量价分析+概念板块资金流代理, 14日数据)",
+  "data_days": 14,
+  "summary": {
+    "price": 1.04,
+    "last_close": 1.038,
+    "open": 1.049,
+    "change": 0.002,
+    "change_pct": 0.19,
+    "high": 1.049,
+    "low": 1.038,
+    "volume": 26447,
+    "amount_yi": 0.0276,
+    "turnover_pct": 0.5,
+    "pe_ttm": 0,
+    "pb": 0.0,
+    "mcap_yi": 5.48,
+    "float_mcap_yi": 5.48,
+    "amplitude_pct": 1.06,
+    "change_1w": -0.6,
+    "change_1m": 0
+  },
+  "realtime": {
+    "name": "科创50ETF国泰",
+    "code": "589360",
+    "price": 1.04,
+    "last_close": 1.038,
+    "open": 1.049,
+    "volume": 26447,
+    "change_amt": 0.002,
+    "change_pct": 0.19,
+    "high": 1.049,
+    "low": 1.038,
+    "amount_wan": 276.0,
+    "turnover_pct": 0.5,
+    "pe_ttm": 0,
+    "amplitude_pct": 1.06,
+    "mcap_yi": 5.48,
+    "float_mcap_yi": 5.48,
+    "pb": 0.0,
+    "limit_up": 1.246,
+    "limit_down": 0.83,
+    "_validation": {
+      "passed": null,
+      "quality": "🟡 单源(新浪不可用)",
+      "checks": [],
+      "summary": "仅腾讯单源 — 新浪: 数据字段不足(仅1字段)",
+      "sources": [
+        "腾讯"
+      ]
+    },
+    "_sources": [
+      "腾讯"
+    ]
+  },
+  "daily": [
+    {
+      "date": "2026-06-26",
+      "open": 1.042,
+      "close": 1.046,
+      "high": 1.067,
+      "low": 1.016,
+      "volume": 898139.0,
+      "change_pct": 0.38,
+      "amplitude": 5.02,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-29",
+      "open": 1.046,
+      "close": 1.095,
+      "high": 1.098,
+      "low": 1.037,
+      "volume": 512036.0,
+      "change_pct": 4.68,
+      "amplitude": 5.88,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-06-30",
+      "open": 1.095,
+      "close": 1.15,
+      "high": 1.15,
+      "low": 1.09,
+      "volume": 367174.0,
+      "change_pct": 5.02,
+      "amplitude": 5.5,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-01",
+      "open": 1.15,
+      "close": 1.119,
+      "high": 1.225,
+      "low": 1.102,
+      "volume": 769786.0,
+      "change_pct": -2.7,
+      "amplitude": 11.16,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-02",
+      "open": 1.06,
+      "close": 1.041,
+      "high": 1.105,
+      "low": 1.027,
+      "volume": 638529.0,
+      "change_pct": -1.79,
+      "amplitude": 7.59,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-03",
+      "open": 1.015,
+      "close": 1.025,
+      "high": 1.054,
+      "low": 1.006,
+      "volume": 451902.0,
+      "change_pct": 0.99,
+      "amplitude": 4.77,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-06",
+      "open": 1.027,
+      "close": 1.035,
+      "high": 1.046,
+      "low": 0.994,
+      "volume": 480154.0,
+      "change_pct": 0.78,
+      "amplitude": 5.23,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-07",
+      "open": 1.034,
+      "close": 1.036,
+      "high": 1.054,
+      "low": 1.018,
+      "volume": 342675.0,
+      "change_pct": 0.19,
+      "amplitude": 3.54,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-08",
+      "open": 1.031,
+      "close": 1.047,
+      "high": 1.076,
+      "low": 1.018,
+      "volume": 489623.0,
+      "change_pct": 1.55,
+      "amplitude": 5.7,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-09",
+      "open": 1.05,
+      "close": 1.13,
+      "high": 1.137,
+      "low": 1.05,
+      "volume": 490681.0,
+      "change_pct": 7.62,
+      "amplitude": 8.29,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-10",
+      "open": 1.138,
+      "close": 1.09,
+      "high": 1.174,
+      "low": 1.088,
+      "volume": 627828.0,
+      "change_pct": -4.22,
+      "amplitude": 7.9,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-13",
+      "open": 1.08,
+      "close": 1.028,
+      "high": 1.084,
+      "low": 1.015,
+      "volume": 546286.0,
+      "change_pct": -4.81,
+      "amplitude": 6.8,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-14",
+      "open": 1.03,
+      "close": 1.038,
+      "high": 1.041,
+      "low": 0.975,
+      "volume": 970594.0,
+      "change_pct": 0.78,
+      "amplitude": 6.77,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    },
+    {
+      "date": "2026-07-15",
+      "open": 1.049,
+      "close": 1.04,
+      "high": 1.049,
+      "low": 1.038,
+      "volume": 26447,
+      "change_pct": -0.86,
+      "amplitude": 1.06,
+      "main_net": 0,
+      "super_net": 0,
+      "large_net": 0,
+      "mid_net": 0,
+      "small_net": 0
+    }
+  ],
+  "safety_signals": {
+    "f1_exhaustion": {
+      "triggered": false,
+      "signal_name": "F1: 卖压衰竭(量价)",
+      "decreasing_declines": false,
+      "volume_shrink": false,
+      "no_new_low": false,
+      "strength": "弱",
+      "meaning": "卖压尚未衰竭，继续观察"
+    },
+    "f2_institution_return": {
+      "triggered": false,
+      "signal_name": "F2: 放量反弹回流",
+      "early_decline": false,
+      "has_bullish_volume": false,
+      "strength": "弱",
+      "meaning": "未见明确的资金回流信号"
+    },
+    "f3_retail_exhaustion": {
+      "triggered": false,
+      "signal_name": "F3: 恐慌出尽(缩量止跌)",
+      "decline_narrowing": false,
+      "volume_shrink": false,
+      "strength": "弱",
+      "meaning": "恐慌盘可能尚未出尽"
+    },
+    "f8_volume_stabilization": {
+      "triggered": false,
+      "signal_name": "F8: 缩量止跌盘整(全量14日均量)",
+      "narrow_range": false,
+      "volume_shrink": false,
+      "amp_narrow": false,
+      "avg_vol_20": 543704.0,
+      "recent_vol_3": 514442.0,
+      "strength": "弱",
+      "meaning": "尚未缩量止跌，仍在波动"
+    }
+  },
+  "danger_signals": {
+    "f4_accelerating": {
+      "triggered": false,
+      "reason": "近期非持续下跌"
+    },
+    "f5_top_distribution": {
+      "triggered": false,
+      "signal_name": "F5: 🔴 高位放量逆转",
+      "danger_level": "高危",
+      "early_rise_pct": -1.7,
+      "has_distribution": false,
+      "meaning": "无顶部派发信号",
+      "action": "继续观察"
+    },
+    "f7_news_exhausted": {
+      "triggered": false,
+      "signal_name": "F7: 🔴 利好出尽/高开低走",
+      "danger_level": "非常高",
+      "pre_rise_2w": -1.7,
+      "latest_news": "算力产业链迎来业绩兑现，资金连续布局<em>科创50ETF</em>易方达（<em>5</em>88<em>0</em>",
+      "meaning": "前期涨幅可接受或未出现利好兑现",
+      "action": ""
+    }
+  },
+  "safety_score": {
+    "safety_score": 46,
+    "safety_level": "🟠 风险区间",
+    "can_enter": false,
+    "description": "安全信号不足或有危险信号，不建议入场",
+    "positive_signals": [],
+    "negative_signals": [],
+    "adjustment_details": [
+      [
+        "缩量止跌企稳[短数据降权]",
+        1
+      ],
+      [
+        "⚠️新上市仅14日数据(统计显著性不足)",
+        -5
+      ]
+    ],
+    "stabilization": {
+      "is_stabilized": false,
+      "passed_count": 2,
+      "total_count": 5,
+      "checks": {
+        "no_new_low": false,
+        "narrow_range": false,
+        "flow_normal": true,
+        "lows_rising": true,
+        "above_ma5": false
+      },
+      "meaning": "仅通过2/5项，尚未企稳"
+    },
+    "data_note": "⚠️ 仅14个交易日(新上市ETF)，统计显著性不足，评分仅供参考",
+    "principle": "可以少挣，必须少亏 — 只有 ≥75 分才建议考虑入场"
+  },
+  "timing": {
+    "entry": {
+      "ready": false,
+      "ready_enhanced": false,
+      "conditions": [
+        {
+          "condition": "安全评分 ≥ 75分",
+          "met": false,
+          "current": "46分",
+          "weight": "必须"
+        },
+        {
+          "condition": "企稳确认 (≥4/5项)",
+          "met": false,
+          "current": "2/5项",
+          "weight": "必须"
+        },
+        {
+          "condition": "≥2个安全信号触发",
+          "met": false,
+          "current": "0个",
+          "weight": "建议"
+        },
+        {
+          "condition": "无危险信号",
+          "met": true,
+          "current": "0个",
+          "weight": "必须"
+        },
+        {
+          "condition": "近日放量阳线确认（增强信号）",
+          "met": false,
+          "current": "未出现",
+          "weight": "加分项（非必须）"
+        }
+      ],
+      "verdict": "❌ 买入条件不满足，继续等待"
+    },
+    "exit": {
+      "any_triggered": false,
+      "conditions": [
+        {
+          "condition": "🔴 硬止损: 持仓亏损>5% + 持续放量下跌",
+          "triggered": false,
+          "rule": "F13: 亏损控制 — 亏损的数学是不对称的",
+          "action": "全部离场"
+        },
+        {
+          "condition": "🟠 利润保护: 盈利>5% + 高位放量逆转信号",
+          "triggered": false,
+          "rule": "F12: 利润保护 — 可以少挣，必须少亏",
+          "action": "至少减仓50%"
+        },
+        {
+          "condition": "🔴 任何高危信号触发 (F4/F5/F7)",
+          "triggered": false,
+          "current": "无",
+          "rule": "危险信号 > 一切买入信号",
+          "action": "不买，已持有则评估是否离场"
+        },
+        {
+          "condition": "🔴 安全评分降至 < 40分",
+          "triggered": false,
+          "current": "46分",
+          "rule": "危险区间 = 持币观望",
+          "action": "远离，等安全评分回升"
+        }
+      ]
+    },
+    "principle": "可以少挣，必须少亏 — 宁可错过，不可做错"
+  },
+  "news": [
+    {
+      "title": "算力产业链迎来业绩兑现，资金连续布局<em>科创50ETF</em>易方达（<em>5</em>88<em>0</em>8<em>0</em>）",
+      "date": "2026-07-14",
+      "summary": "同花顺iFinD数据显示，截至昨日，<em>科创50ETF</em>易方达（588080，联接基金A/C/Y：011608/011609/022895）已连续10日获资金净流入，合计37.6亿元。",
+      "url": "http://stock.eastmoney.com/a/202607143806036472.html"
+    },
+    {
+      "title": "<em>科</em>技赛道吸金，<em>科创50ETF</em>国泰（<em>5</em>8936<em>0</em>）连续2日获资金布局",
+      "date": "2026-07-14",
+      "summary": "对于希望便捷布局中国核心科技资产、分享科创企业成长红利的投资者而言，<em>科创50ETF</em>国泰（589360）等相关指数产品提供了高效的投资工具。",
+      "url": "http://stock.eastmoney.com/a/202607143805279657.html"
+    },
+    {
+      "title": "<em>科创50ETF</em>平安(<em>5</em>891<em>50</em>)连续3天净流入，CPO、PCB概念盘中活跃",
+      "date": "2026-07-14",
+      "summary": "<em>科创50ETF</em>平安(589150)最新报价1.4元。 　　从资金净流入方面来看，<em>科创50ETF</em>平安近3天获得连续资金净流入，最高单日获得5.12亿元净流入，合计“吸金”8.59亿元，日均净流入达2.86亿元。",
+      "url": "http://stock.eastmoney.com/a/202607143805431172.html"
+    },
+    {
+      "title": "<em>科创50ETF</em>华夏（<em>5</em>88<em>000</em>）探底拉升，近1<em>0</em>个交易日63亿资金抄底",
+      "date": "2026-07-14",
+      "summary": "7月14日开盘，<em>科创50ETF</em>华夏（588000）持续走低，最高跌幅达4.86%，午后成长风格集体反攻，ETF直线拉升，截至发稿<em>科创50ETF</em>华夏上涨1.33%，振幅高达6.57%。 　　从资金面来看，近10个交易日ETF流入63.6亿元，资金在指数调整过程中连续抄底。",
+      "url": "http://stock.eastmoney.com/a/202607143805514577.html"
+    },
+    {
+      "title": "成交额超7亿元，<em>科创50ETF</em>华夏(<em>5</em>88<em>000</em>)连续3天净流入",
+      "date": "2026-07-14",
+      "summary": "<em>科创50ETF</em>华夏(588000)，场外联接(华夏<em>科创50ETF</em>联接A：011612；华夏<em>科创50ETF</em>联接C：011613；华夏<em>科创50ETF</em>联接Y：022945)，相关指数基金(华夏科创50指数增强A：018177；华夏科创50指数增强C：018178)。",
+      "url": "http://stock.eastmoney.com/a/202607143805487097.html"
+    },
+    {
+      "title": "<em>ETF</em>融资榜 | <em>科创50ETF</em>华夏(<em>5</em>88<em>000</em>)融资净买入3<em>0</em>1<em>5</em>.<em>5</em>1万元，居可比基金首位-2<em>0</em>26<em>0</em>713",
+      "date": "2026-07-14",
+      "summary": "（数据来源：Wind） 　　<em>科创50ETF</em>华夏（588000.SH），场外联接(A类：011612；C类：011613；Y类：022945）。",
+      "url": "http://stock.eastmoney.com/a/202607143805534480.html"
+    },
+    {
+      "title": "<em>ETF</em>主力榜 | <em>科创50ETF</em>华夏(<em>5</em>88<em>000</em>)主力资金净流入1.<em>0</em>4亿元，居可比基金首位-2<em>0</em>26<em>0</em>714",
+      "date": "2026-07-14",
+      "summary": "<em>科创50ETF</em>华夏（588000.SH），场外联接(A类：011612；C类：011613；Y类：022945）。",
+      "url": "http://stock.eastmoney.com/a/202607143806216574.html"
+    },
+    {
+      "title": "<em>ETF</em>主力榜 | <em>科创50ETF</em>国泰(<em>5</em>8936<em>0</em>)主力资金净流入2<em>0</em>31.<em>50</em>万元，居可比基金前3-2<em>0</em>26<em>0</em>714",
+      "date": "2026-07-14",
+      "summary": "<em>科创50ETF</em>国泰（589360.SH），场外联接(A类：027675；C类：027676）。",
+      "url": "http://stock.eastmoney.com/a/202607143806216473.html"
+    }
+  ],
+  "concept_flow": {
+    "available": false,
+    "reason": "概念板块API异常: HTTPSConnectionPool(host='push2.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/clist/get?pn=1&pz=50&po=0&np=1&fltt=2&invt=2&fid=f62&fs=b%3ABK0615&fields=f3%2Cf12%2Cf14%2Cf62 (Caused by ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))"
+  },
+  "margin_data": {
+    "available": false,
+    "reason": "无融资融券数据"
+  }
+}

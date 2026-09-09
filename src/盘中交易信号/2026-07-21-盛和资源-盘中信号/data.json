@@ -1,0 +1,142 @@
+{
+  "target": {
+    "type": "个股",
+    "code": "600392",
+    "name": "盛和资源"
+  },
+  "analysis_time": "2026-07-21T10:24:57.931950",
+  "freshness": {
+    "phase": 2,
+    "phase_name": "早盘过渡(55min)",
+    "minutes_from_open": 54.66127766666667,
+    "freshness": {
+      "quote": 1.0,
+      "minute_flow": 1.0,
+      "sector": 0.8,
+      "news": 1.0,
+      "north_bound": 0.3,
+      "market": 1.0,
+      "breadth": 0.6
+    }
+  },
+  "quote": {
+    "name": "盛和资源",
+    "code": "600392",
+    "price": 20.29,
+    "prev_close": 19.81,
+    "open": 20.1,
+    "volume": 480675.0,
+    "high": 20.69,
+    "low": 19.6,
+    "change_pct": 2.42,
+    "turnover_pct": 2.74,
+    "amplitude": 5.5,
+    "vol_ratio": 2.32,
+    "amount": 97142.0,
+    "pe": 35.64,
+    "mcap": 355.65
+  },
+  "flow_summary": {
+    "total_main_net_wan": 0,
+    "total_super_net_wan": 0,
+    "total_large_net_wan": 0,
+    "total_mid_net_wan": 0,
+    "total_small_net_wan": 0,
+    "data_points": 1,
+    "first_time": "10:24",
+    "last_time": "10:24"
+  },
+  "flow_trend": {
+    "direction": "无数据",
+    "acceleration": "无数据",
+    "first_half_slope_wan_per_min": 0,
+    "second_half_slope_wan_per_min": 0
+  },
+  "parties": {
+    "scenario": "三方分歧，方向不明确",
+    "level": "⚪ 观望",
+    "main_direction": "空头占优"
+  },
+  "sector_sentiment": {
+    "sentiment_score": 24.0,
+    "level": "❄️ 极冷",
+    "inflow_blocks": 0,
+    "total_blocks": 6,
+    "avg_change_pct": -0.21,
+    "total_sector_flow_wan": -108643.5,
+    "all_sectors_count": 100,
+    "data_basis": "0/6板块流入, 合计-108644万, 平均涨跌-0.21%, 情绪分24.0"
+  },
+  "north_bound": {
+    "total_net_yi": 0,
+    "direction": "数据不可用",
+    "signal": "⚠️ 无数据",
+    "data_basis": "北向资金API暂不可用(同花顺DNS失败,东财无实时数据)",
+    "source": "无",
+    "status": "unavailable"
+  },
+  "market_strength": {
+    "benchmark": "上证指数",
+    "benchmark_change": -0.59,
+    "market_env": "🟠 大盘微跌",
+    "relative_strength": 3.01,
+    "relative_rating": "🚀 显著跑赢",
+    "market_detail": {
+      "上证指数": -0.59,
+      "深证成指": -0.03,
+      "创业板指": 0.23
+    },
+    "data_basis": "上证指数-0.59%, 个股+2.42%, 相对强弱+3.01%"
+  },
+  "market_breadth": {
+    "up_count": 0,
+    "down_count": 0,
+    "up_ratio_pct": 0.0,
+    "breadth_level": "⚠️ 数据缺失",
+    "breadth_score": 30,
+    "limit_up_count": 0,
+    "limit_down_count": 0,
+    "limit_ratio": 0,
+    "money_effect": "⚠️ 数据缺失",
+    "data_basis": "全市场涨0跌0(0.0%), 涨停0/跌停0, 赚钱效应:⚠️ 数据缺失",
+    "status": "partial"
+  },
+  "scenarios": [
+    {
+      "name": "情景B: 震荡横盘",
+      "probability": 34.0,
+      "met_count": 2,
+      "total_conditions": 5
+    },
+    {
+      "name": "情景D: 弱势下跌",
+      "probability": 32.0,
+      "met_count": 2,
+      "total_conditions": 6
+    },
+    {
+      "name": "情景A: 强势上涨",
+      "probability": 27.8,
+      "met_count": 3,
+      "total_conditions": 9
+    },
+    {
+      "name": "情景C: 冲高回落",
+      "probability": 6.2,
+      "met_count": 1,
+      "total_conditions": 5
+    }
+  ],
+  "signals": {
+    "main_net_wan": 0,
+    "inst_net_wan": 0,
+    "retail_net_wan": 0,
+    "sentiment_score": 24.0,
+    "change_pct": 2.42,
+    "turnover_pct": 2.74,
+    "vol_ratio": 2.32,
+    "acceleration": "无数据"
+  },
+  "overall_verdict": "总体中性: 主力+0万, 信号不明确。建议观望, 等待更清晰的信号。",
+  "minute_data": []
+}

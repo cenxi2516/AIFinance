@@ -1,0 +1,120 @@
+{
+  "target": {
+    "type": "个股",
+    "code": "000725",
+    "name": "京东方Ａ"
+  },
+  "analysis_time": "2026-07-15 10:58:55",
+  "freshness": {
+    "phase": 2,
+    "phase_name": "早盘过渡(88min)",
+    "minutes_from_open": 88,
+    "downgraded_count": 0,
+    "downgrade_details": []
+  },
+  "quote": {
+    "name": "京东方Ａ",
+    "code": "000725",
+    "price": 6.54,
+    "prev_close": 7.02,
+    "open": 6.97,
+    "volume": 16497201.0,
+    "high": 6.97,
+    "low": 6.48,
+    "change_pct": -6.84,
+    "turnover_pct": 4.66,
+    "amplitude": 6.98,
+    "vol_ratio": 1.31,
+    "amount": 1101090.0,
+    "pe": 40.72,
+    "mcap": 2422.7
+  },
+  "fund_flow_summary": {
+    "total_main_net": -3303270000.0,
+    "total_main_net_wan": -330327.0,
+    "total_super_net_wan": -148647.2,
+    "total_large_net_wan": -99098.1,
+    "total_mid_net_wan": -72671.9,
+    "total_small_net_wan": -109007.9,
+    "data_points": 1,
+    "first_time": "2026-07-15 10:58",
+    "last_time": "2026-07-15 10:58",
+    "source": "量价估算(push2 fflow不可用)"
+  },
+  "fund_flow_trend": {
+    "direction": "流出",
+    "acceleration": "量价推测(正常量下跌)",
+    "first_half_slope_wan_per_min": 0,
+    "second_half_slope_wan_per_min": -330327.00000000006,
+    "cum_sequence_wan": [
+      -330327.00000000006
+    ],
+    "turning_points": [],
+    "last_turn": null
+  },
+  "sector": {
+    "sentiment_score": 25.0,
+    "level": "🔵 偏冷",
+    "inflow_blocks": 0,
+    "total_blocks": 8,
+    "avg_change_pct": 0.0,
+    "total_sector_flow_wan": 0,
+    "data_basis": "0/8板块流入, 合计+0万, 平均涨跌+0.00%, 情绪分25.0"
+  },
+  "scenarios": [
+    {
+      "name": "情景D: 弱势下跌",
+      "probability": 50.3,
+      "met_count": 3
+    },
+    {
+      "name": "情景A: 强势上涨",
+      "probability": 35.9,
+      "met_count": 5
+    },
+    {
+      "name": "情景B: 震荡横盘",
+      "probability": 13.8,
+      "met_count": 1
+    },
+    {
+      "name": "情景C: 冲高回落",
+      "probability": 0.0,
+      "met_count": 0
+    }
+  ],
+  "signals": {
+    "buy_signals": [
+      {
+        "level": "⚪ 暂不建议买入",
+        "action": "继续观察, 等待资金面+情绪面+价格面共振信号"
+      }
+    ],
+    "sell_signals": [
+      {
+        "level": "🔴🔴 中等卖出参考",
+        "action": "建议逐步减仓, 至少减到半仓以下",
+        "risk_note": "机构流出148647万, 散户观望-181680万"
+      }
+    ],
+    "hold_verdict": {
+      "level": "⚠️ 审视持仓",
+      "reason": "风险情景概率较高(情景D: 弱势下跌 50%), 机构-148647万",
+      "watch_points": [
+        "触发止损条件则果断执行",
+        "等待企稳信号出现再考虑操作"
+      ]
+    },
+    "overall_verdict": "总体谨慎: 有卖出压力。机构-148647万, 散户-181680万。持有者应审视持仓, 未持有者建议等待。"
+  },
+  "minute_data": [
+    {
+      "time": "2026-07-15 10:58",
+      "main_net": -3303270000.0000005,
+      "super_net": -1486471500.0000002,
+      "large_net": -990981000.0000002,
+      "mid_net": -726719400.0000001,
+      "small_net": -1090079100.0000002
+    }
+  ]
+}

@@ -1,0 +1,631 @@
+{
+  "target": {
+    "type": "个股",
+    "code": "600219",
+    "name": "南山铝业"
+  },
+  "analysis_time": "2026-07-21T15:09:36.920146",
+  "freshness": {
+    "phase": 4,
+    "phase_name": "尾盘(339min)",
+    "minutes_from_open": 339.47605656666667,
+    "freshness": {
+      "quote": 1.0,
+      "minute_flow": 1.0,
+      "sector": 1.0,
+      "news": 1.0,
+      "north_bound": 1.0,
+      "market": 1.0,
+      "breadth": 1.0
+    }
+  },
+  "quote": {
+    "name": "南山铝业",
+    "code": "600219",
+    "price": 4.18,
+    "prev_close": 4.16,
+    "open": 4.12,
+    "volume": 2000098.0,
+    "high": 4.2,
+    "low": 4.11,
+    "change_pct": 0.48,
+    "turnover_pct": 1.74,
+    "amplitude": 2.16,
+    "vol_ratio": 0.98,
+    "amount": 83041.0,
+    "pe": 11.62,
+    "mcap": 480.02
+  },
+  "flow_summary": {
+    "total_main_net": 22712221.0,
+    "total_main_net_wan": 2271.2,
+    "total_super_net_wan": 1249.2,
+    "total_large_net_wan": 1022.0,
+    "total_mid_net_wan": 1362.7,
+    "total_small_net_wan": 908.5,
+    "data_points": 120,
+    "first_time": "202607211301",
+    "last_time": "202607211500",
+    "_source": "quant_estimate",
+    "_total_amount_wan": 0.0
+  },
+  "flow_trend": {
+    "direction": "买压占优",
+    "acceleration": "加速买入",
+    "first_half_slope_wan_per_min": 5.47,
+    "second_half_slope_wan_per_min": 32.38,
+    "cum_sequence_wan": [
+      0.0,
+      0.0,
+      -85.8,
+      152.5,
+      152.5,
+      236.4,
+      458.5,
+      383.2,
+      82.0,
+      42.3,
+      42.3,
+      -11.2,
+      -107.7,
+      -107.7,
+      -107.7,
+      57.8,
+      57.8,
+      194.8,
+      194.8,
+      194.8,
+      194.8,
+      440.3,
+      403.7,
+      403.7,
+      403.7,
+      579.9,
+      763.8,
+      584.9,
+      632.6,
+      588.4,
+      588.4,
+      519.8,
+      624.1,
+      569.4,
+      569.4,
+      726.3,
+      726.3,
+      726.3,
+      726.3,
+      815.9,
+      815.9,
+      815.9,
+      882.4,
+      882.4,
+      1041.6,
+      937.0,
+      1027.4,
+      916.4,
+      916.4,
+      916.4,
+      916.4,
+      916.4,
+      964.2,
+      609.7,
+      524.7,
+      433.8,
+      505.5,
+      505.5,
+      328.3,
+      328.3,
+      328.3,
+      328.3,
+      363.0,
+      416.3,
+      378.6,
+      378.6,
+      378.6,
+      378.6,
+      441.3,
+      693.7,
+      693.7,
+      623.8,
+      492.9,
+      492.9,
+      599.3,
+      599.3,
+      530.5,
+      417.1,
+      417.1,
+      319.2,
+      319.2,
+      276.6,
+      276.6,
+      276.6,
+      299.7,
+      299.7,
+      299.7,
+      299.7,
+      299.7,
+      243.0,
+      243.0,
+      243.0,
+      243.0,
+      243.0,
+      243.0,
+      989.8,
+      948.1,
+      1248.2,
+      1248.2,
+      1308.6,
+      1357.6,
+      1357.6,
+      1477.0,
+      1857.2,
+      1857.2,
+      1667.5,
+      1667.5,
+      1667.5,
+      1667.5,
+      1667.5,
+      1667.5,
+      1830.1,
+      1830.1,
+      1830.1,
+      1830.1,
+      2041.7,
+      1766.1,
+      1766.1,
+      1766.1,
+      2271.2
+    ],
+    "last_turn": null,
+    "_source": "quant_estimate"
+  },
+  "parties": {
+    "scenario": "大小单合力买入 → 共识强(量化推断)",
+    "level": "🟡 中性偏多",
+    "main_direction": "多头占优"
+  },
+  "sector_sentiment": {
+    "sentiment_score": 50,
+    "level": "🟡 中性",
+    "inflow_blocks": 0,
+    "total_blocks": 6,
+    "avg_change_pct": 0,
+    "total_sector_flow_wan": 0,
+    "all_sectors_count": 0,
+    "data_basis": "⚠️ 东财板块API不可用, 使用中性默认值50分",
+    "api_status": "unavailable"
+  },
+  "north_bound": {
+    "total_net_yi": 0,
+    "direction": "数据不可用",
+    "signal": "⚠️ 无数据",
+    "data_basis": "北向资金API暂不可用",
+    "source": "无",
+    "status": "unavailable"
+  },
+  "market_strength": {
+    "benchmark": "上证指数",
+    "benchmark_change": 1.79,
+    "market_env": "🟢 大盘强势",
+    "relative_strength": -1.31,
+    "relative_rating": "⚠️ 跑输大盘",
+    "market_detail": {
+      "上证指数": 1.79,
+      "深证成指": 4.81,
+      "创业板指": 7.05
+    },
+    "data_basis": "上证指数+1.79%, 个股+0.48%, 相对强弱-1.31%"
+  },
+  "market_breadth": {
+    "up_count": 0,
+    "down_count": 0,
+    "up_ratio_pct": 50,
+    "breadth_level": "⚠️ 数据不可用",
+    "breadth_score": 50,
+    "limit_up_count": 0,
+    "limit_down_count": 0,
+    "limit_ratio": 1.0,
+    "money_effect": "⚠️ 数据不可用",
+    "data_basis": "全市场涨0跌0(50.0%), 涨停0/跌停0, 赚钱效应:⚠️ 数据不可用",
+    "status": "unavailable"
+  },
+  "scenarios": [
+    {
+      "name": "情景B: 震荡横盘",
+      "probability": 73.7,
+      "met_count": 4,
+      "total_conditions": 5
+    },
+    {
+      "name": "情景A: 强势上涨",
+      "probability": 15.8,
+      "met_count": 2,
+      "total_conditions": 9
+    },
+    {
+      "name": "情景C: 冲高回落",
+      "probability": 10.5,
+      "met_count": 1,
+      "total_conditions": 5
+    },
+    {
+      "name": "情景D: 弱势下跌",
+      "probability": 0.0,
+      "met_count": 0,
+      "total_conditions": 6
+    }
+  ],
+  "signals": {
+    "main_net_wan": 2271.2,
+    "inst_net_wan": 1249.2,
+    "retail_net_wan": 2271.2,
+    "sentiment_score": 50,
+    "change_pct": 0.48,
+    "turnover_pct": 1.74,
+    "vol_ratio": 0.98,
+    "acceleration": "加速买入"
+  },
+  "overall_verdict": "总体中性偏多: 主力+2271万。可小仓试探, 严格止损。",
+  "minute_data": [
+    {
+      "time": "202607211401",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211402",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211403",
+      "main_net": 347558.0,
+      "super_net": 191157.0,
+      "large_net": 156401.0
+    },
+    {
+      "time": "202607211404",
+      "main_net": 532632.0,
+      "super_net": 292948.0,
+      "large_net": 239685.0
+    },
+    {
+      "time": "202607211405",
+      "main_net": -376573.0,
+      "super_net": -207115.0,
+      "large_net": -169458.0
+    },
+    {
+      "time": "202607211406",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211407",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211408",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211409",
+      "main_net": 626931.0,
+      "super_net": 344812.0,
+      "large_net": 282119.0
+    },
+    {
+      "time": "202607211410",
+      "main_net": 2523955.0,
+      "super_net": 1388175.0,
+      "large_net": 1135780.0
+    },
+    {
+      "time": "202607211411",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211412",
+      "main_net": -699702.0,
+      "super_net": -384836.0,
+      "large_net": -314866.0
+    },
+    {
+      "time": "202607211413",
+      "main_net": -1308288.0,
+      "super_net": -719558.0,
+      "large_net": -588729.0
+    },
+    {
+      "time": "202607211414",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211415",
+      "main_net": 1063472.0,
+      "super_net": 584910.0,
+      "large_net": 478563.0
+    },
+    {
+      "time": "202607211416",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211417",
+      "main_net": -688068.0,
+      "super_net": -378437.0,
+      "large_net": -309631.0
+    },
+    {
+      "time": "202607211418",
+      "main_net": -1133484.0,
+      "super_net": -623416.0,
+      "large_net": -510068.0
+    },
+    {
+      "time": "202607211419",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211420",
+      "main_net": -978775.0,
+      "super_net": -538326.0,
+      "large_net": -440449.0
+    },
+    {
+      "time": "202607211421",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211422",
+      "main_net": -426095.0,
+      "super_net": -234352.0,
+      "large_net": -191743.0
+    },
+    {
+      "time": "202607211423",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211424",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211425",
+      "main_net": 230187.0,
+      "super_net": 126603.0,
+      "large_net": 103584.0
+    },
+    {
+      "time": "202607211426",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211427",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211428",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211429",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211430",
+      "main_net": -566534.0,
+      "super_net": -311594.0,
+      "large_net": -254940.0
+    },
+    {
+      "time": "202607211431",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211432",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211433",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211434",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211435",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211436",
+      "main_net": 7468197.0,
+      "super_net": 4107508.0,
+      "large_net": 3360689.0
+    },
+    {
+      "time": "202607211437",
+      "main_net": -416954.0,
+      "super_net": -229325.0,
+      "large_net": -187629.0
+    },
+    {
+      "time": "202607211438",
+      "main_net": 3000949.0,
+      "super_net": 1650522.0,
+      "large_net": 1350427.0
+    },
+    {
+      "time": "202607211439",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211440",
+      "main_net": 604133.0,
+      "super_net": 332273.0,
+      "large_net": 271860.0
+    },
+    {
+      "time": "202607211441",
+      "main_net": 489804.0,
+      "super_net": 269392.0,
+      "large_net": 220412.0
+    },
+    {
+      "time": "202607211442",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211443",
+      "main_net": 1193481.0,
+      "super_net": 656414.0,
+      "large_net": 537066.0
+    },
+    {
+      "time": "202607211444",
+      "main_net": 3802228.0,
+      "super_net": 2091226.0,
+      "large_net": 1711003.0
+    },
+    {
+      "time": "202607211445",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211446",
+      "main_net": -1897142.0,
+      "super_net": -1043428.0,
+      "large_net": -853714.0
+    },
+    {
+      "time": "202607211447",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211448",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211449",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211450",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211451",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211452",
+      "main_net": 1626371.0,
+      "super_net": 894504.0,
+      "large_net": 731867.0
+    },
+    {
+      "time": "202607211453",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211454",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211455",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211456",
+      "main_net": 2115681.0,
+      "super_net": 1163625.0,
+      "large_net": 952057.0
+    },
+    {
+      "time": "202607211457",
+      "main_net": -2756126.0,
+      "super_net": -1515869.0,
+      "large_net": -1240257.0
+    },
+    {
+      "time": "202607211458",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211459",
+      "main_net": 0.0,
+      "super_net": 0.0,
+      "large_net": 0.0
+    },
+    {
+      "time": "202607211500",
+      "main_net": 5051541.0,
+      "super_net": 2778348.0,
+      "large_net": 2273194.0
+    }
+  ]
+}

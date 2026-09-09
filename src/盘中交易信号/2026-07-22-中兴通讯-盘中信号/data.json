@@ -1,0 +1,1055 @@
+{
+  "target": {
+    "code": "000063",
+    "name": "中兴通讯"
+  },
+  "analysis_time": "2026-07-22T14:58:18.380396",
+  "quote": {
+    "name": "中兴通讯",
+    "code": "000063",
+    "price": 37.5,
+    "prev_close": 34.88,
+    "open": 34.25,
+    "volume": 4797813.0,
+    "high": 38.37,
+    "low": 34.11,
+    "change_pct": 7.51,
+    "turnover_pct": 11.91,
+    "amplitude": 12.21,
+    "vol_ratio": 1.58,
+    "amount": 1788336.0,
+    "pe": 40.09,
+    "mcap": 1793.83
+  },
+  "fund_flow_summary": {
+    "total_main_net": 3186105555.0,
+    "total_main_net_wan": 318610.6,
+    "total_super_net_wan": 340994.1,
+    "total_large_net_wan": -22383.5,
+    "total_mid_net_wan": -156420.5,
+    "total_small_net_wan": -162190.0,
+    "data_points": 100,
+    "first_time": "2026-07-22 13:18",
+    "last_time": "2026-07-22 14:57"
+  },
+  "fund_flow_trend": {
+    "direction": "流入",
+    "acceleration": "加速流出",
+    "first_half_slope_wan_per_min": -67.83,
+    "second_half_slope_wan_per_min": -109.98,
+    "cum_sequence_wan": [
+      328026.9,
+      327986.2,
+      328838.7,
+      328799.0,
+      327955.2,
+      327571.4,
+      326039.7,
+      326262.1,
+      326195.4,
+      325645.1,
+      325861.1,
+      325745.2,
+      326124.6,
+      326075.8,
+      324798.5,
+      323256.0,
+      323192.5,
+      322134.0,
+      323003.3,
+      323688.4,
+      323925.6,
+      323221.2,
+      323404.1,
+      323416.9,
+      323382.9,
+      323738.8,
+      323906.4,
+      324152.4,
+      324075.7,
+      323814.4,
+      324462.1,
+      324087.8,
+      323948.5,
+      323991.1,
+      323849.3,
+      323874.5,
+      323794.8,
+      323545.3,
+      323141.8,
+      322606.3,
+      322061.7,
+      321803.8,
+      321640.6,
+      321911.7,
+      322353.8,
+      321969.3,
+      322792.8,
+      323410.1,
+      324117.5,
+      324635.2,
+      324109.5,
+      323776.1,
+      323317.6,
+      322657.9,
+      321864.2,
+      321411.6,
+      320891.3,
+      320528.1,
+      320560.0,
+      320717.9,
+      320908.0,
+      321400.4,
+      321387.5,
+      320965.3,
+      321845.6,
+      322047.2,
+      324572.1,
+      324998.9,
+      324925.3,
+      324963.5,
+      324793.5,
+      324543.6,
+      324661.1,
+      324311.1,
+      323731.5,
+      323696.0,
+      323409.6,
+      323130.6,
+      323085.4,
+      322972.6,
+      322740.9,
+      322341.5,
+      322162.6,
+      321949.8,
+      321967.3,
+      321805.6,
+      321926.9,
+      322143.6,
+      321910.3,
+      321531.9,
+      320983.0,
+      320097.9,
+      320327.2,
+      320335.5,
+      320525.5,
+      319801.6,
+      319071.3,
+      319101.8,
+      318195.8,
+      318610.6
+    ],
+    "turning_points": [],
+    "last_turn": null
+  },
+  "parties": {
+    "institution": {
+      "net_wan": 340994.1,
+      "direction": "流入",
+      "share_pct": 50.0,
+      "rate_per_min_wan": 3409.94
+    },
+    "hot_money": {
+      "net_wan": -22383.5,
+      "direction": "流出",
+      "share_pct": 3.3,
+      "rate_per_min_wan": -223.84
+    },
+    "retail": {
+      "net_wan": -318610.5,
+      "direction": "流出",
+      "share_pct": 46.7,
+      "rate_per_min_wan": -3186.11
+    },
+    "verdict": {
+      "scenario": "机构独力做多340994万，游资-22384万+散户-318610万不跟 → 孤军深入，持续性存疑",
+      "level": "🟡 中性",
+      "main_direction": "多头占优"
+    },
+    "data_basis": {
+      "data_points": 100,
+      "time_range": "2026-07-22 13:18 → 2026-07-22 14:57",
+      "source": "东方财富 push2 分钟级资金流 API"
+    }
+  },
+  "sector_sentiment": {
+    "blocks": [
+      {
+        "code": "BK0448",
+        "name": "通信设备",
+        "change_pct": -1.19,
+        "main_net_wan": 0,
+        "direction": "未知",
+        "up_count": 0,
+        "down_count": 0
+      },
+      {
+        "code": "BK1215",
+        "name": "通信",
+        "change_pct": -0.87,
+        "main_net_wan": 0,
+        "direction": "未知",
+        "up_count": 0,
+        "down_count": 0
+      },
+      {
+        "code": "BK1591",
+        "name": "通信网络设备及器件",
+        "change_pct": -1.39,
+        "main_net_wan": 0,
+        "direction": "未知",
+        "up_count": 0,
+        "down_count": 0
+      },
+      {
+        "code": "BK0153",
+        "name": "广东板块",
+        "change_pct": -1.1,
+        "main_net_wan": 0,
+        "direction": "未知",
+        "up_count": 0,
+        "down_count": 0
+      },
+      {
+        "code": "BK0860",
+        "name": "边缘计算",
+        "change_pct": -0.52,
+        "main_net_wan": 0,
+        "direction": "未知",
+        "up_count": 0,
+        "down_count": 0
+      },
+      {
+        "code": "BK0859",
+        "name": "超清视频",
+        "change_pct": -1.48,
+        "main_net_wan": 0,
+        "direction": "未知",
+        "up_count": 0,
+        "down_count": 0
+      },
+      {
+        "code": "BK0832",
+        "name": "工业互联",
+        "change_pct": -1.4,
+        "main_net_wan": 0,
+        "direction": "未知",
+        "up_count": 0,
+        "down_count": 0
+      },
+      {
+        "code": "BK0821",
+        "name": "MSCI中国",
+        "change_pct": -0.07,
+        "main_net_wan": 0,
+        "direction": "未知",
+        "up_count": 0,
+        "down_count": 0
+      }
+    ],
+    "sentiment_score": 20.0,
+    "level": "❄️ 极冷",
+    "inflow_blocks": 0,
+    "total_blocks": 8,
+    "avg_change_pct": -1.0,
+    "total_sector_flow_wan": 0,
+    "data_basis": "0/8板块流入, 板块合计资金+0万, 平均涨跌-1.00%, 情绪分20.0",
+    "source": "东财 push2 slist(板块归属) + clist m:90+t:3(板块资金流)"
+  },
+  "scenarios": [
+    {
+      "name": "情景C: 冲高回落",
+      "description": "高位+资金转向/顶背离/机构派发 → 当日剩余时段警惕回落风险",
+      "raw_score": 90,
+      "conditions": [
+        {
+          "condition": "已涨>3%且资金流转向",
+          "threshold": "涨>3%+资金减缓/流出",
+          "actual": "涨+7.51%, 趋势:加速流出",
+          "met": true,
+          "weight": 30,
+          "original_weight": 30,
+          "dimension": "minute_flow",
+          "freshness_status": "ready",
+          "freshness_reason": "尾盘异动监测权重+20%"
+        },
+        {
+          "condition": "出现顶背离(资金衰竭)",
+          "threshold": "顶背离信号",
+          "actual": "顶背离(资金衰竭)",
+          "met": true,
+          "weight": 25,
+          "original_weight": 25,
+          "dimension": "minute_flow",
+          "freshness_status": "ready",
+          "freshness_reason": "尾盘异动监测权重+20%"
+        },
+        {
+          "condition": "机构流出>100万+散户流入>200万(派发)",
+          "threshold": "机构<-100万,散户>+200万",
+          "actual": "机构+340994万,散户-318610万",
+          "met": false,
+          "weight": 25,
+          "original_weight": 25,
+          "dimension": "minute_flow",
+          "freshness_status": "ready",
+          "freshness_reason": "尾盘异动监测权重+20%"
+        },
+        {
+          "condition": "换手率>10%(异常活跃)",
+          "threshold": ">10%",
+          "actual": "11.91%",
+          "met": true,
+          "weight": 15,
+          "original_weight": 15,
+          "dimension": "quote",
+          "freshness_status": "ready",
+          "freshness_reason": "尾盘正常"
+        },
+        {
+          "condition": "北向资金流出(<-2亿)",
+          "threshold": "北向<-2亿",
+          "actual": "北向+0.00亿",
+          "met": false,
+          "weight": 10,
+          "original_weight": 10,
+          "dimension": "north_bound",
+          "freshness_status": "ready",
+          "freshness_reason": "正常"
+        },
+        {
+          "condition": "个股高位+大盘走弱(逆势难持续)",
+          "threshold": "涨>2%+相对强度>1%+大盘弱势",
+          "actual": "涨+7.51%, 大盘-1.48%",
+          "met": true,
+          "weight": 10,
+          "original_weight": 10,
+          "dimension": "market",
+          "freshness_status": "ready",
+          "freshness_reason": "正常"
+        },
+        {
+          "condition": "赚钱效应转弱",
+          "threshold": "涨跌停比<1.5或有亏钱效应",
+          "actual": "涨跌停比0.0, 💀 强亏钱效应",
+          "met": true,
+          "weight": 10,
+          "original_weight": 10,
+          "dimension": "breadth",
+          "freshness_status": "ready",
+          "freshness_reason": "正常"
+        }
+      ],
+      "met_count": 5,
+      "total_conditions": 7,
+      "historical_ref": {
+        "rule": "涨超3%+资金转流出+机构vs散户反向 → 午后回落概率较高",
+        "historical_win_rate": "约55-65%",
+        "source": "基于A股日内资金流-价格关系统计"
+      },
+      "failure_conditions": [
+        "超预期利好",
+        "板块集体暴动(涨停潮)"
+      ],
+      "probability": 39.3
+    },
+    {
+      "name": "情景A: 强势上涨",
+      "description": "主力持续流入+机构主导+板块共振+量能配合 → 当日剩余时段大概率继续走强",
+      "raw_score": 69,
+      "conditions": [
+        {
+          "condition": "主力净流入>500万",
+          "threshold": ">500万",
+          "actual": "+318611万",
+          "met": true,
+          "weight": 25,
+          "original_weight": 25,
+          "dimension": "minute_flow",
+          "freshness_status": "ready",
+          "freshness_reason": "尾盘异动监测权重+20%"
+        },
+        {
+          "condition": "机构主导(净流入>200万且>游资+散户)",
+          "threshold": "机构>200万且最大",
+          "actual": "机构+340994万, 游资-22384万, 散户-318610万",
+          "met": true,
+          "weight": 20,
+          "original_weight": 20,
+          "dimension": "minute_flow",
+          "freshness_status": "ready",
+          "freshness_reason": "尾盘异动监测权重+20%"
+        },
+        {
+          "condition": "板块情绪分≥60",
+          "threshold": "≥60",
+          "actual": "20分 (0/8板块流入)",
+          "met": false,
+          "weight": 15,
+          "original_weight": 15,
+          "dimension": "sector",
+          "freshness_status": "ready",
+          "freshness_reason": "正常"
+        },
+        {
+          "condition": "量能配合(量比1.2~5, 换手<15%)",
+          "threshold": "量比1.2-5, 换手<15%",
+          "actual": "量比1.58, 换手11.91%",
+          "met": true,
+          "weight": 15,
+          "original_weight": 15,
+          "dimension": "quote",
+          "freshness_status": "ready",
+          "freshness_reason": "尾盘正常"
+        },
+        {
+          "condition": "无顶背离信号",
+          "threshold": "无顶背离",
+          "actual": "背离: 有(顶背离(资金衰竭))",
+          "met": false,
+          "weight": 15,
+          "original_weight": 15,
+          "dimension": "minute_flow",
+          "freshness_status": "ready",
+          "freshness_reason": "尾盘异动监测权重+20%"
+        },
+        {
+          "condition": "资金加速流入",
+          "threshold": "后半段斜率>前半段×1.5",
+          "actual": "前半段-67.83万/分 → 后半段-109.98万/分",
+          "met": false,
+          "weight": 10,
+          "original_weight": 10,
+          "dimension": "minute_flow",
+          "freshness_status": "ready",
+          "freshness_reason": "尾盘异动监测权重+20%"
+        },
+        {
+          "condition": "北向资金不拖累",
+          "threshold": "北向不大幅流出",
+          "actual": "北向+0.00亿",
+          "met": true,
+          "weight": 10,
+          "original_weight": 10,
+          "dimension": "north_bound",
+          "freshness_status": "ready",
+          "freshness_reason": "正常"
+        },
+        {
+          "condition": "大盘配合+个股跑赢",
+          "threshold": "相对强度>1%且大盘非弱势",
+          "actual": "🔴 大盘弱势, 相对强度+8.99%",
+          "met": false,
+          "weight": 5,
+          "original_weight": 5,
+          "dimension": "market",
+          "freshness_status": "ready",
+          "freshness_reason": "正常"
+        },
+        {
+          "condition": "市场广度不差(上涨>45%)",
+          "threshold": "上涨占比≥45%",
+          "actual": "涨0%, 💀 强亏钱效应(⚠️扣分)",
+          "met": false,
+          "weight": 5,
+          "original_weight": 5,
+          "dimension": "breadth",
+          "freshness_status": "ready",
+          "freshness_reason": "正常"
+        },
+        {
+          "condition": "量能参考(量比≥0.8+换手≥0.5%)",
+          "threshold": "量比≥0.8,换手≥0.5%",
+          "actual": "量比1.58,换手11.91%",
+          "met": true,
+          "weight": 2,
+          "original_weight": 2,
+          "dimension": "quote",
+          "freshness_status": "ready",
+          "freshness_reason": "尾盘正常"
+        }
+      ],
+      "met_count": 5,
+      "total_conditions": 10,
+      "resonance_dims": 4,
+      "historical_ref": {
+        "rule": "机构主导+板块共振+量能配合 → 当日继续走强",
+        "historical_win_rate": "约65-70%",
+        "source": "基于2024-2025年A股日内资金流统计规律"
+      },
+      "failure_conditions": [
+        "午后机构资金转流出",
+        "板块情绪急转直下(骤降>20分)",
+        "突发重大利空"
+      ],
+      "probability": 30.1
+    },
+    {
+      "name": "情景D: 弱势下跌",
+      "description": "主力持续流出+板块冷+加速流出 → 当日剩余时段大概率继续走弱",
+      "raw_score": 60,
+      "conditions": [
+        {
+          "condition": "主力净流出>500万",
+          "threshold": "<-500万",
+          "actual": "+318611万",
+          "met": false,
+          "weight": 30,
+          "original_weight": 30,
+          "dimension": "minute_flow",
+          "freshness_status": "ready",
+          "freshness_reason": "尾盘异动监测权重+20%"
+        },
+        {
+          "condition": "板块情绪<40(偏冷)",
+          "threshold": "<40",
+          "actual": "20分",
+          "met": true,
+          "weight": 25,
+          "original_weight": 25,
+          "dimension": "sector",
+          "freshness_status": "ready",
+          "freshness_reason": "正常"
+        },
+        {
+          "condition": "资金加速流出",
+          "threshold": "后半段斜率<前半段×0.3且<0",
+          "actual": "前半段-67.83万/分 → 后半段-109.98万/分",
+          "met": true,
+          "weight": 25,
+          "original_weight": 25,
+          "dimension": "minute_flow",
+          "freshness_status": "ready",
+          "freshness_reason": "尾盘异动监测权重+20%"
+        },
+        {
+          "condition": "有利空消息",
+          "threshold": "利空>0条",
+          "actual": "无",
+          "met": false,
+          "weight": 15,
+          "original_weight": 15,
+          "dimension": "news",
+          "freshness_status": "ready",
+          "freshness_reason": "全天更新"
+        },
+        {
+          "condition": "北向大幅流出(<-5亿)",
+          "threshold": "北向<-5亿",
+          "actual": "北向+0.00亿",
+          "met": false,
+          "weight": 10,
+          "original_weight": 10,
+          "dimension": "north_bound",
+          "freshness_status": "ready",
+          "freshness_reason": "正常"
+        },
+        {
+          "condition": "大盘弱势+个股跑输",
+          "threshold": "大盘弱势+相对强度<-0.5%",
+          "actual": "🔴 大盘弱势, 相对+8.99%",
+          "met": false,
+          "weight": 10,
+          "original_weight": 10,
+          "dimension": "market",
+          "freshness_status": "ready",
+          "freshness_reason": "正常"
+        },
+        {
+          "condition": "市场普跌(上涨<35%或涨跌停比<0.8)",
+          "threshold": "上涨<35%或涨跌停比<0.8",
+          "actual": "涨0%, 涨跌停比0.0, 💀 强亏钱效应",
+          "met": true,
+          "weight": 10,
+          "original_weight": 10,
+          "dimension": "breadth",
+          "freshness_status": "ready",
+          "freshness_reason": "正常"
+        }
+      ],
+      "met_count": 3,
+      "total_conditions": 7,
+      "resonance_dims": 2,
+      "historical_ref": {
+        "rule": "主力持续流出+板块情绪<40 → 当日收阴概率较高",
+        "historical_win_rate": "约60-70%",
+        "source": "基于A股日内资金流-板块情绪联合统计"
+      },
+      "failure_conditions": [
+        "午后重大利好",
+        "国家队护盘资金入场"
+      ],
+      "probability": 26.2
+    },
+    {
+      "name": "情景B: 震荡横盘",
+      "description": "资金方向不明+振幅小+情绪中性+无催化 → 当日剩余时段大概率窄幅震荡",
+      "raw_score": 10,
+      "conditions": [
+        {
+          "condition": "主力净流入<300万(无方向)",
+          "threshold": "绝对值<300万",
+          "actual": "+318611万",
+          "met": false,
+          "weight": 30,
+          "original_weight": 30,
+          "dimension": "minute_flow",
+          "freshness_status": "ready",
+          "freshness_reason": "尾盘异动监测权重+20%"
+        },
+        {
+          "condition": "振幅<3%(窄幅波动)",
+          "threshold": "<3%",
+          "actual": "12.21%",
+          "met": false,
+          "weight": 25,
+          "original_weight": 25,
+          "dimension": "quote",
+          "freshness_status": "ready",
+          "freshness_reason": "尾盘正常"
+        },
+        {
+          "condition": "板块情绪35~65(中性)",
+          "threshold": "35-65",
+          "actual": "20分",
+          "met": false,
+          "weight": 25,
+          "original_weight": 25,
+          "dimension": "sector",
+          "freshness_status": "ready",
+          "freshness_reason": "正常"
+        },
+        {
+          "condition": "无明确消息催化",
+          "threshold": "0条今日新闻",
+          "actual": "利好2/利空0",
+          "met": false,
+          "weight": 15,
+          "original_weight": 15,
+          "dimension": "news",
+          "freshness_status": "ready",
+          "freshness_reason": "全天更新"
+        },
+        {
+          "condition": "北向资金无明显方向(±3亿内)",
+          "threshold": "|北向|<3亿",
+          "actual": "北向+0.00亿",
+          "met": true,
+          "weight": 10,
+          "original_weight": 10,
+          "dimension": "north_bound",
+          "freshness_status": "ready",
+          "freshness_reason": "正常"
+        },
+        {
+          "condition": "大盘+个股均中性波动",
+          "threshold": "|相对强度|<1.5%,|大盘|<1%",
+          "actual": "大盘-1.48%, 相对+8.99%",
+          "met": false,
+          "weight": 10,
+          "original_weight": 10,
+          "dimension": "market",
+          "freshness_status": "ready",
+          "freshness_reason": "正常"
+        },
+        {
+          "condition": "市场广度中性(涨40-60%,涨跌停比0.8-2)",
+          "threshold": "涨40-60%,涨跌停比0.8-2",
+          "actual": "涨0%, 涨跌停比0.0",
+          "met": false,
+          "weight": 10,
+          "original_weight": 10,
+          "dimension": "breadth",
+          "freshness_status": "ready",
+          "freshness_reason": "正常"
+        }
+      ],
+      "met_count": 1,
+      "total_conditions": 7,
+      "historical_ref": {
+        "rule": "主力资金无明显方向+振幅<3% → 后续2小时横盘概率较高",
+        "historical_win_rate": "约55-60%",
+        "source": "基于A股日内波动统计规律"
+      },
+      "failure_conditions": [
+        "突发消息催化",
+        "大单资金突然涌入/涌出"
+      ],
+      "probability": 4.4
+    }
+  ],
+  "signals_data_summary": {
+    "main_net_wan": 318610.6,
+    "inst_net_wan": 340994.1,
+    "retail_net_wan": -318610.5,
+    "sentiment_score": 20.0,
+    "change_pct": 7.51,
+    "turnover_pct": 11.91,
+    "vol_ratio": 1.58,
+    "acceleration": "加速流出",
+    "data_points": 100,
+    "analysis_time": "2026-07-22 14:59:44"
+  },
+  "minute_data": [
+    {
+      "time": "2026-07-22 13:58",
+      "main_net": 3220616970.0,
+      "super_net": 3378234632.0,
+      "large_net": -157617662.0
+    },
+    {
+      "time": "2026-07-22 13:59",
+      "main_net": 3218037767.0,
+      "super_net": 3376312599.0,
+      "large_net": -158274832.0
+    },
+    {
+      "time": "2026-07-22 14:00",
+      "main_net": 3216406458.0,
+      "super_net": 3372972555.0,
+      "large_net": -156566097.0
+    },
+    {
+      "time": "2026-07-22 14:01",
+      "main_net": 3219116819.0,
+      "super_net": 3375681162.0,
+      "large_net": -156564343.0
+    },
+    {
+      "time": "2026-07-22 14:02",
+      "main_net": 3223538241.0,
+      "super_net": 3379009950.0,
+      "large_net": -155471709.0
+    },
+    {
+      "time": "2026-07-22 14:03",
+      "main_net": 3219693016.0,
+      "super_net": 3377915775.0,
+      "large_net": -158222759.0
+    },
+    {
+      "time": "2026-07-22 14:04",
+      "main_net": 3227927991.0,
+      "super_net": 3382300066.0,
+      "large_net": -154372075.0
+    },
+    {
+      "time": "2026-07-22 14:05",
+      "main_net": 3234101389.0,
+      "super_net": 3391711714.0,
+      "large_net": -157610325.0
+    },
+    {
+      "time": "2026-07-22 14:06",
+      "main_net": 3241174810.0,
+      "super_net": 3397712369.0,
+      "large_net": -156537559.0
+    },
+    {
+      "time": "2026-07-22 14:07",
+      "main_net": 3246351999.0,
+      "super_net": 3406652785.0,
+      "large_net": -160300786.0
+    },
+    {
+      "time": "2026-07-22 14:08",
+      "main_net": 3241094941.0,
+      "super_net": 3405519489.0,
+      "large_net": -164424548.0
+    },
+    {
+      "time": "2026-07-22 14:09",
+      "main_net": 3237760502.0,
+      "super_net": 3409244118.0,
+      "large_net": -171483616.0
+    },
+    {
+      "time": "2026-07-22 14:10",
+      "main_net": 3233176443.0,
+      "super_net": 3405206968.0,
+      "large_net": -172030525.0
+    },
+    {
+      "time": "2026-07-22 14:11",
+      "main_net": 3226579112.0,
+      "super_net": 3399698763.0,
+      "large_net": -173119651.0
+    },
+    {
+      "time": "2026-07-22 14:12",
+      "main_net": 3218641544.0,
+      "super_net": 3400603220.0,
+      "large_net": -181961676.0
+    },
+    {
+      "time": "2026-07-22 14:13",
+      "main_net": 3214115561.0,
+      "super_net": 3400693543.0,
+      "large_net": -186577982.0
+    },
+    {
+      "time": "2026-07-22 14:14",
+      "main_net": 3208912669.0,
+      "super_net": 3400180889.0,
+      "large_net": -191268220.0
+    },
+    {
+      "time": "2026-07-22 14:15",
+      "main_net": 3205280678.0,
+      "super_net": 3396668014.0,
+      "large_net": -191387336.0
+    },
+    {
+      "time": "2026-07-22 14:16",
+      "main_net": 3205599551.0,
+      "super_net": 3398191817.0,
+      "large_net": -192592266.0
+    },
+    {
+      "time": "2026-07-22 14:17",
+      "main_net": 3207179113.0,
+      "super_net": 3395479731.0,
+      "large_net": -188300618.0
+    },
+    {
+      "time": "2026-07-22 14:18",
+      "main_net": 3209079556.0,
+      "super_net": 3397609285.0,
+      "large_net": -188529729.0
+    },
+    {
+      "time": "2026-07-22 14:19",
+      "main_net": 3214004178.0,
+      "super_net": 3398600251.0,
+      "large_net": -184596073.0
+    },
+    {
+      "time": "2026-07-22 14:20",
+      "main_net": 3213874784.0,
+      "super_net": 3401072392.0,
+      "large_net": -187197608.0
+    },
+    {
+      "time": "2026-07-22 14:21",
+      "main_net": 3209653079.0,
+      "super_net": 3391027378.0,
+      "large_net": -181374299.0
+    },
+    {
+      "time": "2026-07-22 14:22",
+      "main_net": 3218456494.0,
+      "super_net": 3399687062.0,
+      "large_net": -181230568.0
+    },
+    {
+      "time": "2026-07-22 14:23",
+      "main_net": 3220472407.0,
+      "super_net": 3402267355.0,
+      "large_net": -181794948.0
+    },
+    {
+      "time": "2026-07-22 14:24",
+      "main_net": 3245721470.0,
+      "super_net": 3431807940.0,
+      "large_net": -186086470.0
+    },
+    {
+      "time": "2026-07-22 14:25",
+      "main_net": 3249988575.0,
+      "super_net": 3436596095.0,
+      "large_net": -186607520.0
+    },
+    {
+      "time": "2026-07-22 14:26",
+      "main_net": 3249253392.0,
+      "super_net": 3438194495.0,
+      "large_net": -188941103.0
+    },
+    {
+      "time": "2026-07-22 14:27",
+      "main_net": 3249635389.0,
+      "super_net": 3436482868.0,
+      "large_net": -186847479.0
+    },
+    {
+      "time": "2026-07-22 14:28",
+      "main_net": 3247935208.0,
+      "super_net": 3434896948.0,
+      "large_net": -186961740.0
+    },
+    {
+      "time": "2026-07-22 14:29",
+      "main_net": 3245435671.0,
+      "super_net": 3433256563.0,
+      "large_net": -187820892.0
+    },
+    {
+      "time": "2026-07-22 14:30",
+      "main_net": 3246610866.0,
+      "super_net": 3433256563.0,
+      "large_net": -186645697.0
+    },
+    {
+      "time": "2026-07-22 14:31",
+      "main_net": 3243110775.0,
+      "super_net": 3432602293.0,
+      "large_net": -189491518.0
+    },
+    {
+      "time": "2026-07-22 14:32",
+      "main_net": 3237314617.0,
+      "super_net": 3432349150.0,
+      "large_net": -195034533.0
+    },
+    {
+      "time": "2026-07-22 14:33",
+      "main_net": 3236960307.0,
+      "super_net": 3432696870.0,
+      "large_net": -195736563.0
+    },
+    {
+      "time": "2026-07-22 14:34",
+      "main_net": 3234096436.0,
+      "super_net": 3430993395.0,
+      "large_net": -196896959.0
+    },
+    {
+      "time": "2026-07-22 14:35",
+      "main_net": 3231305882.0,
+      "super_net": 3430993395.0,
+      "large_net": -199687513.0
+    },
+    {
+      "time": "2026-07-22 14:36",
+      "main_net": 3230854076.0,
+      "super_net": 3430993395.0,
+      "large_net": -200139319.0
+    },
+    {
+      "time": "2026-07-22 14:37",
+      "main_net": 3229725672.0,
+      "super_net": 3430993395.0,
+      "large_net": -201267723.0
+    },
+    {
+      "time": "2026-07-22 14:38",
+      "main_net": 3227408515.0,
+      "super_net": 3429662243.0,
+      "large_net": -202253728.0
+    },
+    {
+      "time": "2026-07-22 14:39",
+      "main_net": 3223415111.0,
+      "super_net": 3425901943.0,
+      "large_net": -202486832.0
+    },
+    {
+      "time": "2026-07-22 14:40",
+      "main_net": 3221626264.0,
+      "super_net": 3424499124.0,
+      "large_net": -202872860.0
+    },
+    {
+      "time": "2026-07-22 14:41",
+      "main_net": 3219498329.0,
+      "super_net": 3421299951.0,
+      "large_net": -201801622.0
+    },
+    {
+      "time": "2026-07-22 14:42",
+      "main_net": 3219673357.0,
+      "super_net": 3425725378.0,
+      "large_net": -206052021.0
+    },
+    {
+      "time": "2026-07-22 14:43",
+      "main_net": 3218056132.0,
+      "super_net": 3424821038.0,
+      "large_net": -206764906.0
+    },
+    {
+      "time": "2026-07-22 14:44",
+      "main_net": 3219268843.0,
+      "super_net": 3428642712.0,
+      "large_net": -209373869.0
+    },
+    {
+      "time": "2026-07-22 14:45",
+      "main_net": 3221435657.0,
+      "super_net": 3431301837.0,
+      "large_net": -209866180.0
+    },
+    {
+      "time": "2026-07-22 14:46",
+      "main_net": 3219102999.0,
+      "super_net": 3430084408.0,
+      "large_net": -210981409.0
+    },
+    {
+      "time": "2026-07-22 14:47",
+      "main_net": 3215319439.0,
+      "super_net": 3427061198.0,
+      "large_net": -211741759.0
+    },
+    {
+      "time": "2026-07-22 14:48",
+      "main_net": 3209829620.0,
+      "super_net": 3423545481.0,
+      "large_net": -213715861.0
+    },
+    {
+      "time": "2026-07-22 14:49",
+      "main_net": 3200979463.0,
+      "super_net": 3419803509.0,
+      "large_net": -218824046.0
+    },
+    {
+      "time": "2026-07-22 14:50",
+      "main_net": 3203271851.0,
+      "super_net": 3419804935.0,
+      "large_net": -216533084.0
+    },
+    {
+      "time": "2026-07-22 14:51",
+      "main_net": 3203355466.0,
+      "super_net": 3419377573.0,
+      "large_net": -216022107.0
+    },
+    {
+      "time": "2026-07-22 14:52",
+      "main_net": 3205255423.0,
+      "super_net": 3421939828.0,
+      "large_net": -216684405.0
+    },
+    {
+      "time": "2026-07-22 14:53",
+      "main_net": 3198015513.0,
+      "super_net": 3414780166.0,
+      "large_net": -216764653.0
+    },
+    {
+      "time": "2026-07-22 14:54",
+      "main_net": 3190712928.0,
+      "super_net": 3413449052.0,
+      "large_net": -222736124.0
+    },
+    {
+      "time": "2026-07-22 14:55",
+      "main_net": 3191017846.0,
+      "super_net": 3414467792.0,
+      "large_net": -223449946.0
+    },
+    {
+      "time": "2026-07-22 14:56",
+      "main_net": 3181957821.0,
+      "super_net": 3404687752.0,
+      "large_net": -222729931.0
+    },
+    {
+      "time": "2026-07-22 14:57",
+      "main_net": 3186105555.0,
+      "super_net": 3409940670.0,
+      "large_net": -223835115.0
+    }
+  ]
+}

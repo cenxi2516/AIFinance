@@ -1,0 +1,265 @@
+{
+  "target": {
+    "type": "个股",
+    "code": "001270",
+    "name": "铖昌科技"
+  },
+  "analysis_time": "2026-08-05 09:44:50",
+  "freshness": {
+    "phase": 1,
+    "phase_name": "盘初(14min, 数据延迟高发期)",
+    "minutes_from_open": 14,
+    "downgraded_count": 3,
+    "downgrade_details": [
+      {
+        "dimension": "sector",
+        "reason": "数据未刷新/拉取失败, 相关条件置PENDING"
+      },
+      {
+        "dimension": "north_bound",
+        "reason": "数据未刷新/拉取失败, 相关条件置PENDING"
+      },
+      {
+        "dimension": "breadth",
+        "reason": "数据未刷新/拉取失败, 相关条件置PENDING"
+      }
+    ],
+    "dim_usable": {
+      "quote": true,
+      "minute_flow": true,
+      "market": true,
+      "news": true,
+      "sector": false,
+      "north_bound": false,
+      "breadth": false
+    }
+  },
+  "quote": {
+    "name": "铖昌科技",
+    "code": "001270",
+    "price": 111.28,
+    "prev_close": 106.17,
+    "open": 106.17,
+    "volume": 29835.0,
+    "high": 111.8,
+    "low": 105.67,
+    "change_pct": 4.81,
+    "turnover_pct": 1.46,
+    "amplitude": 5.77,
+    "vol_ratio": 4.63,
+    "amount": 32807.0,
+    "pe": 173.74,
+    "mcap": 229.36
+  },
+  "fund_flow_summary": {
+    "total_main_net": -22452773.0,
+    "total_main_net_wan": -2245.3,
+    "total_super_net_wan": -601.8,
+    "total_large_net_wan": -1643.5,
+    "total_mid_net_wan": 1939.3,
+    "total_small_net_wan": 305.9,
+    "data_points": 15,
+    "first_time": "2026-08-05 09:31",
+    "last_time": "2026-08-05 09:45"
+  },
+  "fund_flow_trend": {
+    "direction": "流出",
+    "acceleration": "流出减缓",
+    "first_half_slope_wan_per_min": -226.33,
+    "second_half_slope_wan_per_min": -75.8,
+    "cum_sequence_wan": [
+      -280.9,
+      -461.3,
+      -1025.6,
+      -1109.4,
+      -1607.0,
+      -1975.2,
+      -1638.9,
+      -1884.6,
+      -1982.9,
+      -2312.0,
+      -2378.8,
+      -2334.5,
+      -2254.0,
+      -2334.2,
+      -2245.3
+    ],
+    "turning_points": [],
+    "last_turn": null
+  },
+  "sector": {
+    "error": "概念板块匹配不足(仅1个, clist可能被限流), 情绪分不可靠",
+    "sentiment_score": 0,
+    "inflow_blocks": 0,
+    "total_blocks": 1,
+    "level": ""
+  },
+  "scenarios": [
+    {
+      "name": "情景C: 冲高回落",
+      "probability": 37.0,
+      "met_count": 2
+    },
+    {
+      "name": "情景D: 弱势下跌",
+      "probability": 26.4,
+      "met_count": 1
+    },
+    {
+      "name": "情景A: 强势上涨",
+      "probability": 23.3,
+      "met_count": 4
+    },
+    {
+      "name": "情景B: 震荡横盘",
+      "probability": 13.3,
+      "met_count": 1
+    }
+  ],
+  "signals": {
+    "buy_signals": [
+      {
+        "level": "⚪ 暂不建议买入",
+        "action": "继续观察, 等待资金面+情绪面+价格面共振信号"
+      }
+    ],
+    "sell_signals": [
+      {
+        "level": "🔴🔴 中等卖出参考",
+        "action": "建议逐步减仓, 至少减到半仓以下",
+        "risk_note": "机构流出602万, 散户接盘+2245万"
+      }
+    ],
+    "hold_verdict": {
+      "level": "⚠️ 审视持仓",
+      "reason": "风险情景概率较高(情景C: 冲高回落 37%), 机构-602万",
+      "watch_points": [
+        "触发止损条件则果断执行",
+        "等待企稳信号出现再考虑操作"
+      ]
+    },
+    "overall_verdict": "总体谨慎: 有卖出压力。机构-602万, 散户+2245万。持有者应审视持仓, 未持有者建议等待。"
+  },
+  "minute_data": [
+    {
+      "time": "2026-08-05 09:31",
+      "main_net": -2809161.0,
+      "super_net": -468156.0,
+      "large_net": -2341005.0,
+      "mid_net": 151553.0,
+      "small_net": 2657608.0
+    },
+    {
+      "time": "2026-08-05 09:32",
+      "main_net": -4613185.0,
+      "super_net": 63988.0,
+      "large_net": -4677173.0,
+      "mid_net": 1546423.0,
+      "small_net": 3066762.0
+    },
+    {
+      "time": "2026-08-05 09:33",
+      "main_net": -10256163.0,
+      "super_net": -1522462.0,
+      "large_net": -8733701.0,
+      "mid_net": 2551380.0,
+      "small_net": 7704783.0
+    },
+    {
+      "time": "2026-08-05 09:34",
+      "main_net": -11094006.0,
+      "super_net": -1260255.0,
+      "large_net": -9833751.0,
+      "mid_net": 2818961.0,
+      "small_net": 8275045.0
+    },
+    {
+      "time": "2026-08-05 09:35",
+      "main_net": -16069871.0,
+      "super_net": -4320535.0,
+      "large_net": -11749336.0,
+      "mid_net": 1495680.0,
+      "small_net": 14574191.0
+    },
+    {
+      "time": "2026-08-05 09:36",
+      "main_net": -19752277.0,
+      "super_net": -5951226.0,
+      "large_net": -13801051.0,
+      "mid_net": 4778887.0,
+      "small_net": 14973390.0
+    },
+    {
+      "time": "2026-08-05 09:37",
+      "main_net": -16388677.0,
+      "super_net": -4633363.0,
+      "large_net": -11755314.0,
+      "mid_net": 3383873.0,
+      "small_net": 13004804.0
+    },
+    {
+      "time": "2026-08-05 09:38",
+      "main_net": -18846214.0,
+      "super_net": -4998166.0,
+      "large_net": -13848048.0,
+      "mid_net": 3084760.0,
+      "small_net": 15761454.0
+    },
+    {
+      "time": "2026-08-05 09:39",
+      "main_net": -19828953.0,
+      "super_net": -5220405.0,
+      "large_net": -14608548.0,
+      "mid_net": 9524336.0,
+      "small_net": 10304618.0
+    },
+    {
+      "time": "2026-08-05 09:40",
+      "main_net": -23119555.0,
+      "super_net": -6920774.0,
+      "large_net": -16198781.0,
+      "mid_net": 14662270.0,
+      "small_net": 8457286.0
+    },
+    {
+      "time": "2026-08-05 09:41",
+      "main_net": -23788479.0,
+      "super_net": -7065068.0,
+      "large_net": -16723411.0,
+      "mid_net": 17913029.0,
+      "small_net": 5875452.0
+    },
+    {
+      "time": "2026-08-05 09:42",
+      "main_net": -23344627.0,
+      "super_net": -7010176.0,
+      "large_net": -16334451.0,
+      "mid_net": 18739860.0,
+      "small_net": 4604769.0
+    },
+    {
+      "time": "2026-08-05 09:43",
+      "main_net": -22539606.0,
+      "super_net": -5806291.0,
+      "large_net": -16733315.0,
+      "mid_net": 19313778.0,
+      "small_net": 3225830.0
+    },
+    {
+      "time": "2026-08-05 09:44",
+      "main_net": -23341698.0,
+      "super_net": -6073281.0,
+      "large_net": -17268417.0,
+      "mid_net": 20716207.0,
+      "small_net": 2625493.0
+    },
+    {
+      "time": "2026-08-05 09:45",
+      "main_net": -22452773.0,
+      "super_net": -6018214.0,
+      "large_net": -16434559.0,
+      "mid_net": 19393455.0,
+      "small_net": 3059320.0
+    }
+  ]
+}

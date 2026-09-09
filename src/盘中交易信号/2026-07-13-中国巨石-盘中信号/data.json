@@ -1,0 +1,88 @@
+{
+  "target": {
+    "type": "个股",
+    "code": "600176",
+    "name": "中国巨石"
+  },
+  "analysis_time": "2026-07-13 15:29:44",
+  "quote": {
+    "name": "中国巨石",
+    "code": "600176",
+    "price": 50.13,
+    "prev_close": 55.7,
+    "open": 54.5,
+    "high": 55.7,
+    "low": 50.13,
+    "change_pct": -10.0,
+    "turnover_pct": 5.61,
+    "amplitude": 10.0,
+    "vol_ratio": 0.97,
+    "amount": 1159862.0,
+    "pe": 52.5,
+    "mcap": 2006.77
+  },
+  "fund_flow_daily": {
+    "main_net_wan": 0,
+    "super_net_wan": 0,
+    "large_net_wan": 0,
+    "mid_net_wan": 0,
+    "small_net_wan": 0
+  },
+  "sector_sentiment": {
+    "score": 50,
+    "level": "🟡 中性",
+    "blocks": []
+  },
+  "north_bound": {
+    "net_yi": 0,
+    "direction": "数据获取失败"
+  },
+  "market_strength": {
+    "benchmark": "上证指数",
+    "bm_change": -2.06,
+    "stock_change": -10.0,
+    "relative_strength": -7.9399999999999995,
+    "rel_rating": "🔴 显著跑输",
+    "market_env": "🔴 大盘弱势",
+    "detail": {
+      "上证指数": {
+        "change_pct": -2.06
+      },
+      "深证成指": {
+        "change_pct": -3.48
+      },
+      "创业板指": {
+        "change_pct": -3.1
+      }
+    }
+  },
+  "market_breadth": {
+    "up_count": 0,
+    "down_count": 0,
+    "up_ratio": 0.0,
+    "breadth_level": "💀 普跌格局",
+    "limit_up": 0,
+    "limit_down": 0,
+    "limit_ratio": 0.0,
+    "money_effect": "💀 强亏钱效应"
+  },
+  "news": {
+    "today_count": 1,
+    "highlights": [
+      {
+        "title": "沪指跌2.06%，创指跌3.1%：银行股逆势上涨，两市成交2.8万亿元",
+        "content": "建筑材料领跌，青龙管业（002457）、再升科技（603601）、三和管桩（003037）、中国巨石（600176）、三峡新材（600293）等跌停。",
+        "time": "2026-07-13 15:19:00",
+        "source": "澎湃新闻",
+        "sentiment": "neutral"
+      }
+    ]
+  },
+  "verdict": {
+    "is_limit_down": true,
+    "change_pct": -10.0,
+    "primary_scenario": "情景D: 弱势下跌/跌停封板",
+    "buy_signal": "⚪ 暂不建议买入",
+    "sell_signal": "🔴🔴🔴 强回避"
+  }
+}

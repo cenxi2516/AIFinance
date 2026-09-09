@@ -1,0 +1,241 @@
+{
+  "target": {
+    "type": "个股",
+    "code": "603986",
+    "name": "兆易创新"
+  },
+  "analysis_time": "2026-07-15 14:10:13",
+  "quote": {
+    "name": "兆易创新",
+    "code": "603986",
+    "price": 566.97,
+    "prev_close": 583.99,
+    "open": 600.0,
+    "high": 608.07,
+    "low": 566.88,
+    "change_pct": -2.91,
+    "turnover_pct": 7.26,
+    "amplitude": 7.05,
+    "vol_ratio": 0.9,
+    "amount": 2860791.0,
+    "pe": 138.41,
+    "mcap": 3978.68
+  },
+  "fund_flow": {
+    "main_cum_wan": -51209.8891,
+    "super_cum_wan": -40642.0307,
+    "large_cum_wan": -10567.8584,
+    "mid_cum_wan": 51341.1279,
+    "small_cum_wan": -114.237,
+    "max_cum_yi": 4.93475018,
+    "latest_cum_yi": -5.12098891,
+    "data_points": 100
+  },
+  "trend": {
+    "acceleration": "流出减缓",
+    "first_slope_wan": -1391.0,
+    "second_slope_wan": -617.4
+  },
+  "parties": {
+    "institution": -40642.0307,
+    "hot_money": -10567.8584,
+    "retail": 51226.8909
+  },
+  "sector_sentiment": {
+    "score": 25.0,
+    "level": "🔵 偏冷"
+  },
+  "north_bound": {
+    "total_yi": 0.0,
+    "direction": "小幅流出"
+  },
+  "market": {
+    "benchmark": "上证指数",
+    "bm_change": -0.4,
+    "relative": -2.5100000000000002
+  },
+  "breadth": {
+    "up_ratio": 0.0,
+    "limit_up": 0,
+    "limit_down": 0
+  },
+  "scenarios": [
+    {
+      "name": "情景C: 冲高回落/持续走弱",
+      "probability": 52.2,
+      "met": 4,
+      "total": 5
+    },
+    {
+      "name": "情景D: 弱势下跌",
+      "probability": 35.7,
+      "met": 3,
+      "total": 7
+    },
+    {
+      "name": "情景B: 震荡横盘",
+      "probability": 5.5,
+      "met": 1,
+      "total": 7
+    },
+    {
+      "name": "情景A: 强势上涨",
+      "probability": 6.6,
+      "met": 1,
+      "total": 9
+    }
+  ],
+  "overall": "总体偏空 ⚠️\n    主导情景: '情景C: 冲高回落/持续走弱' (概率52%)\n    资金面: 主力净流出51210万, 机构净流出40642万\n    日内逆转: 从+4.93亿高位 → -5.12亿 (回撤10.06亿)\n    价格走势: 开盘600.00冲高至608.07(+4.1%)→ 现价566.97(-2.91%), 从高点回落6.8%\n    板块情绪: 25/100 🔵 偏冷\n    建议: 减仓或观望, 不宜抄底。等待资金面企稳信号(主力净流入转正+机构回补)",
+  "minute_data": [
+    {
+      "time": "2026-07-15 13:42",
+      "main_cum_wan": -29597.4,
+      "super_cum_wan": -26529.6
+    },
+    {
+      "time": "2026-07-15 13:43",
+      "main_cum_wan": -29718.9,
+      "super_cum_wan": -26001.3
+    },
+    {
+      "time": "2026-07-15 13:44",
+      "main_cum_wan": -29899.3,
+      "super_cum_wan": -25908.5
+    },
+    {
+      "time": "2026-07-15 13:45",
+      "main_cum_wan": -30972.9,
+      "super_cum_wan": -27100.2
+    },
+    {
+      "time": "2026-07-15 13:46",
+      "main_cum_wan": -31015.3,
+      "super_cum_wan": -27003.8
+    },
+    {
+      "time": "2026-07-15 13:47",
+      "main_cum_wan": -31257.6,
+      "super_cum_wan": -27188.5
+    },
+    {
+      "time": "2026-07-15 13:48",
+      "main_cum_wan": -31889.7,
+      "super_cum_wan": -27704.5
+    },
+    {
+      "time": "2026-07-15 13:49",
+      "main_cum_wan": -32481.6,
+      "super_cum_wan": -28670.3
+    },
+    {
+      "time": "2026-07-15 13:50",
+      "main_cum_wan": -32361.1,
+      "super_cum_wan": -27980.5
+    },
+    {
+      "time": "2026-07-15 13:51",
+      "main_cum_wan": -32706.2,
+      "super_cum_wan": -28147.3
+    },
+    {
+      "time": "2026-07-15 13:52",
+      "main_cum_wan": -33235.0,
+      "super_cum_wan": -28480.7
+    },
+    {
+      "time": "2026-07-15 13:53",
+      "main_cum_wan": -33815.1,
+      "super_cum_wan": -29405.7
+    },
+    {
+      "time": "2026-07-15 13:54",
+      "main_cum_wan": -34148.1,
+      "super_cum_wan": -29624.0
+    },
+    {
+      "time": "2026-07-15 13:55",
+      "main_cum_wan": -34441.7,
+      "super_cum_wan": -29911.3
+    },
+    {
+      "time": "2026-07-15 13:56",
+      "main_cum_wan": -34102.4,
+      "super_cum_wan": -29549.1
+    },
+    {
+      "time": "2026-07-15 13:57",
+      "main_cum_wan": -35061.3,
+      "super_cum_wan": -30599.9
+    },
+    {
+      "time": "2026-07-15 13:58",
+      "main_cum_wan": -35651.8,
+      "super_cum_wan": -30800.6
+    },
+    {
+      "time": "2026-07-15 13:59",
+      "main_cum_wan": -35903.5,
+      "super_cum_wan": -30909.7
+    },
+    {
+      "time": "2026-07-15 14:00",
+      "main_cum_wan": -36011.9,
+      "super_cum_wan": -30366.2
+    },
+    {
+      "time": "2026-07-15 14:01",
+      "main_cum_wan": -37109.0,
+      "super_cum_wan": -31120.4
+    },
+    {
+      "time": "2026-07-15 14:02",
+      "main_cum_wan": -38073.7,
+      "super_cum_wan": -30173.1
+    },
+    {
+      "time": "2026-07-15 14:03",
+      "main_cum_wan": -39801.3,
+      "super_cum_wan": -29960.8
+    },
+    {
+      "time": "2026-07-15 14:04",
+      "main_cum_wan": -41339.0,
+      "super_cum_wan": -31636.1
+    },
+    {
+      "time": "2026-07-15 14:05",
+      "main_cum_wan": -42008.6,
+      "super_cum_wan": -32013.7
+    },
+    {
+      "time": "2026-07-15 14:06",
+      "main_cum_wan": -42905.7,
+      "super_cum_wan": -33082.4
+    },
+    {
+      "time": "2026-07-15 14:07",
+      "main_cum_wan": -42905.7,
+      "super_cum_wan": -33219.3
+    },
+    {
+      "time": "2026-07-15 14:08",
+      "main_cum_wan": -43059.7,
+      "super_cum_wan": -33014.1
+    },
+    {
+      "time": "2026-07-15 14:09",
+      "main_cum_wan": -48238.9,
+      "super_cum_wan": -38432.5
+    },
+    {
+      "time": "2026-07-15 14:10",
+      "main_cum_wan": -51181.5,
+      "super_cum_wan": -40613.7
+    },
+    {
+      "time": "2026-07-15 14:11",
+      "main_cum_wan": -51209.9,
+      "super_cum_wan": -40642.0
+    }
+  ]
+}

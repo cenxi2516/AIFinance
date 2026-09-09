@@ -1,0 +1,52 @@
+{
+  "target": {
+    "type": "个股",
+    "code": "000063",
+    "name": "中兴通讯"
+  },
+  "analysis_time": "2026-07-23T09:46:38.036717",
+  "phase": 1,
+  "phase_name": "盘初(15min, 数据延迟高发期)",
+  "quote": {
+    "price": 37.21,
+    "change_pct": -0.77,
+    "amplitude": 2.88,
+    "turnover_pct": 1.84,
+    "vol_ratio": 3.2,
+    "amount": 274183,
+    "open": 37.01,
+    "high": 37.55,
+    "low": 36.47,
+    "prev_close": 37.5
+  },
+  "fund_flow": {
+    "main_net_wan": 0.0,
+    "super_large_wan": 0.4,
+    "large_wan": 0.3,
+    "mid_wan": 0.0,
+    "small_wan": 0.0
+  },
+  "scenarios": [
+    {
+      "name": "情景B: 震荡横盘",
+      "probability": 74
+    },
+    {
+      "name": "情景A: 强势上涨",
+      "probability": 26
+    },
+    {
+      "name": "情景C: 冲高回落",
+      "probability": 0
+    },
+    {
+      "name": "情景D: 弱势下跌",
+      "probability": 0
+    }
+  ],
+  "pending_dimensions": [
+    "sector",
+    "north_bound",
+    "breadth"
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "target": {
+    "type": "ETF",
+    "code": "159792",
+    "name": "港股通互联网ETF富国",
+    "index": "中证港股通互联网(931637)"
+  },
+  "analysis_time": "2026-07-13T11:47:34.084477",
+  "market_status": "盘中",
+  "quote": {
+    "name": "港股通互联网ETF富国",
+    "code": "159792",
+    "price": 0.584,
+    "prev_close": 0.597,
+    "open": 0.593,
+    "volume": 32892461.0,
+    "high": 0.603,
+    "low": 0.582,
+    "change_pct": -2.18,
+    "turnover_pct": 5.11,
+    "amplitude": 3.52,
+    "vol_ratio": 0.88,
+    "amount": 195596.0,
+    "pe": 0,
+    "mcap": 376.12
+  },
+  "flow_summary": {
+    "total_buy_vol": 10456780,
+    "total_sell_vol": 13123386,
+    "total_net_vol": -2666606,
+    "buy_ratio_pct": 44.3,
+    "data_points": 119,
+    "first_time": "1",
+    "last_time": "119"
+  },
+  "flow_trend": {
+    "direction": "卖方占优",
+    "acceleration": "卖压减弱",
+    "first_half_slope": -49075.0,
+    "second_half_slope": -9390.0
+  },
+  "sector_sentiment": {
+    "sentiment_score": 25.0,
+    "level": "🔵 偏冷",
+    "inflow_blocks": 0,
+    "total_blocks": 0,
+    "avg_change_pct": 0.0,
+    "total_sector_flow_wan": 0,
+    "all_sectors_count": 0,
+    "data_basis": "0/0板块流入, 合计+0万, 平均涨跌+0.00%, 情绪分25.0"
+  },
+  "north_bound": {
+    "total_net_yi": 0.0,
+    "direction": "小幅流出",
+    "signal": "🟠 中性偏空",
+    "data_basis": "沪股通+0.00亿 + 深股通+0.00亿 = 北向合计+0.00亿",
+    "source": "同花顺 hsgtApi"
+  },
+  "market_strength": {
+    "benchmark": "深证成指",
+    "benchmark_change": -2.61,
+    "market_env": "🔴 大盘弱势",
+    "relative_strength": 0.43,
+    "relative_rating": "➖ 与大盘同步",
+    "market_detail": {
+      "上证指数": -1.54,
+      "深证成指": -2.61,
+      "创业板指": -2.38
+    },
+    "data_basis": "深证成指-2.61%, 个股-2.18%, 相对强弱+0.43%"
+  },
+  "market_breadth": {
+    "up_count": 0,
+    "down_count": 0,
+    "up_ratio_pct": 0.0,
+    "breadth_level": "💀 普跌格局",
+    "breadth_score": 5,
+    "limit_up_count": 0,
+    "limit_down_count": 0,
+    "limit_ratio": 0.0,
+    "money_effect": "💀 强亏钱效应",
+    "data_basis": "全市场涨0跌0(0.0%), 涨停0/跌停0, 赚钱效应:💀 强亏钱效应"
+  },
+  "scenarios": [
+    {
+      "name": "情景D: 弱势下跌",
+      "probability": 41.2,
+      "met_count": 2,
+      "total_conditions": 6
+    },
+    {
+      "name": "情景A: 强势反弹",
+      "probability": 35.3,
+      "met_count": 3,
+      "total_conditions": 7
+    },
+    {
+      "name": "情景B: 震荡横盘",
+      "probability": 11.8,
+      "met_count": 1,
+      "total_conditions": 4
+    },
+    {
+      "name": "情景C: 冲高回落",
+      "probability": 11.8,
+      "met_count": 1,
+      "total_conditions": 3
+    }
+  ],
+  "signals_summary": {
+    "buy_ratio": 44.3,
+    "sentiment_score": 25.0,
+    "change_pct": -2.18,
+    "turnover_pct": 5.11,
+    "vol_ratio": 0.88
+  },
+  "overall_verdict": "总体谨慎。买力仅44.3%。持有者审视持仓。"
+}

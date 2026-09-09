@@ -1,13 +1,15 @@
 ---
 name: intraday-trading-signal
-description: 盘中实时交易信号系统 V1.2 — 直接调用a-stock-data拉取七维分钟级数据(资金/价格/情绪/消息/北向/大盘/广度+成交量参考)，25+条件概率引擎输出多情景预判+买卖时机信号。V1.2重构：移除自行实现的API调用，全部改用a-stock-data(eastmoney_fund_flow_minute/eastmoney_concept_blocks/em_get等)。Use when 用户需要盘中实时监控、当日买卖时机判断、分钟级资金流追踪、多情景概率预判、宁可少挣宁可少亏的保守交易决策支持。
-version: 1.2.0
-updated: 2026-07-10
+description: 盘中实时交易信号系统 V1.3
+version: 1.3.0
+updated: 2026-07-13
 ---
 
-# 盘中实时交易信号系统 V1.2
+# 盘中实时交易信号系统 V1.3
 
 **定位**：14 技能架构的**盘中实时监控与决策辅助层**——聚焦单一标的（个股/方向/ETF），从 9:20（集合竞价尾声）起追踪分钟级数据，==七维交叉验证==（资金+价格+情绪+消息+北向+大盘+广度），输出多情景概率预判 + 买卖时机参考信号。
+
+**V1.3 核心升级（时效性门控）**：开盘初期板块统计、北向资金、市场广度等聚合类 API 普遍延迟刷新（全0），直接输入概率引擎会导致情景D被系统性高估。V1.3 引入**数据时效性门控**（Data Freshness Gate），根据盘中时段自动调整各维度权重。公共模块：`.claude/skills/_shared/data_freshness.py`。
 
 **V1.2 重构**：移除自行实现的 API 调用（`fetch_minute_fund_flow` 的 push2 直连、`fetch_sector_sentiment` 的 slist 直连），全部改用 a-stock-data 已有函数：
 - `eastmoney_fund_flow_minute(code)` → 分钟级资金流
@@ -146,6 +148,72 @@ OUTPUT_BASE = "src/盘中交易信号"
 | 🌏 **北向资金** | 同花顺 hsgtApi | 沪股通+深股通实时净流入、累计流向 | **15%** | 🆕 |
 | 📊 **大盘强度** | 腾讯指数行情 | 上证/深证/创业板涨跌、个股相对大盘强弱 | **10%** | 🆕 |
 | 🔥 **市场广度** | push2ex 涨停池 + clist | 全市场涨跌家数比、涨停/跌停家数、赚钱效应 | **10%** | 🆕 |
+| ⏱️ **时效性门控** | `_check_data_freshness()` | 各维度数据可用性评估(0-1)、四阶段动态权重 | **权重覆盖** | 🆕 V1.3 |
+
+> **V1.3 时效性门控**：上表为盘中正常时段(11:00-14:30)的全权重。盘初(9:30-10:00)自动降权：板块15%→5%、北向15%→0%、广度10%→0%、分时升权25%→50%。详见 Layer 0。
+
+---
+
+## Layer 0: 数据时效性门控（V1.3 新增 ★核心机制）
+
+### 0.1 核心认知
+
+**不是所有数据在盘中同时可用。** 不同数据源有不同的首刷时间：
+
+| 数据源 | 首刷时间 | 盘初(9:30-10:00)状态 |
+|--------|---------|---------------------|
+| 腾讯行情 | 9:25 集合竞价结束 | ✅ 正常 |
+| mootdx 分时 | 9:30 开盘 | ✅ 正常 |
+| 东财板块资金流(push2) | ~9:45-10:00 | ❌ 大概率全0 |
+| 东财市场广度(clist) | ~10:00 | ❌ 大概率全0 |
+| 同花顺北向资金 | ~10:30 | ❌ 大概率全0 |
+| 东财涨停/跌停池 | ~10:00 | ❌ 大概率全0 |
+
+**如果把这些全0的"脏数据"直接喂给概率引擎，会发生什么？**
+
+| 误判类型 | 原因 | 案例 |
+|---------|------|------|
+| 板块情绪误判"极冷" | 6个板块全0→情绪分25 | 实际板块可能偏热 |
+| 北向误判"中性" | 0亿被当作无方向 | 实际可能大幅流入 |
+| 市场广度误判"普跌" | 涨跌0家→广度分5 | 实际可能涨多跌少 |
+| **情景D系统性高估** | 三个维度同时给假空头信号 | 概率虚高10-20% |
+
+### 0.2 四阶段动态权重矩阵
+
+| 维度 | Phase 1 盘初 | Phase 2 早盘过渡 | Phase 3 盘中正常 | Phase 4 尾盘 |
+|------|:-----------:|:---------------:|:---------------:|:-----------:|
+| 时间 | 9:30-10:00 | 10:00-11:00 | 11:00-14:30 | 14:30-15:00 |
+| 📈 行情 | **25%** | 20% | 15% | 15% |
+| 💰 分时/资金 | **50%** | 35% | 25% | **30%** |
+| 🎯 板块情绪 | **5%** | 12% | 15% | 12% |
+| 📰 消息 | **5%** | 8% | 10% | 10% |
+| 🌏 北向 | **0%** | 5% | 15% | 13% |
+| 📊 大盘 | **15%** | 12% | 10% | 10% |
+| 🔥 广度 | **0%** | 8% | 10% | 10% |
+
+> **设计原则**：不可用维度的权重归零，但不重新分配给可用维度（避免过度集中）。归一化时分母只计入可用维度。
+
+### 0.3 公共模块集成
+
+公共模块 `data_freshness.py`（位于 `.claude/skills/_shared/`）提供以下函数，可跨 skill 复用：
+
+```python
+from data_freshness import check_data_freshness, apply_freshness_to_condition, format_freshness_report
+
+freshness = check_data_freshness()
+# => {phase: 1, phase_name: "盘初(27min, 数据延迟高发期)", ...}
+
+# 对每个条件条目应用门控
+cond = apply_freshness_to_condition(
+    "板块情绪≥60", "≥60", f"{score:.0f}分", False,
+    weight=15, dimension="sector", freshness=freshness)
+# 盘初时 sector unavailable → cond["met"] = "PENDING", cond["weight"] = 0.0
+```
+
+在概率引擎中，每个条件条目通过 `apply_freshness_to_condition()` 包装后：
+- `available=True` → 正常计分（满足=加分，不满足=不加分）
+- `available=False` → 标记为 `PENDING`（数据未就绪），权重归零，不影响概率
+- `status='delayed'` → 权重打折（×0.3-0.8），条件仍参与计算但置信度降级
 
 ---
 
@@ -917,12 +985,31 @@ def generate_probability_scenarios(
     market_breadth: dict = None,
 ) -> dict:
     """
-    七维多情景概率预判引擎 V1.1。
+    七维多情景概率预判引擎 V1.3。
     
     核心: 每个概率绑定具体数据条件，每个条件标注当前值 vs 阈值。
     概率 = 满足条件权重之和 / 总权重 × 100。
     七维同向共振 → 最高置信度；多维背离 → 概率打折扣。
+    
+    V1.3 新增: 数据时效性门控。计算前调用 check_data_freshness()，
+    不可用维度的条件标记为 PENDING，权重归零，不参与评分。
     """
+
+    # ====== V1.3 时效性门控 ======
+    from data_freshness import check_data_freshness, apply_freshness_to_condition
+    _freshness = check_data_freshness()
+    _fd = _freshness.get("freshness", {})
+    _downgrade_log = []
+
+    def _cond(text, threshold, actual, met, weight, dimension):
+        \"\"\"创建条件条目，自动应用时效性门控。dimension: 'quote'|'minute_flow'|'sector'|'news'|'north_bound'|'market'|'breadth'\"\"\"
+        result = apply_freshness_to_condition(text, threshold, actual, met, weight, dimension, _freshness)
+        if result.get("freshness_status") != "ready":
+            _downgrade_log.append({"condition": text, "dimension": dimension,
+                                   "status": result["freshness_status"],
+                                   "original_weight": weight,
+                                   "effective_weight": result["weight"]})
+        return result
 
     # ━━━ 提取所有关键数据 ━━━
     change_pct = quote.get("change_pct", 0)
@@ -1482,7 +1569,14 @@ def generate_probability_scenarios(
         "primary_scenario": scenarios_sorted[0] if scenarios_sorted else None,
         "analysis_time": datetime.now().strftime("%Y-%m-%d %H:%M"),
         "data_points": data_points,
-        "disclaimer": "概率基于当前盘中数据的多因子条件匹配，不代表未来确定走势。每个条件标注了具体阈值和当前值，收盘后可逐一验证。",
+        "freshness": {  # V1.3 时效性报告
+            "phase": _freshness.get("phase", -1),
+            "phase_name": _freshness.get("phase_name", "未知"),
+            "minutes_from_open": _freshness.get("minutes_from_open", -1),
+            "downgraded_count": len(_downgrade_log),
+            "downgrade_details": _downgrade_log,
+        },
+        "disclaimer": "概率基于当前盘中数据的多因子条件匹配+时效性门控(V1.3)。标记为PENDING的条件表示数据尚未刷新，未参与概率计算。",
     }
 ```
 
@@ -2559,6 +2653,15 @@ def verify_prediction(report: dict, actual_close_change: float, actual_high: flo
 
 ## 快速参考
 
+### 时效性阶段速查（V1.3 新增）
+
+| 阶段 | 时间 | 可用维度 | 主导维度 | 典型陷阱 |
+|------|------|---------|---------|---------|
+| Phase 1 盘初 | 9:30-10:00 | 行情+分时 | 分时(50%) | 板块/北向/广度全0→勿信 |
+| Phase 2 早盘 | 10:00-11:00 | +板块+涨停池 | 分时(35%) | 北向仍可能为0 |
+| Phase 3 正常 | 11:00-14:30 | 全维度 | 均衡权重 | 午盘北向有延迟 |
+| Phase 4 尾盘 | 14:30-15:00 | 全维度 | 分时(30%) | 尾盘异动需独立验证 |
+
 ### 调用链速查
 
 | 场景 | 调用链 |
@@ -2595,5 +2698,6 @@ def verify_prediction(report: dict, actual_close_change: float, actual_high: flo
 - "机构/游资/散户"基于订单大小的近似估算
 - 历史胜率是大样本统计参考值，不代表单次结果
 - **==核心原则：宁可少挣，宁可少亏。不确定时不做，比做错好。==**
+- **==V1.3 时效性门控==**：报告中的 `freshness` 字段标注了各维度数据可用性。标记为 PENDING 的条件表示数据源尚未刷新（如开盘30分钟内板块/北向/广度常为全0），未参与概率计算。开盘初期的概率预判置信度天然偏低，请结合时效性阶段综合判断。
 - **==买卖必须用数据说话：每个信号标注具体数值、阈值、来源，拒绝主观判断。==**
 - 报告自动保存到 `src/盘中交易信号/`，`data.json` 可用于回测和规则持续优化

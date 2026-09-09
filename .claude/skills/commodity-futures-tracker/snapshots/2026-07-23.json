@@ -1,0 +1,114 @@
+{
+  "date": "2026-07-23",
+  "fetch_time": "2026-07-23T09:39:44.908766",
+  "prices": {
+    "hf_GC": {
+      "price": 4127.9,
+      "chg_pct": 0.04
+    },
+    "hf_XAU": {
+      "price": 4133.43,
+      "chg_pct": 0.09
+    },
+    "hf_SI": {
+      "price": 59.91,
+      "chg_pct": 0.1
+    },
+    "hf_XAG": {
+      "price": 59.78,
+      "chg_pct": 0.17
+    },
+    "hf_CAD": {
+      "price": 13833.485,
+      "chg_pct": 0.01
+    },
+    "hf_AHD": {
+      "price": 3190.08,
+      "chg_pct": 0.0
+    },
+    "hf_ZSD": {
+      "price": 3598.16,
+      "chg_pct": 0.02
+    },
+    "hf_NID": {
+      "price": 17252.0,
+      "chg_pct": 0.04
+    },
+    "hf_PBD": {
+      "price": 1901.12,
+      "chg_pct": 0.03
+    },
+    "hf_SND": {
+      "price": 54113.3,
+      "chg_pct": 0.02
+    },
+    "hf_CL": {
+      "price": 88.082,
+      "chg_pct": 0.08
+    },
+    "hf_NG": {
+      "price": 2.925,
+      "chg_pct": 0.03
+    },
+    "nf_AU0": {
+      "price": 901.32,
+      "chg_pct": -0.21
+    },
+    "nf_AG0": {
+      "price": 14481.0,
+      "chg_pct": -1.15
+    },
+    "nf_CU0": {
+      "price": 106000.0,
+      "chg_pct": -0.03
+    },
+    "nf_AL0": {
+      "price": 23220.0,
+      "chg_pct": -0.21
+    },
+    "nf_ZN0": {
+      "price": 24650.0,
+      "chg_pct": -0.7
+    },
+    "nf_NI0": {
+      "price": 131800.0,
+      "chg_pct": -0.32
+    },
+    "nf_PB0": {
+      "price": 15790.0,
+      "chg_pct": -0.57
+    },
+    "nf_SN0": {
+      "price": 417880.0,
+      "chg_pct": 0.17
+    },
+    "nf_I0": {
+      "price": 740.0,
+      "chg_pct": -1.27
+    },
+    "nf_RB0": {
+      "price": 3083.0,
+      "chg_pct": -0.36
+    },
+    "nf_J0": {
+      "price": 1833.5,
+      "chg_pct": -0.03
+    },
+    "nf_LC0": {
+      "price": 143380.0,
+      "chg_pct": -1.81
+    },
+    "nf_SI0": {
+      "price": 8230.0,
+      "chg_pct": -0.54
+    },
+    "nf_SA0": {
+      "price": 1014.0,
+      "chg_pct": 0.1
+    },
+    "nf_RU0": {
+      "price": 16925.0,
+      "chg_pct": 0.0
+    }
+  }
+}

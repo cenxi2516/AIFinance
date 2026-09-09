@@ -1,0 +1,382 @@
+{
+  "target": {
+    "code": "588000",
+    "name": "科创50ETF华夏",
+    "type": "ETF"
+  },
+  "analysis_time": "2026-07-22T14:01:54.387562",
+  "freshness": {
+    "phase": 3,
+    "phase_name": "盘中正常(272分)"
+  },
+  "quote": {
+    "name": "科创50ETF华夏",
+    "code": "588000",
+    "price": 1.958,
+    "prev_close": 2.016,
+    "open": 1.963,
+    "volume": 56763460.0,
+    "high": 2.038,
+    "low": 1.95,
+    "change_pct": -2.88,
+    "turnover_pct": 12.47,
+    "amplitude": 4.37,
+    "vol_ratio": 0.96,
+    "amount": 1132968.0
+  },
+  "flow_summary": {
+    "total_buy_vol": 2838270369,
+    "total_sell_vol": 3266823657,
+    "total_net_vol": -428553288,
+    "buy_ratio_pct": 46.5,
+    "data_points": 183,
+    "first_time": "0931",
+    "last_time": "1402"
+  },
+  "flow_trend": {
+    "direction": "卖方占优",
+    "acceleration": "卖压加速",
+    "first_half_slope": -727641.0,
+    "second_half_slope": -3554302.0,
+    "turning_points": []
+  },
+  "sector": {
+    "blocks": [
+      {
+        "code": "BK0892",
+        "name": "半导体概念",
+        "change_pct": 0,
+        "main_net_wan": 0,
+        "direction": "未知",
+        "up_count": 0,
+        "down_count": 0
+      },
+      {
+        "code": "BK0472",
+        "name": "国产芯片",
+        "change_pct": 0,
+        "main_net_wan": 0,
+        "direction": "未知",
+        "up_count": 0,
+        "down_count": 0
+      },
+      {
+        "code": "BK1036",
+        "name": "半导体设备",
+        "change_pct": 0,
+        "main_net_wan": 0,
+        "direction": "未知",
+        "up_count": 0,
+        "down_count": 0
+      },
+      {
+        "code": "BK1062",
+        "name": "半导体材料",
+        "change_pct": 0,
+        "main_net_wan": 0,
+        "direction": "未知",
+        "up_count": 0,
+        "down_count": 0
+      },
+      {
+        "code": "BK0888",
+        "name": "光刻机(胶)",
+        "change_pct": 0,
+        "main_net_wan": 0,
+        "direction": "未知",
+        "up_count": 0,
+        "down_count": 0
+      },
+      {
+        "code": "BK1091",
+        "name": "中芯概念",
+        "change_pct": 0,
+        "main_net_wan": 0,
+        "direction": "未知",
+        "up_count": 0,
+        "down_count": 0
+      },
+      {
+        "code": "BK1097",
+        "name": "AI芯片",
+        "change_pct": 0,
+        "main_net_wan": 0,
+        "direction": "未知",
+        "up_count": 0,
+        "down_count": 0
+      },
+      {
+        "code": "BK1199",
+        "name": "存储芯片",
+        "change_pct": 0,
+        "main_net_wan": 0,
+        "direction": "未知",
+        "up_count": 0,
+        "down_count": 0
+      }
+    ],
+    "sentiment_score": 25.0,
+    "level": "🔵 偏冷",
+    "inflow_blocks": 0,
+    "total_blocks": 8,
+    "avg_change_pct": 0.0,
+    "total_sector_flow_wan": 0,
+    "all_sectors_count": 0,
+    "data_basis": "0/8板块流入, 合计+0万, 平均涨跌+0.00%, 情绪分25.0",
+    "freshness_status": "ready"
+  },
+  "north_bound": {
+    "hgt_net_wan": 0.0,
+    "sgt_net_wan": 0.0,
+    "total_net_yi": 0.0,
+    "direction": "小幅流出",
+    "signal": "🟠 中性偏空",
+    "data_basis": "沪股通+0.00亿 + 深股通+0.00亿 = 北向合计+0.00亿",
+    "freshness_status": "ready"
+  },
+  "market_strength": {
+    "benchmark": "上证指数",
+    "benchmark_change": -0.0,
+    "market_env": "🟠 大盘微跌",
+    "relative_strength": -2.88,
+    "relative_rating": "⚠️ 跑输",
+    "market_detail": {
+      "上证指数": -0.0,
+      "深证成指": -1.15,
+      "创业板指": -2.61
+    },
+    "data_basis": "上证指数-0.00%, 个股-2.88%, 相对强弱-2.88%"
+  },
+  "market_breadth": {
+    "up_count": 0,
+    "down_count": 0,
+    "up_ratio_pct": 0.0,
+    "breadth_level": "💀 普跌格局",
+    "breadth_score": 5,
+    "limit_up_count": 0,
+    "limit_down_count": 0,
+    "limit_ratio": 0.0,
+    "money_effect": "💀 强亏钱效应",
+    "data_basis": "涨0跌0(0%), 涨停0/跌停0, 赚钱效应:💀 强亏钱效应",
+    "freshness_status": "ready"
+  },
+  "scenarios": [
+    {
+      "name": "情景D: 继续下探",
+      "description": "卖方力量主导+卖压加速+创新低 → 当日可能继续走弱",
+      "raw_score": 50,
+      "conditions": [
+        {
+          "condition": "卖方力量强(占比<40%,净卖>5万)",
+          "threshold": "占比<40%+净卖>5万",
+          "actual": "占比46%, 净量-42855.3万",
+          "met": false,
+          "weight": 30
+        },
+        {
+          "condition": "卖压加速",
+          "threshold": "卖压加速",
+          "actual": "卖压加速",
+          "met": true,
+          "weight": 25
+        },
+        {
+          "condition": "创新低(跌>2%+距开盘>3%)",
+          "threshold": "跌>2%+距开盘>3%",
+          "actual": "跌-2.88%",
+          "met": false,
+          "weight": 20
+        },
+        {
+          "condition": "板块情绪极冷(<35)",
+          "threshold": "<35",
+          "actual": "25分",
+          "met": true,
+          "weight": 15
+        },
+        {
+          "condition": "市场普跌(上涨<30%或涨跌停比<0.8)",
+          "threshold": "上涨<30%",
+          "actual": "涨0%, 涨跌停比0.0",
+          "met": true,
+          "weight": 10
+        }
+      ],
+      "met_count": 3,
+      "total_conditions": 5,
+      "failure_conditions": [
+        "午后重大利好",
+        "国家队护盘"
+      ],
+      "probability": 43.5
+    },
+    {
+      "name": "情景C: 冲高回落",
+      "description": "高位+买力减弱/卖压加速 → 警惕当日回落风险",
+      "raw_score": 35,
+      "conditions": [
+        {
+          "condition": "已涨>2%且买力减弱",
+          "threshold": "涨>2%+买力减弱",
+          "actual": "涨-2.88%, 卖压加速",
+          "met": false,
+          "weight": 30
+        },
+        {
+          "condition": "卖压加速",
+          "threshold": "卖压加速",
+          "actual": "卖压加速",
+          "met": true,
+          "weight": 25
+        },
+        {
+          "condition": "高位放量(量比>2+涨>1%)",
+          "threshold": "量比>2+涨>1%",
+          "actual": "量比0.96, 涨-2.88%",
+          "met": false,
+          "weight": 20
+        },
+        {
+          "condition": "北向流出(<-2亿)",
+          "threshold": "<-2亿",
+          "actual": "+0.00亿",
+          "met": false,
+          "weight": 15
+        },
+        {
+          "condition": "市场广度偏弱(上涨<40%)",
+          "threshold": "<40%",
+          "actual": "0%",
+          "met": true,
+          "weight": 10
+        }
+      ],
+      "met_count": 2,
+      "total_conditions": 5,
+      "failure_conditions": [
+        "超预期利好",
+        "板块集体暴动"
+      ],
+      "probability": 30.4
+    },
+    {
+      "name": "情景A: 震荡反弹",
+      "description": "买方力量占优+未创新低+量能温和 → 当日可能震荡上行",
+      "raw_score": 20,
+      "conditions": [
+        {
+          "condition": "买方占比>55%",
+          "threshold": ">55%",
+          "actual": "46%",
+          "met": false,
+          "weight": 25
+        },
+        {
+          "condition": "未创新低(跌幅<1%且距开盘<2%)",
+          "threshold": "跌幅<1%",
+          "actual": "-2.88%",
+          "met": false,
+          "weight": 20
+        },
+        {
+          "condition": "量能温和(量比0.5-3)",
+          "threshold": "0.5-3",
+          "actual": "1.0",
+          "met": true,
+          "weight": 15
+        },
+        {
+          "condition": "买力趋势向好",
+          "threshold": "买方加速/卖压减弱",
+          "actual": "卖压加速",
+          "met": false,
+          "weight": 15
+        },
+        {
+          "condition": "板块情绪≥40(非极冷)",
+          "threshold": "≥40",
+          "actual": "25分",
+          "met": false,
+          "weight": 10
+        },
+        {
+          "condition": "相对大盘不跑输(>-1%)",
+          "threshold": ">-1%",
+          "actual": "-2.88%",
+          "met": false,
+          "weight": 10
+        },
+        {
+          "condition": "无利空消息",
+          "threshold": "0条",
+          "actual": "0条",
+          "met": true,
+          "weight": 5
+        }
+      ],
+      "met_count": 2,
+      "total_conditions": 7,
+      "failure_conditions": [
+        "突发利空",
+        "午后卖压加速"
+      ],
+      "probability": 17.4
+    },
+    {
+      "name": "情景B: 弱势震荡",
+      "description": "买卖力量均衡+振幅小+缩量 → 当日大概率窄幅震荡",
+      "raw_score": 10,
+      "conditions": [
+        {
+          "condition": "买卖力量均衡(净量<5万,占比40-60%)",
+          "threshold": "净量<5万",
+          "actual": "净量-42855.3万, 占比46%",
+          "met": false,
+          "weight": 30
+        },
+        {
+          "condition": "振幅<2%(窄幅波动)",
+          "threshold": "<2%",
+          "actual": "4.37%",
+          "met": false,
+          "weight": 20
+        },
+        {
+          "condition": "缩量(量比<0.8)",
+          "threshold": "<0.8",
+          "actual": "1.0",
+          "met": false,
+          "weight": 20
+        },
+        {
+          "condition": "买卖力道匀速",
+          "threshold": "匀速",
+          "actual": "卖压加速",
+          "met": false,
+          "weight": 15
+        },
+        {
+          "condition": "北向无方向(±3亿内)",
+          "threshold": "|北向|<3亿",
+          "actual": "+0.00亿",
+          "met": true,
+          "weight": 10
+        },
+        {
+          "condition": "与大盘同步(相对强度±1%)",
+          "threshold": "±1%",
+          "actual": "-2.88%",
+          "met": false,
+          "weight": 10
+        }
+      ],
+      "met_count": 1,
+      "total_conditions": 6,
+      "failure_conditions": [
+        "突发消息催化",
+        "尾盘放量选方向"
+      ],
+      "probability": 8.7
+    }
+  ]
+}

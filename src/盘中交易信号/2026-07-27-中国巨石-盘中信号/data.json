@@ -1,0 +1,75 @@
+{
+  "target": {
+    "type": "个股",
+    "code": "600176",
+    "name": "中国巨石"
+  },
+  "analysis_time": "2026-07-27 10:15:40",
+  "phase": 2,
+  "phase_name": "早盘过渡期(10:00-11:00)",
+  "quote": {
+    "name": "中国巨石",
+    "code": "600176",
+    "price": 39.78,
+    "prev_close": 37.34,
+    "open": 37.2,
+    "change_pct": 6.53,
+    "high": 40.15,
+    "low": 37.13,
+    "amount_wan": 374744.0,
+    "turnover_pct": 2.43,
+    "pe_ttm": 41.66,
+    "amplitude_pct": 8.09,
+    "mcap_yi": 1579.9,
+    "pb": 5.05,
+    "vol_ratio": 2.45
+  },
+  "indices": {
+    "上证指数": 0.55,
+    "深证成指": 1.5,
+    "创业板指": 1.73,
+    "上证50": -0.51,
+    "沪深300": 0.42
+  },
+  "key_sectors": {
+    "玻纤制造(BK1462)": 6.43,
+    "玻璃玻纤(BK0546)": 3.91,
+    "建筑材料(BK1208)": 2.43,
+    "新材料(BK0523)": 2.4,
+    "中字头(BK0505)": 0.93,
+    "风能(BK0595)": 1.68
+  },
+  "fund_flow_summary": {
+    "minutes": 43,
+    "time_range": "09:31 → 10:13",
+    "main_net_direction": "大幅流入",
+    "acceleration": "加速流入",
+    "super_large_in": "大幅流入(超大单主导)",
+    "mid_small_out": "中单+小单大幅流出",
+    "interpretation": "机构抢筹、散户出局 — 典型的机构建仓特征"
+  },
+  "sentiment_score": 67.62333333333333,
+  "relative_strength": 5.98,
+  "scenarios": [
+    {
+      "name": "情景A: 强势上涨",
+      "probability": 56.5,
+      "score": 77.8
+    },
+    {
+      "name": "情景B: 震荡横盘",
+      "probability": 7.3,
+      "score": 10
+    },
+    {
+      "name": "情景C: 冲高回落",
+      "probability": 36.3,
+      "score": 50
+    },
+    {
+      "name": "情景D: 弱势下跌",
+      "probability": 0.0,
+      "score": 0
+    }
+  ]
+}

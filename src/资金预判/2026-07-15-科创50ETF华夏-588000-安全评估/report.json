@@ -1,0 +1,1321 @@
+{
+  "generated_at": "2026-07-15 10:17",
+  "target": "588000",
+  "target_type": "etf",
+  "target_name": "科创50ETF华夏",
+  "track": "B",
+  "track_label": "ETF轨(量价+消息面)",
+  "summary": {
+    "price": 2.079,
+    "last_close": 2.125,
+    "change": -0.046,
+    "change_pct": -2.16,
+    "high": 2.141,
+    "low": 2.049,
+    "volume": 16178492,
+    "amount_yi": 337805.0,
+    "change_1w": -3.1,
+    "change_1m": 12.7
+  },
+  "realtime": {
+    "name": "科创50ETF华夏",
+    "code": "588000",
+    "price": 2.079,
+    "last_close": 2.125,
+    "open": 2.133,
+    "volume": 16178492,
+    "change": -0.046,
+    "change_pct": -2.16,
+    "high": 2.141,
+    "low": 2.049,
+    "amount_yi": 337805.0,
+    "turnover": 4.88,
+    "_validation": {
+      "passed": false,
+      "quality": "🔴 低置信度(1项未通过交叉验证)",
+      "checks": [
+        {
+          "metric": "当前价",
+          "tencent": 2.079,
+          "sina": 2.079,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "开盘价",
+          "tencent": 2.133,
+          "sina": 2.133,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "最高价",
+          "tencent": 2.141,
+          "sina": 2.141,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "最低价",
+          "tencent": 2.049,
+          "sina": 2.049,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "昨收价",
+          "tencent": 2.125,
+          "sina": 2.125,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "涨跌幅%",
+          "tencent": -2.16,
+          "sina": -2.16,
+          "diff_pct": 0.0,
+          "ok": true
+        },
+        {
+          "metric": "成交额(亿)",
+          "tencent": 337805.0,
+          "sina": 33.78045588,
+          "diff_pct": 999901.306,
+          "ok": false
+        },
+        {
+          "metric": "成交量(股)",
+          "tencent": 1617849200,
+          "sina": 1617849235,
+          "diff_pct": 0.0,
+          "ok": true
+        }
+      ],
+      "summary": "通过7项, 未通过1项, 单源0项 → 🔴 低置信度(1项未通过交叉验证)"
+    },
+    "_sources": [
+      "腾讯",
+      "新浪"
+    ]
+  },
+  "daily": [
+    {
+      "date": "2026-04-16",
+      "open": 1.485,
+      "close": 1.498,
+      "high": 1.501,
+      "low": 1.477,
+      "volume": 22724962.0,
+      "change_pct": 0.88,
+      "amplitude": 1.62
+    },
+    {
+      "date": "2026-04-17",
+      "open": 1.492,
+      "close": 1.499,
+      "high": 1.51,
+      "low": 1.489,
+      "volume": 19717726.0,
+      "change_pct": 0.47,
+      "amplitude": 1.41
+    },
+    {
+      "date": "2026-04-20",
+      "open": 1.5,
+      "close": 1.527,
+      "high": 1.529,
+      "low": 1.5,
+      "volume": 24059226.0,
+      "change_pct": 1.8,
+      "amplitude": 1.93
+    },
+    {
+      "date": "2026-04-21",
+      "open": 1.523,
+      "close": 1.504,
+      "high": 1.523,
+      "low": 1.491,
+      "volume": 23261832.0,
+      "change_pct": -1.25,
+      "amplitude": 2.15
+    },
+    {
+      "date": "2026-04-22",
+      "open": 1.496,
+      "close": 1.529,
+      "high": 1.53,
+      "low": 1.495,
+      "volume": 23622753.0,
+      "change_pct": 2.21,
+      "amplitude": 2.34
+    },
+    {
+      "date": "2026-04-23",
+      "open": 1.543,
+      "close": 1.508,
+      "high": 1.545,
+      "low": 1.494,
+      "volume": 25578804.0,
+      "change_pct": -2.27,
+      "amplitude": 3.41
+    },
+    {
+      "date": "2026-04-24",
+      "open": 1.513,
+      "close": 1.531,
+      "high": 1.551,
+      "low": 1.493,
+      "volume": 32916929.0,
+      "change_pct": 1.19,
+      "amplitude": 3.88
+    },
+    {
+      "date": "2026-04-27",
+      "open": 1.552,
+      "close": 1.591,
+      "high": 1.597,
+      "low": 1.544,
+      "volume": 33052984.0,
+      "change_pct": 2.51,
+      "amplitude": 3.43
+    },
+    {
+      "date": "2026-04-28",
+      "open": 1.579,
+      "close": 1.568,
+      "high": 1.608,
+      "low": 1.559,
+      "volume": 23183886.0,
+      "change_pct": -0.7,
+      "amplitude": 3.14
+    },
+    {
+      "date": "2026-04-29",
+      "open": 1.555,
+      "close": 1.575,
+      "high": 1.576,
+      "low": 1.53,
+      "volume": 22938789.0,
+      "change_pct": 1.29,
+      "amplitude": 3.01
+    },
+    {
+      "date": "2026-04-30",
+      "open": 1.592,
+      "close": 1.654,
+      "high": 1.665,
+      "low": 1.59,
+      "volume": 51410542.0,
+      "change_pct": 3.89,
+      "amplitude": 4.72
+    },
+    {
+      "date": "2026-05-06",
+      "open": 1.719,
+      "close": 1.744,
+      "high": 1.812,
+      "low": 1.709,
+      "volume": 43376901.0,
+      "change_pct": 1.45,
+      "amplitude": 6.03
+    },
+    {
+      "date": "2026-05-07",
+      "open": 1.752,
+      "close": 1.769,
+      "high": 1.772,
+      "low": 1.733,
+      "volume": 23533728.0,
+      "change_pct": 0.97,
+      "amplitude": 2.25
+    },
+    {
+      "date": "2026-05-08",
+      "open": 1.744,
+      "close": 1.727,
+      "high": 1.745,
+      "low": 1.712,
+      "volume": 27678011.0,
+      "change_pct": -0.97,
+      "amplitude": 1.93
+    },
+    {
+      "date": "2026-05-11",
+      "open": 1.777,
+      "close": 1.811,
+      "high": 1.82,
+      "low": 1.758,
+      "volume": 37053343.0,
+      "change_pct": 1.91,
+      "amplitude": 3.53
+    },
+    {
+      "date": "2026-05-12",
+      "open": 1.802,
+      "close": 1.816,
+      "high": 1.841,
+      "low": 1.777,
+      "volume": 28999405.0,
+      "change_pct": 0.78,
+      "amplitude": 3.6
+    },
+    {
+      "date": "2026-05-13",
+      "open": 1.78,
+      "close": 1.865,
+      "high": 1.866,
+      "low": 1.767,
+      "volume": 34174507.0,
+      "change_pct": 4.78,
+      "amplitude": 5.6
+    },
+    {
+      "date": "2026-05-14",
+      "open": 1.884,
+      "close": 1.815,
+      "high": 1.898,
+      "low": 1.814,
+      "volume": 34701713.0,
+      "change_pct": -3.66,
+      "amplitude": 4.63
+    },
+    {
+      "date": "2026-05-15",
+      "open": 1.807,
+      "close": 1.787,
+      "high": 1.865,
+      "low": 1.758,
+      "volume": 44180704.0,
+      "change_pct": -1.11,
+      "amplitude": 6.09
+    },
+    {
+      "date": "2026-05-18",
+      "open": 1.77,
+      "close": 1.803,
+      "high": 1.842,
+      "low": 1.77,
+      "volume": 33138391.0,
+      "change_pct": 1.86,
+      "amplitude": 4.07
+    },
+    {
+      "date": "2026-05-19",
+      "open": 1.787,
+      "close": 1.871,
+      "high": 1.872,
+      "low": 1.759,
+      "volume": 37991842.0,
+      "change_pct": 4.7,
+      "amplitude": 6.42
+    },
+    {
+      "date": "2026-05-20",
+      "open": 1.857,
+      "close": 1.931,
+      "high": 1.933,
+      "low": 1.856,
+      "volume": 39558656.0,
+      "change_pct": 3.98,
+      "amplitude": 4.15
+    },
+    {
+      "date": "2026-05-21",
+      "open": 1.967,
+      "close": 1.86,
+      "high": 1.994,
+      "low": 1.853,
+      "volume": 43811242.0,
+      "change_pct": -5.44,
+      "amplitude": 7.61
+    },
+    {
+      "date": "2026-05-22",
+      "open": 1.873,
+      "close": 1.887,
+      "high": 1.899,
+      "low": 1.84,
+      "volume": 31913483.0,
+      "change_pct": 0.75,
+      "amplitude": 3.21
+    },
+    {
+      "date": "2026-05-25",
+      "open": 1.887,
+      "close": 1.998,
+      "high": 2.002,
+      "low": 1.867,
+      "volume": 43284249.0,
+      "change_pct": 5.88,
+      "amplitude": 7.23
+    },
+    {
+      "date": "2026-05-26",
+      "open": 1.983,
+      "close": 1.968,
+      "high": 1.983,
+      "low": 1.922,
+      "volume": 37234694.0,
+      "change_pct": -0.76,
+      "amplitude": 3.17
+    },
+    {
+      "date": "2026-05-27",
+      "open": 1.972,
+      "close": 1.911,
+      "high": 2.003,
+      "low": 1.905,
+      "volume": 38203455.0,
+      "change_pct": -3.09,
+      "amplitude": 5.14
+    },
+    {
+      "date": "2026-05-28",
+      "open": 1.893,
+      "close": 1.942,
+      "high": 1.954,
+      "low": 1.891,
+      "volume": 38830391.0,
+      "change_pct": 2.59,
+      "amplitude": 3.33
+    },
+    {
+      "date": "2026-05-29",
+      "open": 1.944,
+      "close": 1.844,
+      "high": 1.952,
+      "low": 1.82,
+      "volume": 46204309.0,
+      "change_pct": -5.14,
+      "amplitude": 7.25
+    },
+    {
+      "date": "2026-06-01",
+      "open": 1.841,
+      "close": 1.754,
+      "high": 1.85,
+      "low": 1.751,
+      "volume": 41950165.0,
+      "change_pct": -4.73,
+      "amplitude": 5.65
+    },
+    {
+      "date": "2026-06-02",
+      "open": 1.756,
+      "close": 1.781,
+      "high": 1.803,
+      "low": 1.728,
+      "volume": 35626927.0,
+      "change_pct": 1.42,
+      "amplitude": 4.34
+    },
+    {
+      "date": "2026-06-03",
+      "open": 1.788,
+      "close": 1.823,
+      "high": 1.872,
+      "low": 1.784,
+      "volume": 41060877.0,
+      "change_pct": 1.96,
+      "amplitude": 4.93
+    },
+    {
+      "date": "2026-06-04",
+      "open": 1.794,
+      "close": 1.832,
+      "high": 1.856,
+      "low": 1.789,
+      "volume": 22853730.0,
+      "change_pct": 2.12,
+      "amplitude": 3.75
+    },
+    {
+      "date": "2026-06-05",
+      "open": 1.801,
+      "close": 1.763,
+      "high": 1.829,
+      "low": 1.75,
+      "volume": 30367655.0,
+      "change_pct": -2.11,
+      "amplitude": 4.51
+    },
+    {
+      "date": "2026-06-08",
+      "open": 1.69,
+      "close": 1.683,
+      "high": 1.725,
+      "low": 1.665,
+      "volume": 38792519.0,
+      "change_pct": -0.41,
+      "amplitude": 3.6
+    },
+    {
+      "date": "2026-06-09",
+      "open": 1.721,
+      "close": 1.755,
+      "high": 1.76,
+      "low": 1.696,
+      "volume": 28793746.0,
+      "change_pct": 1.98,
+      "amplitude": 3.77
+    },
+    {
+      "date": "2026-06-10",
+      "open": 1.748,
+      "close": 1.744,
+      "high": 1.818,
+      "low": 1.724,
+      "volume": 33172350.0,
+      "change_pct": -0.23,
+      "amplitude": 5.45
+    },
+    {
+      "date": "2026-06-11",
+      "open": 1.727,
+      "close": 1.756,
+      "high": 1.771,
+      "low": 1.723,
+      "volume": 26617707.0,
+      "change_pct": 1.68,
+      "amplitude": 2.79
+    },
+    {
+      "date": "2026-06-12",
+      "open": 1.825,
+      "close": 1.756,
+      "high": 1.828,
+      "low": 1.751,
+      "volume": 32648313.0,
+      "change_pct": -3.78,
+      "amplitude": 4.4
+    },
+    {
+      "date": "2026-06-15",
+      "open": 1.782,
+      "close": 1.844,
+      "high": 1.845,
+      "low": 1.75,
+      "volume": 30014794.0,
+      "change_pct": 3.48,
+      "amplitude": 5.43
+    },
+    {
+      "date": "2026-06-16",
+      "open": 1.845,
+      "close": 1.855,
+      "high": 1.863,
+      "low": 1.823,
+      "volume": 25442446.0,
+      "change_pct": 0.54,
+      "amplitude": 2.19
+    },
+    {
+      "date": "2026-06-17",
+      "open": 1.828,
+      "close": 1.939,
+      "high": 1.94,
+      "low": 1.819,
+      "volume": 34743070.0,
+      "change_pct": 6.07,
+      "amplitude": 6.65
+    },
+    {
+      "date": "2026-06-18",
+      "open": 1.935,
+      "close": 2.017,
+      "high": 2.042,
+      "low": 1.932,
+      "volume": 40816717.0,
+      "change_pct": 4.24,
+      "amplitude": 5.69
+    },
+    {
+      "date": "2026-06-22",
+      "open": 2.026,
+      "close": 2.056,
+      "high": 2.07,
+      "low": 1.981,
+      "volume": 36095738.0,
+      "change_pct": 1.48,
+      "amplitude": 4.49
+    },
+    {
+      "date": "2026-06-23",
+      "open": 2.04,
+      "close": 2.023,
+      "high": 2.09,
+      "low": 1.992,
+      "volume": 36431581.0,
+      "change_pct": -0.83,
+      "amplitude": 4.92
+    },
+    {
+      "date": "2026-06-24",
+      "open": 2.0,
+      "close": 2.096,
+      "high": 2.105,
+      "low": 1.987,
+      "volume": 42445906.0,
+      "change_pct": 4.8,
+      "amplitude": 5.94
+    },
+    {
+      "date": "2026-06-25",
+      "open": 2.114,
+      "close": 2.178,
+      "high": 2.189,
+      "low": 2.106,
+      "volume": 36633531.0,
+      "change_pct": 3.03,
+      "amplitude": 3.94
+    },
+    {
+      "date": "2026-06-26",
+      "open": 2.142,
+      "close": 2.133,
+      "high": 2.188,
+      "low": 2.084,
+      "volume": 40480199.0,
+      "change_pct": -0.42,
+      "amplitude": 4.99
+    },
+    {
+      "date": "2026-06-29",
+      "open": 2.143,
+      "close": 2.248,
+      "high": 2.25,
+      "low": 2.124,
+      "volume": 37600948.0,
+      "change_pct": 4.9,
+      "amplitude": 5.93
+    },
+    {
+      "date": "2026-06-30",
+      "open": 2.257,
+      "close": 2.344,
+      "high": 2.349,
+      "low": 2.228,
+      "volume": 30844927.0,
+      "change_pct": 3.85,
+      "amplitude": 5.43
+    },
+    {
+      "date": "2026-07-01",
+      "open": 2.346,
+      "close": 2.29,
+      "high": 2.39,
+      "low": 2.252,
+      "volume": 40231507.0,
+      "change_pct": -2.39,
+      "amplitude": 6.13
+    },
+    {
+      "date": "2026-07-02",
+      "open": 2.22,
+      "close": 2.119,
+      "high": 2.24,
+      "low": 2.1,
+      "volume": 48508911.0,
+      "change_pct": -4.55,
+      "amplitude": 6.67
+    },
+    {
+      "date": "2026-07-03",
+      "open": 2.089,
+      "close": 2.102,
+      "high": 2.165,
+      "low": 2.068,
+      "volume": 35733779.0,
+      "change_pct": 0.62,
+      "amplitude": 4.69
+    },
+    {
+      "date": "2026-07-06",
+      "open": 2.133,
+      "close": 2.116,
+      "high": 2.148,
+      "low": 2.031,
+      "volume": 36035968.0,
+      "change_pct": -0.8,
+      "amplitude": 5.76
+    },
+    {
+      "date": "2026-07-07",
+      "open": 2.08,
+      "close": 2.126,
+      "high": 2.162,
+      "low": 2.073,
+      "volume": 33207940.0,
+      "change_pct": 2.21,
+      "amplitude": 4.29
+    },
+    {
+      "date": "2026-07-08",
+      "open": 2.142,
+      "close": 2.145,
+      "high": 2.208,
+      "low": 2.083,
+      "volume": 35749752.0,
+      "change_pct": 0.14,
+      "amplitude": 6.0
+    },
+    {
+      "date": "2026-07-09",
+      "open": 2.166,
+      "close": 2.328,
+      "high": 2.333,
+      "low": 2.15,
+      "volume": 45434460.0,
+      "change_pct": 7.48,
+      "amplitude": 8.51
+    },
+    {
+      "date": "2026-07-10",
+      "open": 2.334,
+      "close": 2.209,
+      "high": 2.386,
+      "low": 2.204,
+      "volume": 47029319.0,
+      "change_pct": -5.36,
+      "amplitude": 8.26
+    },
+    {
+      "date": "2026-07-13",
+      "open": 2.16,
+      "close": 2.1,
+      "high": 2.226,
+      "low": 2.081,
+      "volume": 42418236.0,
+      "change_pct": -2.78,
+      "amplitude": 6.97
+    },
+    {
+      "date": "2026-07-14",
+      "open": 2.094,
+      "close": 2.125,
+      "high": 2.136,
+      "low": 1.998,
+      "volume": 45748161.0,
+      "change_pct": 1.48,
+      "amplitude": 6.91
+    },
+    {
+      "date": "2026-07-15",
+      "open": 2.133,
+      "close": 2.079,
+      "high": 2.141,
+      "low": 2.049,
+      "volume": 16178492,
+      "change_pct": -2.35,
+      "amplitude": 4.39
+    }
+  ],
+  "industry_flow": [
+    {
+      "code": "BK1500",
+      "name": "医美耗材",
+      "change_pct": 8.88,
+      "up_count": "-",
+      "down_count": 9.35,
+      "main_net": 54479946.0
+    },
+    {
+      "code": "BK1600",
+      "name": "医疗研发外包",
+      "change_pct": 7.81,
+      "up_count": "-",
+      "down_count": 9.51,
+      "main_net": 2204661888.0
+    },
+    {
+      "code": "BK1300",
+      "name": "院线",
+      "change_pct": 7.07,
+      "up_count": "-",
+      "down_count": 27.75,
+      "main_net": 351788028.0
+    },
+    {
+      "code": "BK1253",
+      "name": "医疗美容",
+      "change_pct": 6.74,
+      "up_count": "-",
+      "down_count": 9.38,
+      "main_net": 54949866.0
+    },
+    {
+      "code": "BK0727",
+      "name": "医疗服务",
+      "change_pct": 5.89,
+      "up_count": "-",
+      "down_count": 9.01,
+      "main_net": 2441032960.0
+    },
+    {
+      "code": "BK1599",
+      "name": "其他医疗服务",
+      "change_pct": 5.19,
+      "up_count": "-",
+      "down_count": 9.81,
+      "main_net": 43038042.0
+    },
+    {
+      "code": "BK1507",
+      "name": "宠物食品",
+      "change_pct": 5.17,
+      "up_count": "-",
+      "down_count": 2.19,
+      "main_net": 6464453.0
+    },
+    {
+      "code": "BK1602",
+      "name": "诊断服务",
+      "change_pct": 4.96,
+      "up_count": "-",
+      "down_count": 4.18,
+      "main_net": 51227489.0
+    },
+    {
+      "code": "BK1514",
+      "name": "水产养殖",
+      "change_pct": 4.67,
+      "up_count": "-",
+      "down_count": 4.38,
+      "main_net": 7405887.0
+    },
+    {
+      "code": "BK1595",
+      "name": "原料药",
+      "change_pct": 4.51,
+      "up_count": "-",
+      "down_count": 4.72,
+      "main_net": 380626928.0
+    },
+    {
+      "code": "BK1547",
+      "name": "跨境电商",
+      "change_pct": 4.47,
+      "up_count": "-",
+      "down_count": 13.74,
+      "main_net": 140927050.0
+    },
+    {
+      "code": "BK0465",
+      "name": "化学制药",
+      "change_pct": 4.43,
+      "up_count": "-",
+      "down_count": 7.63,
+      "main_net": 3251553424.0
+    },
+    {
+      "code": "BK1594",
+      "name": "化学制剂",
+      "change_pct": 4.4,
+      "up_count": "-",
+      "down_count": 8.3,
+      "main_net": 2870926480.0
+    },
+    {
+      "code": "BK1549",
+      "name": "旅游零售Ⅲ",
+      "change_pct": 4.28,
+      "up_count": "-",
+      "down_count": 13.86,
+      "main_net": 225393533.0
+    },
+    {
+      "code": "BK1269",
+      "name": "旅游零售Ⅱ",
+      "change_pct": 4.28,
+      "up_count": "-",
+      "down_count": 13.86,
+      "main_net": 225393533.0
+    },
+    {
+      "code": "BK1596",
+      "name": "其他生物制品",
+      "change_pct": 4.3,
+      "up_count": "-",
+      "down_count": 6.68,
+      "main_net": 563132384.0
+    },
+    {
+      "code": "BK1342",
+      "name": "房地产综合服务",
+      "change_pct": 3.95,
+      "up_count": "-",
+      "down_count": 1.14,
+      "main_net": 435449.0
+    },
+    {
+      "code": "BK1546",
+      "name": "电商服务",
+      "change_pct": 3.9,
+      "up_count": "-",
+      "down_count": 3.18,
+      "main_net": 16737410.0
+    },
+    {
+      "code": "BK1044",
+      "name": "生物制品",
+      "change_pct": 3.86,
+      "up_count": "-",
+      "down_count": 6.48,
+      "main_net": 720095376.0
+    },
+    {
+      "code": "BK1509",
+      "name": "水产饲料",
+      "change_pct": 3.86,
+      "up_count": "-",
+      "down_count": -4.64,
+      "main_net": -13805325.0
+    },
+    {
+      "code": "BK1216",
+      "name": "医药生物",
+      "change_pct": 3.8,
+      "up_count": "-",
+      "down_count": 6.63,
+      "main_net": 7069376512.0
+    },
+    {
+      "code": "BK1268",
+      "name": "互联网电商",
+      "change_pct": 3.76,
+      "up_count": "-",
+      "down_count": 9.88,
+      "main_net": 163850357.0
+    },
+    {
+      "code": "BK1575",
+      "name": "白酒Ⅲ",
+      "change_pct": 3.74,
+      "up_count": "-",
+      "down_count": 9.84,
+      "main_net": 853096048.0
+    },
+    {
+      "code": "BK1277",
+      "name": "白酒Ⅱ",
+      "change_pct": 3.74,
+      "up_count": "-",
+      "down_count": 9.84,
+      "main_net": 853096048.0
+    },
+    {
+      "code": "BK1298",
+      "name": "文字媒体",
+      "change_pct": 3.65,
+      "up_count": "-",
+      "down_count": 6.98,
+      "main_net": 37165698.0
+    },
+    {
+      "code": "BK1519",
+      "name": "电动乘用车",
+      "change_pct": 3.73,
+      "up_count": "-",
+      "down_count": 13.03,
+      "main_net": 542452528.0
+    },
+    {
+      "code": "BK1474",
+      "name": "钢结构",
+      "change_pct": 3.56,
+      "up_count": "-",
+      "down_count": 4.52,
+      "main_net": 22497425.0
+    },
+    {
+      "code": "BK1258",
+      "name": "饲料",
+      "change_pct": 3.56,
+      "up_count": "-",
+      "down_count": 2.27,
+      "main_net": 26800666.0
+    },
+    {
+      "code": "BK1416",
+      "name": "粘胶",
+      "change_pct": 3.51,
+      "up_count": "-",
+      "down_count": -0.5,
+      "main_net": -1151320.0
+    },
+    {
+      "code": "BK1296",
+      "name": "视频媒体",
+      "change_pct": 3.22,
+      "up_count": "-",
+      "down_count": 2.3,
+      "main_net": 3356355.0
+    },
+    {
+      "code": "BK1603",
+      "name": "体外诊断",
+      "change_pct": 3.33,
+      "up_count": "-",
+      "down_count": 9.37,
+      "main_net": 211784597.0
+    },
+    {
+      "code": "BK1260",
+      "name": "渔业",
+      "change_pct": 3.28,
+      "up_count": "-",
+      "down_count": 2.48,
+      "main_net": 5839590.0
+    },
+    {
+      "code": "BK1292",
+      "name": "广告媒体",
+      "change_pct": 3.21,
+      "up_count": "-",
+      "down_count": 3.58,
+      "main_net": 18241849.0
+    },
+    {
+      "code": "BK1598",
+      "name": "疫苗",
+      "change_pct": 3.26,
+      "up_count": "-",
+      "down_count": 6.97,
+      "main_net": 149890363.0
+    },
+    {
+      "code": "BK1552",
+      "name": "超市",
+      "change_pct": 3.28,
+      "up_count": "-",
+      "down_count": 3.77,
+      "main_net": 59327284.0
+    },
+    {
+      "code": "BK1551",
+      "name": "百货",
+      "change_pct": 3.17,
+      "up_count": "-",
+      "down_count": 7.67,
+      "main_net": 103032959.0
+    },
+    {
+      "code": "BK1222",
+      "name": "影视院线",
+      "change_pct": 3.2,
+      "up_count": "-",
+      "down_count": 15.17,
+      "main_net": 491866646.0
+    },
+    {
+      "code": "BK1364",
+      "name": "资产管理",
+      "change_pct": 3.16,
+      "up_count": "-",
+      "down_count": 0.26,
+      "main_net": 1354484.0
+    },
+    {
+      "code": "BK1608",
+      "name": "中药Ⅲ",
+      "change_pct": 3.04,
+      "up_count": "-",
+      "down_count": 0.18,
+      "main_net": 20158512.0
+    },
+    {
+      "code": "BK1040",
+      "name": "中药Ⅱ",
+      "change_pct": 3.04,
+      "up_count": "-",
+      "down_count": 0.18,
+      "main_net": 20158512.0
+    },
+    {
+      "code": "BK1498",
+      "name": "品牌化妆品",
+      "change_pct": 2.93,
+      "up_count": "-",
+      "down_count": -0.86,
+      "main_net": -7622335.0
+    },
+    {
+      "code": "BK1291",
+      "name": "电视广播Ⅲ",
+      "change_pct": 2.9,
+      "up_count": "-",
+      "down_count": 4.89,
+      "main_net": 43655974.0
+    },
+    {
+      "code": "BK1219",
+      "name": "电视广播Ⅱ",
+      "change_pct": 2.9,
+      "up_count": "-",
+      "down_count": 4.89,
+      "main_net": 43655974.0
+    },
+    {
+      "code": "BK1501",
+      "name": "动物保健Ⅲ",
+      "change_pct": 2.93,
+      "up_count": "-",
+      "down_count": 2.08,
+      "main_net": 7718647.0
+    },
+    {
+      "code": "BK1254",
+      "name": "动物保健Ⅱ",
+      "change_pct": 2.93,
+      "up_count": "-",
+      "down_count": 2.08,
+      "main_net": 7718647.0
+    },
+    {
+      "code": "BK1041",
+      "name": "医疗器械",
+      "change_pct": 2.9,
+      "up_count": "-",
+      "down_count": 5.86,
+      "main_net": 627396976.0
+    },
+    {
+      "code": "BK1496",
+      "name": "洗护用品",
+      "change_pct": 2.87,
+      "up_count": "-",
+      "down_count": 2.17,
+      "main_net": 1494687.0
+    },
+    {
+      "code": "BK1604",
+      "name": "医疗耗材",
+      "change_pct": 2.81,
+      "up_count": "-",
+      "down_count": 5.08,
+      "main_net": 194261623.0
+    },
+    {
+      "code": "BK1035",
+      "name": "美容护理",
+      "change_pct": 2.81,
+      "up_count": "-",
+      "down_count": 1.81,
+      "main_net": 42573851.0
+    },
+    {
+      "code": "BK1535",
+      "name": "纸包装",
+      "change_pct": 2.77,
+      "up_count": "-",
+      "down_count": 6.45,
+      "main_net": 84890066.0
+    }
+  ],
+  "margin_data": {
+    "available": false,
+    "reason": "无融资融券数据"
+  },
+  "safety_signals": {
+    "f1_exhaustion": {
+      "triggered": false,
+      "signal_name": "F1: 卖压衰竭",
+      "decreasing_declines": true,
+      "volume_shrink": false,
+      "no_new_low": false,
+      "strength": "弱",
+      "meaning": "卖压尚未衰竭，继续观察"
+    },
+    "f2_institution_return": {
+      "triggered": false,
+      "signal_name": "F2: 放量反弹回流",
+      "early_decline": false,
+      "has_bullish_volume": false,
+      "strength": "弱",
+      "meaning": "未见明确的资金回流信号"
+    },
+    "f3_retail_exhaustion": {
+      "triggered": false,
+      "signal_name": "F3: 恐慌出尽(缩量止跌)",
+      "decline_narrowing": true,
+      "volume_shrink": false,
+      "strength": "弱",
+      "meaning": "恐慌盘可能尚未出尽"
+    },
+    "f8_volume_stabilization": {
+      "triggered": false,
+      "signal_name": "F8: 缩量止跌盘整",
+      "narrow_range": false,
+      "volume_shrink": false,
+      "amp_narrow": false,
+      "avg_vol_20": 38118457.0,
+      "recent_vol_3": 34781630.0,
+      "strength": "弱",
+      "meaning": "尚未缩量止跌，仍在波动"
+    }
+  },
+  "danger_signals": {
+    "f4_accelerating": {
+      "triggered": false,
+      "reason": "近期非持续下跌"
+    },
+    "f5_top_distribution": {
+      "triggered": false,
+      "signal_name": "F5: 🔴 高位放量逆转",
+      "danger_level": "高危",
+      "early_rise_pct": 4.2,
+      "has_distribution": false,
+      "meaning": "无顶部派发信号",
+      "action": "继续观察"
+    },
+    "f7_news_exhausted": {
+      "triggered": false,
+      "reason": "无明确利好消息"
+    }
+  },
+  "safety_score": {
+    "safety_score": 50,
+    "safety_level": "🟠 风险区间",
+    "can_enter": false,
+    "description": "安全信号不足或有危险信号，不建议入场",
+    "positive_signals": [],
+    "negative_signals": [],
+    "adjustment_details": [],
+    "stabilization": {
+      "is_stabilized": false,
+      "passed_count": 1,
+      "total_count": 5,
+      "checks": {
+        "no_new_low": false,
+        "narrow_range": false,
+        "volume_normal": true,
+        "lows_rising": false,
+        "above_ma5": false
+      },
+      "meaning": "仅通过1/5项，尚未企稳"
+    },
+    "principle": "可以少挣，必须少亏 — 只有 ≥75 分才建议考虑入场"
+  },
+  "timing": {
+    "entry": {
+      "ready": false,
+      "ready_enhanced": false,
+      "conditions": [
+        {
+          "condition": "安全评分 ≥ 75分",
+          "met": false,
+          "current": "50分",
+          "weight": "必须"
+        },
+        {
+          "condition": "企稳确认 (≥4/5项)",
+          "met": false,
+          "current": "1/5项",
+          "weight": "必须"
+        },
+        {
+          "condition": "≥2个安全信号触发",
+          "met": false,
+          "current": "0个",
+          "weight": "建议"
+        },
+        {
+          "condition": "无危险信号",
+          "met": true,
+          "current": "0个",
+          "weight": "必须"
+        },
+        {
+          "condition": "近日放量阳线确认（增强信号）",
+          "met": false,
+          "current": "未出现",
+          "weight": "加分项（非必须）"
+        }
+      ],
+      "verdict": "❌ 买入条件不满足，继续等待"
+    },
+    "exit": {
+      "any_triggered": false,
+      "conditions": [
+        {
+          "condition": "🔴 硬止损: 持仓亏损>5% + 仍在放量下跌",
+          "triggered": false,
+          "rule": "亏损的数学是不对称的",
+          "action": "全部离场"
+        },
+        {
+          "condition": "🟠 利润保护: 盈利>5% + 出现放量阴线",
+          "triggered": false,
+          "rule": "可以少挣，必须少亏",
+          "action": "至少减仓50%"
+        },
+        {
+          "condition": "🔴 任何高危信号触发 (F4/F5/F7)",
+          "triggered": false,
+          "current": "无",
+          "rule": "危险信号 > 一切买入信号",
+          "action": "不买，已持有则评估是否离场"
+        },
+        {
+          "condition": "🔴 安全评分降至 < 40分",
+          "triggered": false,
+          "current": "50分",
+          "rule": "危险区间 = 持币观望",
+          "action": "远离，等安全评分回升"
+        }
+      ]
+    },
+    "principle": "可以少挣，必须少亏 — 宁可错过，不可做错"
+  },
+  "news": [
+    {
+      "title": "<em>科创50</em>指数跌幅扩大至3%",
+      "date": "2026-07-15 09:42:52",
+      "summary": "<em>科创50</em>指数跌幅扩大至3%，现报1949.2点。",
+      "url": "http://finance.eastmoney.com/a/202607153806817834.html"
+    },
+    {
+      "title": "<em>科创50</em>指数跌幅扩大至1%",
+      "date": "2026-07-15 09:36:40",
+      "summary": "<em>科创50</em>指数跌幅扩大至1%，现报1989.63点。",
+      "url": "http://finance.eastmoney.com/a/202607153806778948.html"
+    },
+    {
+      "title": "<em>科创50</em>日内跌幅达3.31%",
+      "date": "2026-07-14 10:58:20",
+      "summary": "7月14日，<em>科创50</em>日内跌幅达3.31%，成分股中，国博电子跌11.53%，盛科通信跌10.43%，华海清科跌9.31%，中科星图跌8.66%。",
+      "url": "http://finance.eastmoney.com/a/202607143805242439.html"
+    },
+    {
+      "title": "<em>科创50</em>日内跌幅达1.19%",
+      "date": "2026-07-14 09:41:21",
+      "summary": "7月14日，<em>科创50</em>日内跌幅达1.19%，成分股中，国博电子跌8.43%，盛科通信跌6.42%，中科星图跌6.12%，恒玄科技跌5.70%。",
+      "url": "http://finance.eastmoney.com/a/202607143804910890.html"
+    },
+    {
+      "title": "<em>科创50</em>指数跌超3%",
+      "date": "2026-07-14 11:04:56",
+      "summary": "<em>科创50</em>指数跌超3%，中芯国际跌超7%，摩尔线程跌超6%，中微公司、芯原股份跌超4%。",
+      "url": "http://stock.eastmoney.com/a/202607143805271754.html"
+    },
+    {
+      "title": "<em>科创50</em>指数跌幅扩大至3%",
+      "date": "2026-07-14 10:59:23",
+      "summary": "<em>科创50</em>指数跌幅扩大至3%，现报1933.85点。",
+      "url": "http://stock.eastmoney.com/a/202607143805250072.html"
+    },
+    {
+      "title": "<em>科创50</em>跌超3% 芯片股领跌",
+      "date": "2026-07-14 10:59:21",
+      "summary": "半导体芯片股走弱，<em>科创50</em>指数跌超3%，中芯国际、寒武纪、海光信息、华虹宏力、中微公司、盛合晶微等纷纷走低。",
+      "url": "http://stock.eastmoney.com/a/202607143805249415.html"
+    },
+    {
+      "title": "<em>科创50</em>指数跌幅扩大至3%",
+      "date": "2026-07-14 10:56:44",
+      "summary": "<em>科创50</em>指数跌幅扩大至3%，现报1933.85点。",
+      "url": "http://finance.eastmoney.com/a/202607143805229532.html"
+    }
+  ],
+  "principle": "可以少挣，必须少亏。所有判断基于数据，每个信号绑定可验证条件。"
+}

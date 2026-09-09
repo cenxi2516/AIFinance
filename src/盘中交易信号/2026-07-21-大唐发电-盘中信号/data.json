@@ -1,0 +1,127 @@
+{
+  "target": {
+    "type": "个股",
+    "code": "601991",
+    "name": "大唐发电"
+  },
+  "analysis_time": "2026-07-21T10:32:31.077365",
+  "freshness": {
+    "phase": 2,
+    "phase_name": "早盘过渡(62min)",
+    "minutes_from_open": 62.5,
+    "is_trading": true,
+    "freshness": {
+      "quote": 1.0,
+      "minute_flow": 1.0,
+      "sector": 1.0,
+      "news": 1.0,
+      "north_bound": 0.0825174844444445,
+      "market": 1.0,
+      "breadth": 1.0
+    }
+  },
+  "data_note": "push2分钟资金流不可用,量价估算替代",
+  "quote": {
+    "name": "大唐发电",
+    "code": "601991",
+    "price": 6.52,
+    "prev_close": 6.38,
+    "open": 6.32,
+    "volume": 5954555.0,
+    "high": 6.68,
+    "low": 6.0,
+    "change_pct": 2.19,
+    "turnover_pct": 4.8,
+    "amplitude": 10.66,
+    "vol_ratio": 4.0,
+    "amount": 375106.0,
+    "pe": 15.01,
+    "mcap": 1206.64
+  },
+  "flow_summary": {
+    "open_price": 6.32,
+    "latest_price": 6.52,
+    "high_price": 6.61,
+    "low_price": 6.0,
+    "amplitude_pct": 9.65,
+    "change_from_open_pct": 3.16,
+    "total_vol": 5954555,
+    "total_amt_wan": 375106.0,
+    "data_points": 64,
+    "first_time": "2026-07-21 09:30",
+    "last_time": "2026-07-21 10:33",
+    "net_flow_est_wan": 21420.6
+  },
+  "flow_trend": {
+    "direction": "上涨",
+    "vol_trend": "缩量",
+    "signal": "🟡 无量上涨(持续性存疑)",
+    "momentum": "短期平稳"
+  },
+  "yesterday_fund_flow": {
+    "status": "unavailable"
+  },
+  "sector": {
+    "sentiment_score": 25.0,
+    "level": "🔵 偏冷",
+    "inflow_blocks": 0,
+    "total_blocks": 6,
+    "avg_change_pct": 0.0,
+    "total_sector_flow_wan": 0
+  },
+  "north_bound": {
+    "hgt_net_wan": 0,
+    "sgt_net_wan": 0,
+    "total_net_wan": 0,
+    "total_net_yi": 0.0,
+    "direction": "小幅流出",
+    "signal": "🟠 中性偏空",
+    "data_basis": "北向合计+0.00亿",
+    "status": "ok"
+  },
+  "market_strength": {
+    "benchmark": "上证指数",
+    "benchmark_change": -0.44,
+    "market_env": "🟠 大盘微跌",
+    "stock_change": 2.19,
+    "relative_strength": 2.63,
+    "relative_rating": "✅ 跑赢大盘",
+    "market_detail": {
+      "上证指数": -0.44,
+      "深证成指": 0.49,
+      "创业板指": 0.89
+    }
+  },
+  "market_breadth": {
+    "up_count": 0,
+    "down_count": 0,
+    "up_ratio_pct": 0.0,
+    "breadth_level": "💀 普跌格局",
+    "breadth_score": 5,
+    "limit_up_count": 0,
+    "limit_down_count": 0,
+    "limit_ratio": 0.0,
+    "money_effect": "💀 强亏钱效应",
+    "data_basis": "涨0/跌0家(0.0%), 涨停0/跌停0",
+    "status": "degraded(板块API可能延迟)"
+  },
+  "scenarios": [
+    {
+      "name": "情景C: 冲高回落",
+      "probability": 40.7
+    },
+    {
+      "name": "情景A: 强势上涨",
+      "probability": 37.0
+    },
+    {
+      "name": "情景D: 弱势下跌",
+      "probability": 18.5
+    },
+    {
+      "name": "情景B: 震荡横盘",
+      "probability": 3.7
+    }
+  ],
+  "overall_verdict": "总体谨慎: 有冲高回落风险, 持有者审视持仓, 未持有者等待"
+}

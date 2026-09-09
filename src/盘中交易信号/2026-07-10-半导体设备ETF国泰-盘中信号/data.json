@@ -1,0 +1,116 @@
+{
+  "target": {
+    "type": "ETF",
+    "code": "159516",
+    "name": "半导体设备ETF国泰"
+  },
+  "analysis_time": "2026-07-11T00:06:21.594096",
+  "quote": {
+    "name": "半导体设备ETF国泰",
+    "code": "159516",
+    "price": 0.905,
+    "prev_close": 0.973,
+    "open": 0.973,
+    "volume": 128053264.0,
+    "high": 1.004,
+    "low": 0.903,
+    "change_pct": -6.99,
+    "turnover_pct": 24.73,
+    "amplitude": 10.38,
+    "vol_ratio": 3.01,
+    "amount": 1233856.0,
+    "pe": 0,
+    "mcap": 468.52
+  },
+  "flow_summary": {
+    "total_buy_vol": 44225190,
+    "total_sell_vol": 61933421,
+    "total_net_vol": -17708231,
+    "buy_ratio_pct": 41.7,
+    "data_points": 239,
+    "first_time": "1",
+    "last_time": "239"
+  },
+  "flow_trend": {
+    "direction": "卖方占优",
+    "acceleration": "卖压减弱",
+    "first_half_slope": -81039.0,
+    "second_half_slope": -82715.0
+  },
+  "sector_sentiment": {
+    "sentiment_score": 25.0,
+    "level": "🔵 偏冷",
+    "inflow_blocks": 0,
+    "total_blocks": 6,
+    "avg_change_pct": 0.0,
+    "total_sector_flow_wan": 0,
+    "all_sectors_count": 100,
+    "data_basis": "0/6板块流入, 合计+0万, 平均涨跌+0.00%, 情绪分25.0"
+  },
+  "north_bound": {
+    "total_net_yi": 0.0,
+    "direction": "小幅流出",
+    "signal": "🟠 中性偏空",
+    "data_basis": "沪股通+0.00亿 + 深股通+0.00亿 = 北向合计+0.00亿",
+    "source": "同花顺 hsgtApi"
+  },
+  "market_strength": {
+    "benchmark": "深证成指",
+    "benchmark_change": -2.29,
+    "market_env": "🔴 大盘弱势",
+    "relative_strength": -4.7,
+    "relative_rating": "🔴 显著跑输",
+    "market_detail": {
+      "上证指数": -1.0,
+      "深证成指": -2.29,
+      "创业板指": -4.37
+    },
+    "data_basis": "深证成指-2.29%, 个股-6.99%, 相对强弱-4.70%"
+  },
+  "market_breadth": {
+    "up_count": 0,
+    "down_count": 0,
+    "up_ratio_pct": 0.0,
+    "breadth_level": "💀 普跌格局",
+    "breadth_score": 5,
+    "limit_up_count": 0,
+    "limit_down_count": 0,
+    "limit_ratio": 0.0,
+    "money_effect": "💀 强亏钱效应",
+    "data_basis": "全市场涨0跌0(0.0%), 涨停0/跌停0, 赚钱效应:💀 强亏钱效应"
+  },
+  "scenarios": [
+    {
+      "name": "情景D: 弱势下跌",
+      "probability": 60.2,
+      "met_count": 3,
+      "total_conditions": 6
+    },
+    {
+      "name": "情景A: 强势反弹",
+      "probability": 17.0,
+      "met_count": 2,
+      "total_conditions": 7
+    },
+    {
+      "name": "情景B: 震荡横盘",
+      "probability": 11.4,
+      "met_count": 1,
+      "total_conditions": 4
+    },
+    {
+      "name": "情景C: 冲高回落",
+      "probability": 11.4,
+      "met_count": 1,
+      "total_conditions": 3
+    }
+  ],
+  "signals_summary": {
+    "buy_ratio": 41.7,
+    "sentiment_score": 25.0,
+    "change_pct": -6.99,
+    "turnover_pct": 24.73,
+    "vol_ratio": 3.01
+  },
+  "overall_verdict": "总体谨慎。买力仅41.7%。持有者审视持仓。"
+}
